@@ -15,7 +15,7 @@ Extract all files into a new folder **AND** copy "Source-files.zip" there as wel
 - This project uses Vim-LaTeX, aka LaTeX-suite bundle for Vim text editor to compile from source.
 - http://vim-latex.sourceforge.net/
 
-4. Once you have successfully compiled a PDF file, you need to convert it to HTML. The tool capable of an almost 1:1 conversion from PDF to HTML is titled pdf2htmlEX.
+4. Once you have successfully compiled a PDF file, you need to convert it to HTML. The tool capable of an almost 1:1 conversion from PDF to HTML, the one this project uses, is pdf2htmlEX.
 - https://github.com/pdf2htmlEX/pdf2htmlEX
 - Binaries for Windows are available at a now arhived repository.
 - https://github.com/coolwanglu/pdf2htmlEX
