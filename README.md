@@ -2,7 +2,7 @@
 
 ## Compilation from source
 
-1. To acquire source files, grab Source-main.pdf from the repo and extract "Source-files.zip" archive embedded inside.
+1. To acquire source files, grab Source-main.pdf from the repo and extract "Source-files.zip" archive embedded inside. You need a PDF viewer with embeded files view support.
 Extract all files into a new folder **AND** copy "Source-files.zip" there as well.
 
 2. To compile, a LaTeX distribution is required. For more information, check LaTeX Project webpage.
