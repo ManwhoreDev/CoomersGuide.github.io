@@ -1,5 +1,7 @@
 # A Coomer's Guide to AI Dungeon
 
+To view the live version of the guide, visit https://coomersguide.github.io/.
+
 ## Compilation from source
 
 1. To acquire source files, grab Source-main.pdf from the repo and extract "Source-files.zip" archive embedded inside. You need a PDF viewer with embeded files view support.
