@@ -1,7 +1,6 @@
-% This is a LaTeX implementation of the original guide by Manwhore anon.
-% His work is fantastic and everyone who uses AI Dungeon should read it in full.
-% I made some formatting additions to the PDF since it was first made, but the content remains the same.
-% Can be compiled with pdfLaTeX and LuaLaTeX.
+% This is LaTeX code needed to compile current iteration of ``A Coomer's guide to AI Dungeon''.
+% I am not an advanced LaTeX user and this code is not up to quality.
+% ANY contribution or proposal is welcome.
 
 \documentclass[a4paper,12pt,american,]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
 
@@ -11,14 +10,14 @@ protrusion=true,
 tracking=true,
 factor=1000,
 stretch=10,
-shrink=10]{microtype} % A bit closer to typographic perfection
+shrink=10]{microtype} % Makes text look typograhically nicer
 
 \usepackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref}
 \usepackage{hyperxmp} % For embedding XMP metadata into PDF
 \usepackage[numbered,open=true,openlevel=2]{bookmark} % Better version of hyperref bookmarks
 \usepackage{scrdate} % For setting universal date standard
-\usepackage[dvipsnames,cmyk,hyperref]{xcolor}
-\usepackage{tagpdf}
+\usepackage[dvipsnames,cmyk,hyperref]{xcolor} % Adding custom colors
+\usepackage{tagpdf} % Experimental Tagged PDF support for LaTeX
 \tagpdfsetup{activate-all,
 %uncompress,
 }
@@ -33,7 +32,6 @@ shrink=10]{microtype} % A bit closer to typographic perfection
 \colorlet{myurlcolor}{Aquamarine}
 
 %This embeds XMP metadata into the PDF.
-%pdfnumpages and pdfpagerange must be loaded after \begin{document} for totpages package to work
 \hypersetup{ %
 % Color scheme definitions for links
 % Taken from https://tex.stackexchange.com/a/176372
@@ -57,19 +55,8 @@ pdfaconformance=a,
 pdfxstandard={PDF/X-3:2003},
 }
 
-\usepackage{embedfile} % Embeds sources and other necessary files for compiling the PDF
-
-\embedfile[ % An archive with all the files needed to produce the PDF
-filespec={Source-files.zip},
-ucfilespec={Source-files.zip},
-mimetype={application/zip},
-desc={Full arhive of source files},
-id={Source},
-afrelationship={/Source},
-]{Source-files.zip}
-
 \usepackage[many]{tcolorbox} % For typesetting World Info entry box
-\usepackage[os=win]{menukeys}
+\usepackage[os=win]{menukeys} % Used for highlighting Input modes
 
 % -----------------------------------------
 % https://tex.stackexchange.com/a/568785
@@ -171,17 +158,15 @@ title={#1},
 % ------------------------------------------
 \usepackage{subfiles} % For separating project into disctict files
 
-\usepackage{moresize}
-\usepackage{titling}
-
-\usepackage{cleveref}
+\usepackage{moresize} % For typesetting cover
+\usepackage{titling} % For typesetting cover
 
 \usepackage[backend=biber,style=alphabetic]{biblatex}
 \addbibresource{Bibliography.bib}
 
-\newcommand{\keyS}[1]{\keys{\rmfamily {#1}}}
+\newcommand{\keyS}[1]{\keys{\rmfamily {#1}}} % For menukeys to use serifs
 
-\newcommand{\chapteR}[1]{
+\newcommand{\chapteR}[1]{ % Ad-hoc solution for preventing Chapter from starting new page
 \begingroup
 \let\clearpage\relax
 \chapter{#1}
@@ -191,7 +176,7 @@ title={#1},
 
 \subfile{Source-cover}
 
-\subfile{Source-ToC}
+\subfile{Source-toc}
 
 \subfile{Source-content}
 
