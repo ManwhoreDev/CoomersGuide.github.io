@@ -18,6 +18,9 @@ Source-main.pdf
 *.cb2
 .*.lb
 
+## KOMA-Script auxilary files
+*.slnc
+
 ## Intermediate documents:
 *.dvi
 *.xdv
