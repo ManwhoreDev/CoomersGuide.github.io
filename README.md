@@ -1,6 +1,6 @@
 # A Coomer's Guide to AI Dungeon
 
-To view the live version of the guide, visit https://coomersguide.github.io/.
+To view the live version of the guide, visit https://guide.aidg.club/.
 
 ## Compilation from source
 
