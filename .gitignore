@@ -1,5 +1,8 @@
-## Ignore preliminary PDF
+## Preliminary PDF
 Source-main.pdf
+
+## Scripts
+*.bat
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
