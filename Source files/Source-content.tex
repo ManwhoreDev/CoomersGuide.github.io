@@ -2,17 +2,22 @@
 
 \begin{document}
 
-\chapter*{Preface}
+\addchap{Preface}
+\label{ch:preface}
 
-Welcome back to the Coomer’s Guide to AI Dungeon.
-This is a guide for users of AI Dungeon that are looking to increase the quality of their erotic writing, while harnessing the many features offered by AI Dungeon to enhance this process.
+Welcome back to the Coomer’s Guide to \aid.
+This is a guide for users of \aid that are looking to increase the quality of their erotic writing, while harnessing the many features offered by \aid to enhance this process.
 
 The advice and conclusions of this guide are written with users of the Dragon AI model in mind.
 Griffin users will likely find many strategies that will assist them, but this guide is not constructed with the weaknesses of that model in mind.
-The methodologies put forth here are ones cultivated through both my own experience, and plenty of discussions with the AI Dungeon community.
+The methodologies put forth here are ones cultivated through both my own experience, and plenty of discussions with the \aid community.
 Effectiveness is not guaranteed, and the modification of this guide’s rules and recommendations is actively encouraged to see better results.
 
-\chapteR{Introduction}
+%\part{Basics}
+%\label{part:basics}
+
+\chapter{Introduction}
+\label{ch:intro}
 
 The layout of this guide is constructed with all non-input related mechanisms discussed first, then input itself, followed by advice on style and various tips regarding certain frequently encountered problems or specific approaches.
 
@@ -23,9 +28,10 @@ While this guide is written with a tone of authority, it is written as such for 
 The reader is encouraged to consult multiple approaches put forth by the community in order to arrive at their own conclusions that produce results they find to be of good quality.
 
 As previously stated, this guide is not for new users.
-It is for users already familiar with AI Dungeon and its workings who seek to increase the quality of the erotic writing produced by both themselves and the AI.
+It is for users already familiar with \aid and its workings who seek to increase the quality of the erotic writing produced by both themselves and the AI.
 
-\chapteR{Prompt}
+\chapter{Prompt}
+\label{ch:prompt}
 
 While most users find themselves composing erotic writing as a supplement to a larger adventure, a sizable chunk of users also utilize scenario creation to immediately begin an adventure solely focused on erotic writing.
 When this approach is taken, it is important to carefully consider the prompt used to start the scenario.
@@ -33,7 +39,8 @@ When this approach is taken, it is important to carefully consider the prompt us
 Prompts are meant to act as solid informational foundations for the start of an adventure, \emph{not} a lengthy summary of rich detail that attempts to cover every facet of what you want to accomplish.
 Prompts constructed in this way are wasteful and ineffective as they are quickly incinerated by the AI’s limited memory of the user’s actions.
 
-%\section{Impermanence}
+\section{Impermanence}
+\label{sec:impermanence}
 
 When crafting a prompt, you must always keep in mind its natural impermanence.
 A good prompt provides you with the information needed to create a solid and detailed series of following actions, so that the story is both high-quality and coherent after the prompt itself disappears into the action history.
@@ -45,13 +52,15 @@ How specific or vague a prompt ultimately is does not matter, as it has no beari
 Prompts can be as open-ended as leaving the actual subject of your erotic writing open to complete chance, or as specific as immediately dropping you into the start of a scene.
 All that matters is that you have crafted a prompt that adheres the guidelines above and kicks off your story in a way that creates a satisfying series of resulting actions that will carry on after the prompt disappears from memory.
 
-\chapteR{World Info}
-
-%\section{Utility}
+\chapter{World Info}
+\label{ch:wi}
 
 World Info is often supplied before a scenario even starts, or is immediately entered shortly after, which merits early discussion in this guide.
-The power of World Info is often overlooked by those composing erotic writing with AI Dungeon, even by users of medium or high skill levels.
+The power of World Info is often overlooked by those composing erotic writing with \aid, even by users of medium or high skill levels.
 Worse still, many users choose to utilize World Info, but do so in a way that is incorrect and excessively consumes tokens in the AI’s memory stack.
+
+\section{Utility}
+\label{sec:wiutility}
 
 World Info entries should always be composed with a utilitarian mindset.
 They need to be sharp and descriptive, while also remaining concise.
@@ -64,7 +73,8 @@ The less referential wording you have inside a World Info entry, the more effect
 Strive to avoid lengthier sentences, splitting them into shorter and clunkier sentences if you must.
 The AI will handle information better this way, even if it is not pleasing to read.
 
-%\section{Application}
+\section{Application}
+\label{sec:wiapplication}
 
 As for how World Info is useful in the realm of erotic writing, there are a variety of applications.
 Most commonly World Info can be utilized to assist the AI with information on the finer points of a character’s personality and attributes, to describe the various details of non-human races, or more in-depth erotic mechanics that are not of immediate precedence.\footnote{See \cref{sec:wiusage} for more information.}
@@ -74,15 +84,17 @@ While World Info does have several uses for enhancing erotic writing, it is enti
 How well or how poorly neglecting World Info goes ultimately depends on the sort of erotic writing that you are attempting, with simpler scenes and subjects less affected by the absence of World Info.
 It is worth noting that this strategy of ignoring World Info will ultimately translate into more work in terms of detailing your /remember and manually correcting the AI’s outputs, hence why it is generally not advised.
 
-\chapteR{Remember}
-
-\section{Recommended Order}
+\chapter{Remember}
+\label{ch:remember}
 
 The /remember function is the core of cultivating good output when you are writing with the AI, both in and outside of smut-related activities.
 It is important to keep in mind that while /remember is indeed robust, it is not powerful enough to address certain inherent flaws in the behavior of the AI, namely its contentious relationship with finer physical detail.
 
 Despite all work you will put in over the course of this guide to try and bring about better output from the AI, obtaining consistent, creative, and compelling levels of physical detail from the AI in any configuration will remain a challenge.
 This is because of the A/B nature of the AI’s descriptive abilities, which makes it highly proficient at clearly defined paragraphs of prose, but deeply handicapped at naturally including finer detail during action-related output.
+
+\section{Recommended Order}
+\label{sec:recomorder}
 
 It is for this reason that the recommended usage of /remember is as a repository of important information and detail related to your character, their partner, and the current setting of your encounter.
 The recommended order for formatting your /remember is as follows:
@@ -103,9 +115,10 @@ You should still strive to have all sentences in the /remember function stand on
 
 When it comes to describing the player character, “You” should be utilized for all referential instances inside the /remember function, but not anywhere else.
 This advice is predicated on the assumption that “Your name is X” is the very first thing entered at the top of your /remember function.
-In all other functions, such as World Info entries and Author’s Note, the player character should always be referred to by their name.
+In all other functions, such as World Info entries and \an, the player character should always be referred to by their name.
 
 \section{Updating}
+\label{sec:updating}
 
 After composing your /remember, the next most important step is updating it.
 A single supplemental sentence should be included in the category of both the player character and any present characters for how they are feeling regarding the current scene and setting.
@@ -116,58 +129,60 @@ As for supplemental information, the rate at which this category changes can var
 
 Overall, you should strive to be consistently cultivating a /remember that reinforces a healthy level of detail for various aspects of the story, updating it as often as needed to keep everything inside the /remember relevant.
 
-\chapteR{Author's Note}
+\chapter{\an}
+\label{ch:an}
 
-\section{Style}
-
-Author’s Note is a relatively new feature, with several unique use cases.
+\an is a relatively new feature, with several unique use cases.
 It is a very powerful tool that often goes underutilized or not utilized at all.
 This is a common mistake given how new and poorly understood this feature is by most users.
-Understanding Author’s Note on a deep level is one of the best investments a user can make in terms of cultivating better erotic writing with the AI, as it has a variety of powers that quickly and easily enhance your ability to create interesting output.
+Understanding \an on a deep level is one of the best investments a user can make in terms of cultivating better erotic writing with the AI, as it has a variety of powers that quickly and easily enhance your ability to create interesting output.
 
-Author’s Note has four main discovered functions at the time of writing: Style, Detail, Mood, and Premonition.
+\an has four main discovered functions at the time of writing: Style, Detail, Mood, and Premonition.
 These are listed in ascending order of complexity, with Style being the simplest and Premonition being the most complex.
 
-Author’s Note was originally introduced on the basis of Style, which makes it the most well-known of its capabilities.
-Put simply, Style is when you input a sentence into Author’s Note that tells the AI how you want it to guide the stylistic choices of its output.
-A well-tested Style sentence for erotic writing is: “This is a story with plenty of erotic detail.”, which is a good example of how all Style Author’s Notes should be composed, regardless of intent.
+\section{Style}
+\label{sec:anstyle}
+
+\an was originally introduced on the basis of Style, which makes it the most well-known of its capabilities.
+Put simply, Style is when you input a sentence into \an that tells the AI how you want it to guide the stylistic choices of its output.
+A well-tested Style sentence for erotic writing is: “This is a story with plenty of erotic detail.”, which is a good example of how all Style \ans should be composed, regardless of intent.
 They should be short and to the point, but provide clear-cut guidance on how the AI is meant to behave when sculpting its words.
 
-Style is, unfortunately, where most people cease their usage of Author’s Note.
+Style is, unfortunately, where most people cease their usage of \an.
 This is, to put it lightly, a mistake.
-Author’s Note is not something that should be treated as a “set it and forget it” function, but rather a dynamic tool that should be updated in tandem with the rest of your functions as a scene progresses.
-This dynamic behavior is not possible with Style, but rather emerges when we consider the other three functions of Author’s Note: Detail, Mood, and Premonition.
+\an is not something that should be treated as a “set it and forget it” function, but rather a dynamic tool that should be updated in tandem with the rest of your functions as a scene progresses.
+This dynamic behavior is not possible with Style, but rather emerges when we consider the other three functions of \an: Detail, Mood, and Premonition.
 
 It is worth noting before we progress that all three of the dynamic functions are intended to be appended as independent sentences that follow your Style note.
-There is enough space in the Author’s Note for up to four decently sized sentences, each of which seems to be just as effective in isolation as when paired with other sentences.
-Style, Detail, Mood, and Premonition sentences can all exist inside the Author’s Note at once, with no detriment to their effectiveness.
+There is enough space in the \an for up to four decently sized sentences, each of which seems to be just as effective in isolation as when paired with other sentences.
+Style, Detail, Mood, and Premonition sentences can all exist inside the \an at once, with no detriment to their effectiveness.
 
 \section{Detail}
 
-Detail is the simplest of the three dynamic Author’s Note functions.
-It is as simple as specifying a person, place, or thing, that you want the AI to focus on more frequently in the Author’s Note.
-You need to keep in mind that Author’s Note is extremely powerful, so Detail notes can quickly cause the AI to hyper-fixate on their given subject, which may or may not be what you want.
+Detail is the simplest of the three dynamic \an functions.
+It is as simple as specifying a person, place, or thing, that you want the AI to focus on more frequently in the \an.
+You need to keep in mind that \an is extremely powerful, so Detail notes can quickly cause the AI to hyper-fixate on their given subject, which may or may not be what you want.
 This is very useful for writing smut that you want to center on something specific, such as a given attribute of your partner or a normally ignored detail of the setting you are in.
 
 A good example of a Detail note is if you’re conducting a scene underwater.
 The AI tends to forget that characters are underwater, even with heavy /remember usage.
-Putting “[Name of your character] is currently swimming underwater.” or “[Your character] is underwater with [Your partner].” in the Author’s Note will remedy this problem with surprising speed and effectiveness.
+Putting “[Name of your character] is currently swimming underwater.” or “[Your character] is underwater with [Your partner].” in the \an will remedy this problem with surprising speed and effectiveness.
 You might even, in this specific case, notice the AI bring up lots of details about the water in the following outputs.
 
 \section{Mood}
 
 Mood is slightly more complex, only because it is a function that deals with a more abstract concept.
-By noting something specific about the mood of a scene in the Author’s Note, such as whether it is “Tense” or “Passionate”, you can get the AI to reflect this in its output.
+By noting something specific about the mood of a scene in the \an, such as whether it is “Tense” or “Passionate”, you can get the AI to reflect this in its output.
 This sounds too ambiguous for the AI to carry out correctly, but when composed properly Mood notes can be surprisingly effective.
 When writing smut, I tend to use Mood notes to dictate the specific disposition of my partner, or the overall dynamic between us.
 So notes like “[Partner] is a sexually aggressive seductress.” or “[Your character] and [Your partner] have been dying to explore each other sexually for weeks.” are remarkably potent when it comes to AI coloring how my character and their partner behave with one another during the course of a scene.
 
 \section{Premonition}
 
-Premonition is the most complicated, but also the most powerful dynamic function of Author’s Note.
-Premonition is the usage of Author’s Note to compel the AI to bring about certain encounters or subjects without any other input on the part of the user.
+Premonition is the most complicated, but also the most powerful dynamic function of \an.
+Premonition is the usage of \an to compel the AI to bring about certain encounters or subjects without any other input on the part of the user.
 A common and easy-to-use example of Premonition is getting the player character to naturally encounter another character.
-If you add “[Name of your character] will meet [Name of another character] at [Location]” to the Author’s Note, you will very quickly notice the AI attempting to make this happen.
+If you add “[Name of your character] will meet [Name of another character] at [Location]” to the \an, you will very quickly notice the AI attempting to make this happen.
 
 Premonition is the most powerful because it requires no other supplemental input from the user.
 Even if the /remember, World Info, and 20 action stack are completely devoid of anything related to the Premonition note, the AI will still attempt to make the dictated event occur.
@@ -177,25 +192,27 @@ It will also try and guide you towards the location of the encounter specified, 
 This already a very powerful example of Premonition, but the usages and limits of Premonitions are far broader and higher than this.
 Fascinatingly, Premonition notes can be incredibly vague, such as: “The next dungeon trap uses swinging axes.” or “[Name of your character]’s next customer is going to be an evil wizard.” These will produce results that are strikingly similar in terms of power and detail as the much more specific example of a character encounter mentioned previously.
 
-All four of these functions for Author’s Note have incredibly powerful implications for the process of creating smut with the AI, especially the dynamic functions.
+All four of these functions for \an have incredibly powerful implications for the process of creating smut with the AI, especially the dynamic functions.
 Style notes can be used to enhance all erotic prose generated by the AI, Detail notes can force the AI to keep in mind very specific aspects of a scene that you want to be constantly reminded of, Mood notes can help color prose in a way that creates a very specific atmosphere, and Premonitions notes can allow you to dictate exactly what you want to happen over the course of a scene, while leaving the AI free to determine what that looks like.
 
-\chapteR{Input}
-
-\section{Input modes}
+\chapter{Input}
+\label{ch:input}
 
 With all non-input methods having been discussed, it is time to examine input itself.
 Input is your primary method of interaction with the AI, which makes it the most important skill to discuss and refine.
 This section will discuss the higher-level tactics of effectively using your inputs, whereas the Style section will discuss the actual content of your inputs with respect to prose.
 
-Input is a broad term, but for the purposes of the following discussions “Input” specifically refers to text written by the user and sent to the AI through the action box.
-It is universally recommended to conduct all your Input in \keyS{Story} mode.
-Many users make the mistake of attempting to write their adventures with \keyS{Do} or \keyS{Say}, or even a mix of all three input modes.
-While these are not necessarily incorrect approaches, using the \keyS{Do} or \keyS{Say} Input modes is considered a hindrance to the quality of your output with regards to erotic writing.
+\section{Input modes}
+\label{sec:inputmodes}
 
-It may feel strange to work exclusively in \keyS{Story} mode at first, but with a bit of practice it will quickly become second nature.
-\keyS{Story} is regarded as actively superior to the other input modes because it does not introduce any sort of additional contextual considerations for the AI (like with \keyS{Do}) and does not boil down dialogue into a dull, uniform container (like with \keyS{Say}).
-While it may seem out of place for a more advanced guide to be mentioning something as simple as input modes, many users make it to medium or even high levels of proficiency while still allowing \keyS{Do} and \keyS{Say} to actively harm the quality of their writing.
+Input is a broad term, but for the purposes of the following discussions “Input” specifically refers to text written by the user and sent to the AI through the action box.
+It is universally recommended to conduct all your Input in \story mode.
+Many users make the mistake of attempting to write their adventures with \Do or \say, or even a mix of all three input modes.
+While these are not necessarily incorrect approaches, using the \Do or \say Input modes is considered a hindrance to the quality of your output with regards to erotic writing.
+
+It may feel strange to work exclusively in \story mode at first, but with a bit of practice it will quickly become second nature.
+\story is regarded as actively superior to the other input modes because it does not introduce any sort of additional contextual considerations for the AI (like with \Do) and does not boil down dialogue into a dull, uniform container (like with \say).
+While it may seem out of place for a more advanced guide to be mentioning something as simple as input modes, many users make it to medium or even high levels of proficiency while still allowing \Do and \say to actively harm the quality of their writing.
 
 As for Input strategy, quality input is always crafted with several considerations in mind.
 These considerations include Intent, Pacing, Guidance, and Style.
@@ -205,11 +222,11 @@ We begin our examination with Intent.
 
 \section{Intent}
 
-An all-too-common pitfall for users creating erotic writing with AI Dungeon is constructing their Input —and thus their experience— in the framework of a game-like interactive experience.
-The two most common ways this error of thinking presents itself is through the use of \keyS{Do} and \keyS{Say} inputs, and through a lack of Intent in their Inputs.
+An all-too-common pitfall for users creating erotic writing with \aid is constructing their Input —and thus their experience— in the framework of a game-like interactive experience.
+The two most common ways this error of thinking presents itself is through the use of \Do and \say inputs, and through a lack of Intent in their Inputs.
 We have covered the former issue, now it is time to cover the latter.
 
-While AI Dungeon is indeed an interactive experience, in order to craft the best erotic writing possible, we must do away with the notion that it is a “game”.
+While \aid is indeed an interactive experience, in order to craft the best erotic writing possible, we must do away with the notion that it is a “game”.
 Rather, you must consider the AI and its functions as an assistant or a tool for the process of cultivating erotic writing.
 The first and largest step you can make with regards to acting upon this philosophy is to infuse your Input with a sense of Intent.
 But what does this mean, and what does this look like?
@@ -234,12 +251,12 @@ This example will continue to evolve as we learn more about Input strategy.
 \section{Pacing}
 
 The next pillar of Input strategy is Pacing.
-Despite being the middle child of priority when it comes to Input strategy, Pacing is far and away the most struggled with aspect of erotic writing with AI Dungeon.
+Despite being the middle child of priority when it comes to Input strategy, Pacing is far and away the most struggled with aspect of erotic writing with \aid.
 While this section will not tackle the nuance of full-scope pacing, it will be addressed with respect to Input strategy, which should cover several important points.
 
 All too often Input is left barren of any Pacing, which leads to the AI dictating the pace of your scene.
 This will, without fail, result in complete collapse of your scene in fewer than 10 actions.
-The AI does not hesitate to begin and end erotic encounters in space of incredibly short amounts of time, and one of your greatest struggles as an author of erotic writing with AI Dungeon will be fighting the AI’s natural tendency to try and keep things brutally short.
+The AI does not hesitate to begin and end erotic encounters in space of incredibly short amounts of time, and one of your greatest struggles as an author of erotic writing with \aid will be fighting the AI’s natural tendency to try and keep things brutally short.
 The first step to fixing this problem is to ensure that nearly every Input you make has some form of Pacing in it.
 
 Pacing is, at its most basic, the injection of temporal language in your Input that signals a slower timeline of action to the AI.
@@ -289,14 +306,16 @@ In the beginning it usually manifests out of thin air as a sharp increase in the
 The Awakening Point is perhaps too deep of a lesson for the level at which this guide is composed, which is why it will not be elaborated upon further.
 There is still one more Input consideration we must discuss, which is Style.
 
-\chapteR{Style}
-
-\section{Development}
+\chapter{Style}
+\label{ch:style}
 
 Of all the aspects of Input, Style is the one that users pain over the most.
 It is intimately linked to the usage of prose, and typically the skill most fixated upon by those seeking to improve the quality of their erotic writing with the AI.
 The biggest problem with teaching Style is that is unique to each user, which makes crafting a set of universally applicable guidelines a challenge.
 As your skill develops with both practice and time, you will find your Style is comprised of certain conventions of language, structure, and usage of prose that tend to appear throughout your works.
+
+\section{Development}
+\label{sec:stdevelop}
 
 As such, the intention of this section is not to try and enforce a specific structure or dictate “the right way” for a user to develop their Style.
 Rather, this section is meant to serve as a series of considerations that will help you discover what works best for answering the questions put forth.
@@ -378,7 +397,7 @@ Prose at a level this deep and descriptive is not easy, as there are dozens of m
 The remedy for this initial shock and confusion is twofold.
 The first part is accepting that this will not come naturally to you after a simple once-over of the guide.
 The second part is practice, and lots of it.
-You are not expected to, nor will you be able to, drop right into AI Dungeon after reading this guide and immediately begin smithing Inputs with this level of complexity and detail.
+You are not expected to, nor will you be able to, drop right into \aid after reading this guide and immediately begin smithing Inputs with this level of complexity and detail.
 You will need to work your way up to final products like the ones used for examples here, starting with a level of detail that’s just barely above minimum and slowly increasing it with each successive scene.
 After routine practice at keeping these many things in mind, you will eventually see your Style begin to assert itself as the quality of your prose increases.
 
@@ -395,15 +414,16 @@ If done correctly, the line between where your Inputs end and the AI’s output 
 
 Now that Style has been discussed almost exhaustively, the core of the guide is complete.
 The upcoming section will be Tips and Tricks, followed by a Summary and Closing.
-Tips and Tricks is a very different section from the rest, encompassing all aspects of the guide with highly tangential and specific ideas relating to various problems and approaches when writing smut with AI Dungeon.
+Tips and Tricks is a very different section from the rest, encompassing all aspects of the guide with highly tangential and specific ideas relating to various problems and approaches when writing smut with \aid.
 
-\chapteR{Tips and Tricks}
-%\label{chap:tips}
-
-\section{Scene Ending}
+\chapter{Tips and Tricks}
+\label{ch:tips}
 
 This section deviates from focusing on a single topic to instead break with convention and cover a variety of subjects related to erotic writing.
 Chronological order will attempt to be maintained but will not be enforced if it comes at the cost of properly conveying information.
+
+\section{Scene Ending}
+\label{sec:sceneend}
 
 One of the most frequently requested follow-ups when discussing pacing with regards to erotic writing a broader sense is something akin to “How do I start/end a scene in a way that’s natural?” or “How do I stop the AI from rushing my scene so often?” While the latter question has been answered somewhat comprehensively through the previous materials of this guide (in fact, overall enforcement of a higher level of detail tends to naturally iron out this problem), the former question has not been investigated in much detail.
 
@@ -483,7 +503,8 @@ These symptoms indicate you have a Hook Detail on your hands that needs to be fo
 (The arrows next to the close button inside the edit window help with this quite a lot.)
 
 %\clearpage
-\chapteR{Summary}
+\chapter{Summary}
+\label{ch:summary}
 
 As is plainly obvious, this guide covers a lot of information, and does so quite densely.
 To assist in reading comprehension, a short summary of each section is provided here in chronological bullet point format.
@@ -499,10 +520,10 @@ To assist in reading comprehension, a short summary of each section is provided 
 \item{/remember should be the only place where your character is referred to as “You” inside memory functions}
 \item{The many sections of your /remember should be constantly updated at varying levels of frequency}
 
-\item{Author's Note is a very powerful function with both static and dynamic uses} 
-\item{Author's Note can be used to direct the style of the AI, force it to focus on certain details, reinforce a specific mood, or dictate future events}
+\item{\an is a very powerful function with both static and dynamic uses} 
+\item{\an can be used to direct the style of the AI, force it to focus on certain details, reinforce a specific mood, or dictate future events}
 
-\item{Stop using \keyS{Do} and \keyS{Say}, start using \keyS{Story} for everything}
+\item{Stop using \Do and \say, start using \story for everything}
 \item{Input is crafted with four pillars of consideration: Intent, Pacing, Guidance, and Style}
 \item{Input should not be constructed in a “game-like” interactive format}
 \item{Intent is the motivation and execution of an action with regards to what it wants to accomplish}
@@ -536,7 +557,8 @@ To assist in reading comprehension, a short summary of each section is provided 
 
 \clearpage
 
-\chapteR{Closing}
+\chapter{Closing}
+\label{ch:closing}
 
 Over 8600 words later and we’ve finally arrived at the conclusion of the guide.
 With luck, you’ve found one or multiple solid takeaways from the information presented here.
@@ -544,7 +566,7 @@ Just remember that change is not instant, results will not materialize before yo
 What you learn from this guide takes time and effort to apply, like any other skill or craft.
 It’s not going to be perfect, things detailed here will not always pan out correctly, but that’s okay.
 
-The heart of AI Dungeon has always been adaptation and experimentation.
+The heart of \aid has always been adaptation and experimentation.
 It’s inevitable that as you grow and become stronger with erotic writing, the way you interpret and apply this guide will change.
 You might struggle at times, but that’s a part of getting better.
 Don’t hesitate to take a step back every once in a while to clear your head and breathe, you’ll often find that things are a lot easier after you’ve given your through process some space.

@@ -2,7 +2,7 @@
 % I am not an advanced LaTeX user and this code is not up to quality.
 % ANY contribution or proposal is welcome.
 
-\documentclass[a4paper,12pt,american,]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
+\documentclass[a4paper,12pt,american,oneside]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
 
 \usepackage[activate={true,nocompatibility},
 final,
@@ -60,29 +60,15 @@ pdfxstandard={PDF/X-3:2003},
 \usepackage[many]{tcolorbox} % For typesetting World Info entry box
 \usepackage[os=win]{menukeys} % Used for highlighting Input modes
 
-% -----------------------------------------
-% https://tex.stackexchange.com/a/568785
-% Code needed to prevent paragraph indentation after tcolorboxes
-% -----------------------------------------
-% Appending \@endparenv, which is used by every list environment, to /tcb/after seems to work.
+\usepackage{subfiles} % For separating project into disctict files
 
-% Update: For breakable boxes, some experimental attempt is added.
+\usepackage{moresize} % For typesetting cover
+\usepackage{titling} % For typesetting cover
 
-%\makeatletter
-%\tcbset{
-%  after app={%
-%    \ifx\tcb@drawcolorbox\tcb@drawcolorbox@breakable
-%    \else
-%      % add only when not breakabel
-%      \@endparenv
-%    \fi
-%  }
-%}
+\usepackage{cleveref} % Easier labeling
 
-% for breakable
-%\appto\tcb@use@after@lastbox{\@endparenv\@doendpe}
-%\makeatother
-% -----------------------------------------
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{Bibliography.bib}
 
 \newtcolorbox{WIbox}[1]{ % Box used for World Info examples
 enhanced,
@@ -94,14 +80,56 @@ halign title=flush center,
 title={#1},
 }
 
-%\KOMAoptions{
+\newcommand{\keyS}[1]{\keys{\rmfamily {#1}}} % For menukeys to use serifs
+
+\usepackage{xspace}
+
+\newcommand{\aid}{AI Dungeon\xspace}
+\newcommand{\an}{Author's Note\xspace}
+\newcommand{\ans}{Author's Notes\xspace}
+\newcommand{\Do}{\keyS{Do}\xspace}
+\newcommand{\say}{\keyS{Say}\xspace}
+\newcommand{\story}{\keyS{Story}\xspace}
+
+\newcommand{\Input}[1]{\textcolor{green}{#1}}
+\newcommand{\alter}[1]{\textcolor{yellow}{#1}}
+\newcommand{\retry}[1]{\textcolor{red}{#1}}
+
+\NewTColorBox[auto counter]{Inputbox}{ m }{% Input box
+enhanced,
+title={Example \thetcbcounter: #1},
+halign title=flush center,
+colframe=bluebox,
+colback=beaublue,
+before lower*={
+\begin{center}
+\tikz \node [label=right:Human Input,draw,fill=green] (input) {};
+\tikz \node [label=right:Altered Response,draw,fill=yellow] (alter) {};
+\tikz \node [label=right:Rerolled Response,draw,fill=red] (retry) {};
+\end{center}
+},  
+}
+
+\KOMAoptions{
 %toc=sectionentrydotfill, % Adds dots in ToC for sections
 %titlepage=true,
-%toc=bibliography,
-%}
+toc=bibliography,
+}
+
+%\pagestyle{headings}
+\renewcommand*{\titlepagestyle}{empty}
+\renewcommand*{\partpagestyle}{empty}
+
 \frenchspacing % Forces single space between sentences
 \addtokomafont{disposition}{\rmfamily}
 %\addtokomafont{sectionentry}{\bfseries}
+
+\renewcommand*{\chapterheadstartvskip}{\vspace*{1em}}
+
+%\usepackage{etoolbox}
+%\makeatletter
+%\patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+%\makeatother
 
 % ------------------------------------------
 % https://tex.stackexchange.com/a/536060
@@ -156,25 +184,31 @@ title={#1},
 % I used FOGRA47 as the colour profile because it is small and thus safe.
 % You don't easily risk colours which cannot be printed or displayed on screen.
 % The profile is available from European Color Initiative.
-
 % ------------------------------------------
-\usepackage{subfiles} % For separating project into disctict files
 
-\usepackage{moresize} % For typesetting cover
-\usepackage{titling} % For typesetting cover
+% -----------------------------------------
+% https://tex.stackexchange.com/a/568785
+% Code needed to prevent paragraph indentation after tcolorboxes
+% -----------------------------------------
+% Appending \@endparenv, which is used by every list environment, to /tcb/after seems to work.
 
-\usepackage{cleveref} % Easier labeling
+% Update: For breakable boxes, some experimental attempt is added.
 
-\usepackage[backend=biber,style=alphabetic]{biblatex}
-\addbibresource{Bibliography.bib}
+%\makeatletter
+%\tcbset{
+%  after app={%
+%    \ifx\tcb@drawcolorbox\tcb@drawcolorbox@breakable
+%    \else
+%      % add only when not breakabel
+%      \@endparenv
+%    \fi
+%  }
+%}
 
-\newcommand{\keyS}[1]{\keys{\rmfamily {#1}}} % For menukeys to use serifs
-
-\newcommand{\chapteR}[1]{ % Ad-hoc solution for preventing Chapter from starting new page
-\begingroup
-\let\clearpage\relax
-\chapter{#1}
-\endgroup}
+% for breakable
+%\appto\tcb@use@after@lastbox{\@endparenv\@doendpe}
+%\makeatother
+% -----------------------------------------
 
 \begin{document}
 
@@ -190,6 +224,6 @@ title={#1},
 
 \clearpage
 
-\subfile{Source-appendix}
+\subfile{Source-appendices}
 
 \end{document}
