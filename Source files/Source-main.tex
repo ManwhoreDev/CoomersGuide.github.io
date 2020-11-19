@@ -2,7 +2,7 @@
 % I am not an advanced LaTeX user and this code is not up to quality.
 % ANY contribution or proposal is welcome.
 
-\documentclass[a4paper,12pt,american,oneside]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
+\documentclass[a4paper,12pt,american,oneside,numbers=noenddot]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
 
 \usepackage[activate={true,nocompatibility},
 final,
@@ -25,6 +25,7 @@ shrink=10]{microtype} % Makes text look typograhically nicer
 \definecolor{bluebox}{rgb}{0.0, 0.08, 0.99}
 \definecolor{yellowbox}{rgb}{0.99, 0.99, 0.8}
 \definecolor{bisque}{rgb}{0.96, 0.96, 0.86}
+\definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
 
 \newcommand\myshade{85}
 \colorlet{mylinkcolor}{violet}
@@ -57,6 +58,7 @@ pdfaconformance=a,
 pdfxstandard={PDF/X-3:2003},
 }
 
+\usepackage{enumitem}
 \usepackage[many]{tcolorbox} % For typesetting World Info entry box
 \usepackage[os=win]{menukeys} % Used for highlighting Input modes
 
@@ -70,7 +72,7 @@ pdfxstandard={PDF/X-3:2003},
 \usepackage[backend=biber,style=alphabetic]{biblatex}
 \addbibresource{Bibliography.bib}
 
-\newtcolorbox{WIbox}[1]{ % Box used for World Info examples
+\newtcolorbox{WI}[1]{ % Box used for World Info examples
 enhanced,
 colframe=bluebox,
 colback=yellowbox,
@@ -88,6 +90,8 @@ title={#1},
 \newcommand{\wi}{World Info\xspace}
 \newcommand{\an}{Author's Note\xspace}
 \newcommand{\ans}{Author's Notes\xspace}
+
+\newcommand{\rem}{\keyS{/remember}\xspace}
 \newcommand{\Do}{\keyS{Do}\xspace}
 \newcommand{\say}{\keyS{Say}\xspace}
 \newcommand{\story}{\keyS{Story}\xspace}
@@ -96,9 +100,9 @@ title={#1},
 \newcommand{\alter}[1]{\textcolor{yellow}{#1}}
 \newcommand{\retry}[1]{\textcolor{red}{#1}}
 
-\NewTColorBox[auto counter]{Inputbox}{ m }{% Input box
+\NewTColorBox[auto counter]{Story}{ m }{% Input box
 enhanced,
-title={Example \thetcbcounter: #1},
+title={Story example \textnumero\thetcbcounter: #1},
 halign title=flush center,
 colframe=bluebox,
 colback=beaublue,
@@ -106,7 +110,7 @@ before lower*={
 \begin{center}
 \tikz \node [label=right:Human Input,draw,fill=green] (input) {};
 \tikz \node [label=right:Altered Response,draw,fill=yellow] (alter) {};
-\tikz \node [label=right:Rerolled Response,draw,fill=red] (retry) {};
+\tikz \node [label=right:Retried Response,draw,fill=red] (retry) {};
 \end{center}
 },  
 }
