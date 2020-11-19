@@ -1,0 +1,268 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%    Style created for typesetting ``A Coomer's Guide to AI Dungeon
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{coomer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PACKAGES TO LOAD
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage[activate={true,nocompatibility},final,protrusion=true,tracking=true,factor=1000,stretch=10,shrink=10]{microtype} % A bit closer to typographic perfection
+\RequirePackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref}
+\RequirePackage{hyperxmp} % For embedding XMP metadata into PDF
+\RequirePackage[numbered,open=true,openlevel=2]{bookmark} % Better version of hyperref bookmarks
+\RequirePackage{scrdate} % For setting universal date standard
+\RequirePackage[dvipsnames,cmyk,hyperref]{xcolor}
+\RequirePackage{tagpdf}
+\RequirePackage{fontspec}
+\RequirePackage{enumitem}
+\RequirePackage[many]{tcolorbox} % For typesetting World Info entry box
+\RequirePackage[os=win]{menukeys} % Used for highlighting Input modes
+\RequirePackage{subfiles} % For separating project into disctict files
+\RequirePackage{moresize} % For typesetting cover
+\RequirePackage{titling} % For typesetting cover
+\RequirePackage{cleveref} % Easier labeling
+\RequirePackage[backend=biber,style=alphabetic]{biblatex}
+\RequirePackage{soulutf8} % Letterspacing
+\RequirePackage{xspace} % Adaptive space in macro shortcuts
+\RequirePackage{etoolbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PACKAGE SETTINGS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tagpdfsetup{activate-all,
+%uncompress,
+}
+
+% KOMA-Script
+
+\KOMAoptions{
+%toc=sectionentrydotfill, % Adds dots in ToC for sections
+%titlepage=true,
+toc=bibliography,
+}
+
+%\pagestyle{headings}
+\renewcommand*{\titlepagestyle}{empty}
+\renewcommand*{\partpagestyle}{empty}
+
+\addtokomafont{disposition}{\rmfamily}
+%\addtokomafont{sectionentry}{\bfseries}
+\renewcommand*{\chapterheadstartvskip}{\vspace*{1em}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    COLOR DEFINITIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{bluebox}{rgb}{0.0, 0.08, 0.99}
+\definecolor{yellowbox}{rgb}{0.99, 0.99, 0.8}
+\definecolor{bisque}{rgb}{0.96, 0.96, 0.86}
+\definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
+
+\newcommand\myshade{85}
+\colorlet{mylinkcolor}{violet}
+\colorlet{mycitecolor}{YellowOrange}
+\colorlet{myurlcolor}{Aquamarine}
+
+%Hyperref links color
+\hypersetup{ %
+% Color scheme definitions for links
+% Taken from https://tex.stackexchange.com/a/176372
+  linkcolor  = mylinkcolor!\myshade!black,
+  citecolor  = mycitecolor!\myshade!black,
+  urlcolor   = myurlcolor!\myshade!black,
+  colorlinks = true,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    GENERAL STYLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frenchspacing % Forces single space between sentences
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    CUSTOM MACROS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\keyS}[1]{\keys{\rmfamily {#1}}} % For menukeys to use serifs
+
+\newcommand{\aid}{AI Dungeon\xspace}
+\newcommand{\wi}{World Info\xspace}
+\newcommand{\an}{Author's Note\xspace}
+\newcommand{\ans}{Author's Notes\xspace}
+
+\newcommand{\rem}{\keyS{/remember}\xspace}
+\newcommand{\Do}{\keyS{Do}\xspace}
+\newcommand{\say}{\keyS{Say}\xspace}
+\newcommand{\story}{\keyS{Story}\xspace}
+
+\newcommand{\Input}[1]{\textcolor{green}{#1}}
+\newcommand{\alter}[1]{\textcolor{yellow}{#1}}
+\newcommand{\retry}[1]{\textcolor{red}{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    CUSTOM TCOLORBOXES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% World Info
+\newtcolorbox{WI}[1]{ % Box used for World Info examples
+enhanced,
+colframe=bluebox,
+colback=yellowbox,
+coltitle=white,
+fonttitle=\bfseries,
+halign title=flush center,
+title={#1},
+}
+
+% Story
+\NewTColorBox[auto counter]{Story}{ m }{% Input box
+enhanced,
+title={Story example \textnumero\thetcbcounter: #1},
+halign title=flush center,
+colframe=bluebox,
+colback=beaublue,
+before lower*={
+\begin{center}
+\tikz \node [label=right:Human Input,draw,fill=green] (input) {};
+\tikz \node [label=right:Altered Response,draw,fill=yellow] (alter) {};
+\tikz \node [label=right:Retried Response,draw,fill=red] (retry) {};
+\end{center}
+},  
+}
+
+% Box used for typesetting ToC was adapted from tcolorbox manual.
+% Namely, a watermark ``Contents'' was removed from it.
+% To obtain unaltered version, go to CTAN repository and get tcolorbox package.
+% The code in question is located inside ``tcolorbox.doc.abstract.tex'' file.
+% Authors of tcolorbox are not responsible for the breakage of this code and must not be asked to fix it.
+% This style's author is distributing this code according to the Clause 6 of ``Conditions on Distribution and Modification'' of The LATEX Project Public License 1.3c.
+
+\newtcolorbox{ToCbox}{breakable,enhanced jigsaw,title={Contents},fonttitle=\bfseries\Large,
+  colback=yellow!10!white,colframe=red!50!black,before=\par\bigskip\noindent,
+  interior style={fill overzoom image=goldshade.png,fill image opacity=0.25},
+  colbacktitle=red!50!yellow!75!black,
+  enlargepage flexible=\baselineskip,pad at break*=3mm,
+  height fixed for=first and middle,
+  attach boxed title to top center={yshift=-0.25mm-\tcboxedtitleheight/2,yshifttext=2mm-\tcboxedtitleheight/2},
+  boxed title style={enhanced,boxrule=0.5mm,
+    frame code={ \path[tcb fill frame] ([xshift=-4mm]frame.west) -- (frame.north west)
+    -- (frame.north east) -- ([xshift=4mm]frame.east)
+    -- (frame.south east) -- (frame.south west) -- cycle; },
+    interior code={ \path[tcb fill interior] ([xshift=-2mm]interior.west)
+    -- (interior.north west) -- (interior.north east)
+    -- ([xshift=2mm]interior.east) -- (interior.south east) -- (interior.south west)
+    -- cycle;}  },
+  drop fuzzy shadow}
+
+\newcommand{\tcolortoc}{
+\begin{ToCbox}
+\makeatletter
+\@starttoc{toc}
+\makeatother
+\end{ToCbox}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PATCHES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ------------------------------------------
+% https://tex.stackexchange.com/a/536060
+% Code taken to pass PDF/A and PDF/X color model validation check
+% -----------------------------------------
+% Which paper did the authors have in mind when they created the document?
+\immediate\pdfobj stream attr{/N 4} file{PSO-Uncoated-ISO12647-eci.icc}
+\pdfcatalog{%
+  /OutputIntents [ <<
+    /Type /OutputIntent
+    /S /GTS_PDFX
+    /DestOutputProfile \the\pdflastobj\space 0 R
+    /Info(PSO Uncoated ISO12647 (ECI))
+    /OutputCondition(Offset printing, according to ISO 12647-2:2004/Amd1, OFCOM, paper type 4 = uncoated white, 115 g/m2, tone value increase curves C (CMY) and D (K))
+    /OutputConditionIdentifier (Uncoated FOGRA47)
+    /RegistryName(http://www.color.org)
+  >>
+  <<
+    /Type /OutputIntent
+    /S /GTS_PDFA1
+    /DestOutputProfile \the\pdflastobj\space 0 R
+    /Info(PSO Uncoated ISO12647 (ECI))
+    /OutputCondition(Offset printing, according to ISO 12647-2:2004/Amd1, OFCOM, paper type 4 = uncoated white, 115 g/m2, tone value increase curves C (CMY) and D (K))
+    /OutputConditionIdentifier (Uncoated FOGRA47)
+    /RegistryName(http://www.color.org)
+  >> ]
+}
+
+\makeatletter
+% Bugfix of hyperref to produce CMYK links
+\let\HyColor@HyperrefBorderColor\HyColor@XZeroOneThreeFour
+\makeatother
+
+\makeatletter
+% We need to tell PDF/X the final format of the paper. This needs adjustment if you want graphics on the page border, called bleeding
+\@tempdima=0.99626400996264009962\paperwidth
+\edef\boxwd{\strip@pt\@tempdima}
+\@tempdima=0.99626400996264009962\paperheight
+\edef\boxht{\strip@pt\@tempdima}
+\makeatother
+\edef\next{%
+  \protect\pdfpageattr{
+    /TrimBox[0.0 0.0 \boxwd\space \boxht]
+  }%
+}
+\next
+
+% This example uses the rather new version of hyperxmp.
+% It validates in Acrobat DC, VeraPDF and 3-Heights when compiled either in pdfLaTeX or LuaLaTeX.
+%The hyperref workaround is from it's issue tracker.
+
+% I used FOGRA47 as the colour profile because it is small and thus safe.
+% You don't easily risk colours which cannot be printed or displayed on screen.
+% The profile is available from European Color Initiative.
+% ------------------------------------------
+
+% -----------------------------------------
+% https://tex.stackexchange.com/a/568785
+% Code needed to prevent paragraph indentation after tcolorboxes
+% -----------------------------------------
+% Appending \@endparenv, which is used by every list environment, to /tcb/after seems to work.
+
+% Update: For breakable boxes, some experimental attempt is added.
+
+%\makeatletter
+%\tcbset{
+%  after app={%
+%    \ifx\tcb@drawcolorbox\tcb@drawcolorbox@breakable
+%    \else
+%      % add only when not breakabel
+%      \@endparenv
+%    \fi
+%  }
+%}
+
+% for breakable
+%\appto\tcb@use@after@lastbox{\@endparenv\@doendpe}
+%\makeatother
+% -----------------------------------------
+
+% -----------------------------------------
+% https://tex.stackexchange.com/a/24067
+% Prevents KOMA-Script chapter from starting new page
+% -----------------------------------------
+% The \chapter command internally uses \cleardoublepage and \clearpage to add page breaks.
+% Use the etoolbox package to selectively change the definition of \chapter.
+
+%For KOMA-Script scrbook from version 3.19a (and most likely for other KOMA-Script classes, too), you need to patch \scr@startchapter instead of chapter:
+
+%\makeatletter
+%\patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+%\makeatother
+% -----------------------------------------
+
