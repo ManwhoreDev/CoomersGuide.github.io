@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%    Style created for typesetting ``A Coomer's Guide to AI Dungeon
-%
+%    STYLE CREATED FOR TYPESETTING ``A COOMER'S GUIDE TO AI DUNGEON''
+%    NEEDS LUALATEX TO COMPILE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
@@ -12,14 +12,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage[activate={true,nocompatibility},final,protrusion=true,tracking=true,factor=1000,stretch=10,shrink=10]{microtype} % A bit closer to typographic perfection
-\RequirePackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref}
+\RequirePackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref} % Neeeded for cross-references and clickable links
 \RequirePackage{hyperxmp} % For embedding XMP metadata into PDF
 \RequirePackage[numbered,open=true,openlevel=2]{bookmark} % Better version of hyperref bookmarks
 \RequirePackage{scrdate} % For setting universal date standard
-\RequirePackage[dvipsnames,cmyk,hyperref]{xcolor}
-\RequirePackage{tagpdf}
-\RequirePackage{fontspec}
-\RequirePackage{enumitem}
+\RequirePackage[dvipsnames,cmyk,hyperref]{xcolor} % Color definitions
+\RequirePackage{tagpdf} % Very experimental accessiblity package
+\RequirePackage{fontspec} % Easy font selection and size declarations
+\RequirePackage{enumitem} % Lists formatting
 \RequirePackage[many]{tcolorbox} % For typesetting World Info entry box
 \RequirePackage[os=win]{menukeys} % Used for highlighting Input modes
 \RequirePackage{subfiles} % For separating project into disctict files
@@ -30,16 +30,17 @@
 \RequirePackage{soulutf8} % Letterspacing
 \RequirePackage{xspace} % Adaptive space in macro shortcuts
 \RequirePackage{etoolbox}
+\RequirePackage[headsepline,autooneside=false,automark]{scrlayer-scrpage} % Customizable header and footer via page styles
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGE SETTINGS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\tagpdfsetup{activate-all,
+\tagpdfsetup{activate-all, % Although this passes validation, true accessiblity support is still unavailable for LaTeX
 %uncompress,
 }
 
-% KOMA-Script
+% KOMA-Script package options
 
 \KOMAoptions{
 %toc=sectionentrydotfill, % Adds dots in ToC for sections
@@ -47,13 +48,25 @@
 toc=bibliography,
 }
 
-%\pagestyle{headings}
+\clearpairofpagestyles
+\ohead{\leftmark}
+\ihead{\rightmark}
+\cfoot*{\pagemark}
+
 \renewcommand*{\titlepagestyle}{empty}
 \renewcommand*{\partpagestyle}{empty}
 
 \addtokomafont{disposition}{\rmfamily}
 %\addtokomafont{sectionentry}{\bfseries}
-\renewcommand*{\chapterheadstartvskip}{\vspace*{1em}}
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0em}}
+
+\setlist[description]{ %
+  %topsep=30pt,               % space before start / after end of list
+  %itemsep=5pt,               % space between items
+  style=nextline,
+  labelsep=2em,
+  font=\rmfamily\bfseries, % set the label font
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    COLOR DEFINITIONS
@@ -63,6 +76,8 @@ toc=bibliography,
 \definecolor{yellowbox}{rgb}{0.99, 0.99, 0.8}
 \definecolor{bisque}{rgb}{0.96, 0.96, 0.86}
 \definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
+
+\definecolor{chaptercolor}{cmyk}{1, 0.5, 0, 0}
 
 \newcommand\myshade{85}
 \colorlet{mylinkcolor}{violet}
@@ -85,6 +100,82 @@ toc=bibliography,
 
 \frenchspacing % Forces single space between sentences
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    COVER AND TITLE OUTPUT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\makecoomertitle}{
+	\pretitle{
+	\centering \bfseries
+	\HUGE
+	%\fontsize{30pt}{36pt}\selectfont
+	%\fontsize{32pt}{38.4pt}\selectfont
+}
+\title{
+	%\so{A COOMER'S GUIDE\linebreak TO\linebreak AI DUNGEON}\\
+	\uppercase{A Coomer's Guide\\to\\AI Dungeon}\\
+	\vspace*{\fill}
+	%\vfill
+}
+\posttitle{
+	\tcbox[colback=bluebox,
+left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
+]{%
+\includegraphics[keepaspectratio,height=7cm]{Cover.png}\\}
+}
+\preauthor{
+	%\vspace*{\fill}
+	\vfill
+	\huge \centering \bfseries
+}
+\author{
+	by\\Manwhore\\
+}
+\postauthor{
+	\Large
+	\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}\\}
+\predate{
+	\vspace*{\fill}
+	\begin{center}
+	\Large \bfseries
+}
+\date{
+	Version 3.0 \\ \ISOToday\\
+}
+\postdate{
+	\end{center}
+}
+
+\pagecolor{bisque}
+\maketitle
+\nopagecolor
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EMBEDDING XMP METADATA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\embedmetadata}{
+\hypersetup{ % This embeds XMP metadata into the PDF.
+pdftitle={A Coomer's Guide to AI Dungeon},
+pdfauthor={Manwhore},
+pdfauthortitle={Power Coomer},
+pdfkeywords={AI Dungeon, coomer, guide},
+pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
+baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
+pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
+pdfversionid={3},
+pdfpubtype={manual},
+pdflang={en-US},
+pdfmetalang={en},
+pdfapart=3,
+pdfaconformance=a,
+%pdfuapart=1, % LaTeX will hopefully support this in future
+pdfxstandard={PDF/X-3:2003},
+}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    CUSTOM MACROS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,10 +255,83 @@ before lower*={
 \newcommand{\tcolortoc}{
 \begin{ToCbox}
 \makeatletter
+\thispagestyle{plain}
 \@starttoc{toc}
 \makeatother
 \end{ToCbox}
+\thispagestyle{plain}
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    CHAPTER HEADINGS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Makes sections the same color as the Chapter
+\addtokomafont{section}{\color{chaptercolor}}
+
+% -----------------------------------------
+% https://tex.stackexchange.com/a/423153
+% Adds colored shading and counter formatting
+% -----------------------------------------
+
+\renewcommand\raggedchapter{\raggedleft}
+\setkomafont{chapter}{\Huge}
+\setkomafont{chapterprefix}{\large}
+\newkomafont{chapternumber}{\mdseries\fontsize{50pt}{60pt}\selectfont}
+
+\tikzset{
+    headings/base/.style = {
+      outer sep = 0pt,
+      inner sep = 5pt,
+    },
+    headings/chapterbackground/.style = {
+      headings/base,
+      shade,
+      left color = white,
+      right color = chaptercolor,
+    },
+    headings/chapapp/.style = {
+      headings/base,
+      text = chaptercolor,
+      font = \usekomafont{chapterprefix}
+    },
+    headings/chapternumber/.style= {
+      headings/base,
+      text = chaptercolor,
+      font = \usekomafont{chapternumber}
+    },
+    headings/chapterline/.style = {
+      chaptercolor,
+      line width = 2pt
+    }
+}
+\makeatletter
+\renewcommand*\chapterlinesformat[3]{%
+  \Ifstr{#1}{chapter}{%
+    \begin{tikzpicture}[baseline=(title.base)]
+      \node[headings/chapterbackground](title){%
+        \parbox[t]
+          {\dimexpr\textwidth-2\pgfkeysvalueof{/pgf/inner xsep}\relax}
+          {\raggedchapter #3}%
+      };
+      \node[headings/chapapp,anchor=south east]
+        at (title.north east){\Ifstr{#2}{}{}{\chapapp}\strut};
+      \useasboundingbox
+        (current bounding box.north west)
+        rectangle
+        ([yshift=-10pt]current bounding box.south east);
+      \draw[headings/chapterline]
+        (current bounding box.south east)++(+.5\pgflinewidth,0)--+(0,\paperheight);
+      \node[anchor=base west,headings/chapternumber]
+        at([xshift=10pt]title.base-|current bounding box.east){#2};
+    \end{tikzpicture}
+    \par
+  }{%
+    \@hangfrom{#2}{#3}% other section levels using style=chapter
+  }%
+}
+\makeatother
+% -----------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PATCHES
