@@ -22,6 +22,9 @@ Coomer-*.pdf
 ## KOMA-Script auxilary files
 *.slnc
 
+## Glossaries package files
+*.ist
+
 ## Intermediate documents:
 *.dvi
 *.xdv

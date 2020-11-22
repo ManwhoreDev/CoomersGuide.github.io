@@ -8,11 +8,11 @@
 
 \usepackage{coomer}
 
+\loadglsentries{Coomer-glossary}
+
 \embedmetadata
 
 \addbibresource{Bibliography.bib}
-
-\usepackage{changelog}
 
 \begin{document}
 
@@ -21,6 +21,8 @@
 \tcolortoc
 
 \subfile{Coomer-content}
+
+\printglossaries
 
 \nocite{*}
 \clearpage

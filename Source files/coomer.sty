@@ -12,6 +12,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage[activate={true,nocompatibility},final,protrusion=true,tracking=true,factor=1000,stretch=10,shrink=10]{microtype} % A bit closer to typographic perfection
+%\RequirePackage{imakeidx}
 \RequirePackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref} % Neeeded for cross-references and clickable links
 \RequirePackage{hyperxmp} % For embedding XMP metadata into PDF
 \RequirePackage[numbered,open=true,openlevel=2]{bookmark} % Better version of hyperref bookmarks
@@ -25,16 +26,25 @@
 \RequirePackage{subfiles} % For separating project into disctict files
 \RequirePackage{moresize} % For typesetting cover
 \RequirePackage{titling} % For typesetting cover
-\RequirePackage{cleveref} % Easier labeling
+\RequirePackage[capitalize,nameinlink]{cleveref} % Easier labeling
 \RequirePackage[backend=biber,style=alphabetic]{biblatex}
 \RequirePackage{soulutf8} % Letterspacing
 \RequirePackage{xspace} % Adaptive space in macro shortcuts
 \RequirePackage{etoolbox}
+\RequirePackage{changelog}
 \RequirePackage[headsepline,autooneside=false,automark]{scrlayer-scrpage} % Customizable header and footer via page styles
+\RequirePackage[automake,nopostdot,toc,]{glossaries}
+\RequirePackage{lettrine}
+\RequirePackage{Typocaps,Rothdn}
+\RequirePackage[all]{nowidow}
+\RequirePackage{multicol}
+\RequirePackage{xsavebox}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGE SETTINGS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeglossaries
 
 \tagpdfsetup{activate-all, % Although this passes validation, true accessiblity support is still unavailable for LaTeX
 %uncompress,
@@ -56,10 +66,18 @@ toc=bibliography,
 \renewcommand*{\titlepagestyle}{empty}
 \renewcommand*{\partpagestyle}{empty}
 
+\setkomafont{part}{\fontsize{42pt}{50.4pt}\selectfont}
 \addtokomafont{disposition}{\rmfamily}
 %\addtokomafont{sectionentry}{\bfseries}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{0em}}
 
+\setkomafont{dictumtext}{\itshape\small}
+\setkomafont{dictumauthor}{\normalfont}
+\renewcommand*\dictumwidth{.5\linewidth}
+\renewcommand*\dictumauthorformat[1]{\small--- #1\vspace{1em}}
+\renewcommand*\dictumrule{}
+
+% enumitem
 \setlist[description]{ %
   %topsep=30pt,               % space before start / after end of list
   %itemsep=5pt,               % space between items
@@ -67,6 +85,18 @@ toc=bibliography,
   labelsep=2em,
   font=\rmfamily\bfseries, % set the label font
 }
+
+% cleveref
+
+%\crefname{section}{\S}{\S\S}
+%\Crefname{section}{\S}{\S\S}
+%\crefname{subsection}{\S}{\S\S}
+%\Crefname{subsection}{\S}{\S\S}
+%\crefname{subsubsection}{\S}{\S\S}
+%\Crefname{subsubsection}{\S}{\S\S}
+
+% lettrine
+\renewcommand{\LettrineFontHook}{\Typocapsfamily}%{Rothdnfamily}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    COLOR DEFINITIONS
@@ -196,6 +226,11 @@ pdfxstandard={PDF/X-3:2003},
 \newcommand{\alter}[1]{\textcolor{yellow}{#1}}
 \newcommand{\retry}[1]{\textcolor{red}{#1}}
 
+\newcommand{\lettr}[2]{\lettrine[lines=3]{#1}{#2}}
+
+\NewDocumentCommand{\epig}{ O{} O{} m }{
+	\dictum[\ifblank{#1#2}{}{\IfValueTF={#1}{#1}{}\ifblank{#2}{}{,\space\em}\IfValueTF={#2}{#2}{}}]{``#3''}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    CUSTOM TCOLORBOXES
