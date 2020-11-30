@@ -1,18 +1,18 @@
 % This is LaTeX file you need to compile to produce the current iteration of ``A Coomer's guide to AI Dungeon''.
-% For all formatting and style code, see ``coomer.sty''.
+% For all formatting and style code, see ``aidg.sty''.
 % I am not an advanced LaTeX user and this project's code is not up to quality.
 % ANY contribution or proposal is welcome.
 % Use LuaLaTeX to compile.
 
 \documentclass[a4paper,12pt,american,oneside,numbers=noenddot]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
 
-\usepackage{coomer}
+\usepackage{../aidg}
 
-\loadglsentries{Coomer-glossary}
+\loadglsentries{../Glossary}
 
-\embedmetadata
+\embedcoomermetadata
 
-\addbibresource{Bibliography.bib}
+\addbibresource{../Bibliography.bib}
 
 \begin{document}
 
