@@ -24,18 +24,15 @@
 \RequirePackage[many]{tcolorbox} % For typesetting World Info entry box
 \RequirePackage[os=win]{menukeys} % Used for highlighting Input modes
 \RequirePackage{subfiles} % For separating project into disctict files
-\RequirePackage{moresize} % For typesetting cover
-\RequirePackage{titling} % For typesetting cover
 \RequirePackage[capitalize,nameinlink]{cleveref} % Easier labeling
 \RequirePackage[backend=biber,style=alphabetic]{biblatex}
-\RequirePackage{soulutf8} % Letterspacing
+\RequirePackage{soulutf8} % Text highlighting
 \RequirePackage{xspace} % Adaptive space in macro shortcuts
 \RequirePackage{etoolbox}
 \RequirePackage{changelog}
 \RequirePackage[headsepline,autooneside=false,automark]{scrlayer-scrpage} % Customizable header and footer via page styles
 \RequirePackage[automake,nopostdot,toc,]{glossaries}
 \RequirePackage{lettrine}
-\RequirePackage{Typocaps,Rothdn}
 \RequirePackage[all]{nowidow}
 \RequirePackage{multicol}
 \RequirePackage{xsavebox}
@@ -96,7 +93,7 @@ toc=bibliography,
 %\Crefname{subsubsection}{\S}{\S\S}
 
 % lettrine
-\renewcommand{\LettrineFontHook}{\Typocapsfamily}%{Rothdnfamily}
+%\renewcommand{\LettrineFontHook}{\Typocapsfamily}%{Rothdnfamily}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    COLOR DEFINITIONS
@@ -137,102 +134,37 @@ toc=bibliography,
 %    COVER AND TITLE OUTPUT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%Coomer's Guide
-\newcommand{\makecoomertitle}{
-	\pretitle{
-	\centering \bfseries
-	\HUGE
-	%\fontsize{30pt}{36pt}\selectfont
-	%\fontsize{32pt}{38.4pt}\selectfont
-}
+\addtokomafont{author}{\bfseries\huge}
+\addtokomafont{date}{\bfseries\Large}
+
+\NewDocumentCommand{\makeaidgtitle}{ m O{keepaspectratio} m m m O{}}{
+
 \title{
-	%\so{A COOMER'S GUIDE\linebreak TO\linebreak AI DUNGEON}\\
-	\uppercase{A Coomer's Guide\\to\\AI Dungeon}\\
+	\textls{\uppercase{#1}}\\
 	\vspace*{\fill}
-	%\vfill
-}
-\posttitle{
 	\tcbox[colback=bluebox,
 left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
 ]{%
-\includegraphics[keepaspectratio,height=7cm]{Cover-coomer.png}\\}
-}
-\preauthor{
+\includegraphics[#2]{#3}}
 	%\vspace*{\fill}
-	\vfill
-	\huge \centering \bfseries
 }
-\author{
-	by\\Manwhore\\
+
+\author{%\vspace*{\fill}
+	by\\#4\\\Large
+	#6%\href{mailto:#6}{#6}
 }
-\postauthor{
-	\Large
-	\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}\\}
-\predate{
-	\vspace*{\fill}
-	\begin{center}
-	\Large \bfseries
-}
-\date{
-	Version 3.0 \\ \ISOToday\\
-}
-\postdate{
-	\end{center}
+
+\date{\vspace*{\fill}
+	Version #5\\
+	\ISOToday	
 }
 
 \pagecolor{bisque}
 \maketitle
 \nopagecolor
-}
-
-% Avsfag's Writing Guide
-\newcommand{\makeavsfagtitle}{
-	\pretitle{
-	\centering \bfseries
-	\HUGE
-	%\fontsize{30pt}{36pt}\selectfont
-	%\fontsize{32pt}{38.4pt}\selectfont
-}
-\title{
-	%\so{A COOMER'S GUIDE\linebreak TO\linebreak AI DUNGEON}\\
-	\uppercase{/AIDG/ Writing Guide}\\
-	\vspace*{\fill}
-	%\vfill
-}
-\posttitle{
-	%\tcbox[colback=bluebox,
-%left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
-%]{%
-\includegraphics[width=4.4425in,height=3.6516in]{Cover-writing.png}\\
-}
-%}
-\preauthor{
-	%\vspace*{\fill}
-	\vfill
-	\huge \centering \bfseries
-}
-\author{
-	by\\Avsfag\\
-}
-\postauthor{
-	\Large
-	%\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}\\
-}
-\predate{
-	\vspace*{\fill}
-	\begin{center}
-	\Large \bfseries
-}
-\date{
-	Version 1.0 \\ \ISOToday\\
-}
-\postdate{
-	\end{center}
-}
-
-\maketitle
 
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EMBEDDING XMP METADATA
