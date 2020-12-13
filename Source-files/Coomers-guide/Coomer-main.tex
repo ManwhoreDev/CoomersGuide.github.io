@@ -6,18 +6,16 @@
 
 \documentclass[a4paper,12pt,american,oneside,numbers=noenddot]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
 
-\usepackage{../aidg-min}
-%\usepackage{../aidg}
+%\usepackage{../aidg-min}
+\usepackage{../aidg}
 
-\loadglsentries{../Glossary}
+%\loadglsentries{../Glossary}
 
 \embedcoomermetadata
 
 \addbibresource{../Bibliography.bib}
 
 \begin{document}
-
-%\makecoomertitle
 
 \makeaidgtitle{
 A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{Manwhore}{3.0}[\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}]
@@ -26,7 +24,7 @@ A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{
 
 \subfile{Coomer-content}
 
-\printglossaries
+%\printglossaries
 
 \nocite{*}
 \clearpage
