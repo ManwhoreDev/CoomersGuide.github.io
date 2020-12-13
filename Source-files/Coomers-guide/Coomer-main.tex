@@ -6,7 +6,8 @@
 
 \documentclass[a4paper,12pt,american,oneside,numbers=noenddot]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
 
-\usepackage{../aidg}
+\usepackage{../aidg-min}
+%\usepackage{../aidg}
 
 \loadglsentries{../Glossary}
 
@@ -16,7 +17,10 @@
 
 \begin{document}
 
-\makecoomertitle
+%\makecoomertitle
+
+\makeaidgtitle{
+A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{Manwhore}{3.0}[\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}]
 
 \tcolortoc
 
