@@ -1,6 +1,12 @@
 ## Preliminary PDFs
 Source-*.pdf
 Coomer-*.pdf
+Writing-*.pdf
+*draft*
+
+## Basser Lout auxiliary files
+*.li
+*.ld
 
 ## Scripts
 *.bat

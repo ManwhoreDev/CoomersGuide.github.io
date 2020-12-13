@@ -1,0 +1,581 @@
+@Include { aidg }
+@Report
+ @Title { A Coomer's Guide to AI Dungeon }
+ @Author { Manwhore }
+ @Institution {}
+ @DateLine { Yes }
+ @CoverSheet { No }
+ @ContentsSeparate { No }
+ @InitialBreak { hyphen adjust 1.2fx }
+ @InitialSpace { lout }
+ @InitialLanguage { English }
+ @PageOrientation { Portrait }
+ @PageHeaders { Simple }
+ @ColumnNumber { 1 }
+//
+
+
+
+@Section
+@Title {Introduction} 
+@Begin
+
+@PP
+Welcome back to the Coomer's Guide to AI Dungeon.
+This is a guide for users of AI Dungeon that are looking to increase the quality of their erotic writing, while harnessing the many features offered by AI Dungeon to enhance this process.
+@PP
+The advice and conclusions of this guide are written with users of the Dragon AI model in mind.
+Griffin users will likely find many strategies that will assist them, but this guide is not constructed with the weaknesses of that model in mind.
+The methodologies put forth here are ones cultivated through both my own experience, and plenty of discussions with the AI Dungeon community.
+Effectiveness is not guaranteed, and the modification of this guide's rules and recommendations is actively encouraged to see better results.
+@End @Section
+
+@Section
+@Title {Preface}
+@Begin
+
+@PP
+The layout of this guide is constructed with all non-input related mechanisms discussed first, then input itself, followed by advice on style and various tips regarding certain frequently encountered problems or specific approaches.
+@PP
+This guide is authored with specific schools of thought built into the advice distributed to the reader.
+It is important to note that while other approaches to certain functions discussed in this guide ---most notably how "/"remember and World Info should be formatted--- do exist, they will not be acknowledged here as they are considered to be directly inferior to the methods chosen for this guide with regards to erotic writing.
+@PP
+While this guide is written with a tone of authority, it written as such for the sake of remaining concise and informative.
+The reader is encouraged to consult multiple approaches put forth by the community in order to arrive at their own conclusions that produce results they find to be of good quality.
+@PP
+As previously stated, this guide is not for new users.
+It is for users already familiar with AI Dungeon and its workings who seek to increase the quality of the erotic writing produced by both themselves and the AI.
+
+@End @Section
+
+@Section
+@Title {Getting Started}
+@Begin
+
+@PP
+While most users find themselves composing erotic writing as a supplement to a larger adventure, a sizable chunk of users also utilize scenario creation to immediately begin an adventure solely focused on erotic writing.
+When this approach is taken, it is important to carefully consider the prompt used to start the scenario.
+@PP
+Prompts are meant to act as solid informational foundations for the start of an adventure, NOT a lengthy summary of rich detail that attempts to cover every facet of what you want to accomplish. 
+Prompts constructed in this way are wasteful and ineffective as they are quickly incinerated by the AI's limited memory of the user's actions.
+@PP
+When crafting a prompt, you must always keep in mind its natural impermanence.
+A good prompt provides you with the information needed to create a solid and detailed series of following actions, so that the story is both high-quality and coherent after the prompt itself disappears into the action history.
+@PP
+You should strive to create a prompt that establishes your character, the setting, and any other supplemental details relevant to the beginning of your adventure such as other present characters or further details about the setting that are immediately important for your next 20 actions.
+The idea is to ultimately produce a prompt that lets you quickly and effectively guide the resulting actions in an appropriate level of detail to continue the story properly.
+@PP
+How specific or vague a prompt ultimately is does not matter, as it has no bearing on the tenants outlined above.
+Prompts can be as open ended as leaving the actual subject of your erotic writing open to complete chance, or as specific as immediately dropping you in to the start of a scene.
+All that matters is that you have crafted a prompt that adheres the guidelines above and kicks off your story in a way that creates a satisfying series of resulting actions that will carry on after the prompt disappears from memory.
+
+@End @Section
+
+@Section
+@Title {World Info}
+@Begin
+
+@PP
+World Info is often supplied before a scenario even starts, or is immediately entered shortly after, which merits early discussion in this guide.
+The power of World Info is often overlooked by those composing erotic writing with AI Dungeon, even by users of medium or high skill levels.
+Worse still, many users choose to utilize World Info, but do so in a way that is incorrect and excessively consumes tokens in the AI's memory stack.
+@PP
+World Info entries should always be composed with a utilitarian mindset.
+They need to be sharp and descriptive, while also remaining concise.
+There are few to no cases where you should be running up against the character limit for a World Info entry.
+This is an indication you either need to scale back your description or require a more specific designation for your entry.
+@PP
+A quality World Info entry is one with a highly specific set of keys for a given topic that provides just enough supplemental context via the contents of the entry to assist the AI with producing better output.
+World Info entries should always be composed as singular paragraphs with short sentences that each individually utilize one of the keys for the entry.
+The less referential wording you have inside a World Info entry, the more effective it will be. Strive to avoid lengthier sentences, splitting them into shorter and clunkier sentences if you must.
+The AI will handle information better this way, even if it is not pleasing to read.
+@PP
+As for how World Info is useful in the realm of erotic writing, there are a variety of applications.
+Most commonly World Info can be utilized to assist the AI with information on the finer points of a character's personality and attributes, to describe the various details of non-human races, or more in-depth erotic mechanics that are not of immediate precedence.
+@PP
+Despite the advice laid out in this section, another valid strategy is to never utilize World Info at all.
+While World Info does have several uses for enhancing erotic writing, it is entirely possible for a user to never create World Info entries at all.
+How well or how poorly neglecting World Info goes ultimately depends on the sort of erotic writing that you are attempting, with simpler scenes and subjects less affected by the absence of World Info.
+It is worth noting that this strategy of ignoring World Info will ultimately translate into more work in terms of detailing your "/"remember and manually correcting the AI's outputs, hence why it is generally not advised.
+
+@End @Section
+
+@Section
+@Title {Remember}
+@Begin
+
+@PP
+The "/"remember function is the core of cultivating good output when you are writing with the AI, both in and outside of smut-related activities. It is important to keep in mind that while "/"remember is indeed robust, it is not powerful enough to address certain inherent flaws in the behavior of the AI, namely its contentious relationship with finer physical detail.
+@PP
+Despite all work you will put in over the course of this guide to try and bring about better output from the AI, obtaining consistent, creative, and compelling levels of physical detail from the AI in any configuration will remain a challenge.
+This is because of the A"/"B nature of the AI's descriptive abilities, which makes it highly proficient at clearly defined paragraphs of prose, but deeply handicapped at naturally including finer detail during action-related output.
+@PP
+It is for this reason that the recommended usage of "/"remember is as a repository of important information and detail related to your character, their partner, and the current setting of your encounter.
+The recommended order for formatting your "/"remember is as follows:
+
+@BulletList
+
+@ListItem {Constant information (The name of your character, key attributes such as their personality, and any critical details about the story that always need to be kept in mind)}
+@ListItem {Current setting information (Specifically detailing where you are, and who you are with at that location)}
+@ListItem {Description and details for your partner and any other present characters}
+@ListItem {Supplemental information (Anything that the AI needs to remember that isn't immediately relevant to the appearance or disposition of the characters currently present, or the setting)}
+
+@EndList
+
+@PP
+Ensure that a return is placed between each of these information categories.
+The effectiveness of this with regards to the AI is not fully understood, but it is nonetheless recommended for logical separation of the information.
+Formatting for the "/"remember function should follow very similar conventions as World Info, with some flexibility in terms of referential language, but only within the bounds of a given category.
+You should still strive to have all sentences in the "/"remember function stand on their own, but some linked sentences are acceptable.
+@PP
+When it comes to describing the player character, ``You'' should be utilized for all referential instances inside of the "/"remember function, but not anywhere else.
+This advice is predicated on the assumption that ``Your name is X'' is the very first thing entered at the top of your "/"remember function.
+In all other functions, such as World Info entries and Author's Note, the player character should always be referred to by their name.
+@PP
+After composing your "/"remember, the next most important step is updating it.
+A single supplemental sentence should be included in the category of both the player character and any present characters for how they are feeling regarding the current scene and setting.
+This should be updated the most frequently compared to any other information in your "/"remember. 
+@PP
+Constant information will almost never change, setting information should change fairly frequently as you move about different locations in your story, and the information for your partner and present characters should change as their presence in the story changes.
+As for supplemental information, the rate at which this category changes can vary quite widely.
+@PP
+Overall, you should strive to be consistently cultivating a "/"remember that reinforces a healthy level of detail for various aspects of story, updating it as often as needed to keep everything inside the "/"remember relevant.
+
+@End @Section
+
+@Section
+@Title {Author's Note}
+@Begin
+
+@PP
+Author's Note is a relatively new feature, with several unique use cases.
+It is a very powerful tool that often goes underutilized or not utilized at all.
+This is a common mistake given how new and poorly understood this feature is by most users. 
+Understanding Author's Note on a deep level is one of the best investments a user can make in terms of cultivating better erotic writing with the AI, as it has a variety of powers that quickly and easily enhance your ability to create interesting output.
+@PP
+Author's Note has four main discovered functions at the time of writing: Style, Detail, Mood, and Premonition.
+These are listed in ascending order of complexity, with Style being the simplest and Premonition being the most complex.
+@PP
+Author's Note was originally introduced on the basis of Style, which makes it the most well-known of its capabilities.
+Put simply, Style is when you input a sentence into Author's Note that tells the AI how you want it to guide the stylistic choices of its output.
+A well-tested Style sentence for erotic writing is ``This is a story with plenty of erotic detail.'', which is a good example of how all Style Author's Notes should be composed, regardless of intent. They should be short and to the point, but provide clear-cut guidance on how the AI is meant to behave when sculpting its words.
+@PP
+Style is, unfortunately, where most people cease their usage of Author's Note. This is, to put it lightly, a mistake.
+Author's Note is not something that should be treated as a ``set it and forget it'' function, but rather a dynamic tool that should be updated in tandem with the rest of your functions as a scene progresses.
+This dynamic behavior is not possible with Style, but rather emerges when we consider the other three functions of Author's Note: Detail, Mood, and Premonition.
+@PP
+It is worth noting before we progress that all three of the dynamic functions are intended to be appended as independent sentences that follow your Style note.
+There is enough space in the Author's Note for up to four decently sized sentences, each of which seems to be just as effective in isolation as when paired with other sentences.
+Style, Detail, Mood, and Premonition sentences can all exist inside the Author's Note at once, with no detriment to their effectiveness.
+@PP
+Detail is the simplest of the three dynamic Author's Note functions.
+It is as simple as specifying a person, place, or thing, that you want the AI to focus on more frequently in the Author's Note.
+You need to keep in mind that Author's Note is extremely powerful, so Detail notes can quickly cause the AI to hyper-fixate on their given subject, which may or may not be what you want.
+This is very useful for writing smut that you want to center on something specific, such as a given attribute of your partner or a normally ignored detail of the setting you are in. 
+@PP
+A good example of a Detail note is if you're conducting a scene underwater.
+The AI tends to forget that characters are underwater, even with heavy "/"remember usage.
+Putting ``[Name of your character] is currently swimming underwater.'' or ``[Your character] is underwater with [Your partner].'' in the Author's Note will remedy this problem with surprising speed and effectiveness.
+You might even, in this specific case, notice the AI bring up lots of details about the water in the following outputs.
+@PP
+Mood is slightly more complex, only because it is a function that deals with a more abstract concept.
+By noting something specific about the mood of a scene in the Author's Note, such as whether it is ``Tense'' or ``Passionate'', you can get the AI to reflect this in its output.
+This sounds too ambiguous for the AI to carry out correctly, but when composed properly Mood notes can be surprisingly effective.
+@PP
+When writing smut, I tend to use Mood notes to dictate the specific disposition of my partner, or the overall dynamic between us. So notes like ``[Partner] is a sexually aggressive seductress.'' or ``[Your character] and [Your partner] have been dying to explore each other sexually for weeks.'' are remarkably potent when it comes to AI coloring how my character and their partner behave with one another during the course of a scene.
+@PP
+Premonition is the most complicated, but also the most powerful dynamic function of Author's Note.
+Premonition is the usage of Author's Note to compel the AI to bring about certain encounters or subjects without any other input on the part of the user.
+A common and easy to use example of Premonition is getting the player character to naturally encounter another character.
+If you add ``[Name of your character] will meet [Name of another character] at [Location]'' to the Author's Note, you will very quickly notice the AI attempting to make this happen.
+@PP
+Premonition is the most powerful because it requires no other supplemental input from the user. 
+Even if the "/"remember, World Info, and 20 action stack are completely devoid of anything related to the Premonition note, the AI will still attempt to make the dictated event occur.
+For instance, if you used the example Premonition note laid out earlier, and there is no mention of the character you are supposed to meet, the AI will simply have you encounter a brand-new character that immediately goes by the name you dictated in the note.
+It will also try and guide you towards the location of the encounter specified, if you aren't trying to satisfy the location requirement already.
+@PP
+This already a very powerful example of Premonition, but the usages and limits of Premonitions are far broader and higher than this.
+Fascinatingly, Premonition notes can be incredibly vague, such as ``The next dungeon trap uses swinging axes.'' or ``[Name of your character]'s next customer is going to be an evil wizard.'' These will produce results that are strikingly similar in terms of power and detail as the much more specific example of a character encounter mentioned previously.
+@PP
+All four of these functions for Author's Note have incredibly powerful implications for the process of creating smut with the AI, especially the dynamic functions.
+Style notes can be used to enhance all erotic prose generated by the AI, Detail notes can force the AI to keep in mind very specific aspects of a scene that you want to be constantly reminded of, Mood notes can help color prose in a way that creates a very specific atmosphere, and Premonitions notes can allow you to dictate exactly what you want to happen over the course of a scene, while leaving the AI free to determine what that looks like.
+
+@End @Section
+
+@Section
+@Title {Input}
+@Begin
+
+@PP
+With all non-input methods having been discussed, it is time to examine input itself.
+Input is your primary method of interaction with the AI, which makes it the most important skill to discuss and refine.
+This section will discuss the higher-level tactics of effectively using your inputs, whereas the Style section will discuss the actual content of your inputs with respect to prose.
+@PP
+Input is a broad term, but for the purposes of the following discussions ``Input'' specifically refers to text written by the user and sent to the AI through the action box. It is universally recommended to conduct all your Input in ``Story'' mode.
+Many users make the mistake of attempting to write their adventures with ``Do'' or ``Say'', or even a mix of all three input modes. While these are not necessarily incorrect approaches, using the ``Do'' or ``Say'' Input modes is considered a hinderance to the quality of your output with regards to erotic writing.
+@PP
+It may feel strange to work exclusively in Story mode at first, but with a bit of practice it will quickly become second nature.
+Story is regarded as actively superior to the other input modes because it does not introduce any sort of additional contextual considerations for the AI (like with Do) and does not boil down dialogue into a dull, uniform container (like with Say).
+While it may seem out of place for a more advanced guide to be mentioning something as simple as input modes, many users make it to medium or even high levels of proficiency while still allowing Do and Say to actively harm the quality of their writing.
+@PP
+As for Input strategy, quality input is always crafted with several considerations in mind.
+These considerations include Intent, Pacing, Guidance, and Style.
+Intent, Pacing, and Guidance are all concepts closely linked to higher-level strategy, which is why they are paired together for discussion in this section.
+Style is a consideration that is as complex as it is nuanced, which is why it has a separate section. We begin our examination with Intent.
+@PP
+An all-too-common pitfall for users creating erotic writing with AI Dungeon is constructing their Input ---and thus their experience--- in the framework of a game-like interactive experience.
+The two most common ways this error of thinking presents itself is through the use of Do and Say inputs, and through a lack of Intent in their Inputs.
+We have covered the former issue, now it is time to cover the latter. 
+@PP
+While AI Dungeon is indeed an interactive experience, in order to craft the best erotic writing possible, we must do away with the notion that it is a ``game''. Rather, you must consider the AI and its functions as an assistant or a tool for the process of cultivating erotic writing. The first and largest step you can make with regards to acting upon this philosophy is to infuse your Input with a sense of Intent. But what does this mean, and what does this look like?
+@PP
+To infuse an Input with Intent is to elevate it beyond a simple command or descriptive action.
+Far too often users with attempt to carry out an entire piece of writing with Input such as ``You take off your shirt'' or ``You kiss her on the lips''.
+While these Inputs are not incorrect, they simply describe an action, without attempting to describe the force behind that action.
+What motivates an action, how it is carried out, the nuance of it, what it attempts to achieve, this is Intent.
+When you change ``You take off your shirt'' to ``You slide your shirt off your body to reveal your torso'', you have just infused your Input with Intent.
+@PP
+This can be difficult to understand at first, which is normal. Intent is, by its very nature, a somewhat abstract concept. To revisit the example used, you want to craft input that involves taking off your shirt. Without any idea of what this action is supposed to accomplish, without Intent, it is simply ``You take off your shirt''. But when you take a moment to consider what the purpose of this action is, to expose some more of your skin, you suddenly have Intent. All that's left is to inject the Intent into the action with prose. You know you want to take off your shirt, and by doing this you want to show off some more skin to your partner. Thus, ``You slide your shirt off your body to reveal your torso'' is born. If this example seems a bit bland, or underwhelming, this is intentional. This example will continue to evolve as we learn more about Input strategy.
+@PP
+The next pillar of Input strategy is Pacing. Despite being the middle child of priority when it comes to Input strategy, Pacing is far and away the most struggled with aspect of erotic writing with AI Dungeon. While this section will not tackle the nuance of full-scope pacing, it will be addressed with respect to Input strategy, which should cover several important points.
+@PP
+All too often Input is left barren of any Pacing, which leads to the AI dictating the pace of your scene. This will, without fail, result in complete collapse of your scene in less than 10 actions. The AI does not hesitate to begin and end erotic encounters in space of incredibly short amounts of time, and one of your greatest struggles as an author of erotic writing with AI Dungeon will be fighting the AI's natural tendency to try and keep things brutally short. The first step to fixing this problem is to ensure that nearly every Input you make has some form of Pacing in it.
+@PP
+Pacing is, at its most basic, the injection of temporal language in your Input that signals a slower timeline of action to the AI.
+To continue adapting our example from Intent, you may input ``You slide your shirt off your body to reveal your torso'', only to find that the AI's response has you immediately casting off all other clothes and going straight for penetration.
+This is not optimal.
+The solution to such a conundrum lies with Pacing.
+Unlike Intent, Pacing is a very concrete concept, with its addition as simple as the inclusion of strong language that cements the slower timeline of your actions.
+So, our input becomes ``You slowly slide your shirt off your body to teasingly reveal your torso''. 
+@PP
+Adding two words to our Input may seem almost trivial, but you would be foolish to discount their power. The inclusion of ``slowly'' and ``teasingly'' both have several effects on the AI's handling of this sentence. Most critically, both of these words signal that you are not committing your action with any form of haste or indifference. This will quickly be reflected in the AI stopping to detail the tail of end of this action further, usually in the form of your partner's reaction or some flavor text about how your character discards the garment in question. If you are learning quickly, you may also realize that Pacing is a form of Intent. At higher skill levels, Pacing and Intent are not separate concepts, but rather exist together as a singular consideration.
+@PP
+The final consideration of Input strategy is Guidance. Guidance is also a slightly abstract concept, so confusion and clumsy first-pass implementation is expected. Put simply, Guidance is how your Input is meant to play out with respect to the future of the scene. It is the greater purpose of your Input's Intent in terms of how it affects the scene going forward, reflected as prose.
+Again, Guidance is complex and abstract, so elaboration with our example will be provided.
+``You slowly slide your shirt off your body to teasingly reveal your torso'' is already decent Input, but it also lacks any sort of language that guides the following actions past mere suggestion. 
+@PP
+After the addition of Guidance, your Input would be ``Your slowly slide your shirt off your body to teasingly reveal your torso, pulling the fabric away inch by inch to direct attention to your abs''.
+This clearly signals that the following actions should be centered around a shift in focus that primarily highlights your abs, or perhaps the overall muscle tone of your now-exposed body.
+@PP
+(Observant readers will note yet again that Guidance is technically another form of Intent, but as previously mentioned this guide does not try and explore this concept to avoid further confusion.)
+@PP
+Just like that, we've taken a bland ``interactive'' input and converted it into Input with Intent, Pacing, and Guidance.
+You began with ``You take off your shirt'' and ended with ``You slowly slide your shirt off your body to teasingly reveal your torso, pulling the fabric away inch by inch to direct attention to your abs''.
+A marked improvement. This process that you have just stepped through is known as ``Input Enhancement'', which is something you will be doing very frequently.
+@PP
+It is important to note that Input Enhancement is not a concept limited to Input. Once you are proficient at enhancing your own Inputs with Intent, Pacing, Guidance, and Style, you can turn this process on its head and apply it to the AI's output. When this happens, the process is aptly renamed to ``Output Enhancement'', which is one of the most powerful things you can do to improve your writing. If you are wondering why Output Enhancement is so powerful, it is because it allows you to rapidly saturate the 20-action memory stack with incredibly rich writing, which the AI will eventually pick up on and begin to mimic.
+@PP
+When the memory stack reaches saturation with inputs and outputs of erotic writing, you reach what is known as the Awakening Point, which is when the AI's ability to mimic patterns in memory exclusively focuses on erotic writing. As you become more experienced and your writing becomes stronger, the Awakening Point will quickly become something you can get an acute sense for. In the beginning it usually manifests out of thin air as a sharp increase in the quality of the AI's output for what seems to be no discernable reason, but with enough time and talent you can often write scenes with the arrival of the Awakening Point in mind.
+@PP
+The Awakening Point is perhaps too deep of a lesson for the level at which this guide is composed, which is why it will not be elaborated upon further. There is still one more Input consideration we must discuss, which is Style.
+
+@End @Section
+
+@Section
+@Title { Style }
+@Begin
+
+@PP
+Of all the aspects of Input, Style is the one that users pain over the most. It is intimately linked to the usage of prose, and typically the skill most fixated upon by those seeking to improve the quality of their erotic writing with the AI. The biggest problem with teaching Style is that is unique to each user, which makes crafting a set of universally applicable guidelines a challenge. As your skill develops with both practice and time, you will find your Style is comprised of certain conventions of language, structure, and usage of prose that tend to appear throughout your works.
+@PP
+As such, the intention of this section is not to try and enforce a specific structure or dictate ``the right way'' for a user to develop their Style. Rather, this section is meant to serve as a series of considerations that will help you discover what works best for answering the questions put forth. When users seek out the assistance of others with the question ``How do I improve my prose?'', they are often met with a curt response to the tune of ``Be more detailed''. This is, putting it mildly, unhelpful. Somewhat amusingly, the best way to explain to users how to be more detailed is to do so in detail. 
+@PP
+Before we discuss ways to increase the level of detail and the power of your prose, it is important to dispel a common misconception that arises when the discussion of Style occurs. You do not need to have an extensive vocabulary to have a good Style. It is entirely possible to have incredibly rich input that is ultimately useless and makes for awful prose, just as it is possible to have very detailed and highly useful prose made entirely with very simple word choice. 
+@PP
+While a strong and varied vocabulary is quite helpful for assisting the assembly of more pleasing and diverse prose, it is not essential. Quite frankly, most users have much more pressing things they should be tackling with respect to improving the quality of their erotic writing with the AI before they should even consider picking up a thesaurus.
+@PP
+Put simply, Style is the prose that you choose to assemble your Input with, making it the consideration that comes before all others. As previously mentioned, this is what users pain over the most often, and for good reason, because a lack of experience with good Style goes on to affect the quality of all other Input considerations. If your Style is underdeveloped, it makes demonstrating Intent difficult, injecting temporal language for Pacing complicated, and properly integrating Guidance almost impossible. How do we solve this?
+@PP
+The solution can be found by introducing a broad array of considerations to the process of crafting input, but from a descriptive perspective rather than a functional one. (Intent, Pacing and Guidance are all crafted from a functional perspective.) You've seen how to create input with functionality in mind, but now it's time to talk about how to create input with detail in mind.
+@PP
+All good erotic writing primarily centers around deep descriptions of sensation, which is exactly what you should be striving to do with each and every Input. When crafting an action, stop to carefully consider how it affects each of the five senses, and how these sensations can be detailed to make your descriptions more potent. This is the most basic level of additional detail and should be considered first. Once you have considered how an action looks, sounds, feels, tastes, and smells, you can move to finer details that involve more abstract concepts. Do note that a good input only makes use of relevant senses, not all senses. You should not be detailing the sound your shirt makes when it comes off your body, because that is an irrelevant detail. If your shirt was being ripped off your body, sound might be important. 
+@PP
+When comes to more abstract concepts being detailed, begin by considering the dynamic that exists between you and your partner, and what sort of flow occurs between you. How does this color your actions? For instance, a gentle make-out session by the fireplace should have a kiss described very differently than a kiss had during a high-octane episode of wrestling intercourse. It's ultimately the same action, but since the dynamic between you and your partner is very different in each of these situations, you're probably going to trend towards softer or more abrasive language. For the former scene, a good line might be ``You gently press your lips up against hers, the warmth of her touch spreading across your face as she leans in to return the gesture''. For the latter, ``Your mouth latches onto hers as she tries to shove you into a more submissive position, her lips grinding against yours as you struggle to hold your ground''.
+@PP
+A frequently asked question by users attempting this for the first time is ``What does the dynamic and flow between me and my partner even look like?'', which is a good question. The answer is largely up to you, but if you need guidance on constructing that answer, the best place to look is in the "/"remember sentences you have about how you and your partner are feeling about the current scene and setting. Your moods, mixed with your actions, create a dynamic. Dynamics can be just about anything, from passionate, tense, angry, comfortable, uncomfortable, they are whatever kind of omnipresent feeling you want to weave across the entirety of the scene like background noise. 
+@PP
+As you may have noticed in both the example lines given previously, the sense of touch is the most frequently detailed sense in erotic writing, typically only supplanted by other senses if they are the focus of a fetish. Focusing almost exclusively on touch, or at least for a majority of a scene, is quite common. But when we remove the diversity offered by focusing on all senses, we quickly run into the problem of having to describe the same sense in a variety of compelling ways. (Commonly known as the ``You feel'' dilemma) This is where Sensation Elaborations come in. Put simply, Sensation Elaborations are descriptions for your details. This may sound absurd, but you will quickly recognize their usefulness.
+@PP
+The most common form of Sensation Elaboration is to add on to an initial description of the sense of touch. You probably didn't notice it, but the first example line did exactly this. ``You gently press your lips up against hers'' is the base of the action, already describing the sensation of touch with ``gentle press''. The Sensation Elaboration in this case is the tail end of the sentence: ``the warmth of her touch spreading across your face''. This is actually a dual-purpose piece of prose, because it elaborates on the sense of touch while also reinforcing the gentle dynamic of the scene though the language choice. This sort of multipurpose prose is something you will naturally develop as you practice erotic writing more and your overall skill level increases.
+@PP
+Although tactile sensations are the most common subject of Sensation Elaborations, you can apply them to every kind of core sense, as well as secondary senses. Another excellent way to add potency to your prose is to craft a Sensation Elaboration phrased with a different sense in mind than the sense you are elaborating on. A good example of this is when you are describing the way in which a sound or smell feels. For instance: ``The sound of her loving whispers mixed with soft moaning and panting against your ear is like being tenderly spoon-fed warm honey''. The base action here is rather simplistic, as barren as ``She whispers into your ear''. This describes the sense of hearing, but in a way that is both uninteresting and undetailed. 
+@PP
+We can detail the sensation itself by asking ourselves a bit about how we want the whispering to feel and come across, which is how you end up with her whispers being described as ``loving'' while also ``mixed with soft moaning and panting''. Then we have the separate sense Sensation Elaboration, which is where we link the sense of hearing with a description that is based in both taste and touch. This is how we end up describing the experience of her ``loving whispers mixed with soft moaning and panting against your ear'' as something that feels like ``being tenderly spoon-fed warm honey''. Note that we've also used Intent with this Sensation Elaboration by describing the experience of being spoon-fed warm honey as ``tender''. To further compound this layering, the usage of ``tender'' is quite intentional, as it helps to drive home the dynamic between you and your partner.
+@PP
+This is a lot to take in. Prose at a level this deep and descriptive is not easy, as there are dozens of moving parts for every given Input, with what often feels like a dizzying array of things to be kept in mind. The remedy for this initial shock and confusion is twofold. The first part is accepting that this will not come naturally to you after a simple once-over of the guide. The second part is practice, and lots of it. You are not expected to, nor will you be able to, drop right into AI Dungeon after reading this guide and immediately begin smithing Inputs with this level of complexity and detail. You will need to work your way up to final products like the ones used for examples here, starting with a level of detail that's just barely above minimum and slowly increasing it with each successive scene. After routine practice at keeping these many things in mind, you will eventually see your Style begin to assert itself as the quality of your prose increases.
+@PP
+The most rewarding part of this process is that the AI will take to all of this rich detail with a level of enthusiasm that sometimes borders on frightening. In the best cases the AI will not only mimic your Style very closely, but it will provide even more detail and elaboration on the behavior of your partner than you are, which is quite the spectacle.
+@PP
+Even if what the AI is tossing you is not perfect, it will do nicely. Why? Because you can cheat the entire start of the process outlined above and let the AI dictate your base actions for you. If you recall from the previous section the technique of ``Output Enhancement'', you will be very pleased to know that you can do the exact same thing with Style. Let the AI give you a response with some quality base actions, then enhance them with all the considerations we made after coming up with a base action in this section. When you combine your own Style Inputs with Output Enhancement like this, the power of your erotic writing rises exponentially. If done correctly, the line between where your Inputs end and the AI's output begins will dissolve completely.
+@PP
+Now that Style has been discussed almost exhaustively, the core of the guide is complete. The upcoming section will be Tips and Tricks, followed by a Summary and Closing. Tips and Tricks is a very different section from the rest, encompassing all aspects of the guide with highly tangential and specific ideas relating to various problems and approaches when writing smut with AI Dungeon.
+
+@End @Section
+
+@Section
+@Title { Tips and Tricks }
+@Begin
+
+@PP
+This section deviates from focusing on a single topic to instead break with convention and cover a variety of subjects related to erotic writing. Chronological order will attempt to be maintained but will not be enforced if it comes at the cost of properly conveying information.
+@PP
+One of the most frequently requested follow-ups when discussing pacing with regards to erotic writing a broader sense is something akin to ``How do I start"/"end a scene in way that's natural?'' or ``How do I stop the AI from rushing my scene so often?'' While the latter question has been answered somewhat comprehensively through the previous materials of this guide (in fact, overall enforcement of a higher level of detail tends to naturally iron out this problem), the former question has not been investigated in much detail.
+@PP
+In the interest of an answer that does not snowball into its own section, the best way to start or end a scene in a way that feels natural is to link it to your Dynamic. If you and your partner have a very gentle dynamic, then slowly drifting to sleep in each other's arms might be appropriate for an ending. If the dynamic is more aggressive, then you and your partner might have a sort of post-scene cooldown where those tense feelings are vented as both of you are coming off the high of intimacy. Starting scenes can be a bit trickier with this tip, specifically because when starting out a scene you may not have a dynamic in mind. 
+@PP
+Despite this problem, it is not a reason to panic. Regardless of the dynamic present, heavy amounts of non-sexual activity that has unmistakably sexual tension to it, that inevitably segues into deep foreplay, is a nearly flawless and endlessly repeatable strategy for easing your way into a scene so that the appearance of erotic writing and actions feels more natural and carefully considered.
+@PP
+Another issue often encountered by those who frequently indulge in erotic writing, especially scenes that become engrossingly lengthy, is that they find it difficult to get their story back on track after their erotic writing portions have concluded. While some users choose the incredibly harsh approach of archiving their writing and then torching it to avoid poisoning the AI's long-term memory, this is unneeded. A good way to keep your story on-track and well-paced after a natural transition out of an erotic scene like advised above is to return to some sort of pre-existing location or objective. This is not for the sake of the AI, but for your own sake, because when you return to somewhere or to some task you are already familiar with, you understand how it should behave with respect to the AI. If this answer seems abstract, that's because it is. Tailoring advice for a question this broad is difficult, since the way people integrate their erotic writing is so varied. Generally speaking, it is easier to return the AI to some sort of interesting and consistent story pacing if your story exists in a format that doesn't involve some sort of super deep plot or many moving intricacies.
+@PP
+One of the specific references to this section in another part of the guide was when World Info was discussed, mentioning that this would be where deeper usages for World Info are discussed. To be specific, the line ``World Info can be utilized to assist the AI with information on the finer points of a character's personality and attributes, to describe the various details of non-human races, or more in-depth erotic mechanics that are not of immediate precedence'' will now be elaborated upon.
+@PP
+For recurring characters, or even for characters you are encountering for the first time and feel like detailing to an extreme degree, a World Info entry with their name set as the key can be quite useful. It is important to keep in mind that this entry should be used very sparingly, only for minor details like the finer quirks of their personality and an almost insufficient summary of their appearance. The reason for this is that you want a World Info entry that, when used for the very first time, can accurately summon the correct character, but also when in-use throughout a scene does not hog tokens while remaining deep on the backburner of context order. 
+@PP
+As for ``the various details of non-human races'', this is a very flowery way of saying monstergirls. Stated bluntly, World Info is the most powerful function in your toolbelt if you want to create erotic writing with any kind of monstergirl, innately understood by the AI or not. When beginning an encounter with a monstergirl, add a World Info entry that has the keys for their species name, followed by a general overview of the species' features and disposition. A personal example is the following: 
+@QuotedDisplay @Box {
+@CentredDisplay @Heading Oni
+Oni are monstergirls with a pair of horns sprouting from their forehead, and large upper and lower fangs that slide past their lips. Oni love to drink, with a deep-seated warrior culture of strength and honor. The only thing Oni love more than contests of strength is rough sex with males they deem worthy of their bodies.
+}
+@PP
+This may seem almost absurdly brief, but you would be quite surprised at how effective it is when run in tandem with the rest of this guide's advice. With this entry specifically I was able to get an Oni to directly tell me to hold her horns with none of my prompting, without her having horns being mentioned anywhere except in this World Info entry for her species
+@PP
+Finally, there's erotic mechanics. Erotic mechanics is a term that refers to any sort of detailed feature or function that influences the way a scene plays out with its presence or application, such as aphrodisiac or a potion with multiple effects. Detailing these complex mechanisms inside a short World Info entry can often prove quite useful, since the AI will naturally keep some of the functions of the mechanic in question in mind more often. Personally, I do not have much experience with this usage for World Info, but community discussion has told me that it can be quite useful for erotic scenes that hinge on very in-depth ideas or fetishes.
+@PP
+Now that we have covered deeper tips and tricks related to World Info, it is time to discuss what is likely to be the most important subject of this section: clothing, and its removal. Of all the problems encountered, of the stumbling blocks documented, of the myriad of behaviors the AI will frustrate newer users with, nothing compares to the amount of deep-seated rage and hatred directed towards the AI's handling of removing clothing. The issue lies not with how the AI describes clothing coming off, nor does it lie with any sort of difficult getting it off at all (in fact, the AI loves to vaporize your clothing in less than 2 actions if you let it), rather the issue is that clothing removed frequently fails to stay removed.
+@PP
+All the way to even upper-medium levels of proficiency, users will struggle and scream against the never-ending pair of pants, the shirt that is always being unbuttoned, the pair of underwear that's always being slid off. The solution to this timeless problem is twofold. One, keeping meticulous mental (or external) track of what clothing both you and your partner have on at any given moment. Two, documenting this information in your respective "/"remember sections with absolutist wording. 
+@PP
+As the scene progresses and clothing comes off, change the lines in your "/"remember until there is no clothing left. Once this happens, I always use the line ``You and [partner] are both completely naked'', which appears to be bulletproof for 90% of output. This solution isn't perfect, but it is remarkably robust, often with the entertaining side effect of getting the AI to detail actions with what remaining clothing there is in mind specifically, rather than simply respecting its presence. 
+@PP
+Another concept that should be included here is Hook Details. Hook Details are details in your prose that, once fed to the AI, become the focus of an unhealthy and often tangential obsession. The most frequently encountered example of a Hook Detail is when you are trying to have your partner nibble on your neck, and the AI immediately turns them into a vampire intent on slaughter. Another version of this is where you describe the way your partner's nails are digging into your back too closely, and the AI will attempt to have you dismembered. Unfortunately, the solution to the problem of Hook Details is spotting them once they've cropped up, and then removing or altering them so that they stop affecting context. 
+@PP
+The hard part is often spotting where a Hook Detail has appeared and is throwing off your scene, as Hook Details far more subtle than the ones used as examples here can and will appear. When they do, they take the form of creating output that refuses to stray from a certain tangent no matter how many times you redo or alter the most recent section of your writing. These symptoms indicate you have a Hook Detail on your hands that needs to be found and removed from previous output. (The arrows next to the close button inside the edit window help with this quite a lot.)
+
+@End @Section
+
+@Section
+@Title { Summary }
+@Begin
+
+@PP
+As is plainly obvious, this guide covers a lot of information, and does so quite densely. To assist in reading comprehension, a short summary of each section is provided here in chronological bullet point format.
+
+@BulletList
+
+@ListItem {Always construct prompts as launching pads for a robust series of following outputs}
+@ListItem {World Info should be compact, strictly formatted, and utilized as a backbone for other objectives}
+@ListItem {"/"remember is best used to reinforce key details of immediate importance}
+@ListItem {Your "/"remember should be logically formatted into categories of information}
+@ListItem {"/"remember should be the only place where your character is referred to as ``You'' inside memory functions}
+@ListItem {The many sections of your "/"remember should be constantly updated at varying levels of frequency}
+@ListItem {Author's Note is a very powerful function with both static and dynamic uses}
+@ListItem {Author's Note can be used to direct the style of the AI, force it to focus on certain details, reinforce a specific mood, or dictate future events}
+@ListItem {Stop using Do and Say, start using Story for everything}
+@ListItem {Input is crafted with four pillars of consideration: Intent, Pacing, Guidance, and Style}
+@ListItem {Input should not be constructed in a ``game-like'' interactive format}
+@ListItem {Intent is the motivation and execution of an action with regards to what it wants to accomplish}
+@ListItem {Pacing is temporal language that intentionally defines how quickly or slowly an Input occurs}
+@ListItem {Guidance is Intent with respect to the future of the scene}
+@ListItem {The process of infusing Input with the prior considerations is known as ``Input Enhancement''}
+@ListItem {Input Enhancement can be flipped around and used on AI output, which is known as ``Output Enhancement''}
+@ListItem {The Awakening Point is when enough Input exists in memory to force a majority of the AI's pattern recognition to focus on deeper erotic prose}
+@ListItem {Everyone's Style is different}
+@ListItem {Improving your prose and strengthening your Style does not require an extensive vocabulary}
+@ListItem {Style is the prose that Input is assembled with}
+@ListItem {Style can be improved and cultivated via a series of considerations that focus on description rather than function}
+@ListItem {Deep descriptions of sensation are the core of good erotic prose}
+@ListItem {Considering each of the five senses with respect to a given action is the quickest way to improve it with prose}
+@ListItem {Finer prose can be yielded by considering how the dynamic between you and your partner colors word choice}
+@ListItem {You and your partner's moods, mixed with your actions, create a dynamic}
+@ListItem {Details often need their own descriptions, this is known as a Sensation Elaboration}
+@ListItem {Sensation Elaborations can utilize the same sense they are elaborating on for their prose choice, or they can choose other primary senses to be utilized in order to deepen the description of their original sensation}
+@ListItem {Output Enhancement can be used with the considerations of Style as well}
+@ListItem {Slow-burn pacing is best reinforced through constant detail and frequent bludgeoning}
+@ListItem {Scenes are best started and ended by utilizing the tone of their dynamic}
+@ListItem {In the absence of a dynamic, scenes can always be started with lots of non-sexual yet sexually tense activity that transitions into foreplay}
+@ListItem {Returning to a previous and consistent location or objective after erotic writing concludes is a good way to keep pacing and tone intact}
+@ListItem {World Info has several different uses for erotic writing, such as supplementing character details, defining monstergirl species, and reinforcing specific mechanics}
+@ListItem {Clothing is best dealt with using strong language in the "/"remember and careful tracking of what clothing should and shouldn't be present}
+@ListItem {Hook Details are pieces of prose the AI obsesses over that need to be hunted down and rooted out}
+
+@EndList
+
+@End @Section
+
+@Section
+@Title { Closing }
+@Begin
+
+@PP
+Over 8600 words later and we've finally arrived at the conclusion of the guide. With luck, you've found one or multiple solid takeaways from the information presented here. Just remember that change is not instant, results will not materialize before your eyes. What you learn from this guide takes time and effort to apply, like any other skill or craft. It's not going to be perfect, things detailed here will not always pan out correctly, but that's okay.
+@PP
+The heart of AI Dungeon has always been adaptation and experimentation. It's inevitable that as you grow and become stronger with erotic writing, the way you interpret and apply this guide will change. You might struggle at times, but that's a part of getting better. Don't hesitate to take a step back every once in a while to clear your head and breathe, you'll often find that things are a lot easier after you've given your through process some space. Now get out there and have fun!
+@PP
+Big thanks to the anons of "/"aidg"/", for their feedback and support as this guide has taken shape over its multiple iterations, and for constantly inspiring me to do better. You're all wonderful. And, if you've made it this far, having read every single part of this guide, thank you. I hope you enjoyed my guide, and I hope to see you again soon!
+
+@NP
+@End @Section
+
+@Appendix
+ @Title{Species Descriptions}
+@Begin
+
+@PP
+The World Info section of v3 was constructed with a very specific approach in mind, that being a higher-level overview of the methodology behind constructing effective and high-quality World Info entries.
+While this is good for the purposes of the guide in terms of adherence to its overall tone and objectives, it also has a major deficiency.
+That being concrete examples and deeper guidance on exactly what the application of the discussed strategies looks like is entirely missing, except for an example provided for one use case in the Tips and Tricks section.
+This supplement is designed to remedy this problem by providing an in-depth and example-heavy rundown of how to compose World Info entries according to the tenants put forth by the guide.
+@PP
+Since this is going to involve examples taken from my own story, I do have to mention it's pretty much all monstergirl stuff.
+That's just what I do, so it's where all my most up-to-date world info entries are.
+That said, there's no reason you can't take the examples I'll use here and apply them to whatever it is you want to write.
+@PP
+Starting with species descriptions, since they're a bit simpler, and because you'll need to make a species entry for a monstergirl before you can give her a character-specific world info entry.
+Like I said in the tips and tricks section, the keys here are very simple, consisting of the species name and its plural.
+(In the case of Oni or Arachne they're innately pluralized, like deer, so you don't need a second key for plurals.)
+
+@BeginSubAppendices
+
+@SubAppendix
+ @Title{ Mothgirls }
+@Begin
+
+@PP
+We'll start with my World Info species entry for Mothgirls, a timeless classic.
+@QuotedDisplay @Box {
+@CentredDisplay @Heading Mothgirl,~Mothgirls
+Mothgirls are monstergirls with soft fur covering their bodies, fern-shaped antennae on their heads, and large wings with peculiar patterns.
+Mothgirls have a gentle disposition and high sex drives.
+Mothgirls can release shimmering powder from their wings when aroused, which has an aphrodisiac effect.
+}
+@PP
+This is a good example of what I meant when I said ``World Info entries should always be composed as singular paragraphs with short sentences that each individually utilize one of the keys for the entry'' in v3.
+You'll also notice it's very short, which is what I meant when I said entries should be ``Sharp and descriptive, while remaining concise''.
+There's no real need to detail anything beyond this very basic level of to-the-point prose, since everything that would involve more specifics is going to be handled through other functions.
+A species entry lays down a few concrete, unchanging facts and then ends.
+Less is more.
+
+@End @SubAppendix
+
+@SubAppendix
+ @Title{ Scylla }
+@Begin
+
+@PP
+For another example, consider my entry for Scylla (Side note: I have no idea if Scylla is inherently pluralized or not.
+I've tried to look for answers, but I can't seem to find any definitive conclusions.
+The usage of ``Scyllas'' seems almost nonexistent though so I've chosen to treat it as inherently pluralized.)
+@QuotedDisplay @Box {
+@CentredDisplay @Heading Scylla
+Scylla are monstergirls with the upper half of a human woman and a lower half made of eight large octopus tentacles.
+Scylla tentacles are quite dexterous, constantly slick with wetness, and very sensitive to touch and pressure.
+Scylla love to wrap their tentacles and arms around men they fancy, especially during intercourse.
+}
+@PP
+You can see the conventions of my World Info construction a bit more clearly now.
+Always repeating the key phrase in the sentence, keeping language curt but informative, keeping entry size to a minimum, that sort of thing.
+Combined with my Tips and Tricks notes on species entries, this should give you a good idea of how to pull these off for pretty much any kind of monstergirl"/"non-human.
+
+@End @SubAppendix
+
+@EndSubAppendices
+
+@End @Appendix
+
+@Appendix
+ @Title { Recurring characters }
+@Begin
+
+@PP
+Now, onto the trickier subject, and the much more requested one: World Info entries for recurring characters.
+As a general rule of thumb, I never make character World Info entries until I've had at least one encounter with them, and I know I want to bring them back up again.
+This is just personal preference however, and you're more than welcome to start a character entry the second an encounter starts, and you have the information to do so.
+
+Sticking in line with the species entries mentioned above, here are the characters that reference those.
+
+@BeginSubAppendices
+
+@SubAppendix
+ @Title{ Khima }
+@Begin
+
+@PP
+I'll start with the Oni of my story, since I mentioned my species entry for Oni in v3 and people seemed to like that entry.
+For all of these, the only key for the entry is their name.
+(But if a character has nicknames or pet names, they need be made keys as well.)
+@QuotedDisplay @Box {
+@CentredDisplay @Heading Khima
+Khima is a gigantic Oni.
+She stands almost eight feet tall, with plenty of muscle tone across her entire body.
+Khima's skin is a dark tan, contrasted by smooth waist-length white hair.
+Khima's eyes are a piercing amber.
+She loves drinking copious amounts of alcohol as a way to test the might of men she fancies, but she also has a slightly tender side.
+}
+@PP
+As you can see, species entries and character entries are constructed with similar methodologies, but I let character entries stray a little bit by comparison.
+Still though, you want your entries for recurring characters to focus on broad and concrete things like their species, their height, a very light rundown of their features, and one or two pieces about their personality.
+
+@End @SubAppendix
+
+@SubAppendix
+ @Title{ Candy }
+@Begin
+
+@PP
+Our next example is one of my most commonly recurring characters, Candy the Mothgirl.
+I've had three fully detailed encounters with her, so her entry is almost down to science in terms of potency.
+@QuotedDisplay @Box {
+@CentredDisplay @Heading Candy
+Candy is a Mothgirl.
+Candy has tan fur and soft velvet wings with black and purple patterns on them.
+Candy has long and dark purple hair that frames a kind and gentle face.
+Candy loves wearing robes that accentuate the impressive curves of her soft body.
+Candy is a mature mother figure that treats all things in her life with enthusiasm and kindness.
+When in a state of arousal, Candy's maternal charms mix with her deep lust and assertive nature to make her a powerful force in the bedroom.
+}
+@PP
+Again, we break a few conventions in terms of the lengthier sentences there, but trust me when I say this shit works very well.
+The AI already has some sort of internal dynamite trigger when it comes to handling MILFs, but this World Info entry paired with similar language in the "/"remember hands me solid gold every single time.
+
+@End @SubAppendix
+
+@SubAppendix
+ @Title{ Cherry }
+@Begin
+
+@PP
+Finally, we have the character entry for my recurring Scylla character, Cherry.
+Cherry's entry is weird compared to the rest, since I mostly use it for details surrounding our specific arrangement and her unique erotic mechanic of love juice.
+
+@QuotedDisplay @Box {
+@CentredDisplay @Heading Cherry
+Cherry is a scylla with short brown hair and impressive curves.
+Cherry is bonded mates with Ryan, which makes her one of his regulars so she can vent her lust at frequent intervals.
+Because Cherry is a scylla, her waist is where her human half transitions into eight blue tentacles of impressive size.
+Cherry's tentacles and mouth produce love juice.
+Love juice is filled with hormones and nutrients that increase arousal and stamina when ingested.
+}
+@PP
+You'll notice several breaks of convention here.
+Physical details are largely omitted, erotic mechanics are discussed inside a character entry, and details from a species entry are re-stated.
+This is because, while the AI is incredibly good at handling tentacles, it struggles quite deeply with remembering that they're supposed to be attached to the lower half of a woman and not trying to molest her as well.
+Reinforcing these facts across two entries and a lot of "/"remember helps to alleviate this problem.
+Love juice is also something specific to Cherry, and the functionality is too simple to merit an entire separate entry, which is why it's included here instead.
+@PP
+Sometimes your World Info entries will need to break convention based on the unique demands or challenges of working with a specific character or species, and that's okay.
+Adaptation is at the heart of good writing with AI Dungeon.
+Just keep in mind that what I said about the AI's struggle with physical detail still applies heavily to these entries.
+If the details you put here don't show up, or show up incorrectly, don't immediately assume it's because you're doing something wrong.
+The AI is just like that sometimes, tossing any and all mention of deeper detail in the trash to instead yammer about ``emerald eyes'' for the billionth time.
+On the flip-side, it can also pull details exclusively mentioned in your entries out of the depths and make them the focus of a scene, which is incredibly cool when it does happen.
+@PP
+So don't dismay if it takes a while for you to get a sense of what good World Info entries look like.
+I'm tweaking and improving mine all the time, even as I composed this supplement.
+People tend to pain pretty deeply over World Info entries, but try not to break any bones over it.
+World Info helps, but unlike a lot of other functions, the penalty for misuse isn't that steep.
+
+@End @SubAppendix
+
+@EndSubAppendices
+
+@End @Appendix
