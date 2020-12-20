@@ -1,15 +1,10 @@
 % This is LaTeX file you need to compile to produce the current iteration of ``A Coomer's guide to AI Dungeon''.
-% For all formatting and style code, see ``aidg.sty''.
+% For all formatting and style code, see ``aidg.cls''.
 % I am not an advanced LaTeX user and this project's code is not up to quality.
 % ANY contribution or proposal is welcome.
 % Use LuaLaTeX to compile.
 
-\documentclass[a4paper,12pt,american,oneside,numbers=noenddot]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
-
-%\usepackage{../aidg-min}
-\usepackage{../aidg}
-
-%\loadglsentries{../Glossary}
+\documentclass[a4paper,12pt,american,oneside]{../aidg} % Load KOMA-Script scrreprt class internally
 
 \hypersetup{ % This embeds XMP metadata into the PDF.
 pdftitle={A Coomer's Guide to AI Dungeon},
@@ -37,13 +32,6 @@ A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{
 \tcolortoc
 
 %\subfile{Coomer-content}
-
-%\printglossaries
-
-%\nocite{*}
-%\clearpage
-%\printbibliography[title={Bibliography}]
-%\clearpage
 
 %\subfile{Coomer-appendices}
 

@@ -5,7 +5,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{aidg}
+\ProvidesClass{aidg}[2020/12/20 /aidg/ LaTeX document class]
+
+\DeclareOption*{%
+  \PassOptionsToClass{\CurrentOption}{scrreprt}% or book or whatever
+}
+
+% Now we'll execute any options passed in
+\ProcessOptions\relax
+
+% Instead of defining each and every little detail required to create a new document class,
+% you can base your class on an existing document class.
+\LoadClass{scrreprt}% or book or whatever you class is closest to
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGES TO LOAD
@@ -251,6 +262,12 @@ pdfmetalang={en},
 }
 }
 
+\NewDocumentCommand{\epign}{ m }{
+	\setchapterpreamble[u]{
+	\dictum{``#1''}\vspace{1em}
+}
+}
+
 \newcommand{\memearrow}[1]{\textcolor{green}{>#1}}
 
 % -----------------------------------------
@@ -387,6 +404,10 @@ before lower*={
 \setkomafont{chapter}{\Huge}
 \setkomafont{chapterprefix}{\large}
 \newkomafont{chapternumber}{\mdseries\fontsize{50pt}{60pt}\selectfont}
+
+\renewcommand*{\chapterformat}{
+\mbox{\chapappifchapterprefix{\nobreakspace}\thechapter
+\IfUsePrefixLine{}{\enskip}}}
 
 \tikzset{
     headings/base/.style = {
@@ -569,3 +590,4 @@ before lower*={
 %\def\@chapter[#1]#2 #3 {\ltx@@chapter[#1]{#2}\lettrine[nindent=0em]{\StrLeft{#3}{1}}{\@gobble#3}\ }
 %\makeatother
 
+\endinput
