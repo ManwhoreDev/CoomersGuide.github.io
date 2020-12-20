@@ -11,28 +11,46 @@
 
 %\loadglsentries{../Glossary}
 
-\embedcoomermetadata
+\hypersetup{ % This embeds XMP metadata into the PDF.
+pdftitle={A Coomer's Guide to AI Dungeon},
+pdfauthor={Manwhore},
+pdfauthortitle={Power Coomer},
+pdfkeywords={AI Dungeon, coomer, guide},
+pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
+baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
+pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
+pdfversionid={4},
+pdfpubtype={manual},
+pdflang={en-US},
+pdfmetalang={en},
+}
 
 \addbibresource{../Bibliography.bib}
+
+%\aidgmacrossimple % Switch for outputting into different formats
 
 \begin{document}
 
 \makeaidgtitle{
-A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{Manwhore}{3.0}[\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}]
+A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{Manwhore}{4.0}[\href{mailto:ManwhoreAnon@gmail.com}{ManwhoreAnon@gmail.com}]
 
 \tcolortoc
 
-\subfile{Coomer-content}
+%\subfile{Coomer-content}
 
 %\printglossaries
 
-\nocite{*}
-\clearpage
-\printbibliography[title={Bibliography}]
-\clearpage
+%\nocite{*}
+%\clearpage
+%\printbibliography[title={Bibliography}]
+%\clearpage
 
-\subfile{Coomer-appendices}
+%\subfile{Coomer-appendices}
 
-\subfile{Coomer-changelog}
+%\subfile{Coomer-changelog}
+
+\subfile{v4-Plaintext}
+
+\subfile{v4-Plaintext-Draft}
 
 \end{document}
