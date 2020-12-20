@@ -9,7 +9,7 @@ Writing-*.pdf
 *.ld
 
 ## Scripts
-# *.bat
+*.bat
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
