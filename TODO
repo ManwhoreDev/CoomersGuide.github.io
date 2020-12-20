@@ -6,21 +6,19 @@ SIunitsX
 animations/loops
 Typearea DIV
 en-dashes
-Better Part headings
-marginal notes for Summary
 microtype sanity
 Note column?
 more pictures
 actual figures
 
-.sty:
+aidg.cls:
 add more custom macros
-make .sty more modular
+add more options (for simpler outputs)
+Publish on CTAN
 
 Planned guides formats:
 epub (via tex4ebook)
 Bare-bones LaTeX PDF with minimal styling
-Basser Lout Postscript and PDF files
 Markdown and plaintext
 
 Need to figure out a better index.html
