@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%    Style created for typesetting several /aidg/ community guides.
+%    Class created for typesetting several /aidg/ community guides.
 %    NEEDS LUALATEX TO COMPILE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -8,22 +8,18 @@
 \ProvidesClass{aidg}[2020/12/20 /aidg/ LaTeX document class]
 
 \DeclareOption*{%
-  \PassOptionsToClass{\CurrentOption}{scrreprt}% or book or whatever
+  \PassOptionsToClass{\CurrentOption}{scrreprt} % KOMA-Script is a cohesive, feature rich suite, perfect for standardization of document production without having to rely on billion other packages
 }
 
-% Now we'll execute any options passed in
-\ProcessOptions\relax
+\ProcessOptions\relax % loads all options into KOMA-Script
 
-% Instead of defining each and every little detail required to create a new document class,
-% you can base your class on an existing document class.
-\LoadClass{scrreprt}% or book or whatever you class is closest to
+\LoadClass{scrreprt} % loads KOMA-Script definitions
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGES TO LOAD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage[activate={true,nocompatibility},final,protrusion=true,tracking=true,factor=1000,stretch=10,shrink=10]{microtype} % A bit closer to typographic perfection
-%\RequirePackage{imakeidx}
 \RequirePackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref} % Neeeded for cross-references and clickable links
 \RequirePackage{hyperxmp} % For embedding XMP metadata into PDF
 \RequirePackage[numbered,open=true,openlevel=2]{bookmark} % Better version of hyperref bookmarks
@@ -40,7 +36,6 @@
 \RequirePackage{soulutf8} % Text highlighting
 \RequirePackage{xspace} % Adaptive space in macro shortcuts
 \RequirePackage{etoolbox}
-\RequirePackage{changelog}
 \RequirePackage[headsepline,autooneside=false,automark]{scrlayer-scrpage} % Customizable header and footer via page styles
 \RequirePackage[nopostdot,toc,]{glossaries}
 \RequirePackage{lettrine}
@@ -54,8 +49,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \MakeOuterQuote{"}
-
-%\makeglossaries
 
 \tagpdfsetup{activate-all, % Although this passes validation, true accessiblity support is still unavailable for LaTeX
 %uncompress,
@@ -142,8 +135,6 @@ toc=bibliography,
 
 \frenchspacing % Forces single space between sentences
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    COVER AND TITLE OUTPUT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -179,7 +170,6 @@ left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
 
 }
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EMBEDDING XMP METADATA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -189,22 +179,6 @@ pdfapart=3,
 pdfaconformance=a,
 %pdfuapart=1, % LaTeX will hopefully support this in future
 pdfxstandard={PDF/X-3:2003},
-}
-
-\newcommand{\embedavsfagmetadata}{
-\hypersetup{ % This embeds XMP metadata into the PDF.
-pdftitle={/AIDG/ Writing Guide},
-pdfauthor={Avsfag},
-pdfauthortitle={Power Coomer},
-pdfkeywords={AI Dungeon, writing, guide},
-%pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-%baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-%pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
-pdfversionid={1},
-pdfpubtype={manual},
-pdflang={en-US},
-pdfmetalang={en},
-}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -355,7 +329,7 @@ before lower*={
 
 % Box used for typesetting ToC was adapted from tcolorbox manual.
 % Namely, a watermark ``Contents'' was removed from it.
-% To obtain unaltered version, go to CTAN repository and get tcolorbox package.
+% To obtain an unaltered version, go to CTAN repository and get tcolorbox package.
 % The code in question is located inside ``tcolorbox.doc.abstract.tex'' file.
 % Authors of tcolorbox are not responsible for the breakage of this code and must not be asked to fix it.
 % This style's author is distributing this code according to the Clause 6 of ``Conditions on Distribution and Modification'' of The LATEX Project Public License 1.3c.
@@ -523,44 +497,6 @@ before lower*={
 % ------------------------------------------
 
 % -----------------------------------------
-% https://tex.stackexchange.com/a/568785
-% Code needed to prevent paragraph indentation after tcolorboxes
-% -----------------------------------------
-% Appending \@endparenv, which is used by every list environment, to /tcb/after seems to work.
-
-% Update: For breakable boxes, some experimental attempt is added.
-
-%\makeatletter
-%\tcbset{
-%  after app={%
-%    \ifx\tcb@drawcolorbox\tcb@drawcolorbox@breakable
-%    \else
-%      % add only when not breakabel
-%      \@endparenv
-%    \fi
-%  }
-%}
-
-% for breakable
-%\appto\tcb@use@after@lastbox{\@endparenv\@doendpe}
-%\makeatother
-% -----------------------------------------
-
-% -----------------------------------------
-% https://tex.stackexchange.com/a/24067
-% Prevents KOMA-Script chapter from starting new page
-% -----------------------------------------
-% The \chapter command internally uses \cleardoublepage and \clearpage to add page breaks.
-% Use the etoolbox package to selectively change the definition of \chapter.
-
-% For KOMA-Script scrbook from version 3.19a (and most likely for other KOMA-Script classes, too), you need to patch \scr@startchapter instead of chapter:
-
-% \makeatletter
-% \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-% \makeatother
-% -----------------------------------------
-
-% -----------------------------------------
 % https://tex.stackexchange.com/a/48502
 % -----------------------------------------
 
@@ -579,15 +515,5 @@ before lower*={
 
 % This will work even if the soul package is updated (because the patch won't succeed).
 % -----------------------------------------
-
-% code stored for later
-%https://tex.stackexchange.com/a/348146
-
-%\usepackage{xstring}
-
-%\makeatletter
-%\let\ltx@@chapter\@chapter
-%\def\@chapter[#1]#2 #3 {\ltx@@chapter[#1]{#2}\lettrine[nindent=0em]{\StrLeft{#3}{1}}{\@gobble#3}\ }
-%\makeatother
 
 \endinput
