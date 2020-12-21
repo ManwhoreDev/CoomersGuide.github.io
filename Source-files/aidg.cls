@@ -1,11 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%    Class created for typesetting several /aidg/ community guides.
-%    NEEDS LUALATEX TO COMPILE
+%    This is file `aidg.cls', created for typesetting several /aidg/ community guides.
+%    This file contains definitions for `aidg' class.
+%    This file has been placed in the public domain by its author.
+%    If your jurisdiction does not recognize Public Domain declarations, then either see LICENSE file or visit <http://unlicense.org/>.
+%    Contact email: latexanoncoomer@gmail.com
+%    NEEDS LUALATEX TO COMPILE.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{aidg}[2020/12/20 /aidg/ LaTeX document class]
+\ProvidesClass{aidg}[2020/12/21 /aidg/ LaTeX document class]
 
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{scrreprt} % KOMA-Script is a cohesive, feature rich suite, perfect for standardization of document production without having to rely on billion other packages
@@ -28,7 +31,7 @@
 \RequirePackage{tagpdf} % Very experimental accessiblity package
 \RequirePackage{fontspec} % Easy font selection and size declarations
 \RequirePackage{enumitem} % Lists formatting
-\RequirePackage[many]{tcolorbox} % For typesetting World Info entry box
+\RequirePackage[most]{tcolorbox} % For typesetting WI, A/N and Memory boxes
 \RequirePackage[os=win]{menukeys} % Used for highlighting Input modes
 \RequirePackage{subfiles} % For separating project into disctict files
 \RequirePackage[capitalize,nameinlink]{cleveref} % Easier labeling
@@ -48,8 +51,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGE SETTINGS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\MakeOuterQuote{"}
 
 \tagpdfsetup{activate-all, % Although this passes validation, true accessiblity support is still unavailable for LaTeX
 %uncompress,
@@ -73,7 +74,6 @@ toc=bibliography,
 
 \setkomafont{part}{\fontsize{42pt}{50.4pt}\selectfont}
 \addtokomafont{disposition}{\rmfamily}
-%\addtokomafont{sectionentry}{\bfseries}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{0em}}
 
 \setkomafont{dictumtext}{\itshape\small}
@@ -90,18 +90,6 @@ toc=bibliography,
   labelsep=2em,
   font=\rmfamily\bfseries, % set the label font
 }
-
-% cleveref
-
-%\crefname{section}{\S}{\S\S}
-%\Crefname{section}{\S}{\S\S}
-%\crefname{subsection}{\S}{\S\S}
-%\Crefname{subsection}{\S}{\S\S}
-%\crefname{subsubsection}{\S}{\S\S}
-%\Crefname{subsubsection}{\S}{\S\S}
-
-% lettrine
-%\renewcommand{\LettrineFontHook}{\Typocapsfamily}%{Rothdnfamily}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    COLOR DEFINITIONS
@@ -143,22 +131,20 @@ toc=bibliography,
 \addtokomafont{author}{\bfseries\huge}
 \addtokomafont{date}{\bfseries\Large}
 
-\NewDocumentCommand{\makeaidgtitle}{ m O{keepaspectratio} m m m O{}}{
+\NewDocumentCommand{\makeaidgtitle}{ m m m m m }{
 
-
-\title{\fontsize{30pt}{36pt}\selectfont
+\title{\changefontsizes{30pt}
 	\textls{\uppercase{#1}}\\
 	\vspace*{\fill}
+	\ifblank{#2#3}{}{
 	\tcbox[colback=bluebox,
 left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
 ]{%
-\includegraphics[#2]{#3}}
-	%\vspace*{\fill}
-}
+\includegraphics[#2]{#3} } }
+}	
 
-\author{%\vspace*{\fill}
+\author{
 	#4
-	#6%\href{mailto:#6}{#6}
 }
 
 \date{\vspace*{\fill}
@@ -224,28 +210,30 @@ pdfxstandard={PDF/X-3:2003},
 \newcommand{\alter}[1]{\textcolor{yellow}{#1}}
 \newcommand{\retry}[1]{\textcolor{red}{#1}}
 
-%\newcommand{\lettr}[2]{\lettrine[lines=3]{#1}{#2}}
-
-
+% Automatic lettrine definition
 % https://tex.stackexchange.com/a/224746
 \def\lettr #1#2 {% note the space before {
   \lettrine[lines=3]{#1}{#2} % a trailing space
 }
 
+% Command for making epigraphs with author/source
 \NewDocumentCommand{\epig}{ O{} O{} m }{
 	\setchapterpreamble[u]{
 	\dictum[\ifblank{#1#2}{}{\IfValueTF={#1}{#1}{}\ifblank{#2}{}{,\space\em}\IfValueTF={#2}{#2}{}}]{``#3''}
 }
 }
 
+% Command for making epigraphs with blank author
 \NewDocumentCommand{\epign}{ m }{
 	\setchapterpreamble[u]{
 	\dictum{``#1''}\vspace{1em}
 }
 }
 
+% Used for making greetext
 \newcommand{\memearrow}[1]{\textcolor{green}{>#1}}
 
+% Following command allows adding footnote without marker on page
 % -----------------------------------------
 % https://tex.stackexchange.com/a/544121
 % -----------------------------------------
@@ -363,6 +351,8 @@ before lower*={
 \thispagestyle{plain}
 }
 
+\newtcblisting{aidgdoc}{listing only, listing style=tcblatex}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    CHAPTER HEADINGS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -448,7 +438,7 @@ before lower*={
 % Code taken to pass PDF/A and PDF/X color model validation check
 % -----------------------------------------
 % Which paper did the authors have in mind when they created the document?
-\immediate\pdfobj stream attr{/N 4} file{../PSO-Uncoated-ISO12647-eci.icc}
+\immediate\pdfobj stream attr{/N 4} file{PSO-Uncoated-ISO12647-eci.icc}
 \pdfcatalog{%
   /OutputIntents [ <<
     /Type /OutputIntent

@@ -13,15 +13,13 @@ actual figures
 
 aidg.cls:
 add more custom macros
-add more options (for simpler outputs)
-Publish on CTAN
+Fix broken stuff
 
 Planned guides formats:
 epub (via tex4ebook)
-Bare-bones LaTeX PDF with minimal styling
 Markdown and plaintext
 
-Need to figure out a better index.html
+Populating the index wtih resources
 
 Guides content:
 Move things from Coomer's guide to Writing guide and vice versa.

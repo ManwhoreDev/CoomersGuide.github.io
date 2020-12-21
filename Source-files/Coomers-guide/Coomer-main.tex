@@ -4,7 +4,7 @@
 % ANY contribution or proposal is welcome.
 % Use LuaLaTeX to compile.
 
-\documentclass[a4paper,12pt,american,oneside]{../aidg} % Load KOMA-Script scrreprt class internally
+\documentclass[a4paper,12pt,american,oneside]{../aidg} % Loads KOMA-Script scrreprt class internally
 
 \hypersetup{ % This embeds XMP metadata into the PDF.
 pdftitle={A Coomer's Guide to AI Dungeon},
@@ -13,7 +13,7 @@ pdfauthortitle={Power Coomer},
 pdfkeywords={AI Dungeon, coomer, guide},
 pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
 baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-%pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
+pdfurl={https://guide.aidg.club/A-Coomers-guide-to-AI-Dungeon/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
 pdfversionid={4},
 pdfpubtype={manual},
 pdflang={en-US},
@@ -23,14 +23,16 @@ pdfmetalang={en},
 \addbibresource{../Bibliography.bib}
 \graphicspath{{../Media/}}
 
-%\usepackage{../aidg-min-draft} % loads macros for pandoc. DO NOT UNCOMMENT UNLESS YOU USE PANDOC FOR CONVERSION!!!
+\usepackage{../aidg-min-draft} % loads macros for pandoc. DO NOT UNCOMMENT UNLESS YOU USE PANDOC FOR CONVERSION!!!
 
 %\aidgmacrossimple % Switch for outputting into different formats. DO NOT UNCOMMENT NORMALLY!
+
+\MakeOuterQuote{"}
 
 \begin{document}
 
 \makeaidgtitle{
-A Coomer's Guide\\to\\AI Dungeon}[keepaspectratio,height=7cm]{Cover-coomer.png}{Written by Manwhore\\Edited by Paragon\\Typeset by PDFanon}{4.0}[]
+A Coomer's Guide\\to\\AI Dungeon}{keepaspectratio,height=7cm}{Cover-coomer.png}{Written by Manwhore\\Edited by Paragon\\Typeset by PDFanon}{4.0}
 
 \tcolortoc
 
