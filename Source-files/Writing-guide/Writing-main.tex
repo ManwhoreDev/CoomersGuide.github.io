@@ -1,18 +1,27 @@
 % This is LaTeX file you need to compile to produce the current iteration of ``/AIDG/ Writing Guide''.
-% For all formatting and style code, see ``aidg.sty''.
+% For all formatting and style code, see ``aidg.cls''.
 % I am not an advanced LaTeX user and this project's code is not up to quality.
 % ANY contribution or proposal is welcome.
 % Use LuaLaTeX to compile.
 
-\documentclass[a4paper,12pt,american,oneside,numbers=noenddot]{scrreprt} % KOMA-Script classes offer a ton of good features and are generally better for European users
-
-\usepackage{../aidg}
-
-%\loadglsentries{../Glossary}
-
-\embedavsfagmetadata
+\documentclass[a4paper,12pt,american,oneside,enddot]{../aidg} % loads KOMA-Script scrreprt class internally
 
 \addbibresource{../Bibliography.bib}
+\graphicspath{{../Media/}}
+
+\hypersetup{ % This embeds XMP metadata into the PDF.
+pdftitle={/AIDG/ Writing Guide},
+pdfauthor={Avsfag},
+pdfauthortitle={Power Coomer},
+pdfkeywords={AI Dungeon, writing, guide},
+pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
+baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
+%pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
+pdfversionid={1},
+pdfpubtype={manual},
+pdflang={en-US},
+pdfmetalang={en},
+}
 
 \begin{document}
 
@@ -22,14 +31,5 @@
 \tcolortoc
 
 \subfile{Writing-content}
-
-%\printglossaries
-
-%\nocite{*}
-%\clearpage
-%\printbibliography[title={Bibliography}]
-%\clearpage
-
-%\subfile{Writing-changelog}
 
 \end{document}

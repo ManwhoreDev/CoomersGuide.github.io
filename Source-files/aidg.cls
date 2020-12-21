@@ -1,18 +1,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%    Style created for typesetting several /aidg/ community guides.
+%    Class created for typesetting several /aidg/ community guides.
 %    NEEDS LUALATEX TO COMPILE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{aidg}
+\ProvidesClass{aidg}[2020/12/20 /aidg/ LaTeX document class]
+
+\DeclareOption*{%
+  \PassOptionsToClass{\CurrentOption}{scrreprt} % KOMA-Script is a cohesive, feature rich suite, perfect for standardization of document production without having to rely on billion other packages
+}
+
+\ProcessOptions\relax % loads all options into KOMA-Script
+
+\LoadClass{scrreprt} % loads KOMA-Script definitions
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGES TO LOAD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage[activate={true,nocompatibility},final,protrusion=true,tracking=true,factor=1000,stretch=10,shrink=10]{microtype} % A bit closer to typographic perfection
-%\RequirePackage{imakeidx}
 \RequirePackage[pdfdisplaydoctitle,pdfa,unicode,pdfversion=1.7]{hyperref} % Neeeded for cross-references and clickable links
 \RequirePackage{hyperxmp} % For embedding XMP metadata into PDF
 \RequirePackage[numbered,open=true,openlevel=2]{bookmark} % Better version of hyperref bookmarks
@@ -25,23 +32,24 @@
 \RequirePackage[os=win]{menukeys} % Used for highlighting Input modes
 \RequirePackage{subfiles} % For separating project into disctict files
 \RequirePackage[capitalize,nameinlink]{cleveref} % Easier labeling
-\RequirePackage[backend=biber,style=alphabetic]{biblatex}
+\RequirePackage[backend=biber,style=reading]{biblatex}
 \RequirePackage{soulutf8} % Text highlighting
 \RequirePackage{xspace} % Adaptive space in macro shortcuts
 \RequirePackage{etoolbox}
-\RequirePackage{changelog}
 \RequirePackage[headsepline,autooneside=false,automark]{scrlayer-scrpage} % Customizable header and footer via page styles
 \RequirePackage[nopostdot,toc,]{glossaries}
 \RequirePackage{lettrine}
 \RequirePackage[all]{nowidow}
 \RequirePackage{multicol}
 \RequirePackage{xsavebox}
+\RequirePackage[english=american]{csquotes}
+\RequirePackage{anyfontsize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGE SETTINGS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\makeglossaries
+\MakeOuterQuote{"}
 
 \tagpdfsetup{activate-all, % Although this passes validation, true accessiblity support is still unavailable for LaTeX
 %uncompress,
@@ -56,8 +64,8 @@ toc=bibliography,
 }
 
 \clearpairofpagestyles
-\ohead{\leftmark}
-\ihead{\rightmark}
+\ihead{\leftmark}
+\ohead{\rightmark}
 \cfoot*{\pagemark}
 
 \renewcommand*{\titlepagestyle}{empty}
@@ -128,8 +136,6 @@ toc=bibliography,
 
 \frenchspacing % Forces single space between sentences
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    COVER AND TITLE OUTPUT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -139,7 +145,8 @@ toc=bibliography,
 
 \NewDocumentCommand{\makeaidgtitle}{ m O{keepaspectratio} m m m O{}}{
 
-\title{
+
+\title{\fontsize{30pt}{36pt}\selectfont
 	\textls{\uppercase{#1}}\\
 	\vspace*{\fill}
 	\tcbox[colback=bluebox,
@@ -150,7 +157,7 @@ left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
 }
 
 \author{%\vspace*{\fill}
-	by\\#4\\\Large
+	#4
 	#6%\href{mailto:#6}{#6}
 }
 
@@ -165,49 +172,15 @@ left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
 
 }
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EMBEDDING XMP METADATA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\embedcoomermetadata}{
 \hypersetup{ % This embeds XMP metadata into the PDF.
-pdftitle={A Coomer's Guide to AI Dungeon},
-pdfauthor={Manwhore},
-pdfauthortitle={Power Coomer},
-pdfkeywords={AI Dungeon, coomer, guide},
-pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
-pdfversionid={3},
-pdfpubtype={manual},
-pdflang={en-US},
-pdfmetalang={en},
 pdfapart=3,
 pdfaconformance=a,
 %pdfuapart=1, % LaTeX will hopefully support this in future
 pdfxstandard={PDF/X-3:2003},
-}
-}
-
-\newcommand{\embedavsfagmetadata}{
-\hypersetup{ % This embeds XMP metadata into the PDF.
-pdftitle={/AIDG/ Writing Guide},
-pdfauthor={Avsfag},
-pdfauthortitle={Power Coomer},
-pdfkeywords={AI Dungeon, writing, guide},
-%pdfcontacturl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-%baseurl={https://github.com/CoomersGuide/CoomersGuide.github.io},
-%pdfurl={https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf},
-pdfversionid={1},
-pdfpubtype={manual},
-pdflang={en-US},
-pdfmetalang={en},
-pdfapart=3,
-pdfaconformance=a,
-%pdfuapart=1, % LaTeX will hopefully support this in future
-pdfxstandard={PDF/X-3:2003},
-}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -221,10 +194,31 @@ pdfxstandard={PDF/X-3:2003},
 \newcommand{\an}{Author's Note\xspace}
 \newcommand{\ans}{Author's Notes\xspace}
 
+\newcommand{\aidgmacrosactivate}{
 \newcommand{\rem}{\keyS{/remember}\xspace}
+\newcommand{\alt}{\keyS{/alter}\xspace}
 \newcommand{\Do}{\keyS{Do}\xspace}
 \newcommand{\say}{\keyS{Say}\xspace}
 \newcommand{\story}{\keyS{Story}\xspace}
+}
+
+\aidgmacrosactivate
+
+\newcommand{\aidgmacrossimple}{
+\renewcommand{\rem}{/remember\xspace}
+\renewcommand{\alt}{/alter\xspace}
+\renewcommand{\Do}{Do\xspace}
+\renewcommand{\say}{Say\xspace}
+\renewcommand{\story}{Story\xspace}
+}
+
+\newcommand{\aidgmacrospretty}{
+\renewcommand{\rem}{\keyS{/remember}\xspace}
+\renewcommand{\alt}{\keyS{/alter}\xspace}
+\renewcommand{\Do}{\keyS{Do}\xspace}
+\renewcommand{\say}{\keyS{Say}\xspace}
+\renewcommand{\story}{\keyS{Story}\xspace}
+}
 
 \newcommand{\Input}[1]{\textcolor{green}{#1}}
 \newcommand{\alter}[1]{\textcolor{yellow}{#1}}
@@ -241,6 +235,12 @@ pdfxstandard={PDF/X-3:2003},
 \NewDocumentCommand{\epig}{ O{} O{} m }{
 	\setchapterpreamble[u]{
 	\dictum[\ifblank{#1#2}{}{\IfValueTF={#1}{#1}{}\ifblank{#2}{}{,\space\em}\IfValueTF={#2}{#2}{}}]{``#3''}
+}
+}
+
+\NewDocumentCommand{\epign}{ m }{
+	\setchapterpreamble[u]{
+	\dictum{``#1''}\vspace{1em}
 }
 }
 
@@ -294,6 +294,18 @@ colback=yellowbox,
 %title={#1},
 }
 
+\newtcolorbox{/an}{ % Box used for Author's Note examples
+%enhanced,
+lowerbox=visible,
+colframe=bluebox,
+colback=yellowbox,
+%colback=beaublue,
+%coltitle=white,
+%fonttitle=\bfseries,
+%halign title=flush center,
+%title={#1},
+}
+
 %Story snippet
 \newtcolorbox{storyb}{
 enhanced,
@@ -319,7 +331,7 @@ before lower*={
 
 % Box used for typesetting ToC was adapted from tcolorbox manual.
 % Namely, a watermark ``Contents'' was removed from it.
-% To obtain unaltered version, go to CTAN repository and get tcolorbox package.
+% To obtain an unaltered version, go to CTAN repository and get tcolorbox package.
 % The code in question is located inside ``tcolorbox.doc.abstract.tex'' file.
 % Authors of tcolorbox are not responsible for the breakage of this code and must not be asked to fix it.
 % This style's author is distributing this code according to the Clause 6 of ``Conditions on Distribution and Modification'' of The LATEX Project Public License 1.3c.
@@ -368,6 +380,10 @@ before lower*={
 \setkomafont{chapter}{\Huge}
 \setkomafont{chapterprefix}{\large}
 \newkomafont{chapternumber}{\mdseries\fontsize{50pt}{60pt}\selectfont}
+
+\renewcommand*{\chapterformat}{
+\mbox{\chapappifchapterprefix{\nobreakspace}\thechapter
+\IfUsePrefixLine{}{\enskip}}}
 
 \tikzset{
     headings/base/.style = {
@@ -483,44 +499,6 @@ before lower*={
 % ------------------------------------------
 
 % -----------------------------------------
-% https://tex.stackexchange.com/a/568785
-% Code needed to prevent paragraph indentation after tcolorboxes
-% -----------------------------------------
-% Appending \@endparenv, which is used by every list environment, to /tcb/after seems to work.
-
-% Update: For breakable boxes, some experimental attempt is added.
-
-%\makeatletter
-%\tcbset{
-%  after app={%
-%    \ifx\tcb@drawcolorbox\tcb@drawcolorbox@breakable
-%    \else
-%      % add only when not breakabel
-%      \@endparenv
-%    \fi
-%  }
-%}
-
-% for breakable
-%\appto\tcb@use@after@lastbox{\@endparenv\@doendpe}
-%\makeatother
-% -----------------------------------------
-
-% -----------------------------------------
-% https://tex.stackexchange.com/a/24067
-% Prevents KOMA-Script chapter from starting new page
-% -----------------------------------------
-% The \chapter command internally uses \cleardoublepage and \clearpage to add page breaks.
-% Use the etoolbox package to selectively change the definition of \chapter.
-
-% For KOMA-Script scrbook from version 3.19a (and most likely for other KOMA-Script classes, too), you need to patch \scr@startchapter instead of chapter:
-
-% \makeatletter
-% \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-% \makeatother
-% -----------------------------------------
-
-% -----------------------------------------
 % https://tex.stackexchange.com/a/48502
 % -----------------------------------------
 
@@ -540,13 +518,4 @@ before lower*={
 % This will work even if the soul package is updated (because the patch won't succeed).
 % -----------------------------------------
 
-% code stored for later
-%https://tex.stackexchange.com/a/348146
-
-%\usepackage{xstring}
-
-%\makeatletter
-%\let\ltx@@chapter\@chapter
-%\def\@chapter[#1]#2 #3 {\ltx@@chapter[#1]{#2}\lettrine[nindent=0em]{\StrLeft{#3}{1}}{\@gobble#3}\ }
-%\makeatother
-
+\endinput
