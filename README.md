@@ -27,3 +27,7 @@ http://www.tug.org/interest.html#packages.
 https://github.com/pdf2htmlEX/pdf2htmlEX.
 Windows binaries for older versions are available at:
 https://soft.rubypdf.com/software/pdf2htmlex-windows-version.
+
+## Contact
+
+For questions, feedback, and discussion, reach out through [Discord](https://discordapp.com/users/773014944718389248)
