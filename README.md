@@ -3,7 +3,7 @@
 A repository hosting several guides, written by /aidg/ community.
 If you wish add yours, please, open an issue.
 
-##List of currentry hosted guides:
+## List of currentry hosted guides:
 * A Coomer's Guide to AI Dungeon
 * /AIDG/ Writing Guide
 
