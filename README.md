@@ -1,7 +1,7 @@
 # /aidg/ Community Guides
 
 A repository hosting several guides, written by /aidg/ community.
-If you wish add yours, please, open an issue.
+If you wish to add yours, please, open an issue.
 
 ## List of currentry hosted guides:
 * A Coomer's Guide to AI Dungeon
