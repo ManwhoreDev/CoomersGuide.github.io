@@ -63,8 +63,8 @@ toc=bibliography,
 }
 
 \clearpairofpagestyles
-\ohead{\leftmark}
-\ihead{\rightmark}
+\ihead{\leftmark}
+\ohead{\rightmark}
 \cfoot*{\pagemark}
 
 \renewcommand*{\titlepagestyle}{empty}
