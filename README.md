@@ -25,6 +25,5 @@ http://www.tug.org/interest.html#packages.
 
 4. Once you have successfully compiled a PDF file, you need to convert it to HTML. For this, use pdf2htmlEX tool:
 https://github.com/pdf2htmlEX/pdf2htmlEX.
-
 Windows binaries for older versions are available at:
 https://soft.rubypdf.com/software/pdf2htmlex-windows-version.
