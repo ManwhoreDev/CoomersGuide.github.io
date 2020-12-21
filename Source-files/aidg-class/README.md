@@ -1,9 +1,15 @@
-% This is file `README'
-% This file is a short description of the `aidg' class.
-% Contact email: latexanoncoomer@gmail.com
-% This file is part of ``aidg'' package.
-% This file has been placed in public domain by its author.
-% If your jurisdiction does not recognize Public Domain declarations, then either see LICENSE file or visit <http://unlicense.org/>
+This is file `README'
+
+This file is a short description of the `aidg' class.
+
+Contact email: latexanoncoomer@gmail.com
+
+This file is part of ``aidg'' package.
+
+This file has been placed in public domain by its author.
+
+If your jurisdiction does not recognize Public Domain declarations, then either see LICENSE file or visit <http://unlicense.org/>
+
 
 # /aidg/ Community Guides Class
 
