@@ -43,6 +43,7 @@
 \RequirePackage{multicol}
 \RequirePackage{xsavebox}
 \RequirePackage[english=american]{csquotes}
+\RequirePackage{anyfontsize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    PACKAGE SETTINGS
@@ -144,7 +145,8 @@ toc=bibliography,
 
 \NewDocumentCommand{\makeaidgtitle}{ m O{keepaspectratio} m m m O{}}{
 
-\title{
+
+\title{\fontsize{30pt}{36pt}\selectfont
 	\textls{\uppercase{#1}}\\
 	\vspace*{\fill}
 	\tcbox[colback=bluebox,
@@ -155,7 +157,7 @@ left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=1mm,boxrule=0.5pt,
 }
 
 \author{%\vspace*{\fill}
-	by\\#4\\\Large
+	#4
 	#6%\href{mailto:#6}{#6}
 }
 
