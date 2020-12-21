@@ -3,7 +3,7 @@
 A repository hosting several guides, written by /aidg/ community.
 If you wish add yours, please, open an issue.
 
-List of currentry hosted guides:
+##List of currentry hosted guides:
 * A Coomer's Guide to AI Dungeon
 * /AIDG/ Writing Guide
 
@@ -18,17 +18,13 @@ You need to compile “\*-main.tex” file for each guide.
 Cover images and other media files are inside the "Media" directory.
 
 2. To compile, a LaTeX distribution is required. For more information, check LaTeX Project webpage:
-
 https://www.latex-project.org/get/.
 
 3. Once you have acquired your selected LaTeX distribution, you need a TeX editor. For more information, check TeX Users Group (TUG) provided list:
-
 http://www.tug.org/interest.html#packages.
 
 4. Once you have successfully compiled a PDF file, you need to convert it to HTML. For this, use pdf2htmlEX tool:
-
 https://github.com/pdf2htmlEX/pdf2htmlEX.
 
 Windows binaries for older versions are available at:
-
 https://soft.rubypdf.com/software/pdf2htmlex-windows-version.
