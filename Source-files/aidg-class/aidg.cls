@@ -1,5 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    This is file `aidg.cls', created for typesetting several /aidg/ community guides.
+%    This file is part of `aidg' package.
 %    This file contains definitions for `aidg' class.
 %    This file has been placed in the public domain by its author.
 %    If your jurisdiction does not recognize Public Domain declarations, then either see LICENSE file or visit <http://unlicense.org/>.

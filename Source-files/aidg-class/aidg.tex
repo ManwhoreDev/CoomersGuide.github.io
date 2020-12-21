@@ -1,0 +1,132 @@
+
+% This is file `aidg.tex',
+% This file is the source of the documentation of the `aidg' class.
+% Contact email: latexanoncoomer@gmail.com
+% This file is part of ``aidg'' package.
+% This file has been placed in the public domain by its author.
+% If your jurisdiction does not recognize Public Domain declarations, then either see LICENSE file or visit <http://unlicense.org/>. 
+
+\documentclass[a4paper,12pt,american,oneside]{aidg} % Loads KOMA-Script scrreprt class internally
+
+\hypersetup{ % This embeds XMP metadata into the PDF.
+pdftitle={Documentation for aidg.cls document class},
+pdfauthor={Coomer},
+pdfversionid={1},
+pdfpubtype={manual},
+pdflang={en-US},
+pdfmetalang={en},
+}
+
+\begin{document}
+
+\makeaidgtitle{
+Documentation for\\aidg.cls\\document class}{}{}{by Coomer\\\href{mailto:latexanoncoomer@gmail.com}{latexanoncoomer@gmail.com}}{1.0}
+
+\tcolortoc
+
+\addchap{Introduction}
+
+This class was created as a personal effort to typeset \href{https://guide.aidg.club/A-Coomers-guide-to-AI-Dungeon/A\%20Coomer's\%20Guide\%20to\%20AI\%20Dungeon.pdf}{A Coomer's Guide to AI Dungeon}.
+
+\aid is available at this \href{https://play.aidungeon.io}{link}.
+
+This is the first version of this class, more customization options will (hopefully) come in the future.
+
+The documentation is bare-bones for now but will be expaned upon with more contributions.
+
+Currently only LuaLaTeX engine is supported.
+
+Github repo for this class's sources is availble at this \href{https://github.com/CoomersGuide/CoomersGuide.github.io}{link}.
+
+\chapter{Macro definitions}
+
+This is a list of all help macros created to ease the typing and representation of various \aid elements.
+
+
+First and foremost, title cover command:
+
+\begin{aidgdoc}
+\makeaidgtitle{Title}{Image options for graphicx}{Image}{Author}{Version}
+\end{aidgdoc}
+
+Leaving both image arguments (\#2 and \#3) empty will output text-only title. 
+Take note that the empty declareations have to be specified.
+For Version please input number only, the word is defined already.
+
+\begin{aidgdoc}
+	\tcolortoc
+\end{aidgdoc}
+
+Outputs Table of contents, same as \textbackslash tableofcontents.
+Visual style was adapted from tcolorbox package.
+To obtain the original one, check that package's sources on CTAN.
+For now, ToC inserts new page both before and after, this behavior will be customizable.
+
+\begin{aidgdoc}
+	\extrafootertext{text}
+\end{aidgdoc}
+
+Allows adding a footnote without any marker.
+
+\begin{aidgdoc}
+	\aid prints AI Dungeon
+	\wi prints World Info
+	\an prints Author's Note
+	\ans prints Author's Notes
+\end{aidgdoc}
+
+Shortcut macros, to save type on typing.
+Simple text output, no styling.
+\vspace{1em}
+
+Next come environments (boxes) to typeset various \aid's text fields.
+
+\begin{aidgdoc}
+	\begin{WI}{#1}
+	World Info entry text.
+	\end{WI}
+\end{aidgdoc}
+
+\begin{aidgdoc}
+	\begin{/an}
+	Author's Note text.
+	\end{/an}
+\end{aidgdoc}
+
+\begin{aidgdoc}
+	\begin{/rm}
+	Memory text.
+	\end{/rm}
+\end{aidgdoc}
+
+Next commands use menukeys package to typeset text, for easier identification. An example would be: \story.
+
+\begin{aidgdoc}
+	\rem prints /remember
+	\alt prints /alter
+	\Do prints Do
+	\say prints Say
+	\story prints Story
+\end{aidgdoc}
+
+Drop capitals shortcut.
+\begin{aidgdoc}
+	\lettr Beginning of a paragraph.
+\end{aidgdoc}
+
+Epigraph with Author and source. Source may be left blank.
+\begin{aidgdoc}
+	\epig[Author][Source]{Text}
+\end{aidgdoc}
+
+Epigraph without either Author or Source.
+\begin{aidgdoc}
+	\epign{Text}
+\end{aidgdoc}
+
+Intented for makig greentext. Colors text in green (yes).
+\begin{aidgdoc}
+	\memearrow{Text}
+\end{aidgdoc}
+
+\end{document}

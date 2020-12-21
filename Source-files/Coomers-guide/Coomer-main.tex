@@ -4,7 +4,7 @@
 % ANY contribution or proposal is welcome.
 % Use LuaLaTeX to compile.
 
-\documentclass[a4paper,12pt,american,oneside]{../aidg} % Loads KOMA-Script scrreprt class internally
+\documentclass[a4paper,12pt,american,oneside]{../aidg-class/aidg} % Loads KOMA-Script scrreprt class internally
 
 \hypersetup{ % This embeds XMP metadata into the PDF.
 pdftitle={A Coomer's Guide to AI Dungeon},
@@ -22,10 +22,6 @@ pdfmetalang={en},
 
 \addbibresource{../Bibliography.bib}
 \graphicspath{{../Media/}}
-
-\usepackage{../aidg-min-draft} % loads macros for pandoc. DO NOT UNCOMMENT UNLESS YOU USE PANDOC FOR CONVERSION!!!
-
-%\aidgmacrossimple % Switch for outputting into different formats. DO NOT UNCOMMENT NORMALLY!
 
 \MakeOuterQuote{"}
 
