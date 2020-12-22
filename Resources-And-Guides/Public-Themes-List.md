@@ -62,7 +62,7 @@ Collection of pre-made themes.
 
 * Sci-Fi link: https://pastebin.com/Yw4ms206
 
-* Preview: https://i.imgur.com/zl41XqS.jpg https://i.imgur.com/aRO59rw.png
+* Preview: <https://i.imgur.com/zl41XqS.jpg>, <https://i.imgur.com/aRO59rw.png>
 
 * Background: `Multiple`, `Static`
 
