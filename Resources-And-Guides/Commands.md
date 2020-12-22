@@ -1,4 +1,4 @@
-### Commands
+## AI Dungeon Commands List
 ***
 - `Name:"Text"`
 - `List of X:`
