@@ -1,4 +1,4 @@
-#Boring/Sexy Generator
+# Boring/Sexy Generator
 ***
 *Paste ALL text below into a new prompt and go. It's best to undo your actions as the AI can get confused when making multiple requests in a row.*
 ```
