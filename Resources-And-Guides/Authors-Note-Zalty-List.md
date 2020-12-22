@@ -1,6 +1,6 @@
 # Author's Note writing style testing - `Writing style: <x>`
 
-*Original source: <https://justpaste.it/9ofj1>*
+*Original source: <https://justpaste.it/9ofj1>. Visit the link for the lastest version.*
 
 Quick, basic testing. May not be accurate in all cases.
 
@@ -15,7 +15,7 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `verbose`: Strong effect. Shifts the story focus towards dialogue, but also slightly increases the overall detail.
 * `oratorical`: Tends to turn dialogue into monologues.
 * `talkative`: Strong effect. Increase in the amount of dialogue, with focus on small-talk.
-* conversational: Similar to the above, makes everyone chatty.
+* `conversational`: Similar to the above, makes everyone chatty.
 * `detailed`: Increases the level of detail for descriptions, but can be a bit dry. If used, should usually be combined with one of the more vivid styles.
 * `witty`: Tries to be witty, but isn't very good at it. Still a slight improvement.
 * `melancholic`: Dark, depressing, bordering on grimdark.
