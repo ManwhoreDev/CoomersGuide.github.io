@@ -9,7 +9,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{aidg}[2020/12/21 /aidg/ LaTeX document class]
+\ProvidesClass{aidg}[2020/12/22 /aidg/ LaTeX document class]
 
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{scrreprt} % KOMA-Script is a cohesive, feature rich suite, perfect for standardization of document production without having to rely on billion other packages
@@ -36,7 +36,7 @@
 \RequirePackage[os=win]{menukeys} % Used for highlighting Input modes
 \RequirePackage{subfiles} % For separating project into disctict files
 \RequirePackage[capitalize,nameinlink]{cleveref} % Easier labeling
-\RequirePackage[backend=biber,style=reading]{biblatex}
+\RequirePackage[backend=biber,style=reading, entryhead=true, abstract=false]{biblatex}
 \RequirePackage{soulutf8} % Text highlighting
 \RequirePackage{xspace} % Adaptive space in macro shortcuts
 \RequirePackage{etoolbox}
