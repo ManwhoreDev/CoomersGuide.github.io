@@ -1,6 +1,6 @@
 # Author's Note writing style testing - `Writing style: <x>`
 
-*Original source: <https://justpaste.it/9ofj1>. Visit the link for the lastest version.*
+*Original source: <https://justpaste.it/9ofj1>. Visit the link for the latest version.*
 
 Quick, basic testing. May not be accurate in all cases.
 
