@@ -1,21 +1,22 @@
-##Resources and Guides
+## Resources and Guides
 ***
-####Guides
+
+#### Guides
 **All Community Guides (Avsfag's /aidg/ Writing Guide & A Coomer's Guide to AI Dungeon) are available at:**
-https://guide.aidg.club
+<https://guide.aidg.club>
 
-####Prompts
-https://prompts.aidg.club
+#### Prompts
+<https://prompts.aidg.club>
 
-####Commands
-https://rentry.co/7umi6
+#### Commands
+<https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Commands.md>
 
-####Customization Guide and Themes:
-[Customization Guide](https://rentry.co/d9z6d)
-[Public Themes List](https://rentry.co/nw66v)
+#### Customization Guide and Themes:
+[Customization Guide](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Customization-Guide.md)
+[Public Themes List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Public-Themes-List.md)
 
-####Boring/Sexy Generator:
-https://rentry.co/bdkgq
+#### Generators:
+[Boring/Sexy](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Boring-Sexy-Generator.md})
 
-####List of Author's Note Phrases:
-https://justpaste.it/9ofj1
+#### Lists of Author's Note Phrases:
+[Zalty's list](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Authors-Note-Zalty-List.md) *This is a rehosted version, thus it may be outdated.*
