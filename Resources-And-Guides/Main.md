@@ -3,6 +3,7 @@
 
 #### Guides
 **All Community Guides (Avsfag's /aidg/ Writing Guide & A Coomer's Guide to AI Dungeon) are available at:**
+
 <https://guide.aidg.club>
 
 #### Prompts
