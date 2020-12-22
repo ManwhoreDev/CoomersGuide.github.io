@@ -88,7 +88,7 @@ Collection of pre-made themes.
 
 * Custom font: `No`
  
-9) (NSFW) Yamu yamu by Anon
+9) **(NSFW) Yamu yamu by Anon**
 
 * Link: https://pastebin.com/yS66zr0w
 
