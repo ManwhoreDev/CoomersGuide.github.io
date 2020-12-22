@@ -1,18 +1,18 @@
 # Resources and Guides for AI Dungeon
 ***
 
-### Guides
-**All Community Guides (Avsfag's /aidg/ Writing Guide & A Coomer's Guide to AI Dungeon) are available at:**
+## Guides
+*All Community Guides (Avsfag's /aidg/ Writing Guide & A Coomer's Guide to AI Dungeon) are available at:*
 
 <https://guide.aidg.club>
 
-### Prompts
+## Prompts
 <https://prompts.aidg.club>
 
-### Commands
+## Commands
 [List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Commands.md)
 
-### Customization Guide and Themes:
+## Customization Guide and Themes:
 [Customization Guide](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Customization-Guide.md)
 
 [Public Themes List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Public-Themes-List.md)
