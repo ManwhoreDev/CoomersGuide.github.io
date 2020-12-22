@@ -10,14 +10,15 @@
 <https://prompts.aidg.club>
 
 #### Commands
-<https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Commands.md>
+[List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Commands.md)
 
 #### Customization Guide and Themes:
 [Customization Guide](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Customization-Guide.md)
+
 [Public Themes List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Public-Themes-List.md)
 
 #### Generators:
-[Boring/Sexy](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Boring-Sexy-Generator.md})
+[Boring/Sexy](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Boring-Sexy-Generator.md)
 
 #### Lists of Author's Note Phrases:
-[Zalty's list](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Authors-Note-Zalty-List.md) *This is a rehosted version, thus it may be outdated.*
+[Zalty's list](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Authors-Note-Zalty-List.md) *(This is a rehosted version, thus it might be outdated).*
