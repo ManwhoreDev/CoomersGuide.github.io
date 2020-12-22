@@ -1,4 +1,4 @@
-##AID Customization Guide
+## AID Customization Guide
 ***
 You need an extension that lets you install userstyles. I recommend Stylus, but there are a couple options available. (Just stay away from Stylish). Alternatively you can use a userscript manager like Greasemonkey or Tampermonkey and add the style sheet content to a <style> tag and the tag to the page.
  
