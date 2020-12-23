@@ -3,14 +3,6 @@
 A repository hosting several guides, written by /aidg/ community.
 If you wish to add yours, please, open an issue.
 
-## License
-All files directly authored by this repository's authors and maintainers are released into the Public Domains. This repository's authors and maintainers have explicitly waived copyright rights on them.
-The "Unlicense", described in [LICENSE](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/LICENSE) file, is to be used when your jurisdiction does not recognize Public Domain declarations.
-
-This repository, however, uses various non Public Domain files, under their respective licenses. To distribute them, you have to agree to their respective license terms. All of such files use Free Software licenses.
-* "Latin Modern" font family uses `BSD 2-Clause License (FreeBSD/Simplified)`
-* "pdf2htmlEX" is licensed under `GPL v3`.
-
 ## List of currentry hosted guides:
 * A Coomer's Guide to AI Dungeon
 * /AIDG/ Writing Guide
@@ -35,6 +27,14 @@ http://www.tug.org/interest.html#packages.
 https://github.com/pdf2htmlEX/pdf2htmlEX.
 This repo distributes a Windows binary of this software alongside it.
 It was taken from this [link](https://soft.rubypdf.com/software/pdf2htmlex-windows-version).
+
+## License
+All files directly authored by this repository's authors and maintainers are released into the Public Domains. This repository's authors and maintainers have explicitly waived copyright rights on them.
+The "Unlicense", described in [LICENSE](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/LICENSE) file, is to be used when your jurisdiction does not recognize Public Domain declarations.
+
+This repository, however, uses various non Public Domain files, under their respective licenses. To distribute them, you have to agree to their respective license terms. All of such files use Free Software licenses.
+* "Latin Modern" font family uses `BSD 2-Clause License (FreeBSD/Simplified)`
+* "pdf2htmlEX" is licensed under `GPL v3`.
 
 ## Contact
 
