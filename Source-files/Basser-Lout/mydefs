@@ -1,0 +1,10 @@
+import @BasicSetup
+def @aid { AI Dungeon }
+def @wi { World Info }
+def @an { Author's Note }
+def @ans { Author's Notes }
+def @rem { "/"remember }
+def @alt { "/"alter }
+def @story { Story }
+def @Do { Do }
+def @say { Say }

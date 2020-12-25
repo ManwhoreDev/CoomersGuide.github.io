@@ -1,15 +1,17 @@
-## Preliminary PDFs
+## Preliminary files
 Source-*.pdf
 Coomer-*.pdf
 Writing-*.pdf
 *draft*
+*-main.pdf
+*main.ps
 
 ## Basser Lout auxiliary files
 *.li
 *.ld
 
 ## Scripts
-*.bat
+# *.bat
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

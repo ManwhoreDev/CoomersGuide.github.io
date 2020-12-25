@@ -1,0 +1,669 @@
+###############################################################################
+#                                                                             #
+#   Lout setup file for diagram printing                                      #
+#                                                                             #
+#   Jeffrey H. Kingston                                                       #
+#   5 February 1999                                                           #
+#                                                                             #
+#   This file has been placed in the public domain by its author.             #
+#                                                                             #
+###############################################################################
+
+
+###############################################################################
+#                                                                             #
+#  The @SysInclude { diagf } line                                             #
+#                                                                             #
+#  This line causes Lout to read the definitions for diagrams, and should     #
+#  not be touched.                                                            #
+#                                                                             #
+###############################################################################
+
+@SysInclude { diagf }
+
+
+###############################################################################
+#                                                                             #
+#  The @DiagSetup @Use clause                                                 #
+#                                                                             #
+#  To change the default value of any option, delete the # at the start of    #
+#  its line and change the value between braces.                              #
+#                                                                             #
+###############################################################################
+
+@Use { @DiagSetup
+  # save		{ no			}
+  # maxlabels		{ 200			}
+  # title    		{ (none)		}
+  # titleformat 	{ Slope @Font @Title //0.7f ||0.35f @Body }
+
+  #############################################################################
+  #                                                                           #
+  #  Node options                                                             #
+  #                                                                           #
+  #############################################################################
+
+  # outline		{ box			}
+  # margin		{ 0.6f			}
+  # shadow		{ 0.4f			}
+  # sides		{ 3			}
+  # angle		{ "dup 180 exch div"	}  # 180d / sides
+  # translate		{			}
+  # outlinestyle	{ solid			}
+  # outlinedashlength	{ 0.2f			}
+  # outlinewidth	{ thin			}
+  # outlinecolour	{ nochange		}
+  # paint		{ none			}
+  # texture		{ solid			}
+  # font		{			}
+  # break		{			}
+  # format		{ @Body			}
+  # valign		{ ctr			}
+  # vsize		{			}
+  # vindent		{ ctr			}
+  # vstrut		{ no			}
+  # vmargin		{			}
+  # topmargin		{			}
+  # footmargin		{			}
+  # halign		{ ctr			}
+  # hsize              	{			}
+  # hindent		{ ctr			}
+  # hstrut		{ no			}
+  # hmargin		{			}
+  # leftmargin		{			}
+  # rightmargin		{			}
+  # nodelabel		{			}
+  # nodelabelmargin	{ 0.2f			}
+  # nodelabelfont	{ "-2p"			}
+  # nodelabelbreak	{ ragged nohyphen	}
+  # nodelabelformat	{ @Body			}
+  # nodelabelpos	{			}
+  # nodelabelangle	{ horizontal		}
+  # nodelabelprox	{ outside		}
+  # nodelabelctr	{ no			}
+  # nodelabeladjust	{ 0 0			}
+  # alabel		{			}
+  # alabelmargin	{			}
+  # alabelfont		{			}
+  # alabelbreak		{			}
+  # alabelformat	{			}
+  # alabelpos		{ NE			}
+  # alabelangle		{			}
+  # alabelprox		{			}
+  # alabelctr		{ 			}
+  # alabeladjust	{			}
+  # blabel		{			}
+  # blabelmargin	{			}
+  # blabelfont		{			}
+  # blabelbreak		{			}
+  # blabelformat	{			}
+  # blabelpos		{ NW			}
+  # blabelangle		{			}
+  # blabelprox		{			}
+  # blabelctr		{ 			}
+  # blabeladjust	{			}
+  # clabel		{			}
+  # clabelmargin	{			}
+  # clabelfont		{			}
+  # clabelbreak		{			}
+  # clabelformat	{			}
+  # clabelpos		{ SW			}
+  # clabelangle		{			}
+  # clabelprox		{			}
+  # clabelctr		{ 			}
+  # clabeladjust	{			}
+  # dlabel		{			}
+  # dlabelmargin	{			}
+  # dlabelfont		{			}
+  # dlabelbreak		{			}
+  # dlabelformat	{			}
+  # dlabelpos		{ SE			}
+  # dlabelangle		{			}
+  # dlabelprox		{			}
+  # dlabelctr		{ 			}
+  # dlabeladjust	{			}
+
+  #############################################################################
+  #                                                                           #
+  #  @ANode options                                                           #
+  #                                                                           #
+  #############################################################################
+
+  # aoutline		{ box			}
+  # amargin		{ 0.6f			}
+  # ashadow		{ 0.4f			}
+  # asides		{ 3			}
+  # aangle		{ "dup 180 exch div"	}  # 180d / sides
+  # atranslate		{			}
+  # aoutlinestyle	{ solid			}
+  # aoutlinedashlength	{ 0.2f			}
+  # aoutlinewidth	{ thin			}
+  # aoutlinecolour	{ nochange		}
+  # apaint		{ none			}
+  # atexture		{ solid			}
+  # afont		{			}
+  # abreak		{			}
+  # aformat		{ @Body			}
+  # avalign		{ ctr			}
+  # avsize		{			}
+  # avindent		{ ctr			}
+  # avstrut		{ no			}
+  # avmargin		{			}
+  # atopmargin		{			}
+  # afootmargin		{			}
+  # ahalign		{ ctr			}
+  # ahsize              {			}
+  # ahindent		{ ctr			}
+  # ahstrut		{ no			}
+  # ahmargin		{			}
+  # aleftmargin		{			}
+  # arightmargin	{			}
+  # anodelabel		{			}
+  # anodelabelmargin	{ 0.2f			}
+  # anodelabelfont	{ "-2p"			}
+  # anodelabelbreak	{ ragged nohyphen	}
+  # anodelabelformat	{ @Body			}
+  # anodelabelpos	{			}
+  # anodelabelangle	{ horizontal		}
+  # anodelabelprox	{ outside		}
+  # anodelabelctr	{ no			}
+  # anodelabeladjust	{ 0 0			}
+  # aalabel		{			}
+  # aalabelmargin	{			}
+  # aalabelfont		{			}
+  # aalabelbreak	{			}
+  # aalabelformat	{			}
+  # aalabelpos		{ NE			}
+  # aalabelangle	{			}
+  # aalabelprox		{			}
+  # aalabelctr		{ 			}
+  # aalabeladjust	{			}
+  # ablabel		{			}
+  # ablabelmargin	{			}
+  # ablabelfont		{			}
+  # ablabelbreak	{			}
+  # ablabelformat	{			}
+  # ablabelpos		{ NW			}
+  # ablabelangle	{			}
+  # ablabelprox		{			}
+  # ablabelctr		{ 			}
+  # ablabeladjust	{			}
+  # aclabel		{			}
+  # aclabelmargin	{			}
+  # aclabelfont		{			}
+  # aclabelbreak	{			}
+  # aclabelformat	{			}
+  # aclabelpos		{ SW			}
+  # aclabelangle	{			}
+  # aclabelprox		{			}
+  # aclabelctr		{ 			}
+  # aclabeladjust	{			}
+  # adlabel		{			}
+  # adlabelmargin	{			}
+  # adlabelfont		{			}
+  # adlabelbreak	{			}
+  # adlabelformat	{			}
+  # adlabelpos		{ SE			}
+  # adlabelangle	{			}
+  # adlabelprox		{			}
+  # adlabelctr		{ 			}
+  # adlabeladjust	{			}
+
+  #############################################################################
+  #                                                                           #
+  #  @BNode options                                                           #
+  #                                                                           #
+  #############################################################################
+
+  # boutline		{ box			}
+  # bmargin		{ 0.6f			}
+  # bshadow		{ 0.4f			}
+  # bsides		{ 3			}
+  # bangle		{ "dup 180 exch div"	}  # 180d / sides
+  # btranslate		{			}
+  # boutlinestyle	{ solid			}
+  # boutlinedashlength	{ 0.2f			}
+  # boutlinewidth	{ thin			}
+  # boutlinecolour	{ nochange		}
+  # bpaint		{ none			}
+  # btexture		{ solid			}
+  # bfont		{			}
+  # bbreak		{			}
+  # bformat		{ @Body			}
+  # bvalign		{ ctr			}
+  # bvsize		{			}
+  # bvindent		{ ctr			}
+  # bvstrut		{ no			}
+  # bvmargin		{			}
+  # btopmargin		{			}
+  # bfootmargin		{			}
+  # bhalign		{ ctr			}
+  # bhsize              {			}
+  # bhindent		{ ctr			}
+  # bhstrut		{ no			}
+  # bhmargin		{			}
+  # bleftmargin		{			}
+  # brightmargin	{			}
+  # bnodelabel		{			}
+  # bnodelabelmargin	{ 0.2f			}
+  # bnodelabelfont	{ "-2p"			}
+  # bnodelabelbreak	{ ragged nohyphen	}
+  # bnodelabelformat	{ @Body			}
+  # bnodelabelpos	{			}
+  # bnodelabelangle	{ horizontal		}
+  # bnodelabelprox	{ outside		}
+  # bnodelabelctr	{ no			}
+  # bnodelabeladjust	{ 0 0			}
+  # balabel		{			}
+  # balabelmargin	{			}
+  # balabelfont		{			}
+  # balabelbreak	{			}
+  # balabelformat	{			}
+  # balabelpos		{ NE			}
+  # balabelangle	{			}
+  # balabelprox		{			}
+  # balabelctr		{ 			}
+  # balabeladjust	{			}
+  # bblabel		{			}
+  # bblabelmargin	{			}
+  # bblabelfont		{			}
+  # bblabelbreak	{			}
+  # bblabelformat	{			}
+  # bblabelpos		{ NW			}
+  # bblabelangle	{			}
+  # bblabelprox		{			}
+  # bblabelctr		{ 			}
+  # bblabeladjust	{			}
+  # bclabel		{			}
+  # bclabelmargin	{			}
+  # bclabelfont		{			}
+  # bclabelbreak	{			}
+  # bclabelformat	{			}
+  # bclabelpos		{ SW			}
+  # bclabelangle	{			}
+  # bclabelprox		{			}
+  # bclabelctr		{ 			}
+  # bclabeladjust	{			}
+  # bdlabel		{			}
+  # bdlabelmargin	{			}
+  # bdlabelfont		{			}
+  # bdlabelbreak	{			}
+  # bdlabelformat	{			}
+  # bdlabelpos		{ SE			}
+  # bdlabelangle	{			}
+  # bdlabelprox		{			}
+  # bdlabelctr		{ 			}
+  # bdlabeladjust	{			}
+
+  #############################################################################
+  #                                                                           #
+  #  @CNode options                                                           #
+  #                                                                           #
+  #############################################################################
+
+  # coutline		{ box			}
+  # cmargin		{ 0.6f			}
+  # cshadow		{ 0.4f			}
+  # csides		{ 3			}
+  # cangle		{ "dup 180 exch div"	}  # 180d / sides
+  # ctranslate		{			}
+  # coutlinestyle	{ solid			}
+  # coutlinedashlength	{ 0.2f			}
+  # coutlinewidth	{ thin			}
+  # coutlinecolour	{ nochange		}
+  # cpaint		{ none			}
+  # ctexture		{ solid			}
+  # cfont		{			}
+  # cbreak		{			}
+  # cformat		{ @Body			}
+  # cvalign		{ ctr			}
+  # cvsize		{			}
+  # cvindent		{ ctr			}
+  # cvstrut		{ no			}
+  # cvmargin		{			}
+  # ctopmargin		{			}
+  # cfootmargin		{			}
+  # chalign		{ ctr			}
+  # chsize              {			}
+  # chindent		{ ctr			}
+  # chstrut		{ no			}
+  # chmargin		{			}
+  # cleftmargin		{			}
+  # crightmargin	{			}
+  # cnodelabel		{			}
+  # cnodelabelmargin	{ 0.2f			}
+  # cnodelabelfont	{ "-2p"			}
+  # cnodelabelbreak	{ ragged nohyphen	}
+  # cnodelabelformat	{ @Body			}
+  # cnodelabelpos	{			}
+  # cnodelabelangle	{ horizontal		}
+  # cnodelabelprox	{ outside		}
+  # cnodelabelctr	{ no			}
+  # cnodelabeladjust	{ 0 0			}
+  # calabel		{			}
+  # calabelmargin	{			}
+  # calabelfont		{			}
+  # calabelbreak	{			}
+  # calabelformat	{			}
+  # calabelpos		{ NE			}
+  # calabelangle	{			}
+  # calabelprox		{			}
+  # calabelctr		{ 			}
+  # calabeladjust	{			}
+  # cblabel		{			}
+  # cblabelmargin	{			}
+  # cblabelfont		{			}
+  # cblabelbreak	{			}
+  # cblabelformat	{			}
+  # cblabelpos		{ NW			}
+  # cblabelangle	{			}
+  # cblabelprox		{			}
+  # cblabelctr		{ 			}
+  # cblabeladjust	{			}
+  # cclabel		{			}
+  # cclabelmargin	{			}
+  # cclabelfont		{			}
+  # cclabelbreak	{			}
+  # cclabelformat	{			}
+  # cclabelpos		{ SW			}
+  # cclabelangle	{			}
+  # cclabelprox		{			}
+  # cclabelctr		{ 			}
+  # cclabeladjust	{			}
+  # cdlabel		{			}
+  # cdlabelmargin	{			}
+  # cdlabelfont		{			}
+  # cdlabelbreak	{			}
+  # cdlabelformat	{			}
+  # cdlabelpos		{ SE			}
+  # cdlabelangle	{			}
+  # cdlabelprox		{			}
+  # cdlabelctr		{ 			}
+  # cdlabeladjust	{			}
+
+  #############################################################################
+  #                                                                           #
+  #  @DNode options                                                           #
+  #                                                                           #
+  #############################################################################
+
+  # doutline		{ box			}
+  # dmargin		{ 0.6f			}
+  # dshadow		{ 0.4f			}
+  # dsides		{ 3			}
+  # dangle		{ "dup 180 exch div"	}  # 180d / sides
+  # dtranslate		{			}
+  # doutlinestyle	{ solid			}
+  # doutlinedashlength	{ 0.2f			}
+  # doutlinewidth	{ thin			}
+  # doutlinecolour	{ nochange		}
+  # dpaint		{ none			}
+  # dtexture		{ solid			}
+  # dfont		{			}
+  # dbreak		{			}
+  # dformat		{ @Body			}
+  # dvalign		{ ctr			}
+  # dvsize		{			}
+  # dvindent		{ ctr			}
+  # dvstrut		{ no			}
+  # dvmargin		{			}
+  # dtopmargin		{			}
+  # dfootmargin		{			}
+  # dhalign		{ ctr			}
+  # dhsize              {			}
+  # dhindent		{ ctr			}
+  # dhstrut		{ no			}
+  # dhmargin		{			}
+  # dleftmargin		{			}
+  # drightmargin	{			}
+  # dnodelabel		{			}
+  # dnodelabelmargin	{ 0.2f			}
+  # dnodelabelfont	{ "-2p"			}
+  # dnodelabelbreak	{ ragged nohyphen	}
+  # dnodelabelformat	{ @Body			}
+  # dnodelabelpos	{			}
+  # dnodelabelangle	{ horizontal		}
+  # dnodelabelprox	{ outside		}
+  # dnodelabelctr	{ no			}
+  # dnodelabeladjust	{ 0 0			}
+  # dalabel		{			}
+  # dalabelmargin	{			}
+  # dalabelfont		{			}
+  # dalabelbreak	{			}
+  # dalabelformat	{			}
+  # dalabelpos		{ NE			}
+  # dalabelangle	{			}
+  # dalabelprox		{			}
+  # dalabelctr		{ 			}
+  # dalabeladjust	{			}
+  # dblabel		{			}
+  # dblabelmargin	{			}
+  # dblabelfont		{			}
+  # dblabelbreak	{			}
+  # dblabelformat	{			}
+  # dblabelpos		{ NW			}
+  # dblabelangle	{			}
+  # dblabelprox		{			}
+  # dblabelctr		{ 			}
+  # dblabeladjust	{			}
+  # dclabel		{			}
+  # dclabelmargin	{			}
+  # dclabelfont		{			}
+  # dclabelbreak	{			}
+  # dclabelformat	{			}
+  # dclabelpos		{ SW			}
+  # dclabelangle	{			}
+  # dclabelprox		{			}
+  # dclabelctr		{ 			}
+  # dclabeladjust	{			}
+  # ddlabel		{			}
+  # ddlabelmargin	{			}
+  # ddlabelfont		{			}
+  # ddlabelbreak	{			}
+  # ddlabelformat	{			}
+  # ddlabelpos		{ SE			}
+  # ddlabelangle	{			}
+  # ddlabelprox		{			}
+  # ddlabelctr		{ 			}
+  # ddlabeladjust	{			}
+
+  #############################################################################
+  #                                                                           #
+  #  @ENode options                                                           #
+  #                                                                           #
+  #############################################################################
+
+  # eoutline		{ box			}
+  # emargin		{ 0.6f			}
+  # eshadow		{ 0.4f			}
+  # esides		{ 3			}
+  # eangle		{ "dup 180 exch div"	}  # 180d / sides
+  # etranslate		{			}
+  # eoutlinestyle	{ solid			}
+  # eoutlinedashlength	{ 0.2f			}
+  # eoutlinewidth	{ thin			}
+  # eoutlinecolour	{ nochange		}
+  # epaint		{ none			}
+  # etexture		{ solid			}
+  # efont		{			}
+  # ebreak		{			}
+  # eformat		{ @Body			}
+  # evalign		{ ctr			}
+  # evsize		{			}
+  # evindent		{ ctr			}
+  # evstrut		{ no			}
+  # evmargin		{			}
+  # etopmargin		{			}
+  # efootmargin		{			}
+  # ehalign		{ ctr			}
+  # ehsize              {			}
+  # ehindent		{ ctr			}
+  # ehstrut		{ no			}
+  # ehmargin		{			}
+  # eleftmargin		{			}
+  # erightmargin	{			}
+  # enodelabel		{			}
+  # enodelabelmargin	{ 0.2f			}
+  # enodelabelfont	{ "-2p"			}
+  # enodelabelbreak	{ ragged nohyphen	}
+  # enodelabelformat	{ @Body			}
+  # enodelabelpos	{			}
+  # enodelabelangle	{ horizontal		}
+  # enodelabelprox	{ outside		}
+  # enodelabelctr	{ no			}
+  # enodelabeladjust	{ 0 0			}
+  # ealabel		{			}
+  # ealabelmargin	{			}
+  # ealabelfont		{			}
+  # ealabelbreak	{			}
+  # ealabelformat	{			}
+  # ealabelpos		{ NE			}
+  # ealabelangle	{			}
+  # ealabelprox		{			}
+  # ealabelctr		{ 			}
+  # ealabeladjust	{			}
+  # eblabel		{			}
+  # eblabelmargin	{			}
+  # eblabelfont		{			}
+  # eblabelbreak	{			}
+  # eblabelformat	{			}
+  # eblabelpos		{ NW			}
+  # eblabelangle	{			}
+  # eblabelprox		{			}
+  # eblabelctr		{ 			}
+  # eblabeladjust	{			}
+  # eclabel		{			}
+  # eclabelmargin	{			}
+  # eclabelfont		{			}
+  # eclabelbreak	{			}
+  # eclabelformat	{			}
+  # eclabelpos		{ SW			}
+  # eclabelangle	{			}
+  # eclabelprox		{			}
+  # eclabelctr		{ 			}
+  # eclabeladjust	{			}
+  # edlabel		{			}
+  # edlabelmargin	{			}
+  # edlabelfont		{			}
+  # edlabelbreak	{			}
+  # edlabelformat	{			}
+  # edlabelpos		{ SE			}
+  # edlabelangle	{			}
+  # edlabelprox		{			}
+  # edlabelctr		{ 			}
+  # edlabeladjust	{			}
+
+  #############################################################################
+  #                                                                           #
+  #  Link options                                                             #
+  #                                                                           #
+  #############################################################################
+
+  # path		{ line			}
+  # from		{ 0, 0			}
+  # to			{ 1, 1			}
+  # bias		{ 2.0f			}
+  # fbias		{ 2.0f			}
+  # tbias		{ 2.0f			}
+  # hfrac		{ 0.5			}
+  # hbias		{ 0.0f			}
+  # radius		{ 1.0f			}
+  # xindent		{ 0.8f			}
+  # zindent		{ 0.8f			}
+  # frompt		{ 0 0			}
+  # topt		{ 0 0			}
+  # pathstyle		{ solid			}
+  # pathdashlength	{ 0.2f			}
+  # pathwidth		{ thin			}
+  # pathcolour		{ nochange		}
+  # pathgap		{ thin			}
+  # arrow		{ no			}
+  # arrowstyle		{ solid			}
+  # arrowwidth		{ 0.3f			}
+  # arrowlength		{ 0.5f			}
+  # backarrowstyle	{ solid			}
+  # backarrowwidth	{ 0.3f			}
+  # backarrowlength	{ 0.5f			}
+  # linklabel		{			}
+  # linklabelmargin	{ 0.2f			}
+  # linklabelfont	{ "-2p"			}
+  # linklabelbreak	{ ragged nohyphen	}
+  # linklabelformat	{ @Body			}
+  # linklabelpos	{			}
+  # linklabelangle	{ horizontal		}
+  # linklabelprox	{ above			}
+  # linklabelctr	{ no			}
+  # linklabeladjust	{ 0 0			}
+  # xlabel		{			}
+  # xlabelmargin	{			}
+  # xlabelfont		{			}
+  # xlabelbreak		{			}
+  # xlabelformat	{			}
+  # xlabelpos		{ LFROM			}
+  # xlabelangle		{			}
+  # xlabelprox		{			}
+  # xlabelctr		{			}
+  # xlabeladjust	{			}
+  # ylabel		{			}
+  # ylabelmargin	{			}
+  # ylabelfont		{			}
+  # ylabelbreak		{			}
+  # ylabelformat	{			}
+  # ylabelpos		{ LMID			}
+  # ylabelangle		{			}
+  # ylabelprox		{			}
+  # ylabelctr		{ yes			}
+  # ylabeladjust	{			}
+  # zlabel		{			}
+  # zlabelmargin	{			}
+  # zlabelfont		{			}
+  # zlabelbreak		{			}
+  # zlabelformat	{			}
+  # zlabelpos		{ LTO			}
+  # zlabelangle		{			}
+  # zlabelprox		{			}
+  # zlabelctr		{			}
+  # zlabeladjust	{			}
+  # fromlabel		{			}
+  # fromlabelmargin	{ 0f			}
+  # fromlabelfont	{ "-2p"			}
+  # fromlabelbreak	{ ragged nohyphen	}
+  # fromlabelformat	{ @Body			}
+  # fromlabelpos	{ FROM			}
+  # fromlabelangle	{ antiparallel		}
+  # fromlabelprox	{ W			}
+  # fromlabelctr	{ no			}
+  # fromlabeladjust	{ 0 0			}
+  # tolabel		{			}
+  # tolabelmargin	{ 0f			}
+  # tolabelfont		{ "-2p"			}
+  # tolabelbreak	{ ragged nohyphen	}
+  # tolabelformat	{ @Body			}
+  # tolabelpos		{ TO			}
+  # tolabelangle	{ parallel		}
+  # tolabelprox		{ W			}
+  # tolabelctr		{ no			}
+  # tolabeladjust	{ 0 0			}
+
+  #############################################################################
+  #                                                                           #
+  #  Tree options                                                             #
+  #                                                                           #
+  #############################################################################
+
+  # treehsep		{ 0.5f			}
+  # treevsep		{ 0.5f			}
+  # treehindent		{ ctr			}
+  # treevindent		{ ctr			}
+
+  #############################################################################
+  #                                                                           #
+  #  Syntax diagram options                                                   #
+  #                                                                           #
+  #############################################################################
+
+  # syntaxgap  		{ 0.35f			}
+  # syntaxbias		{ 1.0f                  }
+  # syntaxradius	{ 0.3f                  }
+
+}
