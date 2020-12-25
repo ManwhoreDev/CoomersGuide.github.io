@@ -47,4 +47,4 @@ This repository, however, distributes various non Public Domain binaries, under 
 
 ## Contact
 
-For questions, feedback, and discussion, reach out through [Discord](https://discordapp.com/users/773014944718389248)
+For questions, feedback, and discussion, reach out through [Discord](https://discordapp.com/users/773014944718389248).
