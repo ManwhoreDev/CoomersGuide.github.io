@@ -1,6 +1,8 @@
 # Author's Note writing style testing - `Writing style: <x>`
 
-*Original source: <https://justpaste.it/9ofj1>. Visit the link for the latest version.*
+*Original source: <https://justpaste.it/9ofj1>, by Zalty.
+
+This file has been last updated on 2020-12-25. Visit the link above for the latest version.*
 
 Quick, basic testing. May not be accurate in all cases.
 
@@ -45,16 +47,12 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `scary`: Strong effect. Focus on tension instead of outright horror.
 * `creepy`: Strong effect. Now we're in the horror-territory.
 * `film-noir`: Strong effect. Fatalism, dingy realism, corruption, and long inner monologues. Tends to make the protagonist male, regardless of what you put in Remember etc.
-
 * `grim`: Strong effect. Impossible odds, grim situations. In one sample output the protagonist was fighting a horde of demons in Hell, with opening line of 'There's no two ways about it, you're dead.'
 * `playful`: Strong effect. Whimsical and boisterous, with theatrical tones. Nonsensical at times, reminds me of Gulliver's Travels.
 * `anomalous`: Mild effect. Adds eerie overtones, might be useful for horror-scenarios.
 * `blasphemous`: Strong effect. Demonic magic, cults, etc. Nice for eldritch horror type of scenarios.
-
 * `exploration`: Strong effect. Has nice dungeon delving mood to it, with overtones of mystery. Vivid descriptions for wilderness and abandoned places (anything from dungeons to old houses).
-
 * `cryptic`: Mysteries abound, works much better than 'mysterious'.
-
 * `dirge`: Strong effect. Vividly dark mood. Grim, but not completely depressing.
 * `whimsical`: Commonly used style, but I still can't pinpoint exactly what it does. It seems to make things more... creative, with positive mood (reduces amount of violence, situations can usually be solved by talking, etc.)
 * `quirky`: Makes output weirder. Strange events, strange characters. Good for some scenarios, but can be illogical at times.
@@ -80,11 +78,12 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `military`: Strong effect, military fiction focus with heavy slant towards land-battles.
 * `pirate`: Strong effect, makes everything pirate-focused.
 * `fantastic`: Adds fantasy-elements to the story. Might be useful for keeping fantasy-scenarios on-track.
-
 * `arcane`: Almost skipped testing this, but turns out it works. Heavily focus on magic, useful for keeping fantasy scenarios on-track.
-
 * `investigative`: Heavy focus on detective-fiction style of narrative. Combines well with 'film-noir'.
 * `grandiose`: Shifts the story focus towards high society, and makes the story more epic than usual. On the downside, this often inserts the Emperor, which then usually veers the story into WH40K territory.
+* `light-hearted`: Strong good-defeats-evil focus.
+* `tragic`: Heavy focus on loss, heroic sacrifices and other similar themes. If there's victory to be had, it'll likely be bittersweet.
+Greek tragedy: Bronze age adventures, with frequent references to Zeus, titans, etc. Does good job at pruning out modern technology, and tends to generate vivid output.
 
 ## Not recommended:
 
@@ -103,7 +102,6 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `exhausting`: Whiny, negative dialogue. I don't see much use for this.
 * `altruistic`: Heroic dialogue and actions. Better suited for character traits.
 * `ambivalent`: Makes characters indecisive. Useless.
-
 * `showy`: Makes everyone act like braggarts. Better suited for character traits.
 * `epitaph`: Sometimes generates actual epitaphs, but more often than not it simply outputs 'THE END'. 'Dirge' works much better.
 * `melodramatic`: Another one that works better as character traits. Using it as a style makes the output very...whiny.
@@ -178,4 +176,6 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `hard`
 * `farcical`
 * `humble`
+* `classic`
+* `1800s`
 

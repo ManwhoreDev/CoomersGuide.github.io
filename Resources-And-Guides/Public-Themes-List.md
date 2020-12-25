@@ -1,8 +1,7 @@
-## AID Public Themes
-***
+# AID Public Themes
 Collection of pre-made themes.
  
-1) **Comfy Pixelart**
+**1) Comfy Pixelart**
 
 * Link: https://pastebin.com/nY4TWQQg
 
@@ -12,7 +11,7 @@ Collection of pre-made themes.
 
 * Custom font: `Yes`, https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
  
-2) **Simple Terminal**
+**2) Simple Terminal**
 
 * Link: https://pastebin.com/CuZmfQZS
 
@@ -22,7 +21,7 @@ Collection of pre-made themes.
 
 * Custom font: `Yes`, https://www.dafont.com/04b-03.font
  
-3) **Terminal**
+**3) Terminal**
 
 * Link: https://pastebin.com/YC9ff52B
 
@@ -32,7 +31,7 @@ Collection of pre-made themes.
 
 * Custom font: `Yes`, https://www.dafont.com/monofonto.font
  
-4) **Fantasy Clouds**
+**4) Fantasy Clouds**
 
 * Link: https://pastebin.com/HypPZwKt
 
@@ -42,7 +41,7 @@ Collection of pre-made themes.
 
 * Custom font: `No`
  
-5) **Fantasy Forest** by Anon
+**5) Fantasy Forest** by Anon
 
 * Link: https://pastebin.com/yHne4K1v
 
@@ -52,7 +51,7 @@ Collection of pre-made themes.
 
 * Custom font: `Yes`, https://www.fontspace.com/avqest-font-f4004
  
-6) **Nameless Themed Multi-background** (10 backgrounds in each theme, rotates every 100 seconds.)
+**6) Nameless Themed Multi-background** (10 backgrounds in each theme, rotates every 100 seconds.)
 
 * Mystery link: https://pastebin.com/Dx0myfsw
 
@@ -68,7 +67,7 @@ Collection of pre-made themes.
 
 * Custom font: `Yes`, https://font.gohu.org/
  
-7) **Half-Life 2**
+**7) Half-Life 2**
 
 * Link: https://pastebin.com/7xTjyQBz
 
@@ -78,7 +77,7 @@ Collection of pre-made themes.
 
 * Custom font: `Yes`, https://www.wfonts.com/font/edit-undo-line-brk
  
-8) **FTRED**
+**8) FTRED**
 
 * Link: https://pastebin.com/gmDJRWdF
 
@@ -88,7 +87,7 @@ Collection of pre-made themes.
 
 * Custom font: `No`
  
-9) **(NSFW) Yamu yamu by Anon**
+**9) (NSFW) Yamu yamu by Anon**
 
 * Link: https://pastebin.com/yS66zr0w
 
@@ -98,7 +97,7 @@ Collection of pre-made themes.
 
 * Custom font: Yes, https://www.dafont.com/vcr-osd-mono.font and https://www.wfonts.com/font/edit-undo-line-brk
  
-10) **Pixel ruins**
+**10) Pixel ruins**
 
 * Link: https://pastebin.com/fZQ1kF30
 
@@ -108,7 +107,7 @@ Collection of pre-made themes.
 
 * Custom font: Yes, https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
  
-11) **AID Automata**
+**11) AID Automata**
 
 * Link: https://pastebin.com/4QcppNkS
 

@@ -1,5 +1,4 @@
-# Boring/Sexy Generator
-***
+# Boring/Sexy Generator for AI Dungeon
 *Paste ALL text below into a new prompt and go. It's best to undo your actions as the AI can get confused when making multiple requests in a row.*
 ```
 This turns whatever you input into a sexier, sluttier, raunchier version in output.

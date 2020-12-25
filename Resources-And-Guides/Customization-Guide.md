@@ -1,10 +1,10 @@
 # AID Customization Guide
 You need an extension that lets you install userstyles. I recommend Stylus, but there are a couple options available. (Just stay away from Stylish). Alternatively you can use a userscript manager like Greasemonkey or Tampermonkey and add the style sheet content to a &lt;style&gt; tag and the tag to the page.
  
-Some links and tips:
+**Some links and tips:**
 * Collection of themes for those that just want something pre-made: <https://pastebin.com/qFJj9SPn>
 * If you want to edit something that isn't available in the css below, hit CTRL+SHIFT+C on your browser and click on the element you wanna change. Use selectors (https://www.tutorialrepublic.com/css-tutorial/css-selectors.php) to target the element you found and give it the properties (https://www.tutorialrepublic.com/css-reference/css3-properties.php) you want.
-* You can get pretty far just botching CSS because it's really simple, but if you need a more detailed guide for CSS I recommend this https://www.codecademy.com/learn/learn-css
+* You can get pretty far just botching CSS because it's really simple, but if you need a more detailed guide for CSS I recommend this <https://www.codecademy.com/learn/learn-css>
 * The old userstyle (do not use this, just here for reference): <https://pastebin.com/2z5t4JXf>
 
  

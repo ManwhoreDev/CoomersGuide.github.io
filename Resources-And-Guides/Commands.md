@@ -1,5 +1,4 @@
-## AI Dungeon Commands List
-***
+# AI Dungeon Commands List
 - `Name:"Text"`
 - `List of X:`
 - `(POV [character]) or ([character]'s POV)`
