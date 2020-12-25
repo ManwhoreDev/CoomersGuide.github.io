@@ -4,10 +4,10 @@ You need an extension that lets you install userstyles. I recommend Stylus, but 
  
 ---
 Some links and tips:
-- Collection of themes for those that just want something pre-made: https://pastebin.com/qFJj9SPn
-- If you want to edit something that isn't available in the css below, hit CTRL+SHIFT+C on your browser and click on the element you wanna change. Use selectors (https://www.tutorialrepublic.com/css-tutorial/css-selectors.php) to target the element you found and give it the properties (https://www.tutorialrepublic.com/css-reference/css3-properties.php) you want.
-- You can get pretty far just botching CSS because it's really simple, but if you need a more detailed guide for CSS I recommend this https://www.codecademy.com/learn/learn-css
-- The old userstyle (do not use this, just here for reference): https://pastebin.com/2z5t4JXf
+* Collection of themes for those that just want something pre-made: https://pastebin.com/qFJj9SPn
+* If you want to edit something that isn't available in the css below, hit CTRL+SHIFT+C on your browser and click on the element you wanna change. Use selectors (https://www.tutorialrepublic.com/css-tutorial/css-selectors.php) to target the element you found and give it the properties (https://www.tutorialrepublic.com/css-reference/css3-properties.php) you want.
+* You can get pretty far just botching CSS because it's really simple, but if you need a more detailed guide for CSS I recommend this https://www.codecademy.com/learn/learn-css
+* The old userstyle (do not use this, just here for reference): https://pastebin.com/2z5t4JXf
 ---
  
 Guide for Stylus:
