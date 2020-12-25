@@ -7,8 +7,10 @@ Writing-*.pdf
 *main*.ps
 
 ## Basser Lout auxiliary files
-*.li
-*.ld
+*-main*.li
+lout.li
+*Bibliography*.li
+*main*.ld
 
 ## Scripts
 # *.bat

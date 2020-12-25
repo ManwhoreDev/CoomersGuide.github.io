@@ -1,4 +1,5 @@
 @Include { aidg }
+@Database @Reference { Bibliography }
 @Report
  @Title { A Coomer's Guide to AI Dungeon }
  @Author { Manwhore, author @LLP Paragon, editor @LLP PDFanon, typesetter }
@@ -839,8 +840,10 @@ I hope you enjoyed my guide, and I hope to see you again soon!
 @PP
 (If you have questions or feedback on this guide, or would simply like to get in touch, I am available on Discord{@FootNote{"https://discordapp.com/users/773014944718389248" @ExternalLink {Manwhore"#"5487}}}, as well as by email{@FootNote{"mailto:ManwhoreAnon@gmail.com" @ExternalLink {ManwhoreAnon@gmail.com}}}.)
 
+@NoCite {$avsfag2020 $branwen2020 $failedsave2020 $penn2011 $wallenberg2004}
 @NP
 @End @Section
+
 
 @Appendix
 @Title {Examples}
