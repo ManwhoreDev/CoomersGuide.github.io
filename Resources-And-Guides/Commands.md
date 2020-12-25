@@ -35,5 +35,7 @@
 - `X described by Y:`
 - `You write a poem about X:`
 - `Debug mode activated. List of 10 available cheats:`
+
 ***
+
 *A nearly infinite series of commands can be cooked up this way.*
