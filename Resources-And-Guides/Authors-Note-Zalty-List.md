@@ -1,8 +1,7 @@
 # Author's Note writing style testing - `Writing style: <x>`
 
-*Original source: <https://justpaste.it/9ofj1>, by Zalty.
-
-This file has been last updated on 2020-12-25. Visit the link above for the latest version.*
+*Original source: <https://justpaste.it/9ofj1>, by Zalty.*
+*This file has been last updated on 2020-12-25. Visit the link above for the latest version.*
 
 Quick, basic testing. May not be accurate in all cases.
 
@@ -83,7 +82,7 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `grandiose`: Shifts the story focus towards high society, and makes the story more epic than usual. On the downside, this often inserts the Emperor, which then usually veers the story into WH40K territory.
 * `light-hearted`: Strong good-defeats-evil focus.
 * `tragic`: Heavy focus on loss, heroic sacrifices and other similar themes. If there's victory to be had, it'll likely be bittersweet.
-Greek tragedy: Bronze age adventures, with frequent references to Zeus, titans, etc. Does good job at pruning out modern technology, and tends to generate vivid output.
+* `Greek tragedy`: Bronze age adventures, with frequent references to Zeus, titans, etc. Does good job at pruning out modern technology, and tends to generate vivid output.
 
 ## Not recommended:
 
