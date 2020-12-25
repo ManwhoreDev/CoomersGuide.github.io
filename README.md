@@ -37,7 +37,7 @@ The "Unlicense", described in [LICENSE](https://github.com/CoomersGuide/CoomersG
 
 ### Third Party Binaries
 
-This repository, however, distributes various non Public Domain binaries, under their respective licenses, for contributors' convinience. To redistribute them, you have to agree to their respective license terms. All of such files use Free Software licenses. They are located inside `CoomersGuide.github.io/Source-files/3rd-party-software/`. If you don't plan to contribute, have your own setup or have storage space concerns, you are free to either
+This repository, however, distributes various non Public Domain binaries, under their respective licenses, for contributors' convinience. To redistribute them, you have to agree to their respective license terms. All of such files use Free Software licenses. They are located inside `CoomersGuide.github.io/Source-files/3rd-party-software/`. If you don't plan to contribute, have your own setup or have storage space concerns, you are free to delete that specific folder.
 * Basser Lout is licensed under `GPL v3`.
 * "pdf2htmlEX" is licensed under `GPL v3`.
 
