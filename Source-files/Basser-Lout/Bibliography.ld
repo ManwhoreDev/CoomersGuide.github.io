@@ -5,8 +5,8 @@
 	@Author {Avsfag}
 	@Year {2020}
 	@URL {https://guide.aidg.club/AIDG-Writing-Guide/AIDG%20Writing%20Guide.html}
-#	entrysubtype {coomer}
-#	annotation {/aidg/'s premiere guide for new learners and general concepts.}
+	@Annote {coomer}
+	@Note {"/"aidg"/"'s premiere guide for new learners and general concepts.}
 }
 
 { @Reference

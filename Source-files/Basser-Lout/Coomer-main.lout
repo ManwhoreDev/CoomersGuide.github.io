@@ -3,19 +3,7 @@
 @Report
  @Title { A Coomer's Guide to AI Dungeon }
  @Author { Manwhore, author @LLP Paragon, editor @LLP PDFanon, typesetter }
- @Institution {}
- @DateLine { Yes }
- @CoverSheet { No }
- @ContentsSeparate { No }
- @InitialBreak { hyphen adjust 1.2fx }
- @InitialSpace { lout }
- @InitialLanguage { English }
- @PageOrientation { Portrait }
- @PageHeaders { Simple }
- @ColumnNumber { 1 }
 //
-
-#Add appendix ref
 
 @Section
 @Title {Preface}

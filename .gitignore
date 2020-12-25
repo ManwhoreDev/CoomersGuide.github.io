@@ -7,7 +7,7 @@ Writing-*.pdf
 *main*.ps
 
 ## Basser Lout auxiliary files
-*-main*.li
+*.li
 lout.li
 *Bibliography*.li
 *main*.ld

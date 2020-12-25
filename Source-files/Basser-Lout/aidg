@@ -155,7 +155,7 @@
   # @RefNumbers		{ Arabic		} # reference numbers
   # @RefListFormat	{ Labels		} # NoLabels, Labels, etc.
   # @RefListLabels	{ [@RefNum]		} # ref list label format
-  # @RefListTitle	{ references		} # title of reference list
+    @RefListTitle	{ Resources		} # title of reference list
   # @ChapRefListTitle	{ references		} # title of chapter ref list
   # @RefListIndent	{ 0s			} # indent to left of labels
   # @RefListRightIndent	{ 0s			} # indent to right of items
@@ -339,9 +339,9 @@
 ###############################################################################
 
 @Use { @ReportSetup
-  # @CoverSheet			{ Yes		} # make cover sheet
+    @CoverSheet			{ No		} # make cover sheet
   # @ContentsSeparate		{ No		} # contents on separate pages
-  # @DateLine			{ No		} # Yes, No, or a date
+    @DateLine			{ Yes		} # Yes, No, or a date
   # @AboveTitleGap		{ 1i		} # space above title
   # @TitleFont			{ Bold		} # title font
   # @TitleBreak			{ clines 1.4vx	} # title break
@@ -499,4 +499,4 @@
 ###############################################################################
 
 @SysDatabase @FontDef  { fontdefs }		  # font definitions
-@SysDatabase @RefStyle { refstyle }		  # reference printing styles
+@Database @RefStyle { aidgrefstyle }		  # reference printing styles
