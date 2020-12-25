@@ -2,8 +2,6 @@ REM This file converts "A Coomer's Guide to AI Dungeon" to HTML and moves both t
 
 SET PATH=%PATH%;%~dp0%..\3rd-party-software\pdf2htmlEX-win32-0.14.6-with-poppler-data
 
-cd "%~dp0%..\Coomers-guide"
-
 pdf2htmlEX --data-dir %~dp0%..\3rd-party-software\pdf2htmlEX-win32-0.14.6-with-poppler-data\data\ --vdpi 300 --hdpi 300 Coomer-main.pdf Coomer-main.html
 
 MOVE "Coomer-main.html" "%~dp0%..\..\A-Coomers-guide-to-AI-Dungeon\A Coomer's Guide to AI Dungeon.html"
