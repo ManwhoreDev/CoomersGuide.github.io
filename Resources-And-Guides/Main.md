@@ -10,15 +10,15 @@
 <https://prompts.aidg.club>
 
 ## Commands
-[List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Commands.md)
+[List](Commands.md)
 
 ## Customization Guide and Themes:
-[Customization Guide](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Customization-Guide.md)
+[Customization Guide](Customization-Guide.md)
 
-[Public Themes List](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Public-Themes-List.md)
+[Public Themes List](Public-Themes-List.md)
 
 ## Generators:
 [Boring/Sexy](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Boring-Sexy-Generator.md)
 
 ## Lists of Author's Note Phrases:
-[Zalty's list](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/resources/Resources-And-Guides/Authors-Note-Zalty-List.md) *(This is a rehosted version, thus it might be outdated).*
+[Zalty's list](/Authors-Note-Zalty-List.md) *(This is a rehosted version, thus it might be outdated).*
