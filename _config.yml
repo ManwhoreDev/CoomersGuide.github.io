@@ -1,6 +1,4 @@
 title: /aidg/ Guides and Resources
-url: http://guide.aidg.club
-description: A collection of resources made and/or used by /aidg/ community in their eternal quest to tame the AI Dungeon.
 plugins:
   - jekyll-relative-links
   - jekyll-feed
