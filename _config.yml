@@ -1,7 +1,6 @@
+title: /aidg/ Guides and Resources
 plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
-include:
-  - README.md
