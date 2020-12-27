@@ -37,7 +37,49 @@ If you are splitting information about one character, concept, ect across multip
 Onto the entry itself. Again, I won't discuss style here, but as mentioned in the previous part, it's important to lay out your WI out so the most critical information is last, and the least important first. Moreover, again because of the limited memory we have to work with, it's important to keep our WI entries as short and to-the-point as possible. If it isn't a vital part of the character or important for the AI to know, we shouldn't be wasting WI space on it. We don't need to know Bruce Kent's favourite food - and if we do, we don't need to know it whenever he's in the story, so we can create a seperate WI with the keywords 'favorite food,favorite meal' and note how much Bruce loves hamburgers in its entry. When considering what belongs in a WI, ask yourself questions about how important a piece of info is: Do we and the AI need to know this at all times when the character is in the story? If not, it doesn't belong in their main WI, it belongs in a small specialized side WI at the very bottom of your list.
 Another common misconception. Keywords are not loaded into memory when a WI is active. Say you lay out your WI like this.
 
- **Tags:** Bruce,kent
+ **Tags:** Bruce,kent <br/>
  **Entry:** Loves hamburgers.
 
 When this WI is active, it doesn't tell the AI 'Bruce Kent loves hamburgers'. It tells the AI SOMEONE or SOMETHING loves hamburgers. Using this WI, the AI is just as likely to decide that the bird Bruce just saw fly by loves hamburgers as much as it is to give that quality to Bruce himself - and as discussed in my tips about getting the most out of the AI, the AI assumes everything is relevant, so don't be surprised when it suddenly brings that bird crashing through the window to steal Bruce's buns.
+
+## Addendum
+* By [RCratos](https://play.aidungeon.io/main/profile?username=RCratos)
+
+If you're using the separated World Info method that Zetsumi mentioned. I recommend you to put the most important entries last. You can also put the most important lines in the end of single entry and have a jumbled entry. This mostly doesn't affect the AI much except for a few actions here and there(results from my own tests, might not be reproducible). This is also useful because World Info is the first(not last, beginning)(not including story summary) bit of text given to the AI so if the next step which is adding memory exceeds the 1048 token limit shared by memory and World Info, the first lines/words in the World Info will be cut off. 
+So it's generally better to put the important lines at end. 
+
+Another tip, reuse the names of the character/World Info object as much as you can. It may look weird and unusual but it's a good approach. The times you need to do this is different for the two models, I don't remember the amount we'll so take this with  a grain of salt.
+Griffin - ~15 characters/line
+Dragon - ~60 characters/line
+
+I'll give a little example:
+*Griffin*<br/>
+Ethan is a tall muscular man. Ethan has blue eyes and a light stubble. Ethan is outspoken and friendly. Ethan has a strange obsession for shapes. Ethan is very nerdy. 
+
+*Dragon*<br/>
+Ethan is a tall muscular man with blue eyes and a light stubble. Ethan is very nerdy, outspoken and friendly. Ethan has a strange obsession with shapes. 
+
+You can transform your entries into Zalty's/Caveman formats for better performance but I won't go into that because I am not great with that either. 
+
+More non-World Info tips
+
+Basic structure for AI's input:
+
+1) Story Summary(if enabled) 
+2) World Info
+3) Memory 
+4) Context
+5) Author's Note
+6) Your input for this action
+
+The first parts are the ones that have most chance to get pushed out of memory like World Info and story summary. 
+
+If you don't have Author's Note you can use the fake A/N:
+
+Putting this in memory can yield an effect similar to Author's Note.
+
+EDITOR'S NOTE:<br/>
+WRITING STYLE: Descriptive, Literary.<br/>.
+GENRE: Comedy, Romance.<br/>
+
+This feature sometimes work and sometimes doesn't so hope it works for you! 
