@@ -1,4 +1,10 @@
 title: /aidg/ Guides and Resources
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 plugins:
   - jekyll-relative-links
 relative_links:
