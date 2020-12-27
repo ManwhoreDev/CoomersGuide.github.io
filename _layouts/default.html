@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+    </head>
+    <style>
+		*{
+			background-color:#F9F5E4;
+		}
+		a{
+			color:#36AEB2;
+		}
+	</style>
+    <body>
+        {% include header.html %}
+        <main>
+            {{ content }}
+        </main>
+        {% include footer.html %}
+    </body>
+</html>
