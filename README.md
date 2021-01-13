@@ -35,12 +35,6 @@ It was taken from this [link](https://soft.rubypdf.com/software/pdf2htmlex-windo
 All files directly authored by this repository's authors and maintainers are released into the Public Domains. This repository's authors and maintainers have explicitly waived copyright rights on them. If you wish to contribute, we require of you to do the same and waive all copyright rights on any of your contributions.
 The "Unlicense", described in [LICENSE](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/LICENSE) file, is to be used when your jurisdiction does not recognize Public Domain declarations.
 
-### Third Party Binaries
-
-This repository, however, distributes various non Public Domain binaries, under their respective licenses, for contributors' convinience. To redistribute them, you have to agree to their respective license terms. All of such files use Free Software licenses. They are located inside `CoomersGuide.github.io/Source-files/3rd-party-software/`. If you don't plan to contribute, have your own setup or have storage space concerns, you are free to delete that specific folder.
-* Basser Lout is licensed under `GPL v3`.
-* "pdf2htmlEX" is licensed under `GPL v3`.
-
 ### Fonts
 
 * "Latin Modern" font family used in index.html uses `BSD 2-Clause License (FreeBSD/Simplified)`.
