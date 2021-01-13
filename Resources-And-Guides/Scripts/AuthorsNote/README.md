@@ -7,17 +7,25 @@ There are a number of reasons why you might want to make use of these scripts. Y
 # Functionality
 The contents of the scripts modifies the behavior of AI Dungeon in the following way. It monitors the input given by the player. When an input line that starts with "/an" is detected, then the rest of that line is set to be the new "Author's Note". A notification is displayed on the window, reminding the user what the current "Author's Note" is. Author's Notes created in this way are inserted two lines from the bottom of the context and can be of any length. This means you may supply an Author's Note of a length greater than 150 characters. Note: this does not alter the maximum context length and any additional characters used by the Author's Note will be removed from the top of the context before the request is submitted to the server.
 
+Note: This functionality also works in tandem with the existing Author's Note feature. This means if you use this script _and_ set Author's Note in the UI, two Author's Notes will be set in your context.
+
 ## How To Install The Scripts
 The scripts are easy to install and can be copy/pasted from this repository without modification.
-1. Create a New Scenario (or open an existing scenario)
-2. Click "Edit"
-3. Scroll down until the "Scripts" button is visible
-4. Click the "Scripts" button
-5. In the "Shared Library" tab, paste the contents of sharedLibrary.js
+1. Download `authorsNote.zip` from the repo.
+2. Create a New Scenario (or open an existing scenario)
+3. Click "Edit"
+4. Scroll down until the "Scripts" button is visible
+5. Click the "Scripts" button
+6. In the Scripts page, click the "Upload" button (looks like a computer box with an up arrow)
+7. Select `authorsNote.zip` on your computer and click "Open"
+
+### Optional: Copy/Paste The Contents into the script editors
+*Note: This is the old way to get the content into the scripts. If the `authorsNote.zip` upload worked, you don't need to do this step. Skip this and move to the test step.*
+1. In the "Shared Library" tab, delete the contents and paste the contents of sharedLibrary.js
     * Click the "Save" icon
-6. In the "Input Modifier" tab, paste the contents of inputModifier.js
+2. In the "Input Modifier" tab, delete the contents and paste the contents of inputModifier.js
     * Click the "Save" icon
-7. In the "Context Modifier" tab, paste the contents of contextModifier.js
+3. In the "Context Modifier" tab, delete the contents and paste the contents of contextModifier.js
     * Click the "Save" icon
 
 ## Optional: Test the Scripts
@@ -105,6 +113,7 @@ The second line of my action
 ```
 
 ## Modifications
+### Changing Insertion Point
 Of course you may desire to make modifications to these scripts! If you desire to have the original functionality with the Author's Note placed three lines from the bottom of the context, you would make a modification like so to contextModifier.js:
 ```
 if (
@@ -113,5 +122,16 @@ if (
   && state.currentAuthorsNote.length > 0
 ) {
   lines.splice(-3, 0, `[Author's note: ${state.currentAuthorsNote}]`)
+}
+```
+
+### Changing Default Author's Note
+You can change the default Author's Note by changing the value of `currentAuthorsNote` in shared.js. To make this change, you can edit shared.js like so:
+```
+// Some kind of Singleton?!
+if (!state.setup)
+{
+  state.setup = true // Ensure this is only set once and never wiped.
+  state.currentAuthorsNote = "My initial AN here!" // Makes a state that holds a string for AN. To be set later with input modifier.
 }
 ```
