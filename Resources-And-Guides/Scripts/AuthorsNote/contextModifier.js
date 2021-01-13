@@ -12,15 +12,17 @@ const modifier = (text) => {
   const lines = context.split("\n")
   
   // If there are enough lines to insert the Author's Note and we actually have
-  // one, splice it in at 2 lines from the end of the context. I've selected 2
-  // lines instead of 3 to compensate for using Griffon instead of Dragon. If
-  // you are using Dragon, use the default settings of context -3.
+  // one, splice it in at n lines from the end of the context, where n is the
+  // depth. I've selected 2 lines instead of 3 to compensate for using Griffon
+  // instead of Dragon. Defaults to 1 because we can't insert lower in the
+  // context than the end.
+  const depth = state.authorsNoteDepth > 1 ? state.authorsNoteDepth : 1
   if (
-    lines.length > 1
-    && state.currentAuthorsNote
-    && state.currentAuthorsNote.length > 0
+    lines.length > (depth - 1)
+    && state.authorsNote
+    && state.authorsNote.length > 0
   ) {
-    lines.splice(-2, 0, `[Author's note: ${state.currentAuthorsNote}]`)
+    lines.splice(-depth, 0, `[Author's note: ${state.authorsNote}]`)
   }
 
   // Make sure the new context isn't too long, or it will get truncated by the server.
