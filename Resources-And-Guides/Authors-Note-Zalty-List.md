@@ -1,7 +1,7 @@
 # Author's Note writing style testing - `Writing style: <x>`
 
 *Original source: <https://justpaste.it/9ofj1>, by Zaltys.*<br/>
-*This file has been last updated on 2020-12-25. Visit the link above for the latest version.*
+*This file has been last updated on 2021-01-14. Visit the link above for the latest version.*
 
 Quick, basic testing. May not be accurate in all cases.
 
@@ -97,6 +97,13 @@ text adventure: The interactive fiction style (Zork etc.) Strongly first-person 
 * `light-hearted`: Strong good-defeats-evil focus.
 * `tragic`: Heavy focus on loss, heroic sacrifices and other similar themes. If there's victory to be had, it'll likely be bittersweet.
 * `Greek tragedy`: Bronze age adventures, with frequent references to Zeus, titans, etc. Does good job at pruning out modern technology, and tends to generate vivid output.
+* `socialist realism`: Focus on Soviet Union and communism. Frequent references to golden fields of grain and workers toiling for the Motherland while also showing the gritty side. "A strong, young factory worker pushes his hands forward on the line assembly, his calloused fingers twisting and wrapping the wiring around the automobile engine block."
+* `vaudeville`: Comedic style, but with overwhelming focus on theatre and stage plays. If you're making that kind of scenario then this is good, but not usable for much else.
+* `pop science`: Mild effect. Scientific output that ranges from completely nonsensical (but funny) to somewhat plausible. Could be steered into either direction by combining it with appropriate other styles. ('pop-science' was much stronger, but sadly that stopped working in Jan 2021 due to the changes to how hyphens work.)
+* `police report`: Exactly what you'd expect. Very niche. "On March 7th, at approximately 1345 hours, Zachery Washington was found dead on the beach by a passing jogger, who subsequently notified police. Cause of death is listed as exsanguination from a single gash to the jugular."
+* `steampunk`: Strong focus. Victorian England, airship pirates, goggles and top hats. "Dashing between the raindrops and wishing for my trusty top hat with its folding umbrella attachment, I made haste towards my destination. The steam-carriage I had hired was parked at the side of the road, waiting for me. Its brass fittings gleamed in the gloom and its boilers were beginning to build up a head of pressure."
+* `doctor's note`: Medical log style. `The patient, a forty-year-old male, came into the emergency room clinic in Red. He was pale and had circles under his eyes from lack of sleep. His lips were chapped and his speech was slightly slurred. He stated that he was having trouble catching his breath and was feeling nauseous.`
+* `psychoanalytic`: Lapses into psychoanalysis of what the protagonist is doing. `The reason that he chose to walk barefoot on the sand, rather than on the equally clean pavement, was because having soft sand under one's feet created an illusion of protection. He felt safe, therefore he was safe.`
 
 ## Not recommended:
 
@@ -125,6 +132,28 @@ text adventure: The interactive fiction style (Zork etc.) Strongly first-person 
 * `absurd`: Makes things weirder, but 'quirky' and 'surreal' had more consistent effect.
 * `assertive`: No effect on the style, but makes every character confident. This is better suited for personality traits.
 * `stylish`: Makes the characters wear fancy clothing, etc. No effect on writing style. Might have niche usefulness if you're making a fashion-focused scenario...
+* `professional`: No style-effect. Makes much of the dialogue polite, as if spoken by professional butler. Good candidate for character personality traits.
+* `abridged`: Too strong. "Went 2 beach. Had fun."
+* `encyclopedia`: Makes output slightly more wiki-like, but is too weak. 'Detailed' works better.
+* `campy`: Adds some campy horror movie elements, but is too weak.
+* `hardboiled`: Too weak. Sometimes adds a lot of foul language, but usually does nothing.
+* `furry`: Weak. Low chance of turning the protagonist into a generic canine anthro.
+* `legal`: Abnormally high rate of output corruption. When this works it spews out legalese and court claims. "ZACHARY JONES, ALSO KNOWN AS "ZACK", AGE 12, THE DATE IS SATURDAY, APRIL 13. LOCATION: BEACH. TIME: 10:00 AM. ITEMS WITH YOU: A SURFBOARD."
+* `stream of consciousness`: Rarely works, and when it does it's too literal. I don't see much use for this. 'walking walking walking walking hw hw hw hw Zack beach sand warm feet steps sun hot air salty sea gulls sky clouds horizon ocean waves curl break foam wet sand'
+* `abstract`: Intentionally mangles text when it works. Not sure if I'd call this abstract. 'Z was g0ing 2 the b#. d4YS wErE wArm +NvYo+ 4+F d1d 1t M@K3 B$TT3R D4YS.'
+* `cockney`: Cockney accent. You'd probably want to use this as a character trait, if at all. `Ey up, 'aven't we 'ad enough o' strogn winders an' blinkin' shutters up 'ere? If I 'ave ter watch out fer me glassypoo's I'm gonna go orf me bloomin' trolley, ya crahp! Gizza quid for a cuppa tea an' wake me up when we get ter Stratford, awright?`
+* `slapstick`: Rarely works, and when it does it's just something stupid like 'He then stepped on a bee and fell into a nearby swimming pool.'
+* `stanza`: Not as strong as 'sonnet'. Though this too makes the output more vibrant, might be possible to make it better by combining it.
+* `theatrical`: Too mixed. Sometimes mimics theater script, sometimes gets overly theatrical. `Zack the Jet, Surf Lord of the Ocean Waves, moved with a fluid grace, striding towards the sea. The sun cast his shadow upon the sand, which absorbed the heat and glowed golden. His skin was like ivory, his eyes like shining jewels. `
+* `infomercial`: Works surprisingly well. But unless you're actually using AID for infomercials, why use this? `Sold right here for a low, low price of $19.99! Comes with a free can of SURFBORAD wax! Hot colours for hot people! Red for that fiery passion inside, blue for the cool tranquility of the deep ocean, and black for that darkness in your soul. With new holographic stickers to make your board look like a mutant butterfly! Call now! Don't wait!`
+* `lowercase`: Lapses into full lowercase. Not sure why you'd want this.
+* `tabloid`: Funny, but not exactly useful. `Surf's Up! Hero Surfs To Victory! Ex-MMA fighter Zack 'The Sandman' Cartwright beat down at the hands of corrupt police, discovers hidden talent for surfing.`
+* `understated`: Very bland. Might be useful if you want to generate summarized version of existing text.
+* `purile`: Similar to 'shitpost'. `Zack went to da beach. He was drunk. There waz a sizzle as da sun hit his pale skin. He waz wearing speedos. He bought an ice cream and fell over.`
+* `laconic`: Very terse. `Sun. Surf. Sand. Sky.`
+* `didactic`: Kind of preachy and biased. `Beach is nice. When going to the beach, you should pack sunscreen, food, water, towels, and something to read. When you get there you should build a sandcastle or look for shells.`
+* `pleonastic`: Adds superfluous words to the output. `The sky above was blue, with tiny white clouds drifting here and there.`
+* `caustic`: Whiny and angsty, not a good interpretation of 'caustic'.
 
 ## SFW-focused:
 
@@ -134,7 +163,12 @@ text adventure: The interactive fiction style (Zork etc.) Strongly first-person 
 
 * `sensual`: Tends to be rather explicit, not really what I'd call 'sensual'.
 * `seductive`: Strong effect, makes most characters flirty. Better used as character-trait.
-* `arousing`: Heavily NSFW. Makes the scenes more... descriptive.
+* `lewd`: Not especially lewd, slants the outputs towards softcore erotica.
+* `kinky`: Similar to the above.
+* `homoerotic`: Marked increase in the amount of muscular men.
+* `titillating`: Marked increase in characters who are described as having 'perfect' bodies.
+* `arousing`: Makes the NSFW scenes more... descriptive.
+* *(Note: none of these are strongly explicit. If you want blatant NSFW, try adding X-RATED to the beginning of your AN.)*
 
 ## No noticeable effect (or inconsistent effect):
 
@@ -191,4 +225,32 @@ text adventure: The interactive fiction style (Zork etc.) Strongly first-person 
 * `humble`
 * `classic`
 * `1800s`
-
+* `non-Euclidean`
+* `personal`
+* `psychological`
+* `mockumentary`
+* `oral history`
+* `letter format`
+* `cinematic`
+* `new age`
+* `pop culture`
+* `nerdy`
+* `ephemeral`
+* `visceral`
+* `flowing`
+* `suggestive`
+* `thinking`
+* `meta`
+* `illegal`
+* `comic`
+* `doggerel`
+* `ode`
+* `graphic`
+* `cryptographic` (generated complete gibberish)
+* `kaleidoscopic` (rarely worked, highly abstract descriptions)
+* `cryptic` (too much gibberish)
+* `paralanguage` (resulted in very confused AI)
+* `euphemism` (no effect)
+* `idiomatic` (no effect)
+* `puzzling` (often generates gibberish)
+ * `stilted` (no effect)
