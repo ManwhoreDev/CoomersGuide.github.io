@@ -3,13 +3,11 @@
 *Original source: <https://justpaste.it/9ofj1>, by Zaltys.*<br/>
 *This file has been last updated on 2021-01-14. Visit the link above for the latest version.*
 
-Quick, basic testing. May not be accurate in all cases.
-
+Quick, basic testing. May not be accurate in all cases.\
 Note that these can be combined: `Writing style: narrative, whimsical, quirky` etc.
 
-Also note that all of these have only been tested in lowercase, and capitalizing the word changes the token which may in some cases change how the AI understands the word.
+Note that all of these have only been tested in lowercase, and capitalizing the word changes the token which may in some cases change how the AI understands the word. The testing has been done in Dragon, and many of the styles are weaker in Griffin.
 
- 
 ## Recommended for use:
 
 * `narrative`: Increase in narrative content. Longer paragraphs with deeper descriptions.
