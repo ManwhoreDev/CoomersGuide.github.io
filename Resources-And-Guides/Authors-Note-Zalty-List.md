@@ -1,15 +1,13 @@
 # Author's Note writing style testing - `Writing style: <x>`
 
 *Original source: <https://justpaste.it/9ofj1>, by Zaltys.*<br/>
-*This file has been last updated on 2020-12-25. Visit the link above for the latest version.*
+*This file has been last updated on 2021-01-14. Visit the link above for the latest version.*
 
-Quick, basic testing. May not be accurate in all cases.
-
+Quick, basic testing. May not be accurate in all cases.\
 Note that these can be combined: `Writing style: narrative, whimsical, quirky` etc.
 
-Also note that all of these have only been tested in lowercase, and capitalizing the word changes the token which may in some cases change how the AI understands the word.
+Note that all of these have only been tested in lowercase, and capitalizing the word changes the token which may in some cases change how the AI understands the word. The testing has been done in Dragon, and many of the styles are weaker in Griffin.
 
- 
 ## Recommended for use:
 
 * `narrative`: Increase in narrative content. Longer paragraphs with deeper descriptions.
@@ -68,6 +66,20 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `macabre`: Grim and grisly. Generated mostly occult horror, with frequent apocalyptic themes (zombies, undead hordes, etc.)
 * `tragic`: Heavy focus on loss, heroic sacrifices and other similar themes. If there's victory to be had, it'll likely be bittersweet.
 * `gritty`: Violent style, with a lot of cursing and increased amount of gore.
+* `highbrow`: Intellectual style, with a bit of pretentiousness to it. Sometimes works well, sometimes lapses into pseudo-intellectual. And sometimes... "The sun's rays filter through the clouds like gold dust, slowly at first, then more rapidly, like a child caught in the act of some naughtiness. They catch the last few snowflakes, reflecting brightly off of them as they dance madly from one corner of the sky to another, as if performing an elaborate interpretive dance of "Ode to Joy" by Beethoven."
+* `bildungsroman`: This genre is about the growth of the protagonist, which is hard to test fully. But as far as style goes, it seems to make output feel more protagonist-focused, though it often lapses into third person. "Zack had a feeling, an intuition that today was going to be a great day. He couldn't explain it, but he felt optimistic about his future. The sky was bright and blue with just a few fluffy clouds, the air was warm, and the breeze carried the scent of the sea toward him. He sniffed the air, just catching the hint of salt. He knew it was silly, but he loved the smell of the ocean."
+* `tall tale`: Varied style, but generally makes it sound like someone's telling an exaggerated story, often starting with 'Once upon a time', continuing with occasional injected '...anyway', 'Where was I?' and frequent fantastical elements. Can get very silly.
+* `exaggerated`: Exaggerated to the max. `The beach was the most amazing place in the history of existence. Any person with any sense would know that. The sand was like a billion tiny little fireworks exploding beneath your feet. The water was so clear you could see all the way to Hawaii.`
+* `magic realism`: Highly nuanced. Sometimes inserts fantasy elements to the story, but mainly it adds certain 'sense of wonder' into the output. "The shadows call to you. The shadows in the deep. Shadows of lives not lived, of memories lost and hopes abandoned."
+* `purple prose`: Too elaborate. But listing it anyway for the sake of completeness. It might be possible to combine this with other styles to balance it a bit. "A sunbeam tumbled from the heavens and onto a daisy, where it bathed the petals in a golden light. A bee, drunk on this heavenly ambrosia, staggered from the pistil of the flower into the sky. The sky itself was a robin's egg blue, uncontaminated by even a single cloud. The waves roared as they crashed upon the shore like baby seals. Bright green seaweed danced in their wake like an Irish jig."
+* `caveman`: Caveman-style dialogue, and simple descriptions. `Go beach! Day go sunny! Surf good! Bears no eat you! You go beach now?`
+* `primitive`: Almost identical to 'caveman'. Can be combined with it for stronger effect.
+* `realistic`: Seems to keep the output grounded, though this is rather hard to test.
+* `allegory`: Not very strong, but when it works the AI is surprisingly good at allegorical writing. `Zack walked towards the water, a giant, ground shaking beast. The surf was his forest, his home. Inside it, he was king.`
+* `sesquipedalian`: Want the AI to use longer (and often more obscure) words? Use this. Note that combining this one with other styles makes it much weaker.  `The surf was both epidermic and epipleural, incrustating the auric essence of the cerulean waves. The brine-born bromide of the marina diffused in the atmosphere, condensing in the rubescent clouds, from which issued a mellifluous rain, dampening the zealous sands, begetting a plethora of verdant growth, a viridian veneer which would quell the scintillation of the sun.`
+* `sophomoric`: Casual and somewhat crude style. `Zack and the boys were down at the beach, trying to get a tan and score chicks. The waves were hot as hell and the chicks weren't exactly models.`
+* `grave`: Gravitas. Makes the tone more serious, gives the output more weight and dignity.
+text adventure: The interactive fiction style (Zork etc.) Strongly first-person and present tense. Increases the amount of environmental descriptions, but feels a bit disjointed.
 
 ## Genres (these do not have much effect on the style, but instead impact the 'genre' and focus of the story):
 
@@ -83,6 +95,13 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `light-hearted`: Strong good-defeats-evil focus.
 * `tragic`: Heavy focus on loss, heroic sacrifices and other similar themes. If there's victory to be had, it'll likely be bittersweet.
 * `Greek tragedy`: Bronze age adventures, with frequent references to Zeus, titans, etc. Does good job at pruning out modern technology, and tends to generate vivid output.
+* `socialist realism`: Focus on Soviet Union and communism. Frequent references to golden fields of grain and workers toiling for the Motherland while also showing the gritty side. "A strong, young factory worker pushes his hands forward on the line assembly, his calloused fingers twisting and wrapping the wiring around the automobile engine block."
+* `vaudeville`: Comedic style, but with overwhelming focus on theatre and stage plays. If you're making that kind of scenario then this is good, but not usable for much else.
+* `pop science`: Mild effect. Scientific output that ranges from completely nonsensical (but funny) to somewhat plausible. Could be steered into either direction by combining it with appropriate other styles. ('pop-science' was much stronger, but sadly that stopped working in Jan 2021 due to the changes to how hyphens work.)
+* `police report`: Exactly what you'd expect. Very niche. "On March 7th, at approximately 1345 hours, Zachery Washington was found dead on the beach by a passing jogger, who subsequently notified police. Cause of death is listed as exsanguination from a single gash to the jugular."
+* `steampunk`: Strong focus. Victorian England, airship pirates, goggles and top hats. "Dashing between the raindrops and wishing for my trusty top hat with its folding umbrella attachment, I made haste towards my destination. The steam-carriage I had hired was parked at the side of the road, waiting for me. Its brass fittings gleamed in the gloom and its boilers were beginning to build up a head of pressure."
+* `doctor's note`: Medical log style. `The patient, a forty-year-old male, came into the emergency room clinic in Red. He was pale and had circles under his eyes from lack of sleep. His lips were chapped and his speech was slightly slurred. He stated that he was having trouble catching his breath and was feeling nauseous.`
+* `psychoanalytic`: Lapses into psychoanalysis of what the protagonist is doing. `The reason that he chose to walk barefoot on the sand, rather than on the equally clean pavement, was because having soft sand under one's feet created an illusion of protection. He felt safe, therefore he was safe.`
 
 ## Not recommended:
 
@@ -111,6 +130,28 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `absurd`: Makes things weirder, but 'quirky' and 'surreal' had more consistent effect.
 * `assertive`: No effect on the style, but makes every character confident. This is better suited for personality traits.
 * `stylish`: Makes the characters wear fancy clothing, etc. No effect on writing style. Might have niche usefulness if you're making a fashion-focused scenario...
+* `professional`: No style-effect. Makes much of the dialogue polite, as if spoken by professional butler. Good candidate for character personality traits.
+* `abridged`: Too strong. "Went 2 beach. Had fun."
+* `encyclopedia`: Makes output slightly more wiki-like, but is too weak. 'Detailed' works better.
+* `campy`: Adds some campy horror movie elements, but is too weak.
+* `hardboiled`: Too weak. Sometimes adds a lot of foul language, but usually does nothing.
+* `furry`: Weak. Low chance of turning the protagonist into a generic canine anthro.
+* `legal`: Abnormally high rate of output corruption. When this works it spews out legalese and court claims. "ZACHARY JONES, ALSO KNOWN AS "ZACK", AGE 12, THE DATE IS SATURDAY, APRIL 13. LOCATION: BEACH. TIME: 10:00 AM. ITEMS WITH YOU: A SURFBOARD."
+* `stream of consciousness`: Rarely works, and when it does it's too literal. I don't see much use for this. 'walking walking walking walking hw hw hw hw Zack beach sand warm feet steps sun hot air salty sea gulls sky clouds horizon ocean waves curl break foam wet sand'
+* `abstract`: Intentionally mangles text when it works. Not sure if I'd call this abstract. 'Z was g0ing 2 the b#. d4YS wErE wArm +NvYo+ 4+F d1d 1t M@K3 B$TT3R D4YS.'
+* `cockney`: Cockney accent. You'd probably want to use this as a character trait, if at all. `Ey up, 'aven't we 'ad enough o' strogn winders an' blinkin' shutters up 'ere? If I 'ave ter watch out fer me glassypoo's I'm gonna go orf me bloomin' trolley, ya crahp! Gizza quid for a cuppa tea an' wake me up when we get ter Stratford, awright?`
+* `slapstick`: Rarely works, and when it does it's just something stupid like 'He then stepped on a bee and fell into a nearby swimming pool.'
+* `stanza`: Not as strong as 'sonnet'. Though this too makes the output more vibrant, might be possible to make it better by combining it.
+* `theatrical`: Too mixed. Sometimes mimics theater script, sometimes gets overly theatrical. `Zack the Jet, Surf Lord of the Ocean Waves, moved with a fluid grace, striding towards the sea. The sun cast his shadow upon the sand, which absorbed the heat and glowed golden. His skin was like ivory, his eyes like shining jewels. `
+* `infomercial`: Works surprisingly well. But unless you're actually using AID for infomercials, why use this? `Sold right here for a low, low price of $19.99! Comes with a free can of SURFBORAD wax! Hot colours for hot people! Red for that fiery passion inside, blue for the cool tranquility of the deep ocean, and black for that darkness in your soul. With new holographic stickers to make your board look like a mutant butterfly! Call now! Don't wait!`
+* `lowercase`: Lapses into full lowercase. Not sure why you'd want this.
+* `tabloid`: Funny, but not exactly useful. `Surf's Up! Hero Surfs To Victory! Ex-MMA fighter Zack 'The Sandman' Cartwright beat down at the hands of corrupt police, discovers hidden talent for surfing.`
+* `understated`: Very bland. Might be useful if you want to generate summarized version of existing text.
+* `purile`: Similar to 'shitpost'. `Zack went to da beach. He was drunk. There waz a sizzle as da sun hit his pale skin. He waz wearing speedos. He bought an ice cream and fell over.`
+* `laconic`: Very terse. `Sun. Surf. Sand. Sky.`
+* `didactic`: Kind of preachy and biased. `Beach is nice. When going to the beach, you should pack sunscreen, food, water, towels, and something to read. When you get there you should build a sandcastle or look for shells.`
+* `pleonastic`: Adds superfluous words to the output. `The sky above was blue, with tiny white clouds drifting here and there.`
+* `caustic`: Whiny and angsty, not a good interpretation of 'caustic'.
 
 ## SFW-focused:
 
@@ -120,7 +161,12 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 
 * `sensual`: Tends to be rather explicit, not really what I'd call 'sensual'.
 * `seductive`: Strong effect, makes most characters flirty. Better used as character-trait.
-* `arousing`: Heavily NSFW. Makes the scenes more... descriptive.
+* `lewd`: Not especially lewd, slants the outputs towards softcore erotica.
+* `kinky`: Similar to the above.
+* `homoerotic`: Marked increase in the amount of muscular men.
+* `titillating`: Marked increase in characters who are described as having 'perfect' bodies.
+* `arousing`: Makes the NSFW scenes more... descriptive.
+* *(Note: none of these are strongly explicit. If you want blatant NSFW, try adding X-RATED to the beginning of your AN.)*
 
 ## No noticeable effect (or inconsistent effect):
 
@@ -177,4 +223,32 @@ Also note that all of these have only been tested in lowercase, and capitalizing
 * `humble`
 * `classic`
 * `1800s`
-
+* `non-Euclidean`
+* `personal`
+* `psychological`
+* `mockumentary`
+* `oral history`
+* `letter format`
+* `cinematic`
+* `new age`
+* `pop culture`
+* `nerdy`
+* `ephemeral`
+* `visceral`
+* `flowing`
+* `suggestive`
+* `thinking`
+* `meta`
+* `illegal`
+* `comic`
+* `doggerel`
+* `ode`
+* `graphic`
+* `cryptographic` (generated complete gibberish)
+* `kaleidoscopic` (rarely worked, highly abstract descriptions)
+* `cryptic` (too much gibberish)
+* `paralanguage` (resulted in very confused AI)
+* `euphemism` (no effect)
+* `idiomatic` (no effect)
+* `puzzling` (often generates gibberish)
+ * `stilted` (no effect)
