@@ -172,7 +172,7 @@ const meters = {
 		},
 		prefix: 'Tsuki\'s Obedience Level: When listening to you, Tsuki is ',
 		increaseKeywords: ['snap your fingers', 'please', 'beg', 'worship', 'obey', 'control', 'trapped', 'master', 'whimper', 'sir', 'comply', 'complies', 'crawl', 'on her knees', 'kneel', 'fill me'],
-		decreaseKeywords: ['independent', 'argue', 'no', 'i don\'t', 'limit', 'boundary']
+		decreaseKeywords: ['independent', 'argue', 'i don\'t', 'limit', 'boundary']
 	}
 }
 
