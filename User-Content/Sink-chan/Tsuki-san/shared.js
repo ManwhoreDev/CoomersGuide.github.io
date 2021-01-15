@@ -31,7 +31,7 @@ const meters = {
 			color: 'red'
 		},
 		prefix: 'Tsuki\'s Embarrassment Level: Tsuki is feeling ',
-		increaseKeywords: ['sorry', 'not sure', 'embarrass', 'nervous', 'anxious', 'eyes widen', 'gulp', 'squirm', 'uncomfortable', 'whiny', 'hesitant'],
+		increaseKeywords: ['sorry', 'not sure', 'embarrass', 'nervous', 'anxious', 'eyes widen', 'gulp', 'squirm', 'uncomfortable', 'whiny', 'hesitant', 'pathetic', 'flushed', 'fluster'],
 		decreaseKeywords: ['assured', 'confident', 'strong', 'calm', 'relaxed', 'peaceful']
 	},
 	arousal: {
@@ -66,7 +66,7 @@ const meters = {
 			color: 'deep-pink' // >when the arousal meter goes DEEP PINK
 		},
 		prefix: 'Tsuki\'s Arousal Level: Tsuki\'s lust is ',
-		increaseKeywords: ['hot', 'horny', 'sex', 'fuck', 'suck', 'manhood', 'womanhood', 'desire', 'ravish', 'dick', 'cock', 'mount', 'thrust', 'fill me', 'seed', 'moist', 'slick', 'flush', 'rub', 'come', 'cum', 'sperm', 'into her mouth', 'wrapping her lips', 'shove', 'jerk'],
+		increaseKeywords: ['hot', 'horny', 'sex', 'fuck', 'suck', 'manhood', 'womanhood', 'desire', 'ravish', 'dick', 'cock', 'mount', 'thrust', 'fill me', 'seed', 'moist', 'slick', 'flush', 'rub', 'come', 'cum', 'sperm', 'into her mouth', 'wrapping her lips', 'shove', 'jerk', 'lick', 'good time', 'nipple'],
 		decreaseKeywords: ['cool', 'cold', 'distant', 'stiff', 'groan', 'tense']
 	},
 	corruption: {
@@ -101,7 +101,7 @@ const meters = {
 			color: 'maroon'
 		},
 		prefix: 'Tsuki\'s Corruption Level: Tsuki\'s personality is ',
-		increaseKeywords: ['dirt', 'gross', 'filth', 'pervert', 'depraved', 'pig', 'slut', 'choke', 'gag', 'from behind', 'screams', 'pain', 'bad girl', 'punished', 'nasty', 'eyes water', 'tear', 'cumslut'],
+		increaseKeywords: ['dirt', 'gross', 'filth', 'pervert', 'depraved', 'pig', 'slut', 'choke', 'gag', 'from behind', 'screams', 'pain', 'bad girl', 'punished', 'nasty', 'eyes water', 'tear', 'cumslut', 'service', 'spit', 'condom', 'terrible'],
 		decreaseKeywords: ['cute', 'pretty', 'love', 'nice', 'sweet', 'clean', 'neat']
 	},
 	mindBreak: {
@@ -136,7 +136,7 @@ const meters = {
 			color: 'chocolate'
 		},
 		prefix: 'Tsuki\'s Mind-Break Level: Tsuki\'s mind is ',
-		increaseKeywords: ['i can\'t', 'i won\'t', 'unbelieveable', 'pleasure', 'ecstasy', 'confused', 'why not', 'surprise', 'wha-', 'speechless', 'broken', 'fantas', 'despair', 'cry', 'sob'],
+		increaseKeywords: ['i can\'t', 'i won\'t', 'unbelieveable', 'pleasure', 'ecstasy', 'confused', 'why not', 'surprise', 'wha-', 'speechless', 'broken', 'fantas', 'despair', 'cry', 'sob', 'glazed over', 'excessive', 'break'],
 		decreaseKeywords: ['calm', 'smart', 'intelligent', 'detached']
 	},
 	obedience: {

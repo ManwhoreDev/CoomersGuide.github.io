@@ -18,7 +18,12 @@ const modifier = (text) => {
     && state.authorsNote
     && state.authorsNote.length > 0
   ) {
-    lines.splice(-depth, 0, `[Author's note: ${state.authorsNote}]`)
+    const tsukiShortAN = "Tsuki is " + meters.embarrassment[state.gauge.embarrassment].display + ","
+                                     + meters.arousal[state.gauge.arousal].display + ","
+                                     + meters.corruption[state.gauge.corruption].display + ","
+                                     + meters.mindBreak[state.gauge.mindBreak].display + ","
+                                     + meters.obedience[state.gauge.obedience].display
+    lines.splice(-depth, 0, `[Author's note: ${state.authorsNote}, ${tsukiShortAN}]`)
   }
  
   // Set the memory to be the prompt memory plus Tsuki's mental state
