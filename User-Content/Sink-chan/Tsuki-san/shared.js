@@ -3,12 +3,12 @@ const meters = {
 		0: {
 			display: 'confident ',
 			note: 'confident in herself and her purpose',
-			color: 'blue'
+			color: 'light-blue'
 		},
 		1: {
 			display: 'calm ',
 			note: 'relaxed, dealing with a familiar situation',
-			color: 'blue'
+			color: 'light-blue'
 		},
 		2: {
 			display: 'nervous ',
@@ -31,19 +31,19 @@ const meters = {
 			color: 'red'
 		},
 		prefix: 'Tsuki\'s Embarrassment Level: Tsuki is feeling ',
-		increaseKeywords: ['sorry', 'not sure', 'embarrass', 'nervous', 'anxious', 'eyes widen', 'gulp', 'squirm', 'uncomfortable', 'whiny', 'hesitant', 'pathetic', 'flushed', 'fluster'],
+		increaseKeywords: ['sorry', 'not sure', 'embarrass', 'nervous', 'anxious', 'eyes widen', 'gulp', 'squirm', 'uncomfortable', 'whiny', 'hesitant', 'pathetic', 'flushed', 'fluster', 'blush'],
 		decreaseKeywords: ['assured', 'confident', 'strong', 'calm', 'relaxed', 'peaceful']
 	},
 	arousal: {
 		0: {
 			display: 'cold ',
 			note: 'cold, she\'s completely disinterested in sex',
-			color: 'blue'
+			color: 'light-blue'
 		},
 		1: {
 			display: 'cool ',
 			note: 'cool and calm, she\'s disinterested in sex',
-			color: 'blue'
+			color: 'light-blue'
 		},
 		2: {
 			display: 'warm ',
@@ -66,7 +66,7 @@ const meters = {
 			color: 'deep-pink' // >when the arousal meter goes DEEP PINK
 		},
 		prefix: 'Tsuki\'s Arousal Level: Tsuki\'s lust is ',
-		increaseKeywords: ['hot', 'horny', 'sex', 'fuck', 'suck', 'manhood', 'womanhood', 'desire', 'ravish', 'dick', 'cock', 'mount', 'thrust', 'fill me', 'seed', 'moist', 'slick', 'flush', 'rub', 'come', 'cum', 'sperm', 'into her mouth', 'wrapping her lips', 'shove', 'jerk', 'lick', 'good time', 'nipple'],
+		increaseKeywords: ['hot', 'horny', 'sex', 'fuck', 'suck', 'manhood', 'womanhood', 'desire', 'ravish', 'dick', 'cock', 'mount', 'thrust', 'fill me', 'seed', 'moist', 'slick', 'flush', 'rub', 'come', 'cum', 'sperm', 'into her mouth', 'wrapping her lips', 'shove', 'jerk', 'lick', 'good time', 'nipple', 'half-lidded'],
 		decreaseKeywords: ['cool', 'cold', 'distant', 'stiff', 'groan', 'tense']
 	},
 	corruption: {
