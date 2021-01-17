@@ -9,10 +9,9 @@
 const modifier = (text) => {
   let modifiedText = text
 
-  let authorsNote = ''
   let authorsNoteIndex = -1
-  let authorsNoteDepth = -1
   let authorsNoteDepthIndex = -1
+  let authorsNoteDisplayIndex = -1
   
   // Split the input by line
   const inputLines = modifiedText.split("\n")
@@ -29,7 +28,7 @@ const modifier = (text) => {
         && -1 === authorsNoteIndex
       ) {
         authorsNoteIndex = index
-        authorsNote = authorsNoteTokens[1]
+        state.authorsNote = authorsNoteTokens[1]
       }
       else {
         console.log("Invalid Author's Note passed: " + line)
@@ -49,7 +48,7 @@ const modifier = (text) => {
           && depth >= 1
           && depth < 10
         ) {
-          authorsNoteDepth = depth
+          state.authorsNoteDepth = depth
           authorsNoteDepthIndex = index
         }
         else {
@@ -60,50 +59,47 @@ const modifier = (text) => {
         console.log("Invalid Author's Note Depth passed: " + line)
       }
     }
+    else if (line.startsWith("/anv")) {
+      if(-1 === authorsNoteDisplayIndex) {
+        authorsNoteDisplayIndex = index
+        state.authorsNoteDisplay = !state.authorsNoteDisplay
+      }
+      else {
+        console.log("Invalid Author's Note Display passed: " + line)
+      }
+    }
   })
-  
-  // If the current Author's Note has a length and a valid index, set it in the
-  // state.
-  if (authorsNote.length > 0) {
-    state.authorsNote = authorsNote
-  }
-  
-  // If the current Author's Note Depth is valid and has a valid index, set it
-  // in the state.
-  if (authorsNoteDepth >= 1) {
-    state.authorsNoteDepth = authorsNoteDepth
-  }
-  
-  // If we've accepted either (or both) /an and /and commands, remove the lines
-  // from the input before continuing. I'f we've process both kinds of commands,
-  // remove the one with the higher index first.
-  if (
-    authorsNoteIndex >= 0
-    && authorsNoteDepthIndex >= 0
-  ) {
-    if (authorsNoteIndex > authorsNoteDepthIndex) {
-      inputLines.splice(authorsNoteIndex, 1)
-      inputLines.splice(authorsNoteDepthIndex, 1)
 
-    }
-    else {
-      inputLines.splice(authorsNoteDepthIndex, 1)
-      inputLines.splice(authorsNoteIndex, 1)
-    }
+  // Add any indexes we want to delete to an array
+  let indexesToDelete = [];
+  if (authorsNoteIndex >= 0) {
+    indexesToDelete.push(authorsNoteIndex)
   }
-  else if(authorsNoteIndex >= 0) {
-    inputLines.splice(authorsNoteIndex, 1)
+  if (authorsNoteDepthIndex >= 0) {
+    indexesToDelete.push(authorsNoteDepthIndex)
   }
-  else if (authorsNoteDepthIndex >= 0) {
-    inputLines.splice(authorsNoteDepthIndex, 1)
+  if (authorsNoteDisplayIndex >= 0) {
+    indexesToDelete.push(authorsNoteDisplayIndex)
   }
+  
+  // Put them in reverse order, so we can delete from the highest index first.
+  indexesToDelete.sort().reverse();
+  
+  // Splice out the command lines
+  indexesToDelete.forEach((index) => {
+    inputLines.splice(index, 1)
+  })
   
   // Set the message based on the current Author's Note and Depth
   if (
     state.authorsNote.length > 0
     && state.authorsNoteDepth >= 1
+    && state.authorsNoteDisplay
   ) {
     state.message = "Author's Note (" + state.authorsNoteDepth + "): " + state.authorsNote
+  }
+  else {
+    state.message = ''
   }
 
   modifiedText = inputLines.join("\n")
