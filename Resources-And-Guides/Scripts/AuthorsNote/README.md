@@ -11,16 +11,16 @@ Note: This functionality also works in tandem with the existing Author's Note fe
 
 ## How To Install The Scripts
 The scripts are easy to install and can be copy/pasted from this repository without modification.
-1. Download `authorsNote.zip` from the repo.
+1. Download `scenario.zip` from the repo.
 2. Create a New Scenario (or open an existing scenario)
 3. Click "Edit"
 4. Scroll down until the "Scripts" button is visible
 5. Click the "Scripts" button
 6. In the Scripts page, click the "Upload" button (looks like a computer box with an up arrow)
-7. Select `authorsNote.zip` on your computer and click "Open"
+7. Select `scenario.zip` on your computer and click "Open"
 
 ### Optional: Copy/Paste The Contents into the script editors
-*Note: This is the old way to get the content into the scripts. If the `authorsNote.zip` upload worked, you don't need to do this step. Skip this and move to the test step.*
+*Note: This is the old way to get the content into the scripts. If the `scenario.zip` upload worked, you don't need to do this step. Skip this and move to the test step.*
 1. In the "Shared Library" tab, delete the contents and paste the contents of sharedLibrary.js
     * Click the "Save" icon
 2. In the "Input Modifier" tab, delete the contents and paste the contents of inputModifier.js
@@ -143,6 +143,12 @@ My player command!
 /and 3
 My player command!
 ```
+
+This example shows how to toggle the Author's Note display.
+```
+/anv
+```
+If the display was hidden, the command will show it. If the display was shown, the command will hide it.
 
 ## Modifications
 ### Changing Default Author's Note
