@@ -41,6 +41,7 @@ Text:
 This is my test command!
 /and 3
 Another test command.
+/anv
 ```
 Click the "Play" button. You should see an output like the following:
 ```
@@ -53,10 +54,47 @@ State:
   "setup": true,
   "authorsNote": "This is a test Author's Note",
   "authorsNoteDepth": 3,
-  "message": "Author's Note (3): This is a test Author's Note",
-  "score": 0
+  "authorsNoteDisplay": false,
+  "message": ""
+}
+
+```
+Test the input modifier again to show that toggling the AN visibility sets the message:
+State:
+```
+{
+  "memory": {},
+  "setup": true,
+  "authorsNote": "This is a test Author's Note",
+  "authorsNoteDepth": 3,
+  "authorsNoteDisplay": false,
+  "message": ""
 }
 ```
+Text:
+```
+/an This is a different Author's Note
+This is my test command!
+/and 2
+Another test command.
+/anv
+```
+Click the "Play" button. You should see an output like the following:
+```
+Modifier Result:
+Text: This is my test command!
+Another test command.
+State:
+{
+  "memory": {},
+  "setup": true,
+  "authorsNote": "This is a different Author's Note",
+  "authorsNoteDepth": 2,
+  "authorsNoteDisplay": true,
+  "message": "Author's Note (2): This is a different Author's Note"
+}
+```
+
 ### Test Context Modifier
 From the Scripts "Context Modifier" tab, scroll to the "Test Context Modifier" section. Enter the following inputs:
 State:
@@ -87,8 +125,7 @@ State:
   "setup": true,
   "authorsNote": "This is a test Author's Note",
   "authorsNoteDepth": 3,
-  "memory": {},
-  "score": 0
+  "memory": {}
 }
 ```
 
