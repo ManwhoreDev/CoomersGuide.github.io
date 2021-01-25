@@ -2,15 +2,6 @@
 
 *by [Zetsumi](https://play.aidungeon.io/main/profile?username=Zetsumi)*
 
-Seeing as there still seems to be a lot of misconceptions, confusion and ignorance out there about how WI works, I thought I'd offer some brief tips on it.
-Two important things.
-First, WI is fairly new, and our understanding of the best way to use it is a developing one.
-I won't be covering the various styles that are emerging here, because that is still a developing field.
-It's better to see people trying their own ideas and discovering new ways of doing things to share than it is to see everyone assume that any one method is the 'correct' way, ESPECIALLY this early in our developing understanding of it.
-Second, I'm still not 100% sure about a lot of this stuff myself, so if I do have the wrong information, please comment to correct me on it.
-
-There's a lot to cover here, so this is going to be pretty infodump heavy.
-
 ## Basics
 
 The basic process here is, when a keyword appears either in your text or the AI's output, the WI using that keyword is loaded into memory. However, there's a couple things we need to be aware of.
