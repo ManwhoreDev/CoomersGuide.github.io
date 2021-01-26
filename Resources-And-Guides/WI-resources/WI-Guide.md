@@ -2,15 +2,6 @@
 
 *by [Zetsumi](https://play.aidungeon.io/main/profile?username=Zetsumi)*
 
-Seeing as there still seems to be a lot of misconceptions, confusion and ignorance out there about how WI works, I thought I'd offer some brief tips on it.
-Two important things.
-First, WI is fairly new, and our understanding of the best way to use it is a developing one.
-I won't be covering the various styles that are emerging here, because that is still a developing field.
-It's better to see people trying their own ideas and discovering new ways of doing things to share than it is to see everyone assume that any one method is the 'correct' way, ESPECIALLY this early in our developing understanding of it.
-Second, I'm still not 100% sure about a lot of this stuff myself, so if I do have the wrong information, please comment to correct me on it.
-
-There's a lot to cover here, so this is going to be pretty infodump heavy.
-
 ## Basics
 
 The basic process here is, when a keyword appears either in your text or the AI's output, the WI using that keyword is loaded into memory. However, there's a couple things we need to be aware of.
@@ -41,49 +32,3 @@ Another common misconception. Keywords are not loaded into memory when a WI is a
  **Entry:** Loves hamburgers.
 
 When this WI is active, it doesn't tell the AI 'Bruce Kent loves hamburgers'. It tells the AI SOMEONE or SOMETHING loves hamburgers. Using this WI, the AI is just as likely to decide that the bird Bruce just saw fly by loves hamburgers as much as it is to give that quality to Bruce himself - and as discussed in my tips about getting the most out of the AI, the AI assumes everything is relevant, so don't be surprised when it suddenly brings that bird crashing through the window to steal Bruce's buns.
-
-## Addendum
-*By [RCratos](https://play.aidungeon.io/main/profile?username=RCratos)*
-
-If you're using the separated World Info method that Zetsumi mentioned, I recommend you to put the most important entries last. You can also put the most important lines in the end of single entry and have a jumbled entry. This mostly doesn't affect the AI much except for a few actions here and there(results from my own tests, might not be reproducible). This is also useful because World Info is the first(not last, beginning)(not including story summary) bit of text given to the AI so if the next step which is adding memory exceeds the 1048 token limit shared by memory and World Info, the first lines/words in the World Info will be cut off. 
-So it's generally better to put the important lines at end. 
-
-### Frequency of using keys
-
-Another tip, reuse the names of the character/World Info object as much as you can. It may look weird and unusual but it's a good approach. The times you need to do this is different for the two models, I don't remember the amount we'll so take this with  a grain of salt.
-
-Griffin — ~15 characters/line<br/>
-Dragon — ~60 characters/line
-
-I'll give a little example:
-
-*Griffin*<br/>
-`Ethan is a tall muscular man. Ethan has blue eyes and a light stubble. Ethan is outspoken and friendly. Ethan has a strange obsession for shapes. Ethan is very nerdy.`
-
-*Dragon*<br/>
-`Ethan is a tall muscular man with blue eyes and a light stubble. Ethan is very nerdy, outspoken and friendly. Ethan has a strange obsession with shapes.` 
-
-You can transform your entries into Zalty's/Caveman formats for better performance but I won't go into that because I am not great with that either. 
-
-### More non-World Info tips
-
-Basic structure for AI's input:
-
-1) Story Summary(if enabled) <br/>
-2) World Info <br/>
-3) Memory <br/>
-4) Context <br/>
-5) Author's Note <br/>
-6) Your input for this action <br/>
-
-The first parts are the ones that have most chance to get pushed out of memory like World Info and Story Summary. 
-
-If you don't have Author's Note you can use the fake A/N:
-
-Putting this in memory can yield an effect similar to Author's Note.
-
-EDITOR'S NOTE:<br/>
-WRITING STYLE: Descriptive, Literary.<br/>
-GENRE: Comedy, Romance.<br/>
-
-This feature sometimes work and sometimes doesn't so hope it works for you! 
