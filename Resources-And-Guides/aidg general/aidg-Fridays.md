@@ -1,19 +1,20 @@
-# /aidg/ Friday theme events prompts
-->*Full-size image links are available via *Image* in the header, ones that are shown are scaled down versions.*<-
-***
-## ->Guidelines<-
+<h1 align="center"> /aidg/ Friday theme events prompts</h1>
+<p align="center"> <em>Full-size image links are available via <b>Image</b> in the header, ones that are shown are scaled down versions.</em> </p>
+
+<h2 align="center"> Guidelines </h2>
+
 1. Link to your prompt must posted in the thread.
 2. Your post *must* contain the link to it on <https://prompts.aidg.club>.
 3. It must be posted on the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the thread is checked for the prompts to be transcribed during the weekend).
 4. 100 characters and low effort prompts won't be added.
 5. Image is optional, but *highly*  recommended if you want to get a single (You).
 6. Explore link is optional as well.
-***
+
 * TOC
 {:toc}
 
-## ->Vanilla Friday<-
-***
+<h2 align="center"> Vanilla Friday</h2>
+
 ### The great Myerva, ha ha ha!
 ![]()| Description
 :--: | --
@@ -138,8 +139,8 @@
 **Link** | https://prompts.aidg.club/620
 **Explore** | https://play.aidungeon.io/main/scenarioView?publicId=76f963e0-5e8c-11eb-94b3-5bc8a1aac2f5
 
-## ->Folklore Friday<-
-***
+<h2 align="center"> Folklore Friday </h2>
+
 ### Bloody Mary, Bloody Mary, Bloody Mary 
 [Image](https://i.imgur.com/TksecRL.jpg) | Description
 :--: | --
