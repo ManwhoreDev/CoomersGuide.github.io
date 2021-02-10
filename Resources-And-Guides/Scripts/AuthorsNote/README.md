@@ -187,6 +187,14 @@ This example shows how to toggle the Author's Note display.
 ```
 If the display was hidden, the command will show it. If the display was shown, the command will hide it.
 
+By default, the author's note will be put in the context surrounded by brackets. For example, if your note is "This is a strange story.", the AI will receive "[Author's note: This is a strange story.]". Usually, this is what you want, but if you need more control, you can pass the raw flag:
+
+```
+/an -r [Content warning: exploding heads]
+```
+
+When using this, you should delimit your note manually, so the AI knows it's not a proper part of the story.
+
 ## Modifications
 ### Changing Default Author's Note
 You can change the default Author's Note by changing the value of `currentAuthorsNote` in shared.js. To make this change, you can edit shared.js like so:

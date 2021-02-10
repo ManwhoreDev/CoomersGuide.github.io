@@ -22,7 +22,7 @@ const modifier = (text) => {
     && state.authorsNote
     && state.authorsNote.length > 0
   ) {
-    lines.splice(-depth, 0, `[Author's note: ${state.authorsNote}]`)
+    lines.splice(-depth, 0, state.rawAuthorsNote ? state.authorsNote : `[Author's note: ${state.authorsNote}]`)
   }
 
   // Make sure the new context isn't too long, or it will get truncated by the server.
