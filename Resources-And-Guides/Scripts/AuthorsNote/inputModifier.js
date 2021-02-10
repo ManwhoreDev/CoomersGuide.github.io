@@ -29,8 +29,13 @@ const modifier = (text) => {
       ) {
         authorsNoteIndex = index
         if (authorsNoteTokens[1].startsWith("-r ")) {
-          state.rawAuthorsNote = true
-          state.authorsNote = authorsNoteTokens[1].substring(3)
+          if (authorsNoteTokens[1].length > 3) {
+            state.rawAuthorsNote = true
+            state.authorsNote = authorsNoteTokens[1].substring(3)
+          }
+          else {
+            console.log("Invalid Raw Author's Note passed: " + line)
+          }
         }
         else {
           state.rawAuthorsNote = false
