@@ -17,16 +17,16 @@
 ### The great Myerva, ha ha ha!
 ![]()| Description
 :--: | --
- | The cutest dragon girl to come out of /aidg/. This wasn't my creation originally, but I had the old prompt (using do, brrr) sitting around in my list, so I decided to update it for Vanilla friday and upload it here. Also uses dialogue memory and WI, because the way Myerva speaks is what makes her stand out.
-**Link** | https://prompts.aidg.club/568
-**Explore** | https://play.aidungeon.io/main/scenarioView?publicId=65969c00-5935-11eb-aedc-758ce6ee255e
+||The cutest dragon girl to come out of /aidg/. This wasn't my creation originally, but I had the old prompt (using do, brrr) sitting around in my list, so I decided to update it for Vanilla friday and upload it here. Also uses dialogue memory and WI, because the way Myerva speaks is what makes her stand out.|
+|**Link** | https://prompts.aidg.club/568|
+|**Explore** | https://play.aidungeon.io/main/scenarioView?publicId=65969c00-5935-11eb-aedc-758ce6ee255e|
 
 ### Stella's Secret Passion
 [Image](https://i.imgur.com/SnBzczk.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/SnBzczkm.jpg) |You are a graduate student who—after some interesting encounters—is in a relationship with the beautiful Stella. The two of you have a special night planned at her mansion. When you arrive, you see your girlfriend, Stella. She's dressed and acting like a living doll. She enjoys spending her time with you like this, but tonight she wants to show her more passionate side.
-|This scenario uses scripted AN, but comes with a recommended AN appropriate for the story. You can specify AN with the /an command, AN Depth with the /and command and toggle the AN display with the /anv command.
-|When the AI generates words like 'love' and 'passion' will increase the Passion Meter, which will affect Stella's behavior..
+||This scenario uses scripted AN, but comes with a recommended AN appropriate for the story. You can specify AN with the /an command, AN Depth with the /and command and toggle the AN display with the /anv command.
+||When the AI generates words like 'love' and 'passion' will increase the Passion Meter, which will affect Stella's behavior..
 **Link** | https://prompts.aidg.club/569
 **Explore**| https://play.aidungeon.io/main/scenarioView?publicId=65969c00-5935-11eb-aedc-758ce6ee255e
 
@@ -56,8 +56,8 @@
 [Image](https://i.imgur.com/zRbP0mw.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/zRbP0mwm.jpg) |Experience femdom from God herself, written in mock King James Bible style.
-|Script .zip file included. I changed "Author's note" in it to "Editor's note".
-|Uses sink-chan's A/N script: https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote. Type /anv to disable the display.
+||Script .zip file included. I changed "Author's note" in it to "Editor's note".
+||Uses sink-chan's A/N script: https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote. Type /anv to disable the display.
 **Link** | https://prompts.aidg.club/575
 **Explore**| https://play.aidungeon.io/main/scenarioView?publicId=d3a75ec0-594c-11eb-bbf0-1382b7b35fe1
 
@@ -71,7 +71,7 @@
 [Image](https://i.imgur.com/kOqN3mG.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/kOqN3mGm.jpg) |Travel strange, forgotten realms, guided only by cryptic hints from mysterious forces with only your trusty revolver, and a burly demoness tomboy to accompany you. Lightly based on the doom mod: high noon drifter
-|Intended to have scripted authors note. https://guide.aidg.club under "Author's note scripting" to get it.
+||Intended to have scripted authors note. https://guide.aidg.club under "Author's note scripting" to get it.
 **Link** | https://prompts.aidg.club/577
 **Explore** | https://play.aidungeon.io/main/scenarioView?publicId=a2774a80-5998-11eb-85c0-1b9939a79c48
 
@@ -79,7 +79,7 @@
 [Image](https://i.imgur.com/Fp5Hc06.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/Fp5Hc06m.jpg) |Car sex with your Aunt Ayla.
-|Extra Vanilla Sub scenario available in-app
+||Extra Vanilla Sub scenario available in-app
 **Link** | https://play.aidungeon.io/main/scenarioView?playPublicId=b5205a50-5d08-11eb-ac46-974cfba80225
 **Explore** | https://prompts.aidg.club/578
 
@@ -87,7 +87,7 @@
 [Image](https://i.imgur.com/5SWySd3.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/5SWySd3m.jpg) | On travel through the forest, you meet a giant—a giantess, actually—like your grandfather used to tell you tales about.  You could potentially romance her, simply romance her, or fall for more primitive instincts: harming her or enjoying well-earned sex.
-|The Memory, the A/Ns and the WIs remain short as to not restrict the possibility. It will most likely need some tweaking if a specific end is wanted. The WI keys usually have a space after them to avoid triggering on a suffixed key (e.g., "Giantess" triggering on "Giantesses").
+||The Memory, the A/Ns and the WIs remain short as to not restrict the possibility. It will most likely need some tweaking if a specific end is wanted. The WI keys usually have a space after them to avoid triggering on a suffixed key (e.g., "Giantess" triggering on "Giantesses").
 **Link** | https://prompts.aidg.club/579
 
 ### Vanilla with Li'l Sean
@@ -127,7 +127,7 @@
 [Image](https://i.imgur.com/pibWM3g.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/pibWM3gm.jpg) | After bottling up your secret crush for so long to your matchmaking tomboy best friend, you've decided to roll the dice and confess your feelings to her during a meetup.
-|Loosely based off of https://imgur.com/gallery/a8PSy
+||Loosely based off of https://imgur.com/gallery/a8PSy
 **Link** | https://prompts.aidg.club/587
 **Explore** | https://play.aidungeon.io/main/scenarioView?publicId=13dba130-5d36-11eb-a5d5-7dcf83d8ec5b
 
@@ -163,14 +163,14 @@
 [Image](https://i.imgur.com/oYFcWOv.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/oYFcWOvm.jpg) |For weeks you've been tormented by nightmare, and have woken up sore and bruised. You've now learned that you're being haunted by the Mara, a night-demoness who flies into your cabin at night to "ride" you. If you can close all opening after she's entered, you can trap her in there with you, and even turn her back into a moral girl if you say the magic words "Mara Mara Minne".
-|Uses the A/N script. Uttering the magic words "Mara Mara Minne" will turn the Mara back into a human girl, and cause a personality change, by automatically changing the A/N. I might update the script to let you change her back, if anyone would want that. I recommend diligent use of the /story action and Memory to keep track of the scene and reinforce the Mara's current state and personality.
+||Uses the A/N script. Uttering the magic words "Mara Mara Minne" will turn the Mara back into a human girl, and cause a personality change, by automatically changing the A/N. I might update the script to let you change her back, if anyone would want that. I recommend diligent use of the /story action and Memory to keep track of the scene and reinforce the Mara's current state and personality.
 **Link** |https://prompts.aidg.club/670
 
 ### The Ghost Woman from the Spanish Era
 [Image](https://i.imgur.com/O6aAcui.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/O6aAcuim.jpg) |Your Filipino-American family will be staying at a refurbished Spanish era house in the Philippines for the holiday. Little did you know that an extra guest will be staying in the house...
-|Google Translate probably needed for the Spanish lines you're going to see, if Maria doesn't follow up with a translation that is. A/N Script by sink-chan can also be used. Just download the script zip or input the script yourself and input the author's note from here.
+||Google Translate probably needed for the Spanish lines you're going to see, if Maria doesn't follow up with a translation that is. A/N Script by sink-chan can also be used. Just download the script zip or input the script yourself and input the author's note from here.
 **Link** |https://prompts.aidg.club/675
 **Explore**| https://play.aidungeon.io/main/scenarioView?publicId=99a37450-67e5-11eb-8d27-61e61bbb7af5
 
@@ -178,7 +178,7 @@
 [Image](https://i.imgur.com/A0qq67x.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/A0qq67xm.jpg) | Deciding to do the stalker challenge, you've gotten yourself into a very unexpected situation with a tall, cuddly, horny looking wendigo woman who has chosen you to be her mate.
-|The spooky text requires a lot of refreshing to work, edit it out if you want. (edit it out if you're on griffin because it can't do it.)
+||The spooky text requires a lot of refreshing to work, edit it out if you want. (edit it out if you're on griffin because it can't do it.)
 **Link** |https://prompts.aidg.club/678
 **Explore**|https://play.aidungeon.io/main/scenarioView?publicId=b1775f40-66bb-11eb-9a11-efd2a10a0f53
 
