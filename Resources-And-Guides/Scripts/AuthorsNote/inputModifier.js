@@ -28,7 +28,14 @@ const modifier = (text) => {
         && -1 === authorsNoteIndex
       ) {
         authorsNoteIndex = index
-        state.authorsNote = authorsNoteTokens[1]
+        if (authorsNoteTokens[1].startsWith("-r ")) {
+          state.rawAuthorsNote = true
+          state.authorsNote = authorsNoteTokens[1].substring(3)
+        }
+        else {
+          state.rawAuthorsNote = false
+          state.authorsNote = authorsNoteTokens[1]
+        }
       }
       else {
         console.log("Invalid Author's Note passed: " + line)
@@ -96,7 +103,7 @@ const modifier = (text) => {
     && state.authorsNoteDepth >= 1
     && state.authorsNoteDisplay
   ) {
-    state.message = "Author's Note (" + state.authorsNoteDepth + "): " + state.authorsNote
+    state.message = (state.rawAuthorsNote ? "Raw " : "") + "Author's Note (" + state.authorsNoteDepth + "): " + state.authorsNote
   }
   else {
     state.message = ''

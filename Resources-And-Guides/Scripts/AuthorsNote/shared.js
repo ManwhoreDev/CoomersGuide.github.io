@@ -4,4 +4,5 @@ if (!state.setup) {
   state.authorsNote = "" // String for Author's Note.
   state.authorsNoteDepth = 2 // AN inserted n lined from the end of context
   state.authorsNoteDisplay = true // Toggle display of the AN
+  state.rawAuthorsNote = false // Wether to not surround the note with [Author's note: ]
 }
