@@ -13,6 +13,7 @@
 <h2 align="center">Table of Contents</h2>
 
 1. [Guidelines](#guidelines)
+2. [Vanilla Friday](#vanilla-friday)
    1. [The great Myerva, ha ha ha!](#the-great-myerva-ha-ha-ha)
    2. [Stella's Secret Passion](#stellas-secret-passion)
    3. [A Hairline Fracture](#a-hairline-fracture)
@@ -30,7 +31,7 @@
    15. [Partnering Up With Your Dragoon Childhood Friend](#partnering-up-with-your-dragoon-childhood-friend)
    16. [Matching with Your Tomboy Matchmaker](#matching-with-your-tomboy-matchmaker)
    17. [The Morning After](#the-morning-after)
-2. [Vanilla Friday](#vanilla-friday)
+2. [Foklore Friday](#folklore-friday)
    1. [Bloody Mary, Bloody Mary, Bloody Mary](#bloody-mary-bloody-mary-bloody-mary)
    2. [Unhcegila](#unhcegila)
    3. [Caipora's Reverse Trapping](#caiporas-reverse-trapping)
