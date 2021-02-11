@@ -21,7 +21,7 @@ A collection of the question commonly asked on /aidg/ threads. Don't hesisate to
 2. [Energy](#energy)
 3. [AIDS](#aids)
 4. [Input](#input)
-5. [Author's Note](#input)
+5. [Author's Note](#authors-note)
 6. [A/N script](#an-script)
 7. [World Info](#world-info)
 8. [Formatting](#formatting)
