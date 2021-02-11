@@ -65,19 +65,19 @@ Many of the issues with the AI's behavior can be caused by improper use of /reme
 Coomers need to manually disable Safe Mode in Settings.
 <p align="center">
   <img src="https://files.catbox.moe/034eue.png">
-</p>)
+</p>
 
 #### Is there a censorship applied to the AI even with Safe Mode turned off?
 The word 'rape' (this spelling and capitalization specifically) is prevented from being generated in the outputs. Reportedly, some slurs are also filtered out.
 <p align="center">
   <img src="https://files.catbox.moe/pakeoh.png">
-</p>)
+</p>
 
 #### ALL my stories and prompts are gone! Help!
 Try resetting search index inside "Account" tab in "Settings" to restore them.
 <p align="center">
   <img src="https://files.catbox.moe/1t34yz.png">
-</p>)
+</p>
 Remember, AI Dungeon is updated live and intermittently so always back up stories you are fond of as you MAY LOSE currently active adventures.
 
 #### How do I back up stories? Surely there must be some kind of story/prompt export feature…
@@ -96,7 +96,7 @@ There is a "Banned Words List" inside "Game" tab in "Settings". It will prevent 
 Read up more on this here: <https://aidungeon.medium.com/controlling-gpt-3-with-logit-bias-55866d593292>
 <p align="center">
   <img src="https://files.catbox.moe/m1i2mt.png">
-</p>)
+</p>
 
 ### Dragon
 
@@ -121,12 +121,13 @@ Third, Latitude has no clue how to run their business, bleeding money where it c
 #### I have a grandfathered $5 sub I got in July. Now, the "AI Model Type" setting has Dragon highlighted, but when I click on it, I get the notice about upgrading my plan.
 It's a visual bug, you are still on Griffin. All old $5 subs are now called "Silver" and give access only to "Unlimited" Griffin. To use Dragon, you have to upgrade your plan.
 
-## Energy
+<h2 align="center">Energy</h2>
+
 #### Why is the energy bar not showing up for me? Am I on the Unlimited Dragon already?
 To make your energy bar visible, toggle it in the settings menu under the "Display" tab in "Settings". It is by default hidden. Set its appearance to "numbers" too to have a concrete representation of how much you have left.
 <p align="center">
   <img src="https://files.catbox.moe/jfom03.png">
-</p>)
+</p>
 
 #### How much energy is used for a single action?
 1 energy is depleted per action, BUT first 2 /retry ![](https://files.catbox.moe/p6u1jl.png) ARE free. That does not count if you /undo ![](https://files.catbox.moe/whjcco.png) and then hit enter.
@@ -134,7 +135,8 @@ To make your energy bar visible, toggle it in the settings menu under the "Displ
 #### How fast does the energy bar recharge?
 Energy refills 1 unit every 5 minutes until it reaches 100 (~8 hours), then 1 per 20 minutes until it caps out at 2000 (~26 days)
 
-## AIDS
+<h2 align="center">AIDS</h2>
+
 #### What are AI Dungeon Scales (AIDS) used for?
 AIDS can be used to recharge energy (the only thing you should use them for), buying Worlds (read next question), and avatars.
 
@@ -146,7 +148,7 @@ Worlds are shit. AI doesn't handle massive settings well and devs don't know how
 * People give you AIDS if they like (You) or (You)r prompt.
 * If you paid for premium, each time it renews, you get a fixed amount of it, depending on your tier (100, 200, 500 respectively).
 
-## Input
+<h2 align="center">Input</h2>
 
 ### General Questions about the Input
 
@@ -168,27 +170,28 @@ It's a personal preference.
 If you write your scenes as an actual prose and not as a shopping list, it literally does not matter. If you are a decent writer, you can experience kino outputs no matter what Tense, POV, dialect or quotation style you are using.
 Read [this question](https://rentry.co/aidg-FAQ/#is-2nd-person-3rd-1st-pov-superior-to-others) again and get better at writing.
 
-## ->Author's Note<-
+<h2 align="center">Author's Note</h2>
+
 #### What is Author's Note? I see people referencing it, but I can't see it anywhere?
 Author's Note (A/N for short) is currently a premium only feature. HOWEVER! You can use it for free if you read the following sections.
 You either click the pin or type /remember to view it.
 Here is how it looks:
 <p align="center">
   <img src="https://files.catbox.moe/vz1mdj.png">
-</p>)
+</p>
 
 #### I don't understand, where is the text I put inside the A/N shown?
 Text inside A/N field is injected 3 sentences above the last sentence of the output+input. It is not shown inside the main story text.
 But it *is* sent to the AI and it impacts its outputs drastically.
 <p align="center">
   <img src="https://files.catbox.moe/fzre22.png">
-</p>)
+</p>
 
 #### Wow! That sounds very interesting. But I am a free user…
 Kind anon made a script superseding the default A/N completely with new features. All users can use it, regardless if they know anything about programming.
 Read up on it here — <https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote>.
 
-## A/N script
+<h2 align="center">A/N script</h2>
 
 #### What does A/N script do? I don't understand.
 I suggest you carefully read through the [documentation](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote) again.
@@ -227,7 +230,7 @@ Users who reported these issues used Android app and /do mode. Use /story and we
 #### Still can't get it to work.
 If you are sure you followed every step correctly and it just *refuses* to work, ask in the thread about it; script's creator is active in it.
 
-## World Info
+<h2 align="center">World Info</h2>
 
 #### What is World Info (WI)?
 There is a [basic guide](https://guide.aidg.club/Resources-And-Guides/WI-resources/WI-Guide.html) available for it. Read it to understand how it works.
@@ -258,7 +261,8 @@ The spaces *before* commas are fine for short/common words (read [this question]
 Since adding a space *after* commas is grammatically correct, it was assumed that should be done for WI entries as well.
 The only thing to be said about not enunciating it enough in the thread is "AID never offered much documentation". If your WI worked all this time despite this, it means it's not as much of an issue as you might think.
 
-## Formatting
+<h2 align="center">Formatting</h2>
+   
 #### Hey, if I use JSON, caveman, Zalty, Onyx, Monky, EWIJSON formatting, will AI remember and reference things better?
 Don't use any programming/game formats. Write everything in normal English.
 
@@ -266,7 +270,8 @@ Don't use any programming/game formats. Write everything in normal English.
 Short answer: they don't work. There is no evidence they help, they leak into output and once they are criticized, their proponents respond with "It feels better to me".
 Long answer would require a whole separate debunking article. Once that will be written, the link to it will be here.
 
-## Guides
+<h2 align="center">Guides</h2>
+
 #### "/AIDG/ Writing Guide" and "A Coomer's Guide to AI Dungeon" contradict each other. Which one is legit?
 They were written by different people during different periods of time, with each author having his own approach to AID.
 Try both methods and see which one works for (You).
@@ -283,7 +288,8 @@ If you don't like the guide's visual look, port/change it however you want and s
 #### "Minimalist" version of Coomer's Guide is not minimalist enough.
 See [this question](https://rentry.co/aidg-FAQ/#latex-is-fucking-garbage-you-should-have-sticked-with-markdown).
 
-## Latitude
+<h2 align="center">Latitude</h2>
+
 #### Who is Mormon?
 He is the creator of AI Dungeon 2.
 
