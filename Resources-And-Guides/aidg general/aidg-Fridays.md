@@ -1,7 +1,7 @@
 <h1 align="center"> /aidg/ Friday theme events prompts</h1>
 <p align="center"> <em>Full-size image links are available via <b>Image</b> in the header, ones that are shown are scaled down versions.</em> </p>
 
-<h2 align="center"> Guidelines </h2>
+<h2 align="center">Guidelines</h2>
 
 1. Link to your prompt must posted in the thread.
 2. Your post *must* contain the link to it on <https://prompts.aidg.club>.
@@ -10,10 +10,40 @@
 5. Image is optional, but *highly*  recommended if you want to get a single (You).
 6. Explore link is optional as well.
 
-* TOC
-{:toc}
+<h2 align="center">Table of Contents</h2>
 
-<h2 align="center"> Vanilla Friday</h2>
+1. [Guidelines](#guidelines)
+   1. [The great Myerva, ha ha ha!](#the-great-myerva-ha-ha-ha)
+   2. [Stella's Secret Passion](#stellas-secret-passion)
+   3. [A Hairline Fracture](#a-hairline-fracture)
+   4. [Touhou Project: A Chef In Hakugyokurou](#touhou-project-a-chef-in-hakugyokurou)
+   5. [Oni Sisters.](#oni-sisters)
+   6. [The Book of Pleasures](#the-book-of-pleasures)
+   7. [Relief From The Heat](#relief-from-the-heat)
+   8. [The Drifter and the Demoness](#the-drifter-and-the-demoness)
+   9. [Aunt Ayla](#aunt-ayla)
+   10. [Travelling through the forest & meeting a giantess](#travelling-through-the-forest--meeting-a-giantess)
+   11. [Vanilla with Li'l Sean](#vanilla-with-lil-sean)
+   12. [A Friday with Vanilla](#a-friday-with-vanilla)
+   13. [Maidbot](#maidbot)
+   14. [Lovers In Bloom](#lovers-in-bloom)
+   15. [Partnering Up With Your Dragoon Childhood Friend](#partnering-up-with-your-dragoon-childhood-friend)
+   16. [Matching with Your Tomboy Matchmaker](#matching-with-your-tomboy-matchmaker)
+   17. [The Morning After](#the-morning-after)
+2. [Vanilla Friday](#vanilla-friday)
+   1. [Bloody Mary, Bloody Mary, Bloody Mary](#bloody-mary-bloody-mary-bloody-mary)
+   2. [Unhcegila](#unhcegila)
+   3. [Caipora's Reverse Trapping](#caiporas-reverse-trapping)
+   4. [Capturing the Mara](#capturing-the-mara)
+   5. [The Ghost Woman from the Spanish Era](#the-ghost-woman-from-the-spanish-era)
+   6. [Unexpected Innawoods Encounter](#unexpected-innawoods-encounter)
+   7. [The Kuchisake-onna at the Crossroads](#the-kuchisake-onna-at-the-crossroads)
+   8. [Nisse's Wrath](#nisses-wrath)
+   9. [Godfather Death](#godfather-death)
+   10. [Diary of Bugul Noz](#diary-of-bugul-noz)
+
+
+<h2 align="center">Vanilla Friday</h2>
 
 ### The great Myerva, ha ha ha!
 ![]()| Description
