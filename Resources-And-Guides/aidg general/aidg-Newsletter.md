@@ -1,4 +1,4 @@
-# /aidg/ Newsletter
+<h1 align="center">/aidg/ Newsletter</h1>
 
 - (22/01) .club now supports script .zip files upload
 - (12/01) Author's Note is now available for everyone via a script. The script has several features over the vanilla A/N, so even if you are a Dragon user, *do* [check it out](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote). 
