@@ -1,6 +1,6 @@
 <h1 align="center">/aidg/ Author's Notes (Work in progress)</h1>
 
-<p align="center">Also see a list maintained by Zaltys, with his `Writing style: <x>` experiments: <a href="https://justpaste.it/9ofj1">https://justpaste.it/9ofj1</a>.<br/>You can use (You) or your character's name in the A/N should it be required, but it's up to personal preference.<br/><b>Remember</b>! It’s not limited to all of this, be creative.</p>
+<p align="center">Also see a list maintained by Zaltys, with his <code>Writing style: <​x></code> experiments: <a href="https://justpaste.it/9ofj1">https://justpaste.it/9ofj1</a>.<br/>You can use (You) or your character's name in the A/N should it be required, but it's up to personal preference.<br/><b>Remember</b>! It’s not limited to all of this, be creative. </p>
 
 <h2 align="center">Table of Contents</h2>
 
