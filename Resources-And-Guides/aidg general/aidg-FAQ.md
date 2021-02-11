@@ -18,15 +18,66 @@ A collection of the question commonly asked on /aidg/ threads. Don't hesisate to
       8. [AID doesn't work! It outputs garbage! I can't get anything good out of it!](#aid-doesnt-work-it-outputs-garbage-i-cant-get-anything-good-out-of-it)
    2. [AID Website](#aid-website)
       1. [AI doesn't output naughty words, HELP!](#ai-doesnt-output-naughty-words-help)
+      2. [Is there a censorship applied to the AI even with Safe Mode turned off?](#is-there-a-censorship-applied-to-the-ai-even-with-safe-mode-turned-off)
+      3. [ALL my stories and prompts are gone! Help!](#all-my-stories-and-prompts-are-gone-help)
+      4. [How do I back up stories? Surely there must be some kind of story/prompt export feature…](#how-do-i-back-up-stories-surely-there-must-be-some-kind-of-storyprompt-export-feature)
+      5. [I have a problem with Android/iOS app.](#i-have-a-problem-with-androidios-app)
+   3. [Fine-tuning](#fine-tuning)
+      1. [I keep encountering Count Grey, Sir Kit, Jacob, Karth, Kyros, etc.](#i-keep-encountering-count-grey-sir-kit-jacob-karth-kyros-etc)
+      2. [Can I get rid of Count Grey for good?](#can-i-get-rid-of-count-grey-for-good)
+   4. [Dragon](#Dragon)
+      1. [Is Dragon good?](#is-dragon-good)
+      2. [How good is Dragon exactly? I think Griffin is fine and Dragon is a scam.](#how-good-is-dragon-exactly-i-think-griffin-is-fine-and-dragon-is-a-scam)
+      3. [Should I get $10 sub?](#should-i-get-10-sub)
+      4. [Is Platinum sub worth it? I don't want to pay $30 a month.](#is-platinum-sub-worth-it-i-dont-want-to-pay-30-a-month)
+      5. [Why is everything so expensive?! Why do I even have to pay for words on screen?](#why-is-everything-so-expensive-why-do-i-even-have-to-pay-for-words-on-screen)
+      6. [I have a grandfathered $5 sub I got in July. Now, the "AI Model Type" setting has Dragon highlighted, but when I click on it, I get the notice about upgrading my plan.](#i-have-a-grandfathered-5-sub-i-got-in-july-now-the-ai-model-type-setting-has-dragon-highlighted-but-when-i-click-on-it-i-get-the-notice-about-upgrading-my-plan)
 2. [Energy](#energy)
+    1. [Why is the energy bar not showing up for me? Am I on the Unlimited Dragon already?](#why-is-the-energy-bar-not-showing-up-for-me-am-i-on-the-unlimited-dragon-already)
+    2. [How much energy is used for a single action?](#how-much-energy-is-used-for-a-single-action)
+    3. [How fast does the energy bar recharge?](#how-fast-does-the-energy-bar-recharge)
 3. [AIDS](#aids)
+    1. [What are AI Dungeon Scales (AIDS) used for?](what-are-ai-dungeon-scales-aids-used-for)
+    2. [Should I buy Worlds? Are they good?](should-i-buy-worlds-are-they-good)
+    3. [How do I get AIDS?](#how-do-i-get-aids)
 4. [Input](#input)
+    1. [General Questions about the Input](#general-questions-about-the-input)
+        1. [Why should I use /story? That is just like writing the story myself.](#why-should-i-use-story-that-is-just-like-writing-the-story-myself)
+        2. [Hm, but I like random outputs AI gives me when I use /do.](#hm-but-i-like-random-outputs-ai-gives-me-when-i-use-do)
+        3. [AI forgot about my characters…](#ai-forgot-about-my-characters)
+    2. [POV and Tense](#pov-and-tense)
+        1. [Out of 1st, 2nd and 3rd Person POV, which one is superior to others?](#out-of-1st-2nd-and-3rd-person-pov-which-one-is-superior-to-others)
+        2. [But, all novels and books use 3rd Person… 2nd Person triggers bad training data, therefore, it should not be used.](#but-all-novels-and-books-use-3rd-person-2nd-person-triggers-bad-training-data-therefore-it-should-not-be-used)
 5. [Author's Note](#authors-note)
+    1. [What is Author's Note? I see people referencing it, but I can't see it anywhere?](#what-is-authors-note-i-see-people-referencing-it-but-i-cant-see-it-anywhere)
+    2. [I don't understand, where is the text I put inside the A/N shown?](#i-dont-understand-where-is-the-text-i-put-inside-the-an-shown)
+    3. [Wow! That sounds very interesting. But I am a free user…](#wow-that-sounds-very-interesting-but-i-am-a-free-user)
 6. [A/N script](#an-script)
+    1. [What does A/N script do? I don't understand.](#What does A/N script do? I don't understand.)
+    2. [How do I install it?](#How do I install it?)
+    3. [I think I installed it, but how do I use it again?](I think I installed it, but how do I use it again?)
+    4. [How do I turn off the A/N display above the text input box?](How do I turn off the A/N display above the text input box?)
+    5. [I can't set up Author's Note, and /anv does not work.]
+    6. [Still can't get it to work.]
 7. [World Info](#world-info)
+    1. What is World Info (WI)?
+    2. Are WI keys case sensitive?
+    3. Should I separate my WI keys with spaces after/before commas or not?
+    4. Wait, but… I used wrong spacing for all my WI entries up until now… Should I go remake all my previous prompts?
+    5. So spaces in WI are a no go after all?
 8. [Formatting](#formatting)
+    1. Hey, if I use JSON, caveman, Zalty, Onyx, Monky, EWIJSON formatting, will AI remember and reference things better?
+    2. Why should I not use any formatting and use prose?
 9. [Guides](#guides)
+    1. "/AIDG/ Writing Guide" and "A Coomer's Guide to AI Dungeon" contradict each other. Which one is legit?
+    2. "/AIDG/ Writing Guide" is outdated. Why is it still up?
+    3. Why is HTML version just a converted PDF file?
+    4. LaTeX is fucking garbage, you should have sticked with Markdown.
+    5. "Minimalist" version of Coomer's Guide is not minimalist enough.
 10. [Latitude](#latitude)
+    1. [Who is Mormon?](#who-is-mormon)
+    2. [Why do you call him that? Does he have an actual name?](#why-do-you-call-him-that-does-he-have-an-actual-name)
+    3. [Wasn't /aidg/ responsible for a DDOS attack on AID some time ago?](#wasnt-aidg-responsible-for-a-ddos-attack-on-aid-some-time-ago)
 
 <h2 align="center">AI</h2>
 <h3 align="center">General Questions about the AI</h3>
@@ -38,7 +89,7 @@ GPT-3 can't be run on consumer hardware, it's just too demanding. Old, GPT-2 AID
 If it existed before/during 2018–2019 and information about it could be found on the Internet, it does.
 If media in question first came into existence after 2019, no, it does not.
 
- #### Can the AI simulate my waifu perfectly?
+#### Can the AI simulate my waifu perfectly?
 Any simulation of a specific character will heavily rely on *fanfiction* content.
 Test AI's knowledge yourself, it literally takes ~2 minutes to do.
 
@@ -58,7 +109,7 @@ Previously, GPT-2 was used for the first output of the story, that's why you may
 #### AID doesn't work! It outputs garbage! I can't get anything good out of it!
 Many of the issues with the AI's behavior can be caused by improper use of /remember & world info, high randomness, and clunky formatting/grammar.
 
-<h3 align="center">AID Website></h3>
+<h3 align="center">AID Website</h3>
 
 #### AI doesn't output naughty words, HELP!
 
@@ -86,7 +137,7 @@ There isn't. You just "Select All" on your story/prompt, "Copy" and "Paste" it i
 #### I have a problem with Android/iOS app.
 Usage of the mobile app is discouraged as it is in a state of being constantly broken. Just use the mobile website instead.
 
-### Fine-tuning
+<h3 align="center">Fine-tuning</h3>
 
 #### I keep encountering Count Grey, Sir Kit, Jacob, Karth, Kyros, etc.
 The model was repeatedly violated by brute-forcing it to output CYOA text. To avoid seeing them, use descriptive prose, and stop using /do and /say.
@@ -98,7 +149,7 @@ Read up more on this here: <https://aidungeon.medium.com/controlling-gpt-3-with-
   <img src="https://files.catbox.moe/m1i2mt.png">
 </p>
 
-### Dragon
+<h3 align="center">Dragon</h3>
 
 #### Is Dragon good?
 Yes, Dragon helps and *is better* than Griffin.
@@ -150,7 +201,7 @@ Worlds are shit. AI doesn't handle massive settings well and devs don't know how
 
 <h2 align="center">Input</h2>
 
-### General Questions about the Input
+<h3 align="center">General Questions about the Input</h3>
 
 #### Why should I use /story? That is just like writing the story myself.
 /do and /say garble your input, lowering the AI's output quality drastically. Also, everything /do is capable of is easily achievable with /story, along with complete control over your input.
@@ -161,7 +212,7 @@ Write "you attempt to" to make the outcome of an action uncertain and add RNG.
 #### AI forgot about my characters…
 Use /remember and World Info to maintain continuity and permanence in stories.
 
-### POV and Tense
+<h3 align="center">POV and Tense</h3>
 
 #### Out of 1st, 2nd and 3rd Person POV, which one is superior to others?
 It's a personal preference.
