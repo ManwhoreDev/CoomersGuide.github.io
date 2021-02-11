@@ -52,8 +52,8 @@
 
 <h3 align="center">The great Myerva, ha ha ha!</h3>
 
-![]()| Description
-:--: | --
+| | Description|
+|:--: | --|
 ||The cutest dragon girl to come out of /aidg/. This wasn't my creation originally, but I had the old prompt (using do, brrr) sitting around in my list, so I decided to update it for Vanilla friday and upload it here. Also uses dialogue memory and WI, because the way Myerva speaks is what makes her stand out.|
 |**Link** | <https://prompts.aidg.club/568>|
 |**Explore** | <https://play.aidungeon.io/main/scenarioView?publicId=65969c00-5935-11eb-aedc-758ce6ee255e>|
@@ -176,9 +176,9 @@
 
 <h3 align="center">The Morning After</h3>
 
-![]()| Description
-:--: | --
-|| A pair of passionate lovers wake content and satisfied after spending the night together. 
+|![]()| Description|
+|:--: | --|
+|![]()| A pair of passionate lovers wake content and satisfied after spending the night together.|
 **Link** | <https://prompts.aidg.club/620>
 **Explore** | <https://play.aidungeon.io/main/scenarioView?publicId=76f963e0-5e8c-11eb-94b3-5bc8a1aac2f5>
 
