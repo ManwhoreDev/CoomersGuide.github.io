@@ -111,7 +111,7 @@
 - Written in the style of [Author] (EX: H.P. Lovecraft).
 - Writing style: (EX: professional, narrative, arousing.)
 
-<h2 align="center">Physical state></h2>
+<h2 align="center">Physical state</h2>
 
 - [​X] lower half of the body is paralyzed.
 - You are drugged and can barely move your muscles.
