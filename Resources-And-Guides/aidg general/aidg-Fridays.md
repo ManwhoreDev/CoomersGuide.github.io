@@ -178,7 +178,7 @@
 
 |![]()| Description|
 |:--: | --|
-|![]()| A pair of passionate lovers wake content and satisfied after spending the night together.|
+| A pair of passionate lovers wake content and satisfied after spending the night together.|
 **Link** | <https://prompts.aidg.club/620>
 **Explore** | <https://play.aidungeon.io/main/scenarioView?publicId=76f963e0-5e8c-11eb-94b3-5bc8a1aac2f5>
 
