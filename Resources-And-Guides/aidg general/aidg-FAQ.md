@@ -219,7 +219,7 @@ It's a personal preference.
 
 #### But, all novels and books use 3rd Person… 2nd Person triggers bad training data, therefore, it should not be used.
 If you write your scenes as an actual prose and not as a shopping list, it literally does not matter. If you are a decent writer, you can experience kino outputs no matter what Tense, POV, dialect or quotation style you are using.
-Read [this question](https://rentry.co/aidg-FAQ/#is-2nd-person-3rd-1st-pov-superior-to-others) again and get better at writing.
+Read [this question](https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-FAQ.html#but-all-novels-and-books-use-3rd-person-2nd-person-triggers-bad-training-data-therefore-it-should-not-be-used) again and get better at writing.
 
 <h2 align="center">Author's Note</h2>
 
