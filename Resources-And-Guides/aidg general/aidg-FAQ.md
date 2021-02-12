@@ -14,7 +14,7 @@ A collection of the question commonly asked on /aidg/ threads. Don't hesisate to
       4. [Does the AI learn in real time?](#does-the-ai-learn-in-real-time)
       5. [Is the AI sentient?](#is-the-ai-sentient)
       6. [Is there a magic technique to get the AI to perform exactly as I want?](#is-there-a-magic-technique-to-get-the-ai-to-perform-exactly-as-i-want)
-      7. [Which model is used for the very first response of the story?](which-model-is-used-for-the-very-first-response-of-the-story)
+      7. [Which model is used for the very first response of the story?](#which-model-is-used-for-the-very-first-response-of-the-story)
       8. [AID doesn't work! It outputs garbage! I can't get anything good out of it!](#aid-doesnt-work-it-outputs-garbage-i-cant-get-anything-good-out-of-it)
    2. [AID Website](#aid-website)
       1. [AI doesn't output naughty words, HELP!](#ai-doesnt-output-naughty-words-help)
@@ -308,7 +308,7 @@ Here `sister¹`, `Emma¹`, `Sister²`, `Big Sis¹`, `Emma²` trigger a relevant 
 If you think that warrants a massive respacing of all your WI entries across all of your previous prompts, go right ahead.
 
 #### So spaces in WI are a no go after all?
-The spaces *before* commas are fine for short/common words (read [this question](https://rentry.co/aidg-FAQ/#should-i-separate-my-wi-keys-with-spaces-afterbefore-commas-or-not) again).
+The spaces *before* commas are fine for short/common words (read [this question](https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-FAQ.html#should-i-separate-my-wi-keys-with-spaces-afterbefore-commas-or-not) again).
 Since adding a space *after* commas is grammatically correct, it was assumed that should be done for WI entries as well.
 The only thing to be said about not enunciating it enough in the thread is "AID never offered much documentation". If your WI worked all this time despite this, it means it's not as much of an issue as you might think.
 
@@ -328,7 +328,7 @@ They were written by different people during different periods of time, with eac
 Try both methods and see which one works for (You).
 
 #### "/AIDG/ Writing Guide" is outdated. Why is it still up?
-*All* information (besides GPT-2 [for the first output](https://rentry.co/aidg-FAQ/#what-model-is-used-for-the-very-first-response-of-the-story)) inside it still holds true to this very day. The fact that it predates Author's Note does not negate its usefulness.
+*All* information (besides GPT-2 [for the first output](https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-FAQ.html#which-model-is-used-for-the-very-first-response-of-the-story)) inside it still holds true to this very day. The fact that it predates Author's Note does not negate its usefulness.
 
 #### Why is HTML version just a converted PDF file?
 HTML version is intended for mobile devices and browsers without the PDF viewer.
@@ -337,7 +337,7 @@ HTML version is intended for mobile devices and browsers without the PDF viewer.
 If you don't like the guide's visual look, port/change it however you want and submit a [PR](https://github.com/CoomersGuide/CoomersGuide.github.io).
 
 #### "Minimalist" version of Coomer's Guide is not minimalist enough.
-See [this question](https://rentry.co/aidg-FAQ/#latex-is-fucking-garbage-you-should-have-sticked-with-markdown).
+See [this question](https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-FAQ.html#latex-is-fucking-garbage-you-should-have-sticked-with-markdown).
 
 <h2 align="center">Latitude</h2>
 
