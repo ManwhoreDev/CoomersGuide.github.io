@@ -25,4 +25,4 @@ https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Newsletter.html
 Prompts from previous events: https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Fridays.html
 
 ▶ OP TEMPLATE\
-https://guide.aidg.club/Resources-And-Guides/aidg%20general/OP-Template.html
+https://guide.aidg.club/Resources-And-Guides/aidg%20general/OP-template.html
