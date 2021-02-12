@@ -53,27 +53,27 @@ A collection of the question commonly asked on /aidg/ threads. Don't hesisate to
     2. [I don't understand, where is the text I put inside the A/N shown?](#i-dont-understand-where-is-the-text-i-put-inside-the-an-shown)
     3. [Wow! That sounds very interesting. But I am a free user…](#wow-that-sounds-very-interesting-but-i-am-a-free-user)
 6. [A/N script](#an-script)
-    1. [What does A/N script do? I don't understand.](#What does A/N script do? I don't understand.)
-    2. [How do I install it?](#How do I install it?)
-    3. [I think I installed it, but how do I use it again?](I think I installed it, but how do I use it again?)
-    4. [How do I turn off the A/N display above the text input box?](How do I turn off the A/N display above the text input box?)
-    5. [I can't set up Author's Note, and /anv does not work.]
-    6. [Still can't get it to work.]
+    1. [What does A/N script do? I don't understand.](#what-does-an-script-do-i-dont-understand)
+    2. [How do I install it?](#how-do-i-install-it)
+    3. [I think I installed it, but how do I use it again?](#i-think-i-installed-it-but-how-do-i-use-it-again)
+    4. [How do I turn off the A/N display above the text input box?](#how-do-i-turn-off-the-an-display-above-the-text-input-box)
+    5. [I can't set up Author's Note, and /anv does not work.](#i-cant-set-up-authors-note-and-anv-does-not-work)
+    6. [Still can't get it to work.](#still-cant-get-it-to-work)
 7. [World Info](#world-info)
-    1. What is World Info (WI)?
-    2. Are WI keys case sensitive?
-    3. Should I separate my WI keys with spaces after/before commas or not?
-    4. Wait, but… I used wrong spacing for all my WI entries up until now… Should I go remake all my previous prompts?
-    5. So spaces in WI are a no go after all?
+    1. [What is World Info (WI)?](#what-is-world-info-wi)
+    2. [Are WI keys case sensitive?](#are-wi-keys-case-sensitive)
+    3. [Should I separate my WI keys with spaces after/before commas or not?](#should-i-separate-my-wi-keys-with-spaces-afterbefore-commas-or-not)
+    4. [Wait, but… I used wrong spacing for all my WI entries up until now… Should I go remake all my previous prompts?](#wait-but-i-used-wrong-spacing-for-all-my-wi-entries-up-until-now-should-i-go-remake-all-my-previous-prompts)
+    5. [So spaces in WI are a no go after all?](#so-spaces-in-wi-are-a-no-go-after-all)
 8. [Formatting](#formatting)
-    1. Hey, if I use JSON, caveman, Zalty, Onyx, Monky, EWIJSON formatting, will AI remember and reference things better?
-    2. Why should I not use any formatting and use prose?
+    1. [Hey, if I use JSON, caveman, Zalty, Onyx, Monky, EWIJSON formatting, will AI remember and reference things better?](#hey-if-i-use-json-caveman-zalty-onyx-monky-ewijson-formatting-will-ai-remember-and-reference-things-better)
+    2. [Why should I not use any formatting and use prose?](#why-should-i-not-use-any-formatting-and-use-prose)
 9. [Guides](#guides)
-    1. "/AIDG/ Writing Guide" and "A Coomer's Guide to AI Dungeon" contradict each other. Which one is legit?
-    2. "/AIDG/ Writing Guide" is outdated. Why is it still up?
-    3. Why is HTML version just a converted PDF file?
-    4. LaTeX is fucking garbage, you should have sticked with Markdown.
-    5. "Minimalist" version of Coomer's Guide is not minimalist enough.
+    1. ["/AIDG/ Writing Guide" and "A Coomer's Guide to AI Dungeon" contradict each other. Which one is legit?](#aidg-writing-guide-and-a-coomers-guide-to-ai-dungeon-contradict-each-other-which-one-is-legit)
+    2. ["/AIDG/ Writing Guide" is outdated. Why is it still up?](#aidg-writing-guide-is-outdated-why-is-it-still-up)
+    3. [Why is HTML version just a converted PDF file?](why-is-html-version-just-a-converted-pdf-file)
+    4. [LaTeX is fucking garbage, you should have sticked with Markdown.](#latex-is-fucking-garbage-you-should-have-sticked-with-markdown)
+    5. ["Minimalist" version of Coomer's Guide is not minimalist enough.](#minimalist-version-of-coomers-guide-is-not-minimalist-enough)
 10. [Latitude](#latitude)
     1. [Who is Mormon?](#who-is-mormon)
     2. [Why do you call him that? Does he have an actual name?](#why-do-you-call-him-that-does-he-have-an-actual-name)
