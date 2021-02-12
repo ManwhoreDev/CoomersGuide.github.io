@@ -1,3 +1,4 @@
+## /aidg/ - AI Dungeon General
 [X] Edition
 
 AI Dungeon or AI Dungeon 2 is a proprietary text adventure game that uses the GPT-3 text prediction model created by OpenAI to generate effectively limitless open-ended story lines.
