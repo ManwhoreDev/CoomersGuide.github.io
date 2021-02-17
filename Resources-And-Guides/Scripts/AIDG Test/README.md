@@ -14,7 +14,7 @@ Once you have the tools installed, navigate to the `AIDG Test` folder in your co
 ## Writing Tests
 The tests are written with the NodeJS library `mocha`. You can review their documentation for complete instructions, but I have provided some basic examples in `AIDG Test` and `AuthorsNote`. When writing tests, I recommend you start with the template provided for each of the four files under test. The general test structure is as follows:
 
-Have your script files in the base folder. Check out `AuthorsNote` for an example, but basically, you want `shared.js`, `inputModifier.js`, `contextModifier.js`, and `outputModifier.js` to be at the siblings of the `test` folder.
+Have your script files in the base folder. Check out [AuthorsNote](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote) for an example, but basically, you want `shared.js`, `inputModifier.js`, `contextModifier.js`, and `outputModifier.js` to be at the siblings of the `test` folder.
 
 Next, in each file, we import the utility libraries:
 ```

@@ -212,4 +212,4 @@ For those making changes to the Author's Note script, there are tests to run as 
 ```
 npm install && npm test
 ```
-For more information see the "AIDG Test" Project.
+For more information see the [AIDG Test](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AIDG%20Test) Project.

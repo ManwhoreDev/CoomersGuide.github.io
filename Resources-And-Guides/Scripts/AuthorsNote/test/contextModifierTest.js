@@ -6,36 +6,51 @@ const environment = require('./environment')
 environment.loadSharedLibrary()
 
 const testAN = "This is a test Author's Note"
+const testRawAN = "[Content Warning: Javascript]"
 const testANDepth = 2
+const defaultState = {
+	authorsNote: testAN,
+	authorsNoteDepth: testANDepth,
+	rawAuthorsNote: false
+}
+const testText = "This is a test context."
+const testMultilineText = "This is a test context.\nThis is the second line.\nThis is the third line."
 
 describe('Tests for the context modifier.', () => {
-	it('should not insert the Author\'s Note if one is set, but there is enough context.', () => {
+	it('should not insert the Author\'s Note if one is set, but there is not enough context.', () => {
+		environment.setState(defaultState)
+
 		const contextModifier = rewire('../contextModifier.js')
 		const modifier = contextModifier.__get__('modifier');
 
-		environment.setState({
-			authorsNote: testAN,
-			authorsNoteDepth: testANDepth
-		})
-
-		const testText = "This is a test context."
 		const output = modifier(testText)
 
 		assert.equal(output.text, testText)
 	})
 
 	it('should insert the Author\'s Note if there is enough context and one is set.', () => {
+		environment.setState(defaultState)
+
 		const contextModifier = rewire('../contextModifier.js')
 		const modifier = contextModifier.__get__('modifier');
 
+		const output = modifier(testMultilineText)
+
+		assert.equal(output.text, `This is a test context.\n[Author's note: ${testAN}]\nThis is the second line.\nThis is the third line.`)
+	})
+
+	it('should insert the Raw Author\'s Note if the flag is set.', () => {
 		environment.setState({
-			authorsNote: testAN,
-			authorsNoteDepth: testANDepth
+			authorsNote: testRawAN,
+			authorsNoteDepth: testANDepth,
+			rawAuthorsNote: true
 		})
 
-		const testText = "This is a test context.\nThis is the second line.\nThis is the third line."
-		const output = modifier(testText)
+		const contextModifier = rewire('../contextModifier.js')
+		const modifier = contextModifier.__get__('modifier');
 
-		assert.equal(output.text, "This is a test context.\n[Author's note: This is a test Author's Note]\nThis is the second line.\nThis is the third line.")
+		const output = modifier(testMultilineText)
+
+		assert.equal(output.text, `This is a test context.\n${testRawAN}\nThis is the second line.\nThis is the third line.`)
 	})
 })
