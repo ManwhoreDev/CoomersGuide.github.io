@@ -206,3 +206,10 @@ if (!state.setup)
   state.currentAuthorsNote = "My initial AN here!" // Makes a state that holds a string for AN. To be set later with input modifier.
 }
 ```
+
+# Tests
+For those making changes to the Author's Note script, there are tests to run as well to make sure it behaves as expected.
+```
+npm install && npm test
+```
+For more information see the "AIDG Test" Project.

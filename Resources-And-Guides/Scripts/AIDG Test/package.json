@@ -1,0 +1,16 @@
+{
+  "name": "aidg-test",
+  "version": "1.0.0",
+  "description": "Run tests for AID scripts",
+  "main": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "rewire": "^5.0.0",
+    "uglify-js": "^3.12.8"
+  }
+}
