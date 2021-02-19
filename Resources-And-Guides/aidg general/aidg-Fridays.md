@@ -48,6 +48,8 @@
    3. [Do you even lift?](#do-you-even-lift)
    4. [Buffairy](#buffairy)
    5. [Pride of the Ctarl-Ctarl Empire](#pride-of-the-ctarl-ctarl-empire)
+   6. [Dance Dance Humiliation](#dance-dance-humiliation)
+   7. [Living with My Athletic Big Sister](#living-with-my-athletic-big-sister)
 
 <h2 align="center">Vanilla Friday</h2>
 
@@ -292,16 +294,31 @@
 
 <h3 align="center">Buffairy</h3>
 
-[Image](https://i.imgur.com/Vr2Mhjj.jpg) | Description
+[Image](https://i.imgur.com/vNyLE6r.jpg) | Description
 :--: | --
-![Thumbnail](https://i.imgur.com/Vr2Mhjjm.jpg) | Meet Pitanga(Peetaanga), a fairy that is not like the others. She's a tanned tomboy with a muscular body and a love for exercising. Accompany her as she shows you her special workout routine.
+![Thumbnail](https://i.imgur.com/vNyLE6rm.jpg) | Meet Pitanga(Peetaanga), a fairy that is not like the others. She's a tanned tomboy with a muscular body and a love for exercising. Accompany her as she shows you her special workout routine.
 **Link** | <https://prompts.aidg.club/769>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dc497f00-713d-11eb-89d1-e38aef2dc6b4>
 
 <h3 align="center">Pride of the Ctarl-Ctarl Empire</h3>
 
-[Image](https://i.imgur.com/vNyLE6r.jpg) | Description
+[Image](https://i.imgur.com/Vr2Mhjj.jpg) | Description
 :--: | --
-![Thumbnail](https://i.imgur.com/vNyLE6rm.jpg) | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
+![Thumbnail](https://i.imgur.com/Vr2Mhjjm.jpg) | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
 **Link** | <https://prompts.aidg.club/770>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1c53b630-71f0-11eb-8f9c-cfb057936fbd>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1c53b630-71f0-11eb-8f9c-cfb057936fbd><h3 align="center"></h3>
+
+<h3 align="center">Dance Dance Humiliation</h3>
+
+[Image](https://i.imgur.com/xJB94jA.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/xJB94jAm.png) | Your athletic friend Penny wants a buddy to play DDR with, so now it's just you and your hottest friend in a quiet arcade. Can you keep up the pace, or are you going to look like a fool in front of this toned, athletic beauty?
+**Link** | <https://prompts.aidg.club/771>
+
+<h3 align="center">Living with My Athletic Big Sister</h3>
+
+[Image](https://i.imgur.com/gBiJiaA.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/gBiJiaAm.jpg) | Your parents have decided to move you in with your big sister, who you haven't seen in four years. Living with her might prove a little unusual after seeing how much your sister has changed since the past four years...<br/>You can use either the A/N script or default authors note. Just paste whatever is in the script and turn disable /an
+**Link** | <https://prompts.aidg.club/776>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=70b26880-72cb-11eb-879c-55451e01acd7>
