@@ -284,24 +284,24 @@
 
 <h3 align="center">Do you even lift?</h3>
 
-[Image]() | Description
+[Image](https://i.imgur.com/iUmfDXj.png) | Description
 :--: | --
-![Thumbnail]() | When your friend asked if you wanted to work out with her, you mainly accept out of curiosity at what was under the baggy clothes she always wore. When the two of you actually hit the gym together, however, you quickly realize she isn't the shy, self-conscious girl you assumed she was from the way she dressed.
+![Thumbnail](https://i.imgur.com/iUmfDXjm.png) | When your friend asked if you wanted to work out with her, you mainly accept out of curiosity at what was under the baggy clothes she always wore. When the two of you actually hit the gym together, however, you quickly realize she isn't the shy, self-conscious girl you assumed she was from the way she dressed.
 **Link** | <https://prompts.aidg.club/737>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=279ef640-719f-11eb-b13d-f9a0680feedb>
 
 <h3 align="center">Buffairy</h3>
 
-[Image]() | Description
+[Image](https://i.imgur.com/Vr2Mhjj.jpg) | Description
 :--: | --
-![Thumbnail]() | Meet Pitanga(Peetaanga), a fairy that is not like the others. She's a tanned tomboy with a muscular body and a love for exercising. Accompany her as she shows you her special workout routine.
+![Thumbnail](https://i.imgur.com/Vr2Mhjjm.jpg) | Meet Pitanga(Peetaanga), a fairy that is not like the others. She's a tanned tomboy with a muscular body and a love for exercising. Accompany her as she shows you her special workout routine.
 **Link** | <https://prompts.aidg.club/769>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dc497f00-713d-11eb-89d1-e38aef2dc6b4>
 
 <h3 align="center">Pride of the Ctarl-Ctarl Empire</h3>
 
-[Image]() | Description
+[Image](https://i.imgur.com/vNyLE6r.jpg) | Description
 :--: | --
-![Thumbnail]() | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
+![Thumbnail](https://i.imgur.com/vNyLE6rm.jpg) | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
 **Link** | <https://prompts.aidg.club/770>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1c53b630-71f0-11eb-8f9c-cfb057936fbd>
