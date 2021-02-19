@@ -260,3 +260,46 @@
 ![Thumbnail](https://i.imgur.com/HlxW8m2m.jpg) | As you wander through the woodlands of Brittany, you stumble upon a mossy old journal of some sort sticking out of a collapsed hole in the side of a hill. The writer referred to himself as "Bugul Noz" and seemed to spend most of his time sulking in loneliness. Let's take a peek.
 **Link** | <https://prompts.aidg.club/681>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=c8ec9330-6764-11eb-b966-9f1deb5eab9c>
+
+<h2 align="center">/fit/ Friday</h2>
+
+<h3 align="center">Between the Paladin and the Amazon</h3>
+
+[Image](https://i.imgur.com/YhOW5b7.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/YhOW5b7m.png) | While wandering alone in the woods, you, a young elven boy, get accosted by an amazon looking for a husband. Lucky for you, a traveling Paladin has appeared to defend you from the treacherous huntress. Who will prevail? Will you have further adventures with either of them?
+**Link** | <https://prompts.aidg.club/731>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a4786ce0-725e-11eb-9ded-5d44824a632e>
+
+<h3 align="center">Interspecies Soccer Team (It's just monster girls)</h3>
+
+|![]()| Description|
+|:--: | --|
+|![]()| Manage your team of monster girls, keep 'em in shape and teach them how to play ball without legs! I've set up two characters in world info, but they're of course perfectly optional, and in my testing, plenty more kept getting added. Do be prepared for some wrangling, the AI has a thing about legs when it comes to soccer. Who knew?|
+**Link** | <https://prompts.aidg.club/736>
+
+<h3 align="center">Do you even lift?</h3>
+
+[Image]() | Description
+:--: | --
+![Thumbnail]() | When your friend asked if you wanted to work out with her, you mainly accept out of curiosity at what was under the baggy clothes she always wore. When the two of you actually hit the gym together, however, you quickly realize she isn't the shy, self-conscious girl you assumed she was from the way she dressed.
+**Link** | <https://prompts.aidg.club/737>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=279ef640-719f-11eb-b13d-f9a0680feedb>
+
+<h3 align="center">Buffairy</h3>
+
+[Image]() | Description
+:--: | --
+![Thumbnail]() | Meet Pitanga(Peetaanga), a fairy that is not like the others. She's a tanned tomboy with a muscular body and a love for exercising. Accompany her as she shows you her special workout routine.
+**Link** | <https://prompts.aidg.club/769>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dc497f00-713d-11eb-89d1-e38aef2dc6b4>
+
+<h3 align="center">Pride of the Ctarl-Ctarl Empire</h3>
+
+[Image]() | Description
+:--: | --
+![Thumbnail]() | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>
+
+This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
+**Link** | <https://prompts.aidg.club/770>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1c53b630-71f0-11eb-8f9c-cfb057936fbd>
