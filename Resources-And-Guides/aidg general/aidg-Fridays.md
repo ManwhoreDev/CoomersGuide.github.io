@@ -44,10 +44,10 @@
    10. [Diary of Bugul Noz](#diary-of-bugul-noz)
 4. [Fit Friday](#fit-friday)
    1. [Between the Paladin and the Amazon](#between-the-paladin-and-the-amazon)
-   2.[Interspecies Soccer Team (It's just monster girls)](#interspecies-soccer-team-its-just-monster-girls)
-   3.[Do you even lift?](#do-you-even-lift)
-	4.[Buffairy](#buffairy)
-	5.[Pride of the Ctarl-Ctarl Empire](#pride-of-the-ctarl-ctarl-empire)
+   2. [Interspecies Soccer Team (It's just monster girls)](#interspecies-soccer-team-its-just-monster-girls)
+   3. [Do you even lift?](#do-you-even-lift)
+   4. [Buffairy](#buffairy)
+   5. [Pride of the Ctarl-Ctarl Empire](#pride-of-the-ctarl-ctarl-empire)
 
 <h2 align="center">Vanilla Friday</h2>
 
