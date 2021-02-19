@@ -105,14 +105,24 @@ Collection of pre-made themes.
 
 * Background: `Animated`
 
-* Custom font: Yes, https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
+* Custom font: `Yes`, https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
  
 **11) AID Automata**
 
-* Link: https://pastebin.com/4QcppNkS
+* Link: https://pastebin.com/3dsNCS1p
 
-* Preview: https://i.imgur.com/h39xXms.png
+* Preview: https://i.imgur.com/mJtDKXy.png
 
 * Background: `Static`
 
 * Custom font: `No`
+
+**12) Morrowind**
+
+* https://rentry.co/cf3fq
+
+* Preview: https://i.imgur.com/ke4JWBH.png
+
+* Background: `Static`
+
+* Custom font: `Yes`, https://isaskar.github.io/Pelagiad/
