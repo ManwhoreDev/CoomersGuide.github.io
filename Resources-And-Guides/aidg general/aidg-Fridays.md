@@ -42,7 +42,8 @@
    8. [Nisse's Wrath](#nisses-wrath)
    9. [Godfather Death](#godfather-death)
    10. [Diary of Bugul Noz](#diary-of-bugul-noz)
-
+3. [Fit Friday](#fit-friday)
+   1. [Between the Paladin and the Amazon](#between-the-paladin-and-the-amazon)
 
 <h2 align="center">Vanilla Friday</h2>
 
