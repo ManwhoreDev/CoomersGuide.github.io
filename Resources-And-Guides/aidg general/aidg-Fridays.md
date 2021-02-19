@@ -31,7 +31,7 @@
    15. [Partnering Up With Your Dragoon Childhood Friend](#partnering-up-with-your-dragoon-childhood-friend)
    16. [Matching with Your Tomboy Matchmaker](#matching-with-your-tomboy-matchmaker)
    17. [The Morning After](#the-morning-after)
-2. [Foklore Friday](#folklore-friday)
+3. [Foklore Friday](#folklore-friday)
    1. [Bloody Mary, Bloody Mary, Bloody Mary](#bloody-mary-bloody-mary-bloody-mary)
    2. [Unhcegila](#unhcegila)
    3. [Caipora's Reverse Trapping](#caiporas-reverse-trapping)
@@ -42,8 +42,12 @@
    8. [Nisse's Wrath](#nisses-wrath)
    9. [Godfather Death](#godfather-death)
    10. [Diary of Bugul Noz](#diary-of-bugul-noz)
-3. [Fit Friday](#fit-friday)
+4. [Fit Friday](#fit-friday)
    1. [Between the Paladin and the Amazon](#between-the-paladin-and-the-amazon)
+   2.[Interspecies Soccer Team (It's just monster girls)](#interspecies-soccer-team-its-just-monster-girls)
+   3.[Do you even lift?](#do-you-even-lift)
+	4.[Buffairy](#buffairy)
+	5.[Pride of the Ctarl-Ctarl Empire](#pride-of-the-ctarl-ctarl-empire)
 
 <h2 align="center">Vanilla Friday</h2>
 
@@ -298,8 +302,6 @@
 
 [Image]() | Description
 :--: | --
-![Thumbnail]() | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>
-
-This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
+![Thumbnail]() | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
 **Link** | <https://prompts.aidg.club/770>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1c53b630-71f0-11eb-8f9c-cfb057936fbd>
