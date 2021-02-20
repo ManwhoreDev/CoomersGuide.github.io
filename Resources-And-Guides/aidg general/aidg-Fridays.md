@@ -50,6 +50,10 @@
    5. [Pride of the Ctarl-Ctarl Empire](#pride-of-the-ctarl-ctarl-empire)
    6. [Dance Dance Humiliation](#dance-dance-humiliation)
    7. [Living with My Athletic Big Sister](#living-with-my-athletic-big-sister)
+   8. [Interpersonal Trainer](#interpersonal-trainer)
+   9. [Hands-On Health Inspection](#hands-on-health-inspection)
+   10. [Chihiro bullying.](#chihiro-bullying)
+   11. [Meeting a Spartan-II](#meeting-a-spartan-ii)
 
 <h2 align="center">Vanilla Friday</h2>
 
@@ -322,3 +326,34 @@
 ![Thumbnail](https://i.imgur.com/gBiJiaAm.jpg) | Your parents have decided to move you in with your big sister, who you haven't seen in four years. Living with her might prove a little unusual after seeing how much your sister has changed since the past four years...<br/>You can use either the A/N script or default authors note. Just paste whatever is in the script and turn disable /an
 **Link** | <https://prompts.aidg.club/776>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=70b26880-72cb-11eb-879c-55451e01acd7>
+
+<h3 align="center">Interpersonal Trainer</h3>
+
+[Image](https://i.imgur.com/W5jWVhN.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/W5jWVhNm.jpg) | In your journey to make good on a New Year's resolution, you find yourself returning to the world of personal fitness with a stunning monstergirl coaching you along.<br/>(Utilizing scripted Author's Note. /an to set, /anv for display.)
+**Link** | <https://prompts.aidg.club/777>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=46e9dba0-7230-11eb-b8b3-bb508d104cc5>
+
+<h3 align="center">Hands-On Health Inspection</h3>
+
+[Image](https://i.imgur.com/cy4Fd73.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/cy4Fd73m.jpg) | Your fitness test for the intraschool long jump competitions turns out to be a little more interactive than you imagined it to be. And is that pen really a sanitary check-up equipment? 
+**Link** | <https://prompts.aidg.club/779>
+
+<h3 align="center">Chihiro bullying.</h3>
+
+[Image](https://i.imgur.com/x9XbSoP.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/x9XbSoPm.png) | Danganronpa scenario. Bully the femboy. With your penis.
+**Link** | <https://prompts.aidg.club/781>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=2f5698a0-7359-11eb-b6a6-43c1d7a1feb1>
+
+<h3 align="center">Meeting a Spartan-II</h3>
+
+[Image](https://i.imgur.com/gSABrdn.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/gSABrdnm.jpg) | (You)'re working out in the gym of a space station when a Spartan-II walks in, her name is Chosi.
+**Link** | <https://prompts.aidg.club/782>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f819a4a0-7212-11eb-a408-9520c46fc49c>
