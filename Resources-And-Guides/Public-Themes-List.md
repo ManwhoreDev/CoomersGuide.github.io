@@ -3,7 +3,7 @@ Collection of pre-made themes.
  
 **1) Comfy Pixelart**
 
-* Link: <https://pastebin.com/nY4TWQQg>
+* Link: <https://pastebin.com/Y1KZeCw8>
 
 * Preview: <https://i.imgur.com/2UsgvbI.gif>
 
@@ -13,7 +13,7 @@ Collection of pre-made themes.
  
 **2) Simple Terminal**
 
-* Link: <https://pastebin.com/CuZmfQZS>
+* Link: <https://pastebin.com/iRrzpJQp>
 
 * Preview: <https://i.imgur.com/OQUal4G.png>
 
@@ -23,7 +23,7 @@ Collection of pre-made themes.
  
 **3) Terminal**
 
-* Link: <https://pastebin.com/YC9ff52B>
+* Link: <https://pastebin.com/1nKKabes>
 
 * Preview: <https://i.imgur.com/N4BgGp8.jpg>
 
@@ -33,7 +33,7 @@ Collection of pre-made themes.
  
 **4) Fantasy Clouds**
 
-* Link: <https://pastebin.com/HypPZwKt>
+* Link: <https://pastebin.com/epVAhtdU>
 
 * Preview: <https://i.imgur.com/K3xyOqe.png>
 
@@ -126,3 +126,13 @@ Collection of pre-made themes.
 * Background: `Static`
 
 * Custom font: `Yes`, <https://isaskar.github.io/Pelagiad/>
+
+**13) VA-11 HALL-A Glitch City**
+
+* Link: <https://pastebin.com/2prGtZ5L>
+
+* Preview: <https://i.imgur.com/pAKGgjk.png>
+
+* Background: `Static`
+
+* Custom font: `Yes`, <https://github.com/tokamach/newtab/blob/master/fonts/CyberpunkWaifus.ttf>
