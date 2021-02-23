@@ -93,7 +93,7 @@ Collection of pre-made themes.
 
 * Preview: <https://i.imgur.com/8n5Ivtv.jpg>
 
-* Background: Multiple, Static
+* Background: `Multiple`, `Static`
 
 * Custom font: Yes, <https://www.dafont.com/vcr-osd-mono.font> and <https://www.wfonts.com/font/edit-undo-line-brk>
  
@@ -136,3 +136,15 @@ Collection of pre-made themes.
 * Background: `Static`
 
 * Custom font: `Yes`, <https://github.com/tokamach/newtab/blob/master/fonts/CyberpunkWaifus.ttf>
+
+**14) PC-98 Sci-Fi** (10 static backgrounds, rotates every 100 seconds.)
+
+* Link: <https://pastebin.com/N7uHxFnN>
+
+* Preview: <https://i.imgur.com/pCTfCZU.mp4>
+
+* Portrait template: <https://i.imgur.com/lnAJETC.png>
+
+* Background: `Multiple`, `Static`
+
+* Custom font: `Yes`, <https://retro-type.com/PC98/font/pc-9800.ttf>
