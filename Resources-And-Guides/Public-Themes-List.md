@@ -141,6 +141,8 @@ Collection of pre-made themes.
 
 * Link: <https://pastebin.com/N7uHxFnN>
 
+* Preview: <https://i.imgur.com/pCTfCZU.mp4>
+
 * Portrait template: <https://i.imgur.com/lnAJETC.png>
 
 * Background: `Multiple`, `Static`
