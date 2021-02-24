@@ -1,6 +1,6 @@
 # /aidg/'s World Info resources for AI Dungeon
 
-This directory lists several WI collections, stored in JSON files, indented to be imported into AI Dungeon's World Info tab of a "Scenario" or an "Adventure" via the "Import" feature.
+This directory lists several WI collections, stored in JSON files, intended to be imported into AI Dungeon's World Info tab of a "Scenario" or an "Adventure" via the "Import" feature.
 
 ## MGE World Info
 
