@@ -139,7 +139,7 @@ Collection of pre-made themes.
 
 **14) PC-98 Sci-Fi** (10 static backgrounds, rotates every 100 seconds.)
 
-* Link: <https://pastebin.com/7GXiD3Zk>
+* Link: <https://raw.githubusercontent.com/Cyctorn/aidgrice/main/PC-98_Sci-Fi.css>
 
 * Preview: <https://i.imgur.com/pCTfCZU.mp4>
 
