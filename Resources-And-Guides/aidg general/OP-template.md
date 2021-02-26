@@ -16,7 +16,7 @@ READ THIS PAGE BEFORE ASKING QUESTIONS!\
 <https://prompts.aidg.club>
 
 ▶ /aidg/ NEWSLETTER\
-Latest: (22/01) .club now supports script .zip files uploads\
+Latest: (23/02) World Creation is now here, under Worlds -> My Worlds -> Create Worlds. It is best used as a springboard for WI, as it has inbuilt generation utilities for things like races and locations.\
 <https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Newsletter.html>
 
 ▶ /aidg/ THEME EVENTS\
