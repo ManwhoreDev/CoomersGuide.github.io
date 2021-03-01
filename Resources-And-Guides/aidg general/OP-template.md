@@ -16,13 +16,17 @@ READ THIS PAGE BEFORE ASKING QUESTIONS!\
 <https://prompts.aidg.club>
 
 ▶ /aidg/ NEWSLETTER\
-Latest: (23/02) World Creation is now here, under Worlds -> My Worlds -> Create Worlds. It is best used as a springboard for WI, as it has inbuilt generation utilities for things like races and locations.\
+Latest:\
+-(01/03) Help us bring the eloquent Lovecraft Model back by voting on it on the feature suggestions page! https://features.aidungeon.io/ideas/AID-I-1073 \
+-(23/02) World Creation is now here, under Worlds -> My Worlds -> Create Worlds. It is best used as a springboard for WI, as it has inbuilt generation utilities for things like races and locations.\
 <https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Newsletter.html>
 
 ▶ /aidg/ THEME EVENTS\
 `[Y] Friday is over! If you have a suggestion for another weekly theme, post it in the thread.`\
 **OR**\
-`The theme for this week is [Y] Friday. Write some prompts about [Y].`\
+`The theme for this week is [Y] Friday. Write some prompts about [Y]!`\
+**OR**\
+`[Y] Friday is over, and voting for the next theme has begun!`\
 Prompts from previous events: <https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Fridays.html>
 
 ▶ OP TEMPLATE\
