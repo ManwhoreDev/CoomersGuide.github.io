@@ -68,12 +68,21 @@ A Witcher/Dragon Ball crossover fanfiction.
 `She came to him that morning.`
 
 `She entered cautiously, moving quietly, drifting through the chamber like an apparition; the lone sound was that of her mantle brushing her exposed skin.`
+
 `The witcher snored loudly, mouth agape.`
+
 `The young woman deliberately climbed onto the bed, and onto him, wrapping her thighs around him.`
+
 `Slanting forward on stressing arms, she brushed his face with her hair.` `Grimacing, she loomed over him and contacted his eyelids, cheeks, lips with the tips of her chest.`
+
 `The witcher continued to snore loudly, slumbering as stable as a stone. She became flustered, yet didn'tdare move away from him.`
+
 `"Ahh...!" He groaned, opening his eyes. She gulped, knowing what would come next.`
+
 `"Leave me be! Can’t you see I’m trying to sleep!?" The witcher, in a rage, shoved her off of him.`
+
 `Her body tumbled off of the bed, and she arrived upon the floor with a tortured cry.`
+
 `He leapt off the bed, pirouetted in midair, prior to conveying a hefty kick to her sanctuary.`
+
 `The young lady's body arced through the air, and she crashed into the wooden wall with a pained yelp, before sliding down it.`
