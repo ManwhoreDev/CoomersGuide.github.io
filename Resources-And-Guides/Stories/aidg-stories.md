@@ -86,3 +86,5 @@ A Witcher/Dragon Ball crossover fanfiction.
 `He leapt off the bed, pirouetted in midair, prior to conveying a hefty kick to her sanctuary.`
 
 `The young lady's body arced through the air, and she crashed into the wooden wall with a pained yelp, before sliding down it.`
+
+<https://witchersaiyan.neocities.org/witchersaiyan.pdf>
