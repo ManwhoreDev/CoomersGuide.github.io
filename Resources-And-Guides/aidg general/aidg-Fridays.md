@@ -54,6 +54,15 @@
    9. [Hands-On Health Inspection](#hands-on-health-inspection)
    10. [Chihiro bullying.](#chihiro-bullying)
    11. [Meeting a Spartan-II](#meeting-a-spartan-ii)
+ 5. [Femboy Friday](#femboy-friday)
+    1. [Society Debut](#society-debut)
+    2. [Femboy Witness Protection](#femboy-witness-protection)
+    3. [Closing the Distance](#closing-the-distance)
+    4. [Effeminate Affections](#effeminate-affections)
+    5. [Daring Days at the Hot Springs](#daring-days-at-the-hot-springs)
+    6. [Christmas With A Buddy](#christmas-with-a-buddy)
+    7. [The Veiled Habibi](#the-veiled-habibi)
+    8. [The 100% Hetero Stream](#the-hetero-stream)
 
 <h2 align="center">Vanilla Friday</h2>
 
@@ -357,3 +366,70 @@
 ![Thumbnail](https://i.imgur.com/gSABrdnm.jpg) | (You)'re working out in the gym of a space station when a Spartan-II walks in, her name is Chosi.
 **Link** | <https://prompts.aidg.club/782>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f819a4a0-7212-11eb-a408-9520c46fc49c>
+
+<h2 align="center"> Femboy Friday </h2>
+
+<h3 align="center">Society Debut</h3>
+
+[Image](https://i.imgur.com/tcCcOA8.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/tcCcOA8m.jpg) | Professor Church throws a soiree to introduce his adopted child Leslie to society. From the outside, Leslie is beautiful, airy, and poised - every inch a charming female ingénue. However, as the professor's research assistant, you know that not all is as it seems...
+
+**Link** | <https://prompts.aidg.club/855>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=46f6c030-7c31-11eb-83ef-710ae9554ee7>
+
+<h3 align="center">Femboy Witness Protection</h3>
+
+[Image](https://i.imgur.com/a3r5RtQ.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/a3r5RtQm.png) | A cute young troublemaker is on the run from some bad people. Will you help them establish a completely new life?
+
+**Link** | <https://prompts.aidg.club/875>
+
+<h3 align="center">Closing the Distance</h3>
+
+[Image](https://i.imgur.com/LL3qwRr.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/LL3qwRrm.jpg) | You visit your cousin and learn that he has become very girly since you last saw each other. Your aunt does not approve and hopes you visiting will help correct his behavior. Choose a side and reap the rewards—or try bringing the whole family together.
+**Link** | <https://prompts.aidg.club/878>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f8ff85c0-7d60-11eb-b7f8-077f0c1b1db5>
+
+
+<h3 align="center">Effeminate Affections</h3>
+
+[Image](https://i.imgur.com/CB0eYig.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/CB0eYigm.png) | A lewd anthrofied pokemon scenario about breeding your bottom heavy femboy scrafty.
+**Link** | <https://prompts.aidg.club/879>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a2e2ec90-7d92-11eb-a97b-350a9da4803b>
+
+<h3 align="center">Daring Days at the Hot Springs</h3>
+
+[Image](https://i.imgur.com/raTxTXE.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/raTxTXEm.jpg) | You are Yuki, a novice kendo player who has a penchant for spending time in the women's section of the hot springs (it's quieter there, and less crowded). Due to his girlish appearance, he gets away with it. One day, a tall, muscular girl, a kendo rival, takes a dip in the springs with him. Will she discover his secret?
+**Link** | <https://prompts.aidg.club/881>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dc173c70-7e17-11eb-9ed1-d9bca4233e33>
+
+<h3 align="center">Christmas With A Buddy</h3>
+
+[Image](https://i.imgur.com/x3ue4Be.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/x3ue4Bem.jpg) | Spend the Christmas with a crossdressing definitely-not-gay friend of yours.
+**Link** | <https://prompts.aidg.club/882>
+
+<h3 align="center">The Veiled Habibi</h3>
+
+[Image](https://i.imgur.com/RIOuslp.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/RIOuslpm.jpg) | A lovely femboy approached you at an Arabic ballroom gathering and you couldn't resist.
+**Link** | <https://prompts.aidg.club/884>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=42055660-7d6f-11eb-8a33-43b08185ac77>
+
+<h3 align="center">The Hetero Stream</h3>
+
+[Image](https://i.imgur.com/d8c7p30.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/d8c7p30m.png) | Help out your femboyish streamer friend in completing a very lewd set of challenges from his viewers! Thankfully, you'll have your work cut out for you, as he is definitely 100% straight.
+**Link** | <https://prompts.aidg.club/883>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=9a4f4940-7e21-11eb-8f69-f99e6dd5b3bc>
