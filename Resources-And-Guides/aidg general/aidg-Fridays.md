@@ -31,7 +31,7 @@
    15. [Partnering Up With Your Dragoon Childhood Friend](#partnering-up-with-your-dragoon-childhood-friend)
    16. [Matching with Your Tomboy Matchmaker](#matching-with-your-tomboy-matchmaker)
    17. [The Morning After](#the-morning-after)
-3. [Foklore Friday](#folklore-friday)
+3. [Folklore Friday](#folklore-friday)
    1. [Bloody Mary, Bloody Mary, Bloody Mary](#bloody-mary-bloody-mary-bloody-mary)
    2. [Unhcegila](#unhcegila)
    3. [Caipora's Reverse Trapping](#caiporas-reverse-trapping)
