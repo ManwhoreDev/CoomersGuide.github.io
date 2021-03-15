@@ -9,7 +9,7 @@ This page lists stories produced by /aidg/ posters in AID.
 3. [The Malt Saga](#the-malt-saga)
 4. [The Husband's Hideaway](#the-husbands-hideaway)
 5. [Castle Coombad](#castle-coombad)
-6. [🌴Kiwikiwi Island🥝](##kiwikiwi-island)
+6. [🌴Kiwikiwi Island🥝](#kiwikiwi-island)
 7. [🌴Kiwikiwi Island🥝: Kiwikiwi-girl Edition](#kiwikiwi-island-kiwikiwi-girl-edition)
 8. [Destroyer of Vizima](#destroyer-of-vizima)
 
