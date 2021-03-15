@@ -9,7 +9,9 @@ This page lists stories produced by /aidg/ posters in AID.
 3. [The Malt Saga](#the-malt-saga)
 4. [The Husband's Hideaway](#the-husbands-hideaway)
 5. [Castle Coombad](#castle-coombad)
-6. [Destroyer of Vizima](#destroyer-of-vizima)
+6. [🌴Kiwikiwi Island🥝](##kiwikiwi-island)
+7. [🌴Kiwikiwi Island🥝: Kiwikiwi-girl Edition](#kiwikiwi-island-kiwikiwi-girl-edition)
+8. [Destroyer of Vizima](#destroyer-of-vizima)
 
 ## Spell Thief Gil
 
@@ -21,7 +23,7 @@ A fantasy dark comedy written in AID during July–August 2020. The best story t
 
 `One day, you receive a peculiar job request outside of your usual channel. The request came in the form of a letter, delivered right to your secret hideout. It reads:`
 
-[PDF](Spell Thief Gil.pdf)
+[PDF](https://guide.aidg.club/Resources-And-Guides/Stories/Spell%20Thief%20Gil.pdf)
 
 ## Hell Forcer Mona
 
@@ -60,6 +62,24 @@ Evil wizard machinations, told through greentext.
 ![Coombad greentext](https://files.catbox.moe/pv3fud.png)
 
 <https://catbox.moe/c/wltav2>
+
+## 🌴Kiwikiwi Island🥝
+
+**Link to the prompt:** <https://prompts.aidg.club/786>
+![](https://files.catbox.moe/c5nh6j.jpg)
+
+<https://catbox.moe/c/cogsns>
+
+## 🌴Kiwikiwi Island🥝: Kiwikiwi-girl Edition
+
+`Time passes, a blur of rendering the tiny kiwikiwi corpses to nothing but bare-bones and withered flesh. Your work is always punctuated with feasting on the delicious, life-restoring bodies of the cute birds. The island you're on is small, coastlines barren and under the constant barrage of the burning tropical sun, leaving you little to explore. The trees are fruitless, and the water devoid of fish, empty and desolate.`
+`The only thing that passes the time is eating the birds, feasting on their delicious bodies agonizingly slowly at a time of the scorching island in solitude and boredom for days until finally, you pass out only to wake up to do it all over again.`
+
+`Weeks become months...`
+
+`You slowly realize there are fewer and fewer kiwikiwi birds...`
+
+<https://rentry.co/c2mwy>
 
 ## Destroyer of Vizima
 
