@@ -17,6 +17,7 @@ READ THIS PAGE BEFORE ASKING QUESTIONS!\
 
 ▶ /aidg/ NEWSLETTER\
 Latest:\
+-(16/03) The St. Patricks Holiday event/quests are here, along with a new card-game mode.\
 -(01/03) Help us bring the eloquent Lovecraft Model back by voting on it on the feature suggestions page! https://features.aidungeon.io/ideas/AID-I-1073 \
 -(23/02) World Creation is now here, under Worlds -> My Worlds -> Create Worlds. It is best used as a springboard for WI, as it has inbuilt generation utilities for things like races and locations.\
 <https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Newsletter.html>
