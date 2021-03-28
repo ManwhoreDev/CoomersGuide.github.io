@@ -5,7 +5,7 @@
 
 1. Link to your prompt must posted in the thread.
 2. Your post *must* contain the link to it on <https://prompts.aidg.club>.
-3. It must be posted as a reply to the anchorpost made on or near to the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the anchor is checked for the prompts to be transcribed whenever appropriate, and unanchored submissions may be overlooked).
+3. It must be posted on the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the thread is checked for the prompts to be transcribed during the weekend).
 4. 100 characters and low effort prompts won't be added.
 5. Image is optional, but *highly*  recommended if you want to get a single (You).
 6. Explore link is optional as well.
@@ -63,19 +63,8 @@
     6. [Christmas With A Buddy](#christmas-with-a-buddy)
     7. [The Veiled Habibi](#the-veiled-habibi)
     8. [The 100% Hetero Stream](#the-hetero-stream)
-  6. [Frontier Friday](#frontier-friday)
-     1. [Each Dixie Boy Must Understand...](#each-dixie-boy-must-understand)
-     2. [The Cowgirl Rancher](#the-cowgirl-rancher)
-     3. [Big Iron, but](#big-iron-but)
-     4. [Expressive Divination](#expressive-divination)
-     5. [Daddy's Mine](#daddys-mine)
-     6. [A Smoking Barrel](#a-smoking-barrel)
-     7. [The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry](#the-debaucherous-adventures-of-depravity-jane-and-hunts-their-cherry)
-     8. [Samurai Western](#samurai-western)
-     9. [For a few drinks more](#for-a-few-drinks-more)
 
-<details>
-<summary><h2 align="center">Vanilla Friday</h2></summary>
+<h2 align="center">Vanilla Friday</h2>
 
 <p align="center">
   <img src="https://files.catbox.moe/mqnhme.png">
@@ -213,10 +202,7 @@
 **Link** | <https://prompts.aidg.club/620>
 **Explore** | <https://play.aidungeon.io/main/scenarioView?publicId=76f963e0-5e8c-11eb-94b3-5bc8a1aac2f5>
 
-</details>
-
-<details>
-<summary><h2 align="center">Folklore Friday</h2></summary>
+<h2 align="center"> Folklore Friday </h2>
 
 <h3 align="center">Bloody Mary, Bloody Mary, Bloody Mary</h3>
 
@@ -294,10 +280,7 @@
 **Link** | <https://prompts.aidg.club/681>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=c8ec9330-6764-11eb-b966-9f1deb5eab9c>
 
-</details>
-
-<details>
-<summary><h2 align="center">/fit/ Friday</h2></summary>
+<h2 align="center">/fit/ Friday</h2>
 
 <h3 align="center">Between the Paladin and the Amazon</h3>
 
@@ -384,10 +367,7 @@
 **Link** | <https://prompts.aidg.club/782>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f819a4a0-7212-11eb-a408-9520c46fc49c>
 
-</details>
-
-<details>
-<summary><h2 align="center">Femboy Friday</h2></summary>
+<h2 align="center"> Femboy Friday </h2>
 
 <h3 align="center">Society Debut</h3>
 
@@ -453,79 +433,3 @@
 ![Thumbnail](https://i.imgur.com/d8c7p30m.png) | Help out your femboyish streamer friend in completing a very lewd set of challenges from his viewers! Thankfully, you'll have your work cut out for you, as he is definitely 100% straight.
 **Link** | <https://prompts.aidg.club/883>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=9a4f4940-7e21-11eb-8f69-f99e6dd5b3bc>
-
-</details>
-
-<details>
-<summary><h2 align="center">Frontier Friday</h2></summary>
-
-<h3 align="center">Each Dixie Boy Must Understand...</h3>
-
-[Image](https://i.imgur.com/8jyNVib.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/8jyNVibm.jpg) | A former Rebel, now in the employ of the Union, rides west in the wake of the Civil War. His assignment is to stop a counterfeiting operation his younger brother might have gotten caught up in.
-**Link** | <https://prompts.aidg.club/951>
-
-<h3 align="center">The Cowgirl Rancher</h3>
-
-[Image](https://i.imgur.com/RN0Iqpw.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/RN0Iqpwm.jpg) | You're a cowgirl rancher, settling the wild frontier of Utah in 1886. You have three cowgirls, who love you. A simple slice-of-life story about ranching, cowgirls, and self-reliance.
-**Link** | <https://prompts.aidg.club/952>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dba0da10-8882-11eb-a46c-bbffc8cf11b4>
-
-<h3 align="center">Big Iron, but</h3>
-
-[Image](https://i.imgur.com/RVsIx9U.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/RVsIx9Um.jpg) | A stereotypical showdown at high noon becomes an absurd, unpredictable farce as reality warps around these characters who persistently attempt to play it within the confines of the song "Big Iron" no matter how weird it gets.
-**Link** | <https://prompts.aidg.club/953>
-
-<h3 align="center">Expressive Divination</h3>
-
-[Image](https://i.imgur.com/CKo5th5.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/CKo5th5m.jpg) | You are a traveler passing through a Western territory. You are flagged down by an oracle to a local tribe who requires your... manly expressions for a particularly important ritual for her people. Weary from your travels and intrigued by her proposal, you decide to follow her to her tent on the outskirts of her village, where the two of you will be performing the ritual.
-**Link** | <https://prompts.aidg.club/954>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a7290660-8835-11eb-80d3-034e5a3867a6>
-
-<h3 align="center">Daddy's Mine</h3>
-
-[Image](https://i.imgur.com/s7jMMJ8.png) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/s7jMMJ8m.png) | Portia Duvall finds herself in a most peculiar situation: her recently deceased daddy left her a mine alongside an unbelievable amount of debt. Stubborn and naive, she decides to hold on to her inheritance and offers a unique solution to her problem: her body. Ever the businessman, our bandit leader seizes the opportunity. He claims Portia and all her possessions as his, and now it seems he might want a little more than just her Daddy's mine or her body.
-**Link** | <https://prompts.aidg.club/960>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1d4fca20-81ee-11eb-9349-c1cf1d07dca9>
-
-<h3 align="center">A Smoking Barrel</h3>
-
-[Image](https://i.imgur.com/GYMfpRN.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/GYMfpRNm.jpg) | Within this adventure, you will be playing as Samuel, a young human wanderer of the treacherous badlands who owns a very special weapon; A cursed revolver that can turn into a beautiful apparition of a violent woman that goes by the name of Colt.
-**Link** | <https://prompts.aidg.club/969>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=95759eb0-888a-11eb-8202-355634674e7d>
-
-<h3 align="center">The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry</h3>
-
-[Image](https://i.imgur.com/qt6RO98.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/qt6RO98m.jpg) | Although you once were a woman of the law, the silver-tongued Indian Hunts-Their-Cherry convinced you to join her in partaking in one of the most illicit crimes of all: boy-hunting. You, now known as the lecherous outlaw Depravity Jane, prowl the frontier with your partner in search of that forbidden fruit.
-**Link** | <https://prompts.aidg.club/972>
-
-<h3 align="center">Samurai Western</h3>
-
-[Image](https://i.imgur.com/iKJPCSZ.png) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/iKJPCSZm.png) | Based on the PS2 game of the same name, play as a samurai named Hayate in the wild American frontiers, wandering the untamed plains in search for your missing brother.
-**Link** | <https://prompts.aidg.club/974>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a28da480-4456-11eb-8c4c-35a51d2ad5f7>
-
-<h3 align="center">For a few drinks more</h3>
-
-[Image](https://i.imgur.com/lizEHE6.jpg) | Description
-:--: | --
-![Thumbnail](https://i.imgur.com/lizEHE6m.jpg) | (You)'re a bartender working on a luxurious train when an all-female gang of Mexican bandits jumps in, waving guns around. You better hope some tequila is enough to calm them down.
-**Link** | <https://prompts.aidg.club/976>
-**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=6a1976e0-885a-11eb-8226-ff53bd8ff8be>
-
-</details>
