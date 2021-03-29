@@ -433,3 +433,72 @@
 ![Thumbnail](https://i.imgur.com/d8c7p30m.png) | Help out your femboyish streamer friend in completing a very lewd set of challenges from his viewers! Thankfully, you'll have your work cut out for you, as he is definitely 100% straight.
 **Link** | <https://prompts.aidg.club/883>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=9a4f4940-7e21-11eb-8f69-f99e6dd5b3bc>
+
+<h2 align="center">Frontier Friday</h2>
+
+<h3 align="center">Each Dixie Boy Must Understand...</h3>
+
+[Image](https://i.imgur.com/8jyNVib.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/8jyNVibm.jpg) | A former Rebel, now in the employ of the Union, rides west in the wake of the Civil War. His assignment is to stop a counterfeiting operation his younger brother might have gotten caught up in.
+**Link** | <https://prompts.aidg.club/951>
+
+<h3 align="center">The Cowgirl Rancher</h3>
+
+[Image](https://i.imgur.com/RN0Iqpw.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/RN0Iqpwm.jpg) | You're a cowgirl rancher, settling the wild frontier of Utah in 1886. You have three cowgirls, who love you. A simple slice-of-life story about ranching, cowgirls, and self-reliance.
+**Link** | <https://prompts.aidg.club/952>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dba0da10-8882-11eb-a46c-bbffc8cf11b4>
+
+<h3 align="center">Big Iron, but</h3>
+
+[Image](https://i.imgur.com/RVsIx9U.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/RVsIx9Um.jpg) | A stereotypical showdown at high noon becomes an absurd, unpredictable farce as reality warps around these characters who persistently attempt to play it within the confines of the song "Big Iron" no matter how weird it gets.
+**Link** | <https://prompts.aidg.club/953>
+
+<h3 align="center">Expressive Divination</h3>
+
+[Image](https://i.imgur.com/CKo5th5.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/CKo5th5m.jpg) | You are a traveler passing through a Western territory. You are flagged down by an oracle to a local tribe who requires your... manly expressions for a particularly important ritual for her people. Weary from your travels and intrigued by her proposal, you decide to follow her to her tent on the outskirts of her village, where the two of you will be performing the ritual.
+**Link** | <https://prompts.aidg.club/954>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a7290660-8835-11eb-80d3-034e5a3867a6>
+
+<h3 align="center">Daddy's Mine</h3>
+
+[Image](https://i.imgur.com/s7jMMJ8.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/s7jMMJ8m.png) | Portia Duvall finds herself in a most peculiar situation: her recently deceased daddy left her a mine alongside an unbelievable amount of debt. Stubborn and naive, she decides to hold on to her inheritance and offers a unique solution to her problem: her body. Ever the businessman, our bandit leader seizes the opportunity. He claims Portia and all her possessions as his, and now it seems he might want a little more than just her Daddy's mine or her body.
+**Link** | <https://prompts.aidg.club/960>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1d4fca20-81ee-11eb-9349-c1cf1d07dca9>
+
+<h3 align="center">A Smoking Barrel</h3>
+
+[Image](https://i.imgur.com/GYMfpRN.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/GYMfpRNm.jpg) | Within this adventure, you will be playing as Samuel, a young human wanderer of the treacherous badlands who owns a very special weapon; A cursed revolver that can turn into a beautiful apparition of a violent woman that goes by the name of Colt.
+**Link** | <https://prompts.aidg.club/969>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=95759eb0-888a-11eb-8202-355634674e7d>
+
+<h3 align="center">The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry</h3>
+
+[Image](https://i.imgur.com/qt6RO98.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/qt6RO98m.jpg) | Although you once were a woman of the law, the silver-tongued Indian Hunts-Their-Cherry convinced you to join her in partaking in one of the most illicit crimes of all: boy-hunting. You, now known as the lecherous outlaw Depravity Jane, prowl the frontier with your partner in search of that forbidden fruit.
+**Link** | <https://prompts.aidg.club/972>
+
+<h3 align="center">Samurai Western</h3>
+
+[Image](https://i.imgur.com/iKJPCSZ.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/iKJPCSZm.png) | Based on the PS2 game of the same name, play as a samurai named Hayate in the wild American frontiers, wandering the untamed plains in search for your missing brother.
+**Link** | <https://prompts.aidg.club/974>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a28da480-4456-11eb-8c4c-35a51d2ad5f7>
+
+<h3 align="center">For a few drinks more</h3>
+
+[Image](https://i.imgur.com/lizEHE6.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/lizEHE6m.jpg) | (You)'re a bartender working on a luxurious train when an all-female gang of Mexican bandits jumps in, waving guns around. You better hope some tequila is enough to calm them down.
