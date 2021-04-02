@@ -5,7 +5,7 @@
 
 1. Link to your prompt must posted in the thread.
 2. Your post *must* contain the link to it on <https://prompts.aidg.club>.
-3. It must be posted on the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the thread is checked for the prompts to be transcribed during the weekend).
+3. It must be posted as a reply to the anchorpost made on or near to the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the anchor is checked for the prompts to be transcribed whenever appropriate, and unanchored submissions may be overlooked).
 4. 100 characters and low effort prompts won't be added.
 5. Image is optional, but *highly*  recommended if you want to get a single (You).
 6. Explore link is optional as well.
@@ -63,6 +63,17 @@
     6. [Christmas With A Buddy](#christmas-with-a-buddy)
     7. [The Veiled Habibi](#the-veiled-habibi)
     8. [The 100% Hetero Stream](#the-hetero-stream)
+6. [Frontier Friday](#frontier-friday)
+     1. [Each Dixie Boy Must Understand...](#each-dixie-boy-must-understand)
+     2. [The Cowgirl Rancher](#the-cowgirl-rancher)
+     3. [Big Iron, but](#big-iron-but)
+     4. [Expressive Divination](#expressive-divination)
+     5. [Daddy's Mine](#daddys-mine)
+     6. [A Smoking Barrel](#a-smoking-barrel)
+     7. [The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry](#the-debaucherous-adventures-of-depravity-jane-and-hunts-their-cherry)
+     8. [Samurai Western](#samurai-western)
+     9. [For a few drinks more](#for-a-few-drinks-more)
+
 
 <h2 align="center">Vanilla Friday</h2>
 
@@ -502,3 +513,5 @@
 [Image](https://i.imgur.com/lizEHE6.jpg) | Description
 :--: | --
 ![Thumbnail](https://i.imgur.com/lizEHE6m.jpg) | (You)'re a bartender working on a luxurious train when an all-female gang of Mexican bandits jumps in, waving guns around. You better hope some tequila is enough to calm them down.
+**Link** | <https://prompts.aidg.club/976>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=6a1976e0-885a-11eb-8226-ff53bd8ff8be>
