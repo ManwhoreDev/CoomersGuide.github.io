@@ -71,8 +71,19 @@
      5. [Daddy's Mine](#daddys-mine)
      6. [A Smoking Barrel](#a-smoking-barrel)
      7. [The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry](#the-debaucherous-adventures-of-depravity-jane-and-hunts-their-cherry)
-     8. [Samurai Western](#samurai-western)
-     9. [For a few drinks more](#for-a-few-drinks-more)
+     8. [Shadows of the Sun](#shadows-of-the-sun)
+     9. [Mounted By Mounties](#mounted-by-mounties)
+     10. [Samurai Western](#samurai-western)
+     11. [For a few drinks more](#for-a-few-drinks-more)
+ 7. [Afterlife Friday](#afterlife-friday)
+     1. [Programmed to Receive](#programmed-to-receive)
+     2. [Between the Cross and the Latex](#between-the-cross-and-the-latex)
+     3. [Heated meeting with Artemis](#heated-meeting-with-artemis)
+     4. [A Celibate Monk's Reward](#a-celibate-monks-reward)
+     5. [Lusting After Life](#lusting-after-life)
+     6. [Heaven Or Las Vegas](#heaven-or-las-vegas)
+     7. [Black and White](#black-and-white)
+     8. [Larry's Limbo Diner](#larrys-limbo-diner)
 
 
 <h2 align="center">Vanilla Friday</h2>
@@ -500,6 +511,22 @@
 ![Thumbnail](https://i.imgur.com/qt6RO98m.jpg) | Although you once were a woman of the law, the silver-tongued Indian Hunts-Their-Cherry convinced you to join her in partaking in one of the most illicit crimes of all: boy-hunting. You, now known as the lecherous outlaw Depravity Jane, prowl the frontier with your partner in search of that forbidden fruit.
 **Link** | <https://prompts.aidg.club/972>
 
+<h3 align="center">Shadows of the Sun</h3>
+
+[Image](https://i.imgur.com/1TTS3E5.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/1TTS3E5m.jpg) | Rattler's Edge is a tranquil town, but its peace shatters with the discovery of a brutal ritual murder. As Sheriff, you're tasked with finding the killer—but your only hope lies in an enigmatic priestess from a secretive cult.
+**Link** | <https://prompts.aidg.club/948>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=903ff250-883b-11eb-b1c9-9929e85a9165>
+
+<h3 align="center">Mounted by Mounties</h3>
+
+[Image](https://i.imgur.com/oAJcMeI.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/oAJcMeIm.jpg) | On the run after making a rash decision that ended in bloodshed, the legendary Canadian lawwomen have caught you—luckily they don't know the full extent of the crime, and have ulterior motives...
+**Link** | <https://prompts.aidg.club/971>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=0ba52770-8856-11eb-ab3d-4bd70dc05d08>
+
 <h3 align="center">Samurai Western</h3>
 
 [Image](https://i.imgur.com/iKJPCSZ.png) | Description
@@ -515,3 +542,67 @@
 ![Thumbnail](https://i.imgur.com/lizEHE6m.jpg) | (You)'re a bartender working on a luxurious train when an all-female gang of Mexican bandits jumps in, waving guns around. You better hope some tequila is enough to calm them down.
 **Link** | <https://prompts.aidg.club/976>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=6a1976e0-885a-11eb-8226-ff53bd8ff8be>
+
+<h2 align="center">Afterlife Friday</h2>
+
+<h3 align="center">Programmed to Receive</h3>
+
+[Image](https://i.imgur.com/G1jqCUT.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/G1jqCUTm.jpg) | On your way to Heaven, your files got shuffled in a bureaucratic maze. To wait it out, you're invited to stay at The Hotel on Limbo. Once there, you find that everything is…just a little bit off.
+**Link** | <https://prompts.aidg.club/1065>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f8074280-92ea-11eb-a169-f91cb53a46d3>
+
+<h3 align="center">Between the Cross and the Latex</h3>
+
+[Image](https://i.imgur.com/9yqoHQk.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/9yqoHQkm.jpg) | Play as a digimon tamer that was graced with both a gatomon and a blackgatomon. Except they do nothing but eat, poop, sleep and have petty fights with each other. That is until they digivolve into Angewomon and LadyDevimon and their behaviour changes drastically...
+**Link** | <https://prompts.aidg.club/1059>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=31c57180-9170-11eb-ae34-490aa3d57cbe>
+
+<h3 align="center">Heated meeting with Artemis</h3>
+
+[Image](https://i.imgur.com/JdZ6gok.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/JdZ6gokm.png) | (You) are a boastful hunter of Greece who met a most unbefitting end off a cliff. But before you can see what truly comes afterlife, (You)'re summoned into a forest and are faced with Artemis, the greek goddess of the hunt.
+**Link** | <https://prompts.aidg.club/1067>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=080c4190-910f-11eb-a335-193d1766fe6d>
+
+<h3 align="center">A Celibate Monk's Reward</h3>
+
+|![]()| Description|
+|:--: | --|
+|![]()| A turbovirgin monk who swore a vow of celibacy dies, and finds a rather cute and shapely angel waiting for him to give him his reward for his piety.
+**Link** | <https://prompts.aidg.club/1068>
+
+<h3 align="center">Lusting After Life</h3>
+
+[Image](https://i.imgur.com/q2fuWgn.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/q2fuWgnm.jpg) | You find yourself in an unknown place with no recollection of how you got there. A woman calling herself Mary claims you have died, but offers you hope of returning to life at the end of a perverse game you are forced to participate in. Fittingly for a game with rebirth as its prize, Mary has decided that your mother will also experience everything alongside you.
+**Link** | <https://prompts.aidg.club/1069>
+
+<h3 align="center">Heaven Or Las Vegas</h3>
+
+[Image](https://i.imgur.com/3WR1s3B.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/3WR1s3Bm.jpg) | You don't remember much of your life, but you must have done something wrong—because after you died, you woke up in a devilish Casino. Bet for your life and claw to the top with the help of your demonic handler!
+**Link** | <https://prompts.aidg.club/1064>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=d45c41f0-8f25-11eb-b497-dbc1424f13c3>
+
+<h3 align="center">Black and White</h3>
+
+[Image](https://i.imgur.com/XhMPmRD.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/XhMPmRDm.jpg) | You're an irredeemable lecher and a pervert who constantly indulges yourself in lustful masturbatory fantasies, and your soul is surely destined for Hell. Eiki Shiki summons you to Hell to tell you your repressed lust will certainly condemn your soul to Hell; somewhat surprisingly, her issue is with your repression, not the lust. The only thing for it is to confront your desires head-on, and fortunately she's willing to lend a hand:
+**Link** | <https://prompts.aidg.club/1070>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=661e9540-9410-11eb-9105-a36c7d2715f6>
+
+<h3 align="center">Larry's Limbo Diner</h3>
+
+[Image](https://i.imgur.com/bIz4BPt.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/bIz4BPtm.png) | When your soul ends up too tainted for heaven, but not quite sinister enough for Hell, you are placed in a punishment unique to Limbo: eternal food-service work. Step behind the prep line of Larry's Limbo Diner, where you serve as one of the short-order cooks who has to deal with the insane orders of the various supernatural customers that stop by, while grilling and chilling with your demonic kitchen buddy and taking flak from the bitchy half-angel who works the register and sends tickets back.
+**Link** | <https://prompts.aidg.club/1073>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=861461e0-93f7-11eb-8e2b-f5e5d2a43da4>
