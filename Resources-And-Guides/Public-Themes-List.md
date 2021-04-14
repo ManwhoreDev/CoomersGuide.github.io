@@ -148,3 +148,13 @@ Collection of pre-made themes.
 * Background: `Multiple`, `Static`
 
 * Custom font: `Yes`, <https://retro-type.com/PC98/font/pc-9800.ttf>
+
+**15) B★RS Black Rock Shooter** (10 static backgrounds, rotates every 100 seconds.)
+
+* Link: https://raw.githubusercontent.com/chicken-salsa/aid-and-salsa/main/brs_theme
+
+* Preview: https://i.imgur.com/PrffBLU.png
+
+* Background: `Multiple`, `Static`
+
+* Custom font: `Yes` Pre-installed Windows fonts
