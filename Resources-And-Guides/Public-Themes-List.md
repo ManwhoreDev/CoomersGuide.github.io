@@ -3,39 +3,39 @@ Collection of pre-made themes.
  
 **1) Comfy Pixelart**
 
-* Link: https://pastebin.com/nY4TWQQg
+* Link: <https://pastebin.com/Y1KZeCw8>
 
-* Preview: https://i.imgur.com/2UsgvbI.gif
+* Preview: <https://i.imgur.com/2UsgvbI.gif>
 
 * Background: `Animated`
 
-* Custom font: `Yes`, https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
+* Custom font: `Yes`, <https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font>
  
 **2) Simple Terminal**
 
-* Link: https://pastebin.com/CuZmfQZS
+* Link: <https://pastebin.com/iRrzpJQp>
 
-* Preview: https://i.imgur.com/OQUal4G.png
+* Preview: <https://i.imgur.com/OQUal4G.png>
 
 * Background: `Solid-color`
 
-* Custom font: `Yes`, https://www.dafont.com/04b-03.font
+* Custom font: `Yes`, <https://www.dafont.com/04b-03.font>
  
 **3) Terminal**
 
-* Link: https://pastebin.com/YC9ff52B
+* Link: <https://pastebin.com/1nKKabes>
 
-* Preview: https://i.imgur.com/N4BgGp8.jpg
+* Preview: <https://i.imgur.com/N4BgGp8.jpg>
 
 * Background: `Static`
 
-* Custom font: `Yes`, https://www.dafont.com/monofonto.font
+* Custom font: `Yes`, <https://www.dafont.com/monofonto.font>
  
 **4) Fantasy Clouds**
 
-* Link: https://pastebin.com/HypPZwKt
+* Link: <https://pastebin.com/epVAhtdU>
 
-* Preview: https://i.imgur.com/K3xyOqe.png
+* Preview: <https://i.imgur.com/K3xyOqe.png>
 
 * Background: `Static`
 
@@ -43,45 +43,45 @@ Collection of pre-made themes.
  
 **5) Fantasy Forest** by Anon
 
-* Link: https://pastebin.com/yHne4K1v
+* Link: <https://pastebin.com/yHne4K1v>
 
-* Preview: https://i.imgur.com/RS12svs.png̨
+* Preview: <https://i.imgur.com/RS12svs.png̨>
 
 * Background: `Static`
 
-* Custom font: `Yes`, https://www.fontspace.com/avqest-font-f4004
+* Custom font: `Yes`, <https://www.fontspace.com/avqest-font-f4004>
  
 **6) Nameless Themed Multi-background** (10 backgrounds in each theme, rotates every 100 seconds.)
 
-* Mystery link: https://pastebin.com/Dx0myfsw
+* Mystery link: <https://pastebin.com/Dx0myfsw>
 
-* Cyberpunk link: https://pastebin.com/M5uVCk60
+* Cyberpunk link: <https://pastebin.com/M5uVCk60>
 
-* Fantasy link: https://pastebin.com/vw3xm4Hy
+* Fantasy link: <https://pastebin.com/vw3xm4Hy>
 
-* Sci-Fi link: https://pastebin.com/Yw4ms206
+* Sci-Fi link: <https://pastebin.com/Yw4ms206>
 
 * Preview: <https://i.imgur.com/zl41XqS.jpg>, <https://i.imgur.com/aRO59rw.png>
 
 * Background: `Multiple`, `Static`
 
-* Custom font: `Yes`, https://font.gohu.org/
+* Custom font: `Yes`, <https://font.gohu.org/>
  
 **7) Half-Life 2**
 
-* Link: https://pastebin.com/7xTjyQBz
+* Link: <https://pastebin.com/7xTjyQBz>
 
-* Preview: https://i.imgur.com/Rk940dP.jpg
+* Preview: <https://i.imgur.com/Rk940dP.jpg>
 
 * Background: `Static`
 
-* Custom font: `Yes`, https://www.wfonts.com/font/edit-undo-line-brk
+* Custom font: `Yes`, <https://www.wfonts.com/font/edit-undo-line-brk>
  
 **8) FTRED**
 
-* Link: https://pastebin.com/gmDJRWdF
+* Link: <https://pastebin.com/gmDJRWdF>
 
-* Preview: https://i.imgur.com/MHtmQsN.gif 
+* Preview: <https://i.imgur.com/MHtmQsN.gif>
 
 * Background: `Static`
 
@@ -89,30 +89,72 @@ Collection of pre-made themes.
  
 **9) (NSFW) Yamu yamu by Anon**
 
-* Link: https://pastebin.com/yS66zr0w
+* Link: <https://pastebin.com/yS66zr0w>
 
-* Preview: https://i.imgur.com/8n5Ivtv.jpg
+* Preview: <https://i.imgur.com/8n5Ivtv.jpg>
 
-* Background: Multiple, Static
+* Background: `Multiple`, `Static`
 
-* Custom font: Yes, https://www.dafont.com/vcr-osd-mono.font and https://www.wfonts.com/font/edit-undo-line-brk
+* Custom font: Yes, <https://www.dafont.com/vcr-osd-mono.font> and <https://www.wfonts.com/font/edit-undo-line-brk>
  
 **10) Pixel ruins**
 
-* Link: https://pastebin.com/fZQ1kF30
+* Link: <https://pastebin.com/fZQ1kF30>
 
-* Preview: https://i.imgur.com/5n5zzGx.gif
+* Preview: <https://i.imgur.com/5n5zzGx.gif>
 
 * Background: `Animated`
 
-* Custom font: Yes, https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
+* Custom font: `Yes`, <https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font>
  
 **11) AID Automata**
 
-* Link: https://pastebin.com/4QcppNkS
+* Link: <https://pastebin.com/3dsNCS1p>
 
-* Preview: https://i.imgur.com/h39xXms.png
+* Preview: <https://i.imgur.com/mJtDKXy.png>
 
 * Background: `Static`
 
 * Custom font: `No`
+
+**12) Morrowind**
+
+* Link: <https://rentry.co/cf3fq>
+
+* Preview: <https://i.imgur.com/ke4JWBH.png>
+
+* Background: `Static`
+
+* Custom font: `Yes`, <https://isaskar.github.io/Pelagiad/>
+
+**13) VA-11 HALL-A Glitch City**
+
+* Link: <https://pastebin.com/2prGtZ5L>
+
+* Preview: <https://i.imgur.com/pAKGgjk.png>
+
+* Background: `Static`
+
+* Custom font: `Yes`, <https://github.com/tokamach/newtab/blob/master/fonts/CyberpunkWaifus.ttf>
+
+**14) PC-98 Sci-Fi** (10 static backgrounds, rotates every 100 seconds.)
+
+* Link: <https://raw.githubusercontent.com/Cyctorn/aidgrice/main/PC-98_Sci-Fi.css>
+
+* Preview: <https://i.imgur.com/pCTfCZU.mp4>
+
+* Portrait template: <https://i.imgur.com/lnAJETC.png>
+
+* Background: `Multiple`, `Static`
+
+* Custom font: `Yes`, <https://retro-type.com/PC98/font/pc-9800.ttf>
+
+**15) B★RS Black Rock Shooter** (10 static backgrounds, rotates every 100 seconds.)
+
+* Link: https://raw.githubusercontent.com/chicken-salsa/aid-and-salsa/main/brs_theme
+
+* Preview: https://i.imgur.com/PrffBLU.png
+
+* Background: `Multiple`, `Static`
+
+* Custom font: `Yes` Pre-installed Windows fonts

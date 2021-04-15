@@ -5,7 +5,7 @@
 
 1. Link to your prompt must posted in the thread.
 2. Your post *must* contain the link to it on <https://prompts.aidg.club>.
-3. It must be posted on the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the thread is checked for the prompts to be transcribed during the weekend).
+3. It must be posted as a reply to the anchorpost made on or near to the Friday of the event (it's fine if you post it a bit later, but don't expect it to be added unless you explicitly ask to — the anchor is checked for the prompts to be transcribed whenever appropriate, and unanchored submissions may be overlooked).
 4. 100 characters and low effort prompts won't be added.
 5. Image is optional, but *highly*  recommended if you want to get a single (You).
 6. Explore link is optional as well.
@@ -31,7 +31,7 @@
    15. [Partnering Up With Your Dragoon Childhood Friend](#partnering-up-with-your-dragoon-childhood-friend)
    16. [Matching with Your Tomboy Matchmaker](#matching-with-your-tomboy-matchmaker)
    17. [The Morning After](#the-morning-after)
-2. [Foklore Friday](#folklore-friday)
+3. [Folklore Friday](#folklore-friday)
    1. [Bloody Mary, Bloody Mary, Bloody Mary](#bloody-mary-bloody-mary-bloody-mary)
    2. [Unhcegila](#unhcegila)
    3. [Caipora's Reverse Trapping](#caiporas-reverse-trapping)
@@ -42,6 +42,48 @@
    8. [Nisse's Wrath](#nisses-wrath)
    9. [Godfather Death](#godfather-death)
    10. [Diary of Bugul Noz](#diary-of-bugul-noz)
+4. [Fit Friday](#fit-friday)
+   1. [Between the Paladin and the Amazon](#between-the-paladin-and-the-amazon)
+   2. [Interspecies Soccer Team (It's just monster girls)](#interspecies-soccer-team-its-just-monster-girls)
+   3. [Do you even lift?](#do-you-even-lift)
+   4. [Buffairy](#buffairy)
+   5. [Pride of the Ctarl-Ctarl Empire](#pride-of-the-ctarl-ctarl-empire)
+   6. [Dance Dance Humiliation](#dance-dance-humiliation)
+   7. [Living with My Athletic Big Sister](#living-with-my-athletic-big-sister)
+   8. [Interpersonal Trainer](#interpersonal-trainer)
+   9. [Hands-On Health Inspection](#hands-on-health-inspection)
+   10. [Chihiro bullying.](#chihiro-bullying)
+   11. [Meeting a Spartan-II](#meeting-a-spartan-ii)
+ 5. [Femboy Friday](#femboy-friday)
+    1. [Society Debut](#society-debut)
+    2. [Femboy Witness Protection](#femboy-witness-protection)
+    3. [Closing the Distance](#closing-the-distance)
+    4. [Effeminate Affections](#effeminate-affections)
+    5. [Daring Days at the Hot Springs](#daring-days-at-the-hot-springs)
+    6. [Christmas With A Buddy](#christmas-with-a-buddy)
+    7. [The Veiled Habibi](#the-veiled-habibi)
+    8. [The 100% Hetero Stream](#the-hetero-stream)
+6. [Frontier Friday](#frontier-friday)
+     1. [Each Dixie Boy Must Understand...](#each-dixie-boy-must-understand)
+     2. [The Cowgirl Rancher](#the-cowgirl-rancher)
+     3. [Big Iron, but](#big-iron-but)
+     4. [Expressive Divination](#expressive-divination)
+     5. [Daddy's Mine](#daddys-mine)
+     6. [A Smoking Barrel](#a-smoking-barrel)
+     7. [The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry](#the-debaucherous-adventures-of-depravity-jane-and-hunts-their-cherry)
+     8. [Shadows of the Sun](#shadows-of-the-sun)
+     9. [Mounted By Mounties](#mounted-by-mounties)
+     10. [Samurai Western](#samurai-western)
+     11. [For a few drinks more](#for-a-few-drinks-more)
+ 7. [Afterlife Friday](#afterlife-friday)
+     1. [Programmed to Receive](#programmed-to-receive)
+     2. [Between the Cross and the Latex](#between-the-cross-and-the-latex)
+     3. [Heated meeting with Artemis](#heated-meeting-with-artemis)
+     4. [A Celibate Monk's Reward](#a-celibate-monks-reward)
+     5. [Lusting After Life](#lusting-after-life)
+     6. [Heaven Or Las Vegas](#heaven-or-las-vegas)
+     7. [Black and White](#black-and-white)
+     8. [Larry's Limbo Diner](#larrys-limbo-diner)
 
 
 <h2 align="center">Vanilla Friday</h2>
@@ -259,3 +301,308 @@
 ![Thumbnail](https://i.imgur.com/HlxW8m2m.jpg) | As you wander through the woodlands of Brittany, you stumble upon a mossy old journal of some sort sticking out of a collapsed hole in the side of a hill. The writer referred to himself as "Bugul Noz" and seemed to spend most of his time sulking in loneliness. Let's take a peek.
 **Link** | <https://prompts.aidg.club/681>
 **Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=c8ec9330-6764-11eb-b966-9f1deb5eab9c>
+
+<h2 align="center">/fit/ Friday</h2>
+
+<h3 align="center">Between the Paladin and the Amazon</h3>
+
+[Image](https://i.imgur.com/YhOW5b7.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/YhOW5b7m.png) | While wandering alone in the woods, you, a young elven boy, get accosted by an amazon looking for a husband. Lucky for you, a traveling Paladin has appeared to defend you from the treacherous huntress. Who will prevail? Will you have further adventures with either of them?
+**Link** | <https://prompts.aidg.club/731>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a4786ce0-725e-11eb-9ded-5d44824a632e>
+
+<h3 align="center">Interspecies Soccer Team (It's just monster girls)</h3>
+
+|![]()| Description|
+|:--: | --|
+|![]()| Manage your team of monster girls, keep 'em in shape and teach them how to play ball without legs! I've set up two characters in world info, but they're of course perfectly optional, and in my testing, plenty more kept getting added. Do be prepared for some wrangling, the AI has a thing about legs when it comes to soccer. Who knew?|
+**Link** | <https://prompts.aidg.club/736>
+
+<h3 align="center">Do you even lift?</h3>
+
+[Image](https://i.imgur.com/iUmfDXj.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/iUmfDXjm.png) | When your friend asked if you wanted to work out with her, you mainly accept out of curiosity at what was under the baggy clothes she always wore. When the two of you actually hit the gym together, however, you quickly realize she isn't the shy, self-conscious girl you assumed she was from the way she dressed.
+**Link** | <https://prompts.aidg.club/737>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=279ef640-719f-11eb-b13d-f9a0680feedb>
+
+<h3 align="center">Buffairy</h3>
+
+[Image](https://i.imgur.com/vNyLE6r.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/vNyLE6rm.jpg) | Meet Pitanga(Peetaanga), a fairy that is not like the others. She's a tanned tomboy with a muscular body and a love for exercising. Accompany her as she shows you her special workout routine.
+**Link** | <https://prompts.aidg.club/769>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dc497f00-713d-11eb-89d1-e38aef2dc6b4>
+
+<h3 align="center">Pride of the Ctarl-Ctarl Empire</h3>
+
+[Image](https://i.imgur.com/Vr2Mhjj.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/Vr2Mhjjm.jpg) | It's been years since the events of Outlaw Star, but things haven't changed much. Even though you're grown up, everyone on the crew still treats Jim like a kid and he laments this as he's stuck watching Aisha (an amazonian catgirl), making sure she doesn't slack off when she's supposed to be loading cargo. But Aisha has a plan to make everyone finally see Jim as a man!<br/>This prompt uses scripted AN and comes with a default Author's Note. You can also set the AN with the /an <text> command, AN Depth with /and <number> command, and AN visibility with the /anv command.
+**Link** | <https://prompts.aidg.club/770>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1c53b630-71f0-11eb-8f9c-cfb057936fbd><h3 align="center"></h3>
+
+<h3 align="center">Dance Dance Humiliation</h3>
+
+[Image](https://i.imgur.com/xJB94jA.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/xJB94jAm.png) | Your athletic friend Penny wants a buddy to play DDR with, so now it's just you and your hottest friend in a quiet arcade. Can you keep up the pace, or are you going to look like a fool in front of this toned, athletic beauty?
+**Link** | <https://prompts.aidg.club/771>
+
+<h3 align="center">Living with My Athletic Big Sister</h3>
+
+[Image](https://i.imgur.com/gBiJiaA.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/gBiJiaAm.jpg) | Your parents have decided to move you in with your big sister, who you haven't seen in four years. Living with her might prove a little unusual after seeing how much your sister has changed since the past four years...<br/>You can use either the A/N script or default authors note. Just paste whatever is in the script and turn disable /an
+**Link** | <https://prompts.aidg.club/776>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=70b26880-72cb-11eb-879c-55451e01acd7>
+
+<h3 align="center">Interpersonal Trainer</h3>
+
+[Image](https://i.imgur.com/W5jWVhN.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/W5jWVhNm.jpg) | In your journey to make good on a New Year's resolution, you find yourself returning to the world of personal fitness with a stunning monstergirl coaching you along.<br/>(Utilizing scripted Author's Note. /an to set, /anv for display.)
+**Link** | <https://prompts.aidg.club/777>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=46e9dba0-7230-11eb-b8b3-bb508d104cc5>
+
+<h3 align="center">Hands-On Health Inspection</h3>
+
+[Image](https://i.imgur.com/cy4Fd73.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/cy4Fd73m.jpg) | Your fitness test for the intraschool long jump competitions turns out to be a little more interactive than you imagined it to be. And is that pen really a sanitary check-up equipment? 
+**Link** | <https://prompts.aidg.club/779>
+
+<h3 align="center">Chihiro bullying.</h3>
+
+[Image](https://i.imgur.com/x9XbSoP.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/x9XbSoPm.png) | Danganronpa scenario. Bully the femboy. With your penis.
+**Link** | <https://prompts.aidg.club/781>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=2f5698a0-7359-11eb-b6a6-43c1d7a1feb1>
+
+<h3 align="center">Meeting a Spartan-II</h3>
+
+[Image](https://i.imgur.com/gSABrdn.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/gSABrdnm.jpg) | (You)'re working out in the gym of a space station when a Spartan-II walks in, her name is Chosi.
+**Link** | <https://prompts.aidg.club/782>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f819a4a0-7212-11eb-a408-9520c46fc49c>
+
+<h2 align="center"> Femboy Friday </h2>
+
+<h3 align="center">Society Debut</h3>
+
+[Image](https://i.imgur.com/tcCcOA8.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/tcCcOA8m.jpg) | Professor Church throws a soiree to introduce his adopted child Leslie to society. From the outside, Leslie is beautiful, airy, and poised - every inch a charming female ingénue. However, as the professor's research assistant, you know that not all is as it seems...
+
+**Link** | <https://prompts.aidg.club/855>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=46f6c030-7c31-11eb-83ef-710ae9554ee7>
+
+<h3 align="center">Femboy Witness Protection</h3>
+
+[Image](https://i.imgur.com/a3r5RtQ.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/a3r5RtQm.png) | A cute young troublemaker is on the run from some bad people. Will you help them establish a completely new life?
+
+**Link** | <https://prompts.aidg.club/875>
+
+<h3 align="center">Closing the Distance</h3>
+
+[Image](https://i.imgur.com/LL3qwRr.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/LL3qwRrm.jpg) | You visit your cousin and learn that he has become very girly since you last saw each other. Your aunt does not approve and hopes you visiting will help correct his behavior. Choose a side and reap the rewards—or try bringing the whole family together.
+**Link** | <https://prompts.aidg.club/878>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f8ff85c0-7d60-11eb-b7f8-077f0c1b1db5>
+
+
+<h3 align="center">Effeminate Affections</h3>
+
+[Image](https://i.imgur.com/CB0eYig.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/CB0eYigm.png) | A lewd anthrofied pokemon scenario about breeding your bottom heavy femboy scrafty.
+**Link** | <https://prompts.aidg.club/879>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a2e2ec90-7d92-11eb-a97b-350a9da4803b>
+
+<h3 align="center">Daring Days at the Hot Springs</h3>
+
+[Image](https://i.imgur.com/raTxTXE.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/raTxTXEm.jpg) | You are Yuki, a novice kendo player who has a penchant for spending time in the women's section of the hot springs (it's quieter there, and less crowded). Due to his girlish appearance, he gets away with it. One day, a tall, muscular girl, a kendo rival, takes a dip in the springs with him. Will she discover his secret?
+**Link** | <https://prompts.aidg.club/881>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dc173c70-7e17-11eb-9ed1-d9bca4233e33>
+
+<h3 align="center">Christmas With A Buddy</h3>
+
+[Image](https://i.imgur.com/x3ue4Be.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/x3ue4Bem.jpg) | Spend the Christmas with a crossdressing definitely-not-gay friend of yours.
+**Link** | <https://prompts.aidg.club/882>
+
+<h3 align="center">The Veiled Habibi</h3>
+
+[Image](https://i.imgur.com/RIOuslp.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/RIOuslpm.jpg) | A lovely femboy approached you at an Arabic ballroom gathering and you couldn't resist.
+**Link** | <https://prompts.aidg.club/884>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=42055660-7d6f-11eb-8a33-43b08185ac77>
+
+<h3 align="center">The Hetero Stream</h3>
+
+[Image](https://i.imgur.com/d8c7p30.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/d8c7p30m.png) | Help out your femboyish streamer friend in completing a very lewd set of challenges from his viewers! Thankfully, you'll have your work cut out for you, as he is definitely 100% straight.
+**Link** | <https://prompts.aidg.club/883>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=9a4f4940-7e21-11eb-8f69-f99e6dd5b3bc>
+
+<h2 align="center">Frontier Friday</h2>
+
+<h3 align="center">Each Dixie Boy Must Understand...</h3>
+
+[Image](https://i.imgur.com/8jyNVib.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/8jyNVibm.jpg) | A former Rebel, now in the employ of the Union, rides west in the wake of the Civil War. His assignment is to stop a counterfeiting operation his younger brother might have gotten caught up in.
+**Link** | <https://prompts.aidg.club/951>
+
+<h3 align="center">The Cowgirl Rancher</h3>
+
+[Image](https://i.imgur.com/RN0Iqpw.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/RN0Iqpwm.jpg) | You're a cowgirl rancher, settling the wild frontier of Utah in 1886. You have three cowgirls, who love you. A simple slice-of-life story about ranching, cowgirls, and self-reliance.
+**Link** | <https://prompts.aidg.club/952>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=dba0da10-8882-11eb-a46c-bbffc8cf11b4>
+
+<h3 align="center">Big Iron, but</h3>
+
+[Image](https://i.imgur.com/RVsIx9U.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/RVsIx9Um.jpg) | A stereotypical showdown at high noon becomes an absurd, unpredictable farce as reality warps around these characters who persistently attempt to play it within the confines of the song "Big Iron" no matter how weird it gets.
+**Link** | <https://prompts.aidg.club/953>
+
+<h3 align="center">Expressive Divination</h3>
+
+[Image](https://i.imgur.com/CKo5th5.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/CKo5th5m.jpg) | You are a traveler passing through a Western territory. You are flagged down by an oracle to a local tribe who requires your... manly expressions for a particularly important ritual for her people. Weary from your travels and intrigued by her proposal, you decide to follow her to her tent on the outskirts of her village, where the two of you will be performing the ritual.
+**Link** | <https://prompts.aidg.club/954>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a7290660-8835-11eb-80d3-034e5a3867a6>
+
+<h3 align="center">Daddy's Mine</h3>
+
+[Image](https://i.imgur.com/s7jMMJ8.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/s7jMMJ8m.png) | Portia Duvall finds herself in a most peculiar situation: her recently deceased daddy left her a mine alongside an unbelievable amount of debt. Stubborn and naive, she decides to hold on to her inheritance and offers a unique solution to her problem: her body. Ever the businessman, our bandit leader seizes the opportunity. He claims Portia and all her possessions as his, and now it seems he might want a little more than just her Daddy's mine or her body.
+**Link** | <https://prompts.aidg.club/960>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=1d4fca20-81ee-11eb-9349-c1cf1d07dca9>
+
+<h3 align="center">A Smoking Barrel</h3>
+
+[Image](https://i.imgur.com/GYMfpRN.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/GYMfpRNm.jpg) | Within this adventure, you will be playing as Samuel, a young human wanderer of the treacherous badlands who owns a very special weapon; A cursed revolver that can turn into a beautiful apparition of a violent woman that goes by the name of Colt.
+**Link** | <https://prompts.aidg.club/969>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=95759eb0-888a-11eb-8202-355634674e7d>
+
+<h3 align="center">The Debaucherous Adventures of Depravity Jane and Hunts-Their-Cherry</h3>
+
+[Image](https://i.imgur.com/qt6RO98.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/qt6RO98m.jpg) | Although you once were a woman of the law, the silver-tongued Indian Hunts-Their-Cherry convinced you to join her in partaking in one of the most illicit crimes of all: boy-hunting. You, now known as the lecherous outlaw Depravity Jane, prowl the frontier with your partner in search of that forbidden fruit.
+**Link** | <https://prompts.aidg.club/972>
+
+<h3 align="center">Shadows of the Sun</h3>
+
+[Image](https://i.imgur.com/1TTS3E5.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/1TTS3E5m.jpg) | Rattler's Edge is a tranquil town, but its peace shatters with the discovery of a brutal ritual murder. As Sheriff, you're tasked with finding the killer—but your only hope lies in an enigmatic priestess from a secretive cult.
+**Link** | <https://prompts.aidg.club/948>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=903ff250-883b-11eb-b1c9-9929e85a9165>
+
+<h3 align="center">Mounted by Mounties</h3>
+
+[Image](https://i.imgur.com/oAJcMeI.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/oAJcMeIm.jpg) | On the run after making a rash decision that ended in bloodshed, the legendary Canadian lawwomen have caught you—luckily they don't know the full extent of the crime, and have ulterior motives...
+**Link** | <https://prompts.aidg.club/971>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=0ba52770-8856-11eb-ab3d-4bd70dc05d08>
+
+<h3 align="center">Samurai Western</h3>
+
+[Image](https://i.imgur.com/iKJPCSZ.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/iKJPCSZm.png) | Based on the PS2 game of the same name, play as a samurai named Hayate in the wild American frontiers, wandering the untamed plains in search for your missing brother.
+**Link** | <https://prompts.aidg.club/974>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=a28da480-4456-11eb-8c4c-35a51d2ad5f7>
+
+<h3 align="center">For a few drinks more</h3>
+
+[Image](https://i.imgur.com/lizEHE6.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/lizEHE6m.jpg) | (You)'re a bartender working on a luxurious train when an all-female gang of Mexican bandits jumps in, waving guns around. You better hope some tequila is enough to calm them down.
+**Link** | <https://prompts.aidg.club/976>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=6a1976e0-885a-11eb-8226-ff53bd8ff8be>
+
+<h2 align="center">Afterlife Friday</h2>
+
+<h3 align="center">Programmed to Receive</h3>
+
+[Image](https://i.imgur.com/G1jqCUT.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/G1jqCUTm.jpg) | On your way to Heaven, your files got shuffled in a bureaucratic maze. To wait it out, you're invited to stay at The Hotel on Limbo. Once there, you find that everything is…just a little bit off.
+**Link** | <https://prompts.aidg.club/1065>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=f8074280-92ea-11eb-a169-f91cb53a46d3>
+
+<h3 align="center">Between the Cross and the Latex</h3>
+
+[Image](https://i.imgur.com/9yqoHQk.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/9yqoHQkm.jpg) | Play as a digimon tamer that was graced with both a gatomon and a blackgatomon. Except they do nothing but eat, poop, sleep and have petty fights with each other. That is until they digivolve into Angewomon and LadyDevimon and their behaviour changes drastically...
+**Link** | <https://prompts.aidg.club/1059>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=31c57180-9170-11eb-ae34-490aa3d57cbe>
+
+<h3 align="center">Heated meeting with Artemis</h3>
+
+[Image](https://i.imgur.com/JdZ6gok.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/JdZ6gokm.png) | (You) are a boastful hunter of Greece who met a most unbefitting end off a cliff. But before you can see what truly comes afterlife, (You)'re summoned into a forest and are faced with Artemis, the greek goddess of the hunt.
+**Link** | <https://prompts.aidg.club/1067>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=080c4190-910f-11eb-a335-193d1766fe6d>
+
+<h3 align="center">A Celibate Monk's Reward</h3>
+
+|![]()| Description|
+|:--: | --|
+|![]()| A turbovirgin monk who swore a vow of celibacy dies, and finds a rather cute and shapely angel waiting for him to give him his reward for his piety.
+**Link** | <https://prompts.aidg.club/1068>
+
+<h3 align="center">Lusting After Life</h3>
+
+[Image](https://i.imgur.com/q2fuWgn.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/q2fuWgnm.jpg) | You find yourself in an unknown place with no recollection of how you got there. A woman calling herself Mary claims you have died, but offers you hope of returning to life at the end of a perverse game you are forced to participate in. Fittingly for a game with rebirth as its prize, Mary has decided that your mother will also experience everything alongside you.
+**Link** | <https://prompts.aidg.club/1069>
+
+<h3 align="center">Heaven Or Las Vegas</h3>
+
+[Image](https://i.imgur.com/3WR1s3B.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/3WR1s3Bm.jpg) | You don't remember much of your life, but you must have done something wrong—because after you died, you woke up in a devilish Casino. Bet for your life and claw to the top with the help of your demonic handler!
+**Link** | <https://prompts.aidg.club/1064>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=d45c41f0-8f25-11eb-b497-dbc1424f13c3>
+
+<h3 align="center">Black and White</h3>
+
+[Image](https://i.imgur.com/XhMPmRD.jpg) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/XhMPmRDm.jpg) | You're an irredeemable lecher and a pervert who constantly indulges yourself in lustful masturbatory fantasies, and your soul is surely destined for Hell. Eiki Shiki summons you to Hell to tell you your repressed lust will certainly condemn your soul to Hell; somewhat surprisingly, her issue is with your repression, not the lust. The only thing for it is to confront your desires head-on, and fortunately she's willing to lend a hand:
+**Link** | <https://prompts.aidg.club/1070>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=661e9540-9410-11eb-9105-a36c7d2715f6>
+
+<h3 align="center">Larry's Limbo Diner</h3>
+
+[Image](https://i.imgur.com/bIz4BPt.png) | Description
+:--: | --
+![Thumbnail](https://i.imgur.com/bIz4BPtm.png) | When your soul ends up too tainted for heaven, but not quite sinister enough for Hell, you are placed in a punishment unique to Limbo: eternal food-service work. Step behind the prep line of Larry's Limbo Diner, where you serve as one of the short-order cooks who has to deal with the insane orders of the various supernatural customers that stop by, while grilling and chilling with your demonic kitchen buddy and taking flak from the bitchy half-angel who works the register and sends tickets back.
+**Link** | <https://prompts.aidg.club/1073>
+**Explore**| <https://play.aidungeon.io/main/scenarioView?publicId=861461e0-93f7-11eb-8e2b-f5e5d2a43da4>
