@@ -1,0 +1,16 @@
+{
+  "name": "aidg-character-generator",
+  "version": "1.0.0",
+  "description": "Generate base64 encoded characters for AID.",
+  "main": "",
+  "scripts": {
+    "generate": "node --no-deprecation lib/generate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "readline-sync": "^1.4.10",
+    "rewire": "^5.0.0",
+    "uglify-js": "^3.12.8"
+  }
+}
