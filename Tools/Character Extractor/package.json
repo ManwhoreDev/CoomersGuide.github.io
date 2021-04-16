@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "exifr": "^6.2.0"
+    "exifr": "^6.2.0",
+    "axios": "^0.21.1"
   }
 }
