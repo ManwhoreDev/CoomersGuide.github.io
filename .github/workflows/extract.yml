@@ -1,0 +1,26 @@
+# This is a basic workflow that is manually triggered
+
+name: Extract Character Code From Image
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Image URL to extract character from'
+        # Input has to be provided for the workflow to run
+        required: true
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Extract Character Code
+      working-directory: 'Tools/Character Extractor/'
+      with:
+        node-version: '8.10.0'
+      run: |
+        npm install
+        npm run convert ${{ github.event.inputs.url }}
