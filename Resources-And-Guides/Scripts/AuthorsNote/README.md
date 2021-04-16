@@ -1,13 +1,17 @@
 # Introduction
-These scripts provide functionality similar to the feature "Author's Note", except where noted in the description below. The scripts make use of AI Dungeon's scripting feature which is free for all players. 
+These scripts provide functionality similar to the feature "Author's Note", except where noted in the description below. The scripts make use of AI Dungeon's scripting feature which is free for all players. Beyond that, the scripts provide a way to import saved characters in `base64` format to use in your Scenarios.
 
 ## Motivation
 There are a number of reasons why you might want to make use of these scripts. You may want to explore the deeper scripting functionality of AI Dungeon and are looking for an example of how to modify input, persist state, and manipulate context. If you are a Griffon user, you may want to try functionality that adds an "Author's Note" to your context. If you are a Dragon user, you may want more fine-grain control over your "Author's Note" insertion depth, length, etc.
+
+The other use for these scripts is integration with shareable characters through their character codes..
 
 # Functionality
 The contents of the scripts modifies the behavior of AI Dungeon in the following way. It monitors the input given by the player. When an input line that starts with "/an" is detected, then the rest of that line is set to be the new "Author's Note". When a line that starts with "/and" is detected and followed by an integer between 1 and 9 (inclusive), then that number will be set as the Author's Note Depth. A notification is displayed on the window, reminding the user what the current "Author's Note" is as well as its depth. Author's Notes created in this way are inserted n lines from the bottom of the context, where n is the depth, and can be of any length. This means you may supply an Author's Note of a length greater than 150 characters. Note: this does not alter the maximum context length and any additional characters used by the Author's Note will be removed from the top of the context before the request is submitted to the server.
 
 Note: This functionality also works in tandem with the existing Author's Note feature. This means if you use this script _and_ set Author's Note in the UI, two Author's Notes will be set in your context.
+
+The other main portion of functionality is the `/load <character code>` command. This is used to load a `base64` encoded character into your adventure, where the character's information will be loaded on-the-fly in memory and in the scripted Author's Note.
 
 ## How To Install The Scripts
 The scripts are easy to install and can be copy/pasted from this repository without modification.
@@ -213,3 +217,18 @@ For those making changes to the Author's Note script, there are tests to run as 
 npm install && npm test
 ```
 For more information see the [AIDG Test](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AIDG%20Test) Project.
+
+# Importing A Character
+Let's say you find a character you really want to import into your scenario, how do you do it?
+![booba](img/booba.png)
+1. Using the instructions in the [Character Extractor](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/Character%20Extractor), grab your new friend's character code!
+2. In your scenario with the AN Script, type: `/load <character code>`
+![code](img/code.png)
+---
+**Technical Note**
+
+The character code is very long. It will take up multiple rows in the input field. Becuase of its length it might also display *like* there is a newline between `/load` and the character code. Only put a single space in `/load <character code>`.
+
+---
+3. Once the character is loaded, their information will be populated in the memory and Scripted AN through scripts. Enjoy!
+![demy](img/demy.png)
