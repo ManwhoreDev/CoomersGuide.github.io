@@ -1,0 +1,5 @@
+task build(type: Zip) {
+	from '.'
+	include '*.js'
+	archiveName 'scenario.zip'
+}
