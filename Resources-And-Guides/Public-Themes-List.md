@@ -151,10 +151,10 @@ Collection of pre-made themes.
 
 **15) B★RS Black Rock Shooter** (10 static backgrounds, rotates every 100 seconds.)
 
-* Link: https://raw.githubusercontent.com/chicken-salsa/aid-and-salsa/main/brs_theme
+* Link: <https://raw.githubusercontent.com/chicken-salsa/aid-and-salsa/main/brs_theme>
 
-* Preview: https://i.imgur.com/PrffBLU.png
+* Preview: <https://i.imgur.com/PrffBLU.png>
 
 * Background: `Multiple`, `Static`
 
-* Custom font: `Yes` Pre-installed Windows fonts
+* Custom font: `No`
