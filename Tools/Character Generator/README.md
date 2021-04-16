@@ -25,7 +25,7 @@ Enjoy!
 Once you have the code, feel free to play with the character, import them into your scenario, or share the code. If you want to go the extra mile, you can embed the code into an image to share.
 
 ### Picking / Editing Your Image
-To give your character's presentation a bit of punch, you might want to consider creating a "card" for your character or making an appealing image to get their personality across. A number of templates for creating cards has been made available: [here](https://TODO). If you need software to edit image files, you can use [GIMP](https://www.gimp.org/downloads/). It's free.
+To give your character's presentation a bit of punch, you might want to consider creating a "card" for your character or making an appealing image to get their personality across. A number of templates for creating cards has been made available: [here](templates). If you need software to edit image files, you can use [GIMP](https://www.gimp.org/downloads/). It's free.
 
 ### Embedding Your Character Code and Exporting
 Once your image is ready, you just need to embed your character code into the image.
