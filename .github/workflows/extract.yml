@@ -27,7 +27,4 @@ jobs:
       - id: character-code-extract
         run: echo "::set-output name=character-code-extract::$(npm run convert ${{ github.event.inputs.url }})"
         working-directory: 'Tools/Character Extractor'
-    outputs:
-      character-code-extract:
-        description: "The Extracted Character Code"
-        value: ${{ steps.character-code-extract.outputs.character-code-extract}}
+      - run: echo "${{ steps.character-code-extract.outputs.character-code-extract}}"
