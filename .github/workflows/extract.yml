@@ -18,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Extract Character Code
     steps:
-      - working-directory: 'Tools/Character Extractor/'
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
