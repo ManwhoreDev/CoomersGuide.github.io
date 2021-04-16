@@ -24,10 +24,13 @@ const modifier = (text) => {
     lines.splice(-depth, 0, state.rawAuthorsNote ? state.authorsNote : `[Author's note: ${state.authorsNote}]`)
   }
 
-  state.memory.context = memory + `\nYou are with ${state.name}.\n`
-    + `[${state.name}'s physical description: ${state.physicalDescription}\n`
-    + `${state.name}'s mental description: ${state.mentalDescription}\n`
-    + `${state.name}'s mental dialog examples: ${state.dialogExamples}]`
+  // Only add to memory if we have a NPC loaded.
+  if (state.name) {
+    state.memory.context = memory + `\nYou are with ${state.name}.\n`
+      + `[${state.name}'s physical description: ${state.physicalDescription}\n`
+      + `${state.name}'s mental description: ${state.mentalDescription}\n`
+      + `${state.name}'s mental dialog examples: ${state.dialogExamples}]`
+  }
 
   // Make sure the new context isn't too long, or it will get truncated by the server.
   const combinedLines = lines.join("\n").slice(-(info.maxChars - info.memoryLength))
