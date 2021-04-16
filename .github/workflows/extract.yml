@@ -16,11 +16,13 @@ on:
 jobs:
   extract:
     runs-on: ubuntu-latest
+    name: Extract Character Code
     steps:
-    - name: Extract Character Code
       working-directory: 'Tools/Character Extractor/'
-      with:
-        node-version: '8.10.0'
-      run: |
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: |
         npm install
         npm run convert ${{ github.event.inputs.url }}
