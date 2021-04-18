@@ -38,13 +38,16 @@ The supported Metadata tags are `ImageDescription` (for JPG) and `description.va
 ---
 
 1. In GIMP, open your image and perform your desired edits.
-1. Select Image -> Metadata -> Edit Metadata
+2. Select Image -> Metadata -> Edit Metadata
 ![metadata](img/metadata.png)
-1. Paste the character code in the Description field and click "Write Metadata"
+3. Paste the character code in the Description field and click "Write Metadata"
 ![write metadata](img/writeMetadata.png)
-1. Export the image and make sure the Metadata export boxes (EXIF, etc.) are selected.
+4. Export the image and make sure the Metadata export boxes (EXIF, etc.) are selected.
+    * Note: You must export this in PNG file format for the code to be persisted through posting on image boards. The code will be stripped from JPG files.
+
 ![export](img/export.png)
-1. Your character card has been saved with your character code. It's ready to share!
+
+5. Your character card has been saved with your character code. It's ready to share!
 
 ### Testing Your Card Before You Share
 You might also want to test extracting your character code from the image with the [Character Extractor](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/Character%20Extractor) before you share!
