@@ -2,7 +2,10 @@ const fs = require('fs');
 const rewire = require('rewire')
 const uglifyJS = require("uglify-js");
 
-const defaultState = {}
+const defaultState = {
+	memory: {}
+}
+
 const defaultInfo = {
 	"actionCount": 7,
 	"characters": [
@@ -18,6 +21,7 @@ const defaultText = ''
 state = defaultState
 info = defaultInfo
 text = defaultText
+memory = ''
 
 function setState(newState = defaultState) {
 	state = newState

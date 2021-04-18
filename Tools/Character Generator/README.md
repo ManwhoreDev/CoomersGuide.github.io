@@ -21,5 +21,30 @@ This will run the generator with each of the questions needed to create the NPC.
 
 Enjoy!
 
-## Limitations / Caveats
-These scripts are under development right now. I will likely migrate an updated copy to the `Resources-And-Guides/Scripts` folder once I have implemented more features. Additionally, I plan on updating the Author's Note Script to accept one (or more) NPCs through a `/load` command.
+## Optional: Adding the Code to an Image
+Once you have the code, feel free to play with the character, import them into your scenario, or share the code. If you want to go the extra mile, you can embed the code into an image to share.
+
+### Picking / Editing Your Image
+To give your character's presentation a bit of punch, you might want to consider creating a "card" for your character or making an appealing image to get their personality across. A number of templates for creating cards has been made available: [here](templates). If you need software to edit image files, you can use [GIMP](https://www.gimp.org/downloads/). It's free.
+
+### Embedding Your Character Code and Exporting
+Once your image is ready, you just need to embed your character code into the image.
+
+---
+**Technical Note**
+
+The supported Metadata tags are `ImageDescription` (for JPG) and `description.value` (for PNG). In GIMP these are both filled out by setting the `Description` field.
+
+---
+
+1. In GIMP, open your image and perform your desired edits.
+1. Select Image -> Metadata -> Edit Metadata
+![metadata](img/metadata.png)
+1. Paste the character code in the Description field and click "Write Metadata"
+![write metadata](img/writeMetadata.png)
+1. Export the image and make sure the Metadata export boxes (EXIF, etc.) are selected.
+![export](img/export.png)
+1. Your character card has been saved with your character code. It's ready to share!
+
+### Testing Your Card Before You Share
+You might also want to test extracting your character code from the image with the [Character Extractor](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/Character%20Extractor) before you share!

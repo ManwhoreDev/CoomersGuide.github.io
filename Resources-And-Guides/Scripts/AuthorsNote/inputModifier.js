@@ -12,6 +12,7 @@ const modifier = (text) => {
   let authorsNoteIndex = -1
   let authorsNoteDepthIndex = -1
   let authorsNoteDisplayIndex = -1
+  let loadGameIndex = -1
   
   // Split the input by line
   const inputLines = modifiedText.split("\n")
@@ -80,6 +81,20 @@ const modifier = (text) => {
         console.log("Invalid Author's Note Display passed: " + line)
       }
     }
+    else if (line.startsWith("/load ")) {
+      let loadTokens = line.split("/load ")
+      if(
+        2 === loadTokens.length
+        && -1 === loadGameIndex
+      ) {
+        loadGameIndex = index
+        loadGame(loadTokens[1].trim())
+        inputLines.push(`You turn to see ${state.name}.\n"`)
+      }
+      else {
+        console.log("Invalid Load Game command passed.")
+      }
+    }
   })
 
   // Add any indexes we want to delete to an array
@@ -92,6 +107,9 @@ const modifier = (text) => {
   }
   if (authorsNoteDisplayIndex >= 0) {
     indexesToDelete.push(authorsNoteDisplayIndex)
+  }
+  if (loadGameIndex >= 0) {
+    indexesToDelete.push(loadGameIndex)
   }
   
   // Put them in reverse order, so we can delete from the highest index first.

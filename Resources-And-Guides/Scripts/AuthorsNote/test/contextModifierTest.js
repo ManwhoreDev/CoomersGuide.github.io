@@ -11,7 +11,8 @@ const testANDepth = 2
 const defaultState = {
 	authorsNote: testAN,
 	authorsNoteDepth: testANDepth,
-	rawAuthorsNote: false
+	rawAuthorsNote: false,
+	memory: {}
 }
 const testText = "This is a test context."
 const testMultilineText = "This is a test context.\nThis is the second line.\nThis is the third line."
@@ -43,7 +44,8 @@ describe('Tests for the context modifier.', () => {
 		environment.setState({
 			authorsNote: testRawAN,
 			authorsNoteDepth: testANDepth,
-			rawAuthorsNote: true
+			rawAuthorsNote: true,
+			memory: {}
 		})
 
 		const contextModifier = rewire('../contextModifier.js')
