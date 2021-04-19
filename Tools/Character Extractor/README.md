@@ -4,6 +4,14 @@ This tool provides a method for extracting `base64` encoded characters for AID f
 ## Motivation
 We wanted to provide AI Dungeon users with a rich framework for generating, curating, and sharing NPCs for their adventures. To this end, we have created a series of tools for generating formatted NPCs, sharing them, and importing them into scenarios using the scripts provided here: [Author's Note](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AuthorsNote). Hopefully these tools will help you have fun with the game and encourage you to share your adventures and the fun characters you meet!
 
+## User Script
+---
+**Note**
+
+If you just want to use the character in a scenario, update to the latest version of Chrome/Firefox and install the latest version of Tampermonkey/Greasemonkey. Then install the user script found [here](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/scripts).
+
+---
+
 ## Setup
 The Character Extractor supports two modes of running: locally and through Github. For minimum setup, we recommend the Github setup.
 
