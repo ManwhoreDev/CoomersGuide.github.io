@@ -4,7 +4,7 @@
   "description": "Extracts a valid character code embedded in an image.",
   "main": "index.js",
   "scripts": {
-    "convert": "node --no-deprecation index.js"
+    "extract": "node --no-deprecation index.js"
   },
   "author": "",
   "license": "ISC",

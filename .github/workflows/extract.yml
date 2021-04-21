@@ -25,5 +25,5 @@ jobs:
       - run: npm install
         working-directory: 'Tools/Character Extractor'
       - id: character-code-extract
-        run: npm run convert ${{ github.event.inputs.url }}
+        run: npm run extract ${{ github.event.inputs.url }}
         working-directory: 'Tools/Character Extractor'
