@@ -13,11 +13,20 @@ These scripts were written with `nodejs (version >= v14.15.5)` and `npm (version
 Once you have the tools installed, navigate to the `Character-Generator` folder in your command line and run: `npm install`. This will install the required dependencies needed to run the tests.
 
 ## Running The Generator
+The generator supports a formatted character definition and a raw character definition.
 To run the generator, you simply need to run:
 ```
 npm run generate
 ```
-This will run the generator with each of the questions needed to create the NPC. Afterwards, the character's code will be printed to the command-line. Copy/paste that code into your running Scenarios to interact with that character.
+
+To run the raw character generator, run:
+```
+npm run generate-raw
+```
+
+This will run the generator with each of the questions needed to create the NPC. For structured characters, the Author's Note is optional. If you leave it blank, it will not override the AN in a prompt the character is loaded into.
+
+Afterwards, the character's code will be printed to the command-line. Copy/paste that code into your running Scenarios to interact with that character.
 
 Enjoy!
 
