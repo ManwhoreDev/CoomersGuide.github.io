@@ -17,11 +17,12 @@ const defaultInfo = {
 	"memoryLength": 0
 }
 const defaultText = ''
+const defaultMemory = ''
 
 state = defaultState
 info = defaultInfo
 text = defaultText
-memory = ''
+memory = defaultMemory
 
 function setState(newState = defaultState) {
 	state = newState
@@ -29,6 +30,10 @@ function setState(newState = defaultState) {
 
 function setInfo(newInfo = defaultInfo) {
 	info = newInfo
+}
+
+function setMemory(newMemory = defaultMemory) {
+	memory = newMemory
 }
 
 /**
@@ -55,5 +60,6 @@ function loadSharedLibrary() {
 module.exports = {
 	setState,
 	setInfo,
+	setMemory,
 	loadSharedLibrary
 }

@@ -23,15 +23,6 @@ The scripts are easy to install and can be copy/pasted from this repository with
 6. In the Scripts page, click the "Upload" button (looks like a computer box with an up arrow)
 7. Select `scenario.zip` on your computer and click "Open"
 
-### Optional: Copy/Paste The Contents into the script editors
-*Note: This is the old way to get the content into the scripts. If the `scenario.zip` upload worked, you don't need to do this step. Skip this and move to the test step.*
-1. In the "Shared Library" tab, delete the contents and paste the contents of sharedLibrary.js
-    * Click the "Save" icon
-2. In the "Input Modifier" tab, delete the contents and paste the contents of inputModifier.js
-    * Click the "Save" icon
-3. In the "Context Modifier" tab, delete the contents and paste the contents of contextModifier.js
-    * Click the "Save" icon
-
 ## Optional: Test the Scripts
 ### Test Input Modifier
 From the Scripts "Input Modifier" tab, scroll to the "Test Input Modifier" section. Enter the following inputs:
@@ -59,9 +50,15 @@ State:
   "authorsNote": "This is a test Author's Note",
   "authorsNoteDepth": 3,
   "authorsNoteDisplay": false,
+  "rawAuthorsNote": false,
+  "type": "",
+  "name": "",
+  "physicalDescription": "",
+  "mentalDescription": "",
+  "dialogExamples": "",
+  "rawCharacter": "",
   "message": ""
 }
-
 ```
 Test the input modifier again to show that toggling the AN visibility sets the message:
 State:
@@ -95,7 +92,8 @@ State:
   "authorsNote": "This is a different Author's Note",
   "authorsNoteDepth": 2,
   "authorsNoteDisplay": true,
-  "message": "Author's Note (2): This is a different Author's Note"
+  "message": "Author's Note (2): This is a different Author's Note",
+  "rawAuthorsNote": false
 }
 ```
 
@@ -199,6 +197,11 @@ By default, the author's note will be put in the context surrounded by brackets.
 
 When using this, you should delimit your note manually, so the AI knows it's not a proper part of the story.
 
+This example shows how to load a character with a `base64` character code:
+```
+/load eyJ0eXBlIjoiSUIxIiwibmFtZSI6InRlc3QiLCJwaHlzaWNhbERlc2NyaXB0aW9uIjoidGVzdCIsIm1lbnRhbERlc2NyaXB0aW9uIjoidGVzdCIsImRpYWxvZ0V4YW1wbGVzIjoidGVzdCIsImN1c3RvbUFOIjoidGVzdCJ9
+```
+
 ## Modifications
 ### Changing Default Author's Note
 You can change the default Author's Note by changing the value of `currentAuthorsNote` in shared.js. To make this change, you can edit shared.js like so:
@@ -219,11 +222,14 @@ npm install && npm test
 For more information see the [AIDG Test](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Resources-And-Guides/Scripts/AIDG%20Test) Project.
 
 # Importing A Character
-Let's say you find a character you really want to import into your scenario, how do you do it?
+Let's say you find a character card you really want to import into your scenario, how do you do it?
+
 ![booba](img/booba.png)
-1. Using the instructions in the [Character Extractor](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/Character%20Extractor), grab your new friend's character code!
-2. In your scenario with the AN Script, type: `/load <character code>`
-![code](img/code.png)
+
+1. Using the instructions in the [User Script](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/scripts), either enter the URL or upload the file
+
+![Image URL](img/imageUrl.png)
+
 ---
 **Technical Note**
 
@@ -231,4 +237,4 @@ The character code is very long. It will take up multiple rows in the input fiel
 
 ---
 3. Once the character is loaded, their information will be populated in the memory and Scripted AN through scripts. Enjoy!
-![demy](img/demy.png)
+![Stella Loaded](img/stellaLoaded.png)

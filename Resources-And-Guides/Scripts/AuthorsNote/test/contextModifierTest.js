@@ -55,4 +55,43 @@ describe('Tests for the context modifier.', () => {
 
 		assert.equal(output.text, `This is a test context.\n${testRawAN}\nThis is the second line.\nThis is the third line.`)
 	})
+
+	it('should not update the memory if there is no character loaded', () => {
+		const testScenarioMemory = 'scenario memory test'
+		environment.setState({
+			authorsNote: testAN,
+			authorsNoteDepth: testANDepth,
+			rawAuthorsNote: false,
+			memory: {}
+		})
+
+		environment.setMemory(testScenarioMemory)
+
+		const contextModifier = rewire('../contextModifier.js')
+		const modifier = contextModifier.__get__('modifier');
+		const output = modifier(testMultilineText)
+
+		assert.equal(state.memory.context, undefined)
+	})
+
+	it('should update the memory if there is a character loaded', () => {
+		const testScenarioMemory = 'scenario memory test'
+		const testCharacterMemory = 'character memory test'
+		environment.setState({
+			authorsNote: testAN,
+			authorsNoteDepth: testANDepth,
+			rawAuthorsNote: false,
+			memory: {},
+			type: 'RAW',
+			rawCharacter: testCharacterMemory
+		})
+
+		environment.setMemory(testScenarioMemory)
+
+		const contextModifier = rewire('../contextModifier.js')
+		const modifier = contextModifier.__get__('modifier');
+		const output = modifier(testMultilineText)
+
+		assert.equal(state.memory.context, `${testScenarioMemory}\n${testCharacterMemory}`)
+	})
 })
