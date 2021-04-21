@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /aidg/ Character Loader
 // @namespace    https://github.com/CoomersGuide/CoomersGuide.github.io
-// @version      0.2
+// @version      0.3
 // @description  Load an encoded character from an image into AI Dungeon
 // @author       sink-chan
 // @downloadURL  https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/scripts/aidg.character.injector.js
@@ -195,6 +195,28 @@ const onClickHandler = () => {
   };
 }
 
+// Validate the decoded JSON against the character type "schema". For characters
+// with no type defined, we will assume IB0; the original format.
+function isValidMetadata(decodedCharacter) {
+    if (decodedCharacter.type === 'IB1') {
+        return decodedCharacter.name
+            && decodedCharacter.physicalDescription
+            && decodedCharacter.mentalDescription
+            && decodedCharacter.dialogExamples
+    }
+    else if (decodedCharacter.type === 'RAW') {
+        return decodedCharacter.name
+            && decodedCharacter.rawCharacter
+    }
+    else { // Assume IB0
+        return decodedCharacter.name
+            && decodedCharacter.physicalDescription
+            && decodedCharacter.mentalDescription
+            && decodedCharacter.dialogExamples
+            && decodedCharacter.customAN
+    }
+}
+
 function parseExifr(file){
   window.exifr.parse(file, true).then((result) => {
       consoleLog(result);
@@ -220,14 +242,7 @@ function parseExifr(file){
       // Do some basic validation. Make sure the character can be decoded and has
       // the expected fields
       let decodedCharacter = JSON.parse(window.atob(encodedCharacter));
-      if (
-          !decodedCharacter
-          || !decodedCharacter.name
-          || !decodedCharacter.physicalDescription
-          || !decodedCharacter.mentalDescription
-          || !decodedCharacter.dialogExamples
-          || !decodedCharacter.customAN
-      ) {
+      if (!isValidMetadata(decodedCharacter)) {
           alert("Invalid Saved character loaded.");
           return;
       }
