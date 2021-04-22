@@ -4,7 +4,8 @@
   "description": "Generate base64 encoded characters for AID.",
   "main": "",
   "scripts": {
-    "generate": "node --no-deprecation lib/generate.js"
+    "generate": "node --no-deprecation lib/generate-IB1.js",
+    "generate-raw": "node --no-deprecation lib/generate-RAW.js"
   },
   "author": "",
   "license": "ISC",

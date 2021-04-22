@@ -19,6 +19,6 @@ state.name = readline.question(`Character name: `)
 state.physicalDescription = readline.question(`Character physical description: `)
 state.mentalDescription = readline.question(`Character mental description: `)
 state.dialogExamples = readline.question(`Character dialog examples: `)
-state.customAN = readline.question(`Custom AN: `)
+state.customAN = readline.question(`Custom AN (empty for no custom AN): `)
 
-console.log(saveGame())
+console.log(saveCharacter())

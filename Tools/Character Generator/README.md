@@ -2,7 +2,7 @@
 These scripts provide a framework for generating `base64` encoded characters for AID. They can be run as a part of a scenario or from the command-line.
 
 ## Motivation
-Character generation and persisting NPCs through AID has been a difficult problem to solve given the available tools. World Info entries only get triggered when one of the keys are mentioned in the context and copy/pasting into a Scenario prompt or memory can become tedious. I wanted to create a streamlined process for creating and loading characters that would allow them to behave consistently (as consistently as AID will allow, that is) and be portable. The scripts contained allow you to generate a reusable and sharable code for an NPC which can be used in prompts like [Infinity Brothel](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/User-Content/Sink-chan/Infinity-Brothel/Infinity-Brothel).
+Character generation and persisting NPCs through AID has been a difficult problem to solve given the available tools. World Info entries only get triggered when one of the keys are mentioned in the context and copy/pasting into a Scenario prompt or memory can become tedious. I wanted to create a streamlined process for creating and loading characters that would allow them to behave consistently (as consistently as AID will allow, that is) and be portable. The scripts contained allow you to generate a reusable and sharable code for an NPC which can be used in prompts like [Infinity Brothel](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/User-Content/Sink-chan/Infinity-Brothel).
 Because I didn't want to force users to spend AID energy to essentially base64 encode a JSON string, I also provide a mechanism to run this generation from a user's command line.
 
 ## Setup
@@ -13,11 +13,20 @@ These scripts were written with `nodejs (version >= v14.15.5)` and `npm (version
 Once you have the tools installed, navigate to the `Character-Generator` folder in your command line and run: `npm install`. This will install the required dependencies needed to run the tests.
 
 ## Running The Generator
+The generator supports a formatted character definition and a raw character definition.
 To run the generator, you simply need to run:
 ```
 npm run generate
 ```
-This will run the generator with each of the questions needed to create the NPC. Afterwards, the character's code will be printed to the command-line. Copy/paste that code into your running Scenarios to interact with that character.
+
+To run the raw character generator, run:
+```
+npm run generate-raw
+```
+
+This will run the generator with each of the questions needed to create the NPC. For structured characters, the Author's Note is optional. If you leave it blank, it will not override the AN in a prompt the character is loaded into.
+
+Afterwards, the character's code will be printed to the command-line. Copy/paste that code into your running Scenarios to interact with that character.
 
 Enjoy!
 
@@ -38,10 +47,15 @@ The supported Metadata tags are `ImageDescription` (for JPG) and `description.va
 ---
 
 1. In GIMP, open your image and perform your desired edits.
-2. Select Image -> Metadata -> Edit Metadata
+
+2. Select `Image -> Metadata -> Edit Metadata`
+
 ![metadata](img/metadata.png)
+
 3. Paste the character code in the Description field and click "Write Metadata"
+
 ![write metadata](img/writeMetadata.png)
+
 4. Export the image and make sure the Metadata export boxes (EXIF, etc.) are selected.
     * Note: You must export this in PNG file format for the code to be persisted through posting on image boards. The code will be stripped from JPG files.
 

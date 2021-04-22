@@ -76,7 +76,7 @@ const getMemoryForCharacter = (character) => {
 			character.type === 'IB0'
 			|| character.type === 'IB1'
 		) {
-			return `\nYou are with ${character.name}.\n`
+			return `\nYou are alone in the Infinity Brothel with ${state.name}, where they are ready and willing to please you.\n`
 				+ `[${character.name}'s physical description: ${character.physicalDescription}\n`
 				+ `${character.name}'s mental description: ${character.mentalDescription}\n`
 				+ `${character.name}'s mental dialog examples: ${character.dialogExamples}]`

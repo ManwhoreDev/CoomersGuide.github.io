@@ -46,11 +46,11 @@ Once you have the tools installed, navigate to the `Character Exctractor` folder
 ## Running The Extractor
 To run the extractor, you simply need to run:
 ```
-npm run convert <filename>
+npm run extract <filename>
 ```
 OR
 ```
-npm run convert <URL>
+npm run extract <URL>
 ```
 This will run the extractor against the local file or image at the given URL (depending on which source you pass in). It will load the file from the local filesystem or the remote site and then parse it. Afterwards, the character's code will be printed to the command-line. Copy/paste that code into your running Scenarios to interact with that character.
 

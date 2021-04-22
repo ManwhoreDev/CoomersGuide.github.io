@@ -89,7 +89,7 @@ const modifier = (text) => {
 			) {
 				loadCharacterIndex = index
 				loadCharacter(loadTokens[1].trim())
-				inputLines.push(`You turn to see ${state.name}.\n"`)
+				inputLines.push(`You enter the code and the door slides open. Waiting happily is ${state.name}, ready and eager to please you.\n"`)
 			}
 			else {
 				console.log("Invalid Load Game command passed.")

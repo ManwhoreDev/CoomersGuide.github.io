@@ -1,10 +1,10 @@
 const modifier = (text) => {
   if (info.actionCount === 1) {
-    text = saveGame()
+    text = saveCharacter()
     return { text: "\n" + text + "\n" }
   }
   
-  return { text: ''}
+  return { text: '' }
 }
 
 modifier(text)
