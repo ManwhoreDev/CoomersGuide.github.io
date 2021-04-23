@@ -44,9 +44,16 @@ Beware that some sites strip embedded metadata or disallow sharing images with e
 # Loading A Character Card / Code
 For full instructions on all the options for extracting codes and loading them into scenarios, check out [Character Extractor](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/Tools/Character%20Extractor/README.md). For this guide, we will be making use of the user script. Full instructions can be found here: [Character Loader User Script](https://github.com/CoomersGuide/CoomersGuide.github.io/blob/main/Tools/scripts/README.md).
 
-1. Make sure your browser is up-to-date and load a User Script Manager extension. The user script works with the most recent versions of `Tampermonkey` (>= 4.12) and `Greasemonkey` (>= 4.11).
+1. Make sure your browser is up-to-date and load a User Script Manager extension. This user script works with the most recent versions of `Tampermonkey` (>= 4.12) and `Greasemonkey` (>= 4.11), and `Violentmonkey` (>=v2.12).
 
 2. Install the AIDG Character Loader User Script from [here](https://github.com/CoomersGuide/CoomersGuide.github.io/tree/main/Tools/scripts/aidg.character.injector.user.js)
+
+---
+**Note**
+
+Once you have installed the script, please perform a **force** refresh on the tab. Command: crtl+F5
+
+---
 
 3. Reload your AI Dungeon tab. Make sure you are in `/story` mode.
     - Load an Adventure in a Scenario that supports Character Cards, like [this one](https://prompts.aidg.club/1178) or [this one](https://prompts.aidg.club/1141).

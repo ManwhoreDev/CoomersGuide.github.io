@@ -29,10 +29,17 @@ At some point in the future, we hope to have a booru or similar image source to 
 ---
 
 ## Setup
-To set up the user script, first make sure you are using the most recent version of Chrome or Firefox. Then you will need to install a user script extension. This user script works with the most recent versions of `Tampermonkey` (>= 4.12) and `Greasemonkey` (>= 4.11). The script does not appear to work on the current version of `Violentmonkey`
+To set up the user script, first make sure you are using the most recent version of Chrome or Firefox. Then you will need to install a user script extension. This user script works with the most recent versions of `Tampermonkey` (>= 4.12) and `Greasemonkey` (>= 4.11), and `Violentmonkey` (>=v2.12).
 
 Once you have installed the prerequisites, install the user script from this repo. For instance, Tampermonkey and Greasemonkey have utilities from installing userscripts from a URL or a file (if you download the user script).
 
 ![Tampermonkey](img/tamperMonkey.png)
 
-Once you reload AI Dungeon, you should see the new (+) button in your adventures.
+---
+**Note**
+
+Once you have installed the script, please perform a **force** refresh on the tab. Command: crtl+F5
+
+---
+
+Once you reload AI Dungeon, you should see the new (+) button in your adventures. Enjoy!
