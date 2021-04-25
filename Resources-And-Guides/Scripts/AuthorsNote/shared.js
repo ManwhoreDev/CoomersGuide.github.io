@@ -79,7 +79,7 @@ const getMemoryForCharacter = (character) => {
 			return `\nYou are with ${character.name}.\n`
 				+ `[${character.name}'s physical description: ${character.physicalDescription}\n`
 				+ `${character.name}'s mental description: ${character.mentalDescription}\n`
-				+ `${character.name}'s mental dialog examples: ${character.dialogExamples}]`
+				+ `${character.name}'s dialog examples: ${character.dialogExamples}]`
 		}
 		else if (character.type === 'RAW') {
 			return character.rawCharacter
