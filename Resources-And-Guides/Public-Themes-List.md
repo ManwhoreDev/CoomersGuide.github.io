@@ -151,10 +151,20 @@ Collection of pre-made themes.
 
 **15) B★RS Black Rock Shooter** (10 static backgrounds, rotates every 100 seconds.)
 
-* Link: <https://raw.githubusercontent.com/chicken-salsa/aid-and-salsa/main/brs_theme>
+* Link: <https://raw.githubusercontent.com/chicken-salsa/aid-salsa/main/brs_theme>
 
 * Preview: <https://i.imgur.com/PrffBLU.png>
 
 * Background: `Multiple`, `Static`
+
+* Custom font: `No`
+
+**16) RPCA Research Protection Containment Authority**
+
+* Link: <https://raw.githubusercontent.com/chicken-salsa/aid-salsa/main/RPCA_theme>
+
+* Preview: <https://i.imgur.com/PNzuBFh.png>
+
+* Background: `Static`
 
 * Custom font: `No`
