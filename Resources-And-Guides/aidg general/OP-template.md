@@ -1,12 +1,18 @@
-## /aidg/ — AI Dungeon General
+## /aids/ — AI Dynamic Storytelling General
 [X] Edition
 
-AI Dungeon or AI Dungeon 2 is a proprietary text adventure game that uses the GPT-3 text prediction model created by OpenAI to generate effectively limitless open-ended story lines.
+AI Dungeon 2 is a proprietary text adventure game that uses the GPT-3 text prediction model created by OpenAI to generate effectively limitless open-ended story lines.
 
-Last thread: 
+Last thread:
 
-▶ FAQ & GENERAL TIPS\
-READ THIS PAGE BEFORE ASKING QUESTIONS!\
+▶ QUICK RUNDOWN ON WHAT'S GOING ON\
+<https://rentry.co/remember-what-they-took-from-you>
+
+▶ HOW TO SURVIVE FILTERGEDDON\
+Know the filter: <https://rentry.co/vfigb>\
+Download your stories and scenarios: <https://jtvjan.nl/aidungeon>
+
+▶ FAQ\
 <https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-FAQ.html>
 
 ▶ RESOURCES & GUIDES\
@@ -14,20 +20,28 @@ READ THIS PAGE BEFORE ASKING QUESTIONS!\
 
 ▶ PROMPTS\
 <https://prompts.aidg.club>
+<https://rentry.co/newclub2>
 
-▶ /aidg/ NEWSLETTER\
+▶ ALTERNATIVES\
+Clover Edition: <https://github.com/cloveranon/Clover-Edition>\
+Neo Colab: <https://colab.research.google.com/github/finetuneanon/gpt-neo_dungeon/blob/master/gpt-neo_dungeon.ipynb>\
+KoboldAI: <https://github.com/KoboldAI/KoboldAI-Client> - <https://rentry.org/itsnotthathard>\
+NovelAI (not open for use yet): <https://novelai.net>
+
+▶ /aids/ NEWSLETTER\
 Latest:
-- (10/04) You can now toggle whether to use the newest AI for your model tier (Dragon, Griffin) available for your stories in Game Settings using the 'Newest AI Updates' toggle. It looks like an opt-in beta for the Universe solution they're testing.
-- (29/03) Experimentation is underway by the developers regarding the injection of tags into the model's response processing, otherwise known as Universes. We've lovingly nicknamed it 'CYOAIDS' for its past effect on quality while they were testing. This tech is how the Lovecraft model will be brought back, albeit more cost-effective (and possibly weaker than it was). More: <https://aidungeon.medium.com/ai-dungeon-universes-c73abe86cd1b>
-- (01/03) Help us bring the eloquent Lovecraft Model back by voting on it on the feature suggestions page! <https://features.aidungeon.io/ideas/AID-I-1073>
-- (23/02) World Creation is now here, under Worlds -> My Worlds -> Create Worlds. It is best used as a springboard for WI, as it has inbuilt generation utilities for things like races and locations.
-<https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Newsletter.html>
+- (17/05) First actual game update since the incident: World Info overhauled; now buggy and unstable. Constant unannounced meaningless WI updates follow, most likely to look busy.
+- (15/05) Ban wave for anti-filter script.
+- (07/05) Latitude is suspending all livestreams until July 7th.
+- (04/05) Latitude kills player suggestions. Filters continue to be finetuned.
+- (03/05) Continued silence from Latitude regarding privacy concerns and the now fixed security vulnerability.\
+<https://github.com/AetherDevSecOps/aid_adventure_vulnerability_report>
 
-▶ /aidg/ THEME EVENTS\
+▶ /aids/ THEME EVENTS\
 `[Y] Friday is over! If you have a suggestion for another weekly theme, post it in the thread.`\
-**OR**\
+OR\
 `The theme for this week is [Y] Friday. Write some prompts about [Y]!`\
-**OR**\
+OR\
 `[Y] Friday is over, and voting for the next theme has begun!`\
 Prompts from previous events: <https://guide.aidg.club/Resources-And-Guides/aidg%20general/aidg-Fridays.html>
 
