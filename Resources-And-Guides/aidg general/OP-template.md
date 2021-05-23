@@ -5,7 +5,7 @@ AI Dungeon 2 is a proprietary text adventure game that uses the GPT-3 text predi
 
 Last thread:
 
-▶ QUICK RUNDOWN ON WHAT'S GOING ON\
+▶ WHAT HAPPENED TO AI DUNGEON? (important)\
 <https://rentry.co/remember-what-they-took-from-you>
 
 ▶ HOW TO SURVIVE FILTERGEDDON\
